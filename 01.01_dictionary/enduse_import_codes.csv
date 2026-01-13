@@ -1,0 +1,143 @@
+Code,Description
+00000,Green coffee
+00010,Cocoa beans
+00020,Cane and beet sugar
+00100,Meat products
+00110,Dairy products and eggs
+00120,"Fruits, frozen juices"
+00130,Vegetables
+00140,Nuts
+00150,"Food oils, oilseeds"
+00160,Bakery products
+00170,"Tea, spices, etc."
+00180,Other foods
+00190,"Wine, beer, and related products"
+00200,Feedstuff and foodgrains
+01000,Fish and shellfish
+01010,"Alcoholic beverages, excluding wine"
+01020,"Nonagricultural foods, etc."
+10000,Crude oil
+10010,Fuel oil
+10020,"Petroleum products, other"
+10030,Liquefied petroleum gases
+10100,Coal and related fuels
+10110,Gas-natural
+10300,Nuclear fuel materials
+10400,Electric energy
+11000,Pulpwood and woodpulp
+11100,Newsprint
+11110,Paper and paper products
+12000,"Cotton, natural fibers"
+12030,Hides and skins
+12050,Natural rubber
+12060,"Farming materials, livestock"
+12070,"Tobacco, waxes, etc."
+12100,"Cotton cloth, fabrics"
+12110,"Wool, silk, etc."
+12135,Synthetic cloth
+12140,"Hair, waste materials"
+12150,Finished textile supplies
+12160,Leather and furs
+12320,"Materials, excluding chemicals"
+12500,Plastic materials
+12510,Chemicals-fertilizers
+12530,Chemicals-inorganic
+12540,Chemicals-organic
+12550,"Chemicals-other, n.e.c."
+13000,Lumber
+13010,Plywood and veneers
+13020,"Stone, sand, cement, etc."
+13100,"Glass-plate, sheet, etc."
+13110,"Shingles, wallboard"
+13120,Nontextile floor tiles
+14000,Steelmaking materials
+14100,Iron and steel mill products
+14200,Bauxite and aluminum
+14220,Copper
+14240,Nickel
+14250,Tin
+14260,Zinc
+14270,Nonmonetary gold
+14280,Other precious metals
+14290,"Nonferrous metals, other"
+15000,"Iron and steel products, n.e.c."
+15100,"Iron and steel, advanced"
+15200,Finished metal shapes
+16040,"Sulfur, nonmetallic minerals"
+16050,Synthetic rubber--primary
+16110,"Blank tapes, audio & visual"
+16120,"Industrial supplies, other"
+20000,"Generators, accessories"
+20005,Electric apparatus
+21000,Drilling & oilfield equipment
+21010,Specialized mining
+21030,Excavating machinery
+21040,Nonfarm tractors and parts
+21100,Industrial engines
+21110,"Food, tobacco machinery"
+21120,Metalworking machine tools
+21130,"Textile, sewing machines"
+21140,"Wood, glass, plastic"
+21150,Pulp and paper machinery
+21160,"Measuring, testing, control instruments"
+21170,Materials handling equipment
+21180,"Industrial machines, other"
+21190,"Photo, service industry machinery"
+21200,"Agricultural machinery, equipment"
+21300,Computers
+21301,Computer accessories
+21320,Semiconductors
+21400,Telecommunications equipment
+21500,Business machines and equipment
+21600,Laboratory testing instruments
+21610,Medicinal equipment
+22000,Civilian aircraft
+22010,Parts-civilian aircraft
+22020,Engines-civilian aircraft
+22100,Railway transportation equipment
+22200,"Vessels, except scrap"
+22210,"Commercial vessels, other"
+22220,"Marine engines, parts"
+22300,"Spacecraft, excluding military"
+30000,"Passenger cars, new and used"
+30100,"Trucks, buses, and special purpose vehicles"
+30110,Bodies and chassis for trucks and buses
+30200,"Engines and engine parts (carburetors, pistons, rings, and valves)"
+30210,Bodies and chassis for passenger cars
+30220,Automotive tires and tubes
+30230,Other parts and accessories of vehicles
+40000,"Apparel, household goods - cotton"
+40010,"Apparel, household goods - wool"
+40020,"Apparel, textiles, nonwool or cotton"
+40030,"Apparel,household goods-nontextile"
+40040,Footwear
+40050,Camping apparel and gear
+40100,Pharmaceutical preparations
+40110,"Books, printed matter"
+40120,Toiletries and cosmetics
+40140,Other consumer nondurables
+41000,"Furniture, household goods, etc."
+41010,"Glassware, chinaware"
+41020,"Cookware, cutlery, tools"
+41030,Household appliances
+41040,Rugs
+41050,"Cell phones and other household goods, n.e.c."
+41100,Motorcycles and parts
+41110,Pleasure boats and motors
+41120,"Toys, games, and sporting goods"
+41130,Photo equipment
+41140,Musical instruments
+41200,Televisions and video equipment
+41210,"Stereo equipment, etc"
+41220,Recorded media
+41300,Numismatic coins
+41310,Jewelry
+41320,"Artwork, antiques, stamps, etc."
+42000,"Nursery stock, etc."
+42100,Gem diamonds
+42110,"Gem stones, other"
+50000,Military aircraft and parts
+50010,Other military equipment
+50020,"U.S. goods returned, and reimports"
+50030,Minimum value shipments
+50040,"Other (movies, miscellaneous imports, and special transactions)"

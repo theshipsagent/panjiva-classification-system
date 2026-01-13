@@ -1,0 +1,125 @@
+[2026-01-13 06:30:52] ================================================================================
+[2026-01-13 06:30:52] FULL DETAILED CLASSIFICATION - ALL PHASES 1-6
+[2026-01-13 06:30:52] ================================================================================
+[2026-01-13 06:30:52] Input: G:\My Drive\LLM\project_manifest\01_step_one\01_01_panjiva_imports_step_one\panjiva_imports_2023_20260112_STAGE00_v20260112_2043.csv
+[2026-01-13 06:30:52] Output: G:\My Drive\LLM\project_manifest\build_documentation\classification_full_2023\panjiva_2023_classified_all_phases_20260113_0630.csv
+[2026-01-13 06:30:52] ================================================================================
+[2026-01-13 06:30:52] Loading 2023 dataset (454,266 records)...
+[2026-01-13 06:31:03] Loaded: 454,266 records
+[2026-01-13 06:31:04] Columns initialized
+[2026-01-13 06:31:04] 
+[2026-01-13 06:31:04] ================================================================================
+[2026-01-13 06:31:04] PHASE 1: CARRIER FILTERS + HIGH-CONFIDENCE RULES
+[2026-01-13 06:31:04] ================================================================================
+[2026-01-13 06:31:15] Pass 0: Filtered 3,575 ship spares
+[2026-01-13 06:31:17] Pass 1.1: Classified 111,387 Ro/Ro carrier records
+[2026-01-13 06:31:17] Pass 1.2: Classified 1,082 CSL aggregates
+[2026-01-13 06:31:17] Phase 1 Complete: 112,469 classified
+[2026-01-13 06:31:17] 
+[2026-01-13 06:31:17] ================================================================================
+[2026-01-13 06:31:17] PHASE 2: BULK COMMODITIES (STEEL, GRAIN, FERTILIZERS, METALS)
+[2026-01-13 06:31:17] ================================================================================
+[2026-01-13 06:31:26] Pass 2.1: Cement 1,065 records
+[2026-01-13 06:31:30] Pass 2.2: Steel Slabs 935 records
+[2026-01-13 06:31:34] Pass 2.3: DRI 1,437 records
+[2026-01-13 06:31:44] Pass 2.4: Iron Ore 109 records
+[2026-01-13 06:31:48] Pass 6.1: Steel Coils 20,094 records
+[2026-01-13 06:31:51] Pass 6.2: Steel Plates 849 records
+[2026-01-13 06:31:58] Pass 6.3: Rebar 6,116 records
+[2026-01-13 06:32:01] Pass 6.4: Steel Pipes 19,138 records
+[2026-01-13 06:32:01] Pass 6.5: Steel Generic 20,554 records
+[2026-01-13 06:32:02] Pass 7: Grain 671 total records
+[2026-01-13 06:32:02] Pass 8: Fertilizers 1,020 total records
+[2026-01-13 06:32:04] Pass 9: Metals (Copper/Aluminum) 6,140 total
+[2026-01-13 06:32:04] Pass 10: Coal 60 records
+[2026-01-13 06:32:04] Phase 2 Complete: 190,657 total classified
+[2026-01-13 06:32:04] 
+[2026-01-13 06:32:04] ================================================================================
+[2026-01-13 06:32:04] PHASE 3: GENERAL CARGO (PAPER, LUMBER, MACHINERY, VEHICLES)
+[2026-01-13 06:32:04] ================================================================================
+[2026-01-13 06:32:12] Pass 11.1: Paper 14,862 records
+[2026-01-13 06:32:16] Pass 11.2: Rubber 3,130 records
+[2026-01-13 06:32:21] Pass 11.3: Machinery 13,483 records
+[2026-01-13 06:32:30] Pass 12.1: Fruit 10,506 records
+[2026-01-13 06:32:40] Pass 12.3: Vehicles 27,106 records
+[2026-01-13 06:32:46] Pass 12.4: Plastics 294 records
+[2026-01-13 06:32:50] Pass 14.1: Lumber 4,694 records
+[2026-01-13 06:32:50] Phase 3 Complete: 264,732 total classified
+[2026-01-13 06:32:50] 
+[2026-01-13 06:32:50] ================================================================================
+[2026-01-13 06:32:50] PHASE 4: TANKER CLEANUP + TONNAGE OVERRIDES
+[2026-01-13 06:32:50] ================================================================================
+[2026-01-13 06:32:50] Pass 15: Filtered 22,391 tanker cargo (HS2 27)
+[2026-01-13 06:32:51] Pass 16: Cool Carriers 2,819 records
+[2026-01-13 06:32:51] Pass 17: Edible Oils 3,698 records
+[2026-01-13 06:32:56] Pass 18: Sugar 874 records
+[2026-01-13 06:32:56] Phase 4 Complete: 272,123 total classified
+[2026-01-13 06:32:56] 
+[2026-01-13 06:32:56] ================================================================================
+[2026-01-13 06:32:56] PHASE 5: MINERALS + CARRIERS
+[2026-01-13 06:32:56] ================================================================================
+[2026-01-13 06:33:02] Pass 24.1: Salt 609 records
+[2026-01-13 06:33:03] Pass 24.2: Barite 180 records
+[2026-01-13 06:33:07] Pass 24.3: Bauxite 247 records
+[2026-01-13 06:33:07] Pass 24.4: Minerals NOS 734 records
+[2026-01-13 06:33:12] Pass 25: Chemicals 2,553 records
+[2026-01-13 06:33:16] Pass 27: Pulp 1,400 records
+[2026-01-13 06:33:16] Phase 5 Complete: 277,846 total classified
+[2026-01-13 06:33:16] 
+[2026-01-13 06:33:16] ================================================================================
+[2026-01-13 06:33:16] PHASE 6: ORCHESTRATOR CRITICAL FIXES
+[2026-01-13 06:33:16] ================================================================================
+[2026-01-13 06:33:23] Pass 32.1: Cement HS3824 fix 0 records
+[2026-01-13 06:33:34] Pass 33.1: Iron Ore HS2204 fix 0 records
+[2026-01-13 06:33:35] Pass 34.3: Martin Marietta 7 records
+[2026-01-13 06:33:35] Phase 6 Complete: 277,853 total classified
+[2026-01-13 06:33:35] 
+[2026-01-13 06:33:35] ================================================================================
+[2026-01-13 06:33:35] FINAL RESULTS - ALL PHASES 1-6 COMPLETE
+[2026-01-13 06:33:35] ================================================================================
+[2026-01-13 06:33:35] Total records: 454,266
+[2026-01-13 06:33:35] Filtered out: 25,966 (5.7%)
+[2026-01-13 06:33:35] Classifiable records: 428,300
+[2026-01-13 06:33:35] Classified: 277,853 (64.9%)
+[2026-01-13 06:33:35] Unclassified: 150,447 (35.1%)
+[2026-01-13 06:33:35] Total tonnage classified: 286,133,909 tons (39.3%)
+[2026-01-13 06:33:35] Total tonnage filtered: 362,847,166 tons (49.8%)
+[2026-01-13 06:33:35] 
+[2026-01-13 06:33:35] Top 20 Classifications by Record Count:
+[2026-01-13 06:33:35]    1. Ro/Ro Cargo                             : 111,387 records,     26,513,338 tons
+[2026-01-13 06:33:35]    2. Cars/Trucks                             : 27,106 records,      8,463,490 tons
+[2026-01-13 06:33:35]    3. Steel NOS                               : 20,554 records,     28,827,420 tons
+[2026-01-13 06:33:35]    4. Steel Coils                             : 20,094 records,     18,283,919 tons
+[2026-01-13 06:33:35]    5. Tubular Goods                           : 19,138 records,      6,127,448 tons
+[2026-01-13 06:33:35]    6. Paper/Pulp/Newsprint                    : 14,862 records,      1,999,483 tons
+[2026-01-13 06:33:35]    7. Industrial Equipment                    : 13,483 records,      1,011,435 tons
+[2026-01-13 06:33:35]    8. Fresh Fruit                             : 13,325 records,      1,264,541 tons
+[2026-01-13 06:33:35]    9. Rebar & Long Products                   :  6,116 records,      5,680,166 tons
+[2026-01-13 06:33:35]   10. Lumber/Timber                           :  4,694 records,      4,744,770 tons
+[2026-01-13 06:33:35]   11. Tires & Rubber                          :  3,130 records,        520,596 tons
+[2026-01-13 06:33:35]   12. Aluminum Ingots                         :  2,612 records,      2,402,646 tons
+[2026-01-13 06:33:35]   13. Chemicals NOS                           :  2,549 records,     30,849,505 tons
+[2026-01-13 06:33:35]   14. Palm Oil/Palm Kernel Oil                :  2,130 records,      3,200,988 tons
+[2026-01-13 06:33:35]   15. Copper Cathodes                         :  1,813 records,      1,149,251 tons
+[2026-01-13 06:33:35]   16. Vegetable Oils NOS                      :  1,568 records,      2,236,930 tons
+[2026-01-13 06:33:35]   17. Aluminum Products NOS                   :  1,489 records,      1,444,064 tons
+[2026-01-13 06:33:35]   18. DRI/HBI                                 :  1,437 records,      5,090,380 tons
+[2026-01-13 06:33:35]   19. Wood Pulp/Bale Pulp                     :  1,400 records,      6,130,514 tons
+[2026-01-13 06:33:35]   20. Limestone/Aggregates                    :  1,089 records,     32,046,216 tons
+[2026-01-13 06:33:35] 
+[2026-01-13 06:33:35] ================================================================================
+[2026-01-13 06:33:35] SAVING FINAL OUTPUT
+[2026-01-13 06:33:35] ================================================================================
+[2026-01-13 06:33:35] Saving final dataset: G:\My Drive\LLM\project_manifest\build_documentation\classification_full_2023\panjiva_2023_classified_all_phases_20260113_0630.csv
+[2026-01-13 06:33:53]   -> Saved: 454,266 records
+[2026-01-13 06:33:54] Saving pivot summary: G:\My Drive\LLM\project_manifest\build_documentation\classification_full_2023\pivot_summary_all_phases_20260113_0630.csv
+[2026-01-13 06:33:54]   -> Saved: 40 classification groups
+[2026-01-13 06:33:54] 
+[2026-01-13 06:33:54] ================================================================================
+[2026-01-13 06:33:54] ALL PHASES COMPLETE - 2023 DATASET CLASSIFIED
+[2026-01-13 06:33:54] ================================================================================
+[2026-01-13 06:33:54] Final output: G:\My Drive\LLM\project_manifest\build_documentation\classification_full_2023\panjiva_2023_classified_all_phases_20260113_0630.csv
+[2026-01-13 06:33:54] Classification rate: 64.9%
+[2026-01-13 06:33:54] Next: Process 2024 and 2025 datasets
+[2026-01-13 06:33:54] Then: Monthly updates (37K records) will run in 2-3 minutes
+[2026-01-13 06:33:54] ================================================================================

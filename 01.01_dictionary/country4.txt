@@ -1,0 +1,249 @@
+----------------------------------------------------------------------
+Schedule C - Country List (by ISO Code) [Produced: 27JAN21]
+----------------------------------------------------------------------
+Code     |    Name                                                | ISO Code
+----------------------------------------------------------------------
+4271     |    Andorra                                             | AD
+5200     |    United Arab Emirates                                | AE
+5310     |    Afghanistan                                         | AF
+2484     |    Antigua and Barbuda                                 | AG
+2481     |    Anguilla                                            | AI
+4810     |    Albania                                             | AL
+4631     |    Armenia                                             | AM
+7620     |    Angola                                              | AO
+3570     |    Argentina                                           | AR
+9510     |    American Samoa                                      | AS
+4330     |    Austria                                             | AT
+6021     |    Australia                                           | AU
+2779     |    Aruba                                               | AW
+4632     |    Azerbaijan                                          | AZ
+4793     |    Bosnia and Herzegovina                              | BA
+2720     |    Barbados                                            | BB
+5380     |    Bangladesh                                          | BD
+4231     |    Belgium                                             | BE
+7600     |    Burkina Faso                                        | BF
+4870     |    Bulgaria                                            | BG
+5250     |    Bahrain                                             | BH
+7670     |    Burundi                                             | BI
+7610     |    Benin                                               | BJ
+2320     |    Bermuda                                             | BM
+5610     |    Brunei                                              | BN
+3350     |    Bolivia                                             | BO
+3510     |    Brazil                                              | BR
+2360     |    Bahamas                                             | BS
+5682     |    Bhutan                                              | BT
+7930     |    Botswana                                            | BW
+4622     |    Belarus                                             | BY
+2080     |    Belize                                              | BZ
+1220     |    Canada                                              | CA
+6023     |    Cocos (Keeling) Islands                             | CC
+7660     |    Congo, Democratic Republic of the Congo (formerly Za|rCD
+7540     |    Central African Republic                            | CF
+7630     |    Congo, Republic of the Congo                        | CG
+4419     |    Switzerland                                         | CH
+7480     |    Cote d'Ivoire                                       | CI
+6142     |    Cook Islands                                        | CK
+3370     |    Chile                                               | CL
+7420     |    Cameroon                                            | CM
+5700     |    China                                               | CN
+3010     |    Colombia                                            | CO
+2230     |    Costa Rica                                          | CR
+2390     |    Cuba                                                | CU
+7643     |    Cabo Verde                                          | CV
+2777     |    Curacao                                             | CW
+6024     |    Christmas Island (in the Indian Ocean)              | CX
+4910     |    Cyprus                                              | CY
+4351     |    Czech Republic                                      | CZ
+4280     |    Germany (Federal Republic of Germany)               | DE
+7770     |    Djibouti                                            | DJ
+4099     |    Denmark, except Greenland                           | DK
+2486     |    Dominica                                            | DM
+2470     |    Dominican Republic                                  | DO
+7210     |    Algeria                                             | DZ
+3310     |    Ecuador                                             | EC
+4470     |    Estonia                                             | EE
+7290     |    Egypt                                               | EG
+7741     |    Eritrea                                             | ER
+4700     |    Spain                                               | ES
+7749     |    Ethiopia                                            | ET
+4050     |    Finland                                             | FI
+6863     |    Fiji                                                | FJ
+3720     |    Falkland Islands (Islas Malvinas)                   | FK
+6820     |    Micronesia, Federated States of                     | FM
+4091     |    Faroe Islands                                       | FO
+4279     |    France                                              | FR
+7550     |    Gabon                                               | GA
+4120     |    United Kingdom                                      | GB
+2489     |    Grenada                                             | GD
+4633     |    Georgia                                             | GE
+3170     |    French Guiana                                       | GF
+7490     |    Ghana                                               | GH
+4720     |    Gibraltar                                           | GI
+1010     |    Greenland                                           | GL
+7500     |    Gambia                                              | GM
+7460     |    Guinea                                              | GN
+2831     |    Guadeloupe                                          | GP
+7380     |    Equatorial Guinea                                   | GQ
+4840     |    Greece                                              | GR
+2050     |    Guatemala                                           | GT
+9350     |    Guam                                                | GU
+7642     |    Guinea-Bissau                                       | GW
+3120     |    Guyana                                              | GY
+5082     |    Gaza Strip administered by Israel                   | GZ
+5820     |    Hong Kong                                           | HK
+6029     |    Heard Island and McDonald Islands                   | HM
+2150     |    Honduras                                            | HN
+4791     |    Croatia                                             | HR
+2450     |    Haiti                                               | HT
+4370     |    Hungary                                             | HU
+5600     |    Indonesia                                           | ID
+4190     |    Ireland                                             | IE
+5081     |    Israel                                              | IL
+5330     |    India                                               | IN
+7810     |    British Indian Ocean Territory                      | IO
+5050     |    Iraq                                                | IQ
+5070     |    Iran                                                | IR
+4000     |    Iceland                                             | IS
+4759     |    Italy                                               | IT
+2410     |    Jamaica                                             | JM
+5110     |    Jordan                                              | JO
+5880     |    Japan                                               | JP
+7790     |    Kenya                                               | KE
+4635     |    Kyrgyzstan                                          | KG
+5550     |    Cambodia                                            | KH
+6226     |    Kiribati                                            | KI
+7890     |    Comoros                                             | KM
+2483     |    Saint Kitts and Nevis                               | KN
+5790     |    North Korea (Democratic People's Republic of Korea) | KP
+5800     |    South Korea (Republic of Korea)                     | KR
+4803     |    Kosovo                                              | KV
+5130     |    Kuwait                                              | KW
+2440     |    Cayman Islands                                      | KY
+4634     |    Kazakhstan                                          | KZ
+5530     |    Laos (Lao People's Democratic Republic)             | LA
+5040     |    Lebanon                                             | LB
+2487     |    Saint Lucia                                         | LC
+4411     |    Liechtenstein                                       | LI
+5420     |    Sri Lanka                                           | LK
+7650     |    Liberia                                             | LR
+7990     |    Lesotho                                             | LS
+4510     |    Lithuania                                           | LT
+4239     |    Luxembourg                                          | LU
+4490     |    Latvia                                              | LV
+7250     |    Libya                                               | LY
+7140     |    Morocco                                             | MA
+4272     |    Monaco                                              | MC
+4641     |    Moldova (Republic of Moldova)                       | MD
+4804     |    Montenegro                                          | ME
+7880     |    Madagascar                                          | MG
+6810     |    Marshall Islands                                    | MH
+4794     |    North Macedonia                                     | MK
+7450     |    Mali                                                | ML
+5460     |    Burma (Myanmar)                                     | MM
+5740     |    Mongolia                                            | MN
+5660     |    Macao                                               | MO
+9610     |    Northern Mariana Islands                            | MP
+2839     |    Martinique                                          | MQ
+7410     |    Mauritania                                          | MR
+2485     |    Montserrat                                          | MS
+4730     |    Malta                                               | MT
+7850     |    Mauritius                                           | MU
+5683     |    Maldives                                            | MV
+7970     |    Malawi                                              | MW
+2010     |    Mexico                                              | MX
+5570     |    Malaysia                                            | MY
+7870     |    Mozambique                                          | MZ
+7920     |    Namibia                                             | NA
+6412     |    New Caledonia                                       | NC
+7510     |    Niger                                               | NE
+6022     |    Norfolk Island                                      | NF
+7530     |    Nigeria                                             | NG
+2190     |    Nicaragua                                           | NI
+4210     |    Netherlands                                         | NL
+4039     |    Norway                                              | NO
+5360     |    Nepal                                               | NP
+6862     |    Nauru                                               | NR
+6144     |    Niue                                                | NU
+6141     |    New Zealand                                         | NZ
+5230     |    Oman                                                | OM
+2250     |    Panama                                              | PA
+3330     |    Peru                                                | PE
+6414     |    French Polynesia                                    | PF
+6040     |    Papua New Guinea                                    | PG
+5650     |    Philippines                                         | PH
+5350     |    Pakistan                                            | PK
+4550     |    Poland                                              | PL
+1610     |    Saint Pierre and Miquelon                           | PM
+6225     |    Pitcairn Islands                                    | PN
+9030     |    Puerto Rico                                         | PR
+4710     |    Portugal                                            | PT
+6830     |    Palau                                               | PW
+3530     |    Paraguay                                            | PY
+5180     |    Qatar                                               | QA
+7904     |    Reunion                                             | RE
+4850     |    Romania                                             | RO
+4801     |    Serbia                                              | RS
+4621     |    Russia                                              | RU
+7690     |    Rwanda                                              | RW
+5170     |    Saudi Arabia                                        | SA
+6223     |    Solomon Islands                                     | SB
+7800     |    Seychelles                                          | SC
+7321     |    Sudan                                               | SD
+4010     |    Sweden                                              | SE
+5590     |    Singapore                                           | SG
+7580     |    Saint Helena                                        | SH
+4792     |    Slovenia                                            | SI
+4031     |    Svalbard and Jan Mayen                              | SJ
+4359     |    Slovakia                                            | SK
+7470     |    Sierra Leone                                        | SL
+4751     |    San Marino                                          | SM
+7440     |    Senegal                                             | SN
+7700     |    Somalia                                             | SO
+3150     |    Suriname                                            | SR
+7323     |    South Sudan                                         | SS
+7644     |    Sao Tome and Principe                               | ST
+2110     |    El Salvador                                         | SV
+2774     |    Sint Maarten                                        | SX
+5020     |    Syria (Syrian Arab Republic)                        | SY
+7950     |    Eswatini                                            | SZ
+2430     |    Turks and Caicos Islands                            | TC
+7560     |    Chad                                                | TD
+7905     |    French Southern and Antarctic Lands                 | TF
+7520     |    Togo                                                | TG
+5490     |    Thailand                                            | TH
+4642     |    Tajikistan                                          | TJ
+6143     |    Tokelau                                             | TK
+5601     |    Timor-Leste                                         | TL
+4643     |    Turkmenistan                                        | TM
+7230     |    Tunisia                                             | TN
+6864     |    Tonga                                               | TO
+4890     |    Turkey                                              | TR
+2740     |    Trinidad and Tobago                                 | TT
+6227     |    Tuvalu                                              | TV
+5830     |    Taiwan                                              | TW
+7830     |    Tanzania (United Republic of Tanzania)              | TZ
+4623     |    Ukraine                                             | UA
+7780     |    Uganda                                              | UG
+9800     |    United States Minor Outlying Islands                | UM
+1000     |    United States of America                            | US
+3550     |    Uruguay                                             | UY
+4644     |    Uzbekistan                                          | UZ
+4752     |    Holy See (Vatican City)                             | VA
+2488     |    Saint Vincent and the Grenadines                    | VC
+3070     |    Venezuela                                           | VE
+2482     |    British Virgin Islands                              | VG
+9110     |    Virgin Islands of the United States                 | VI
+5520     |    Vietnam                                             | VN
+6224     |    Vanuatu                                             | VU
+5083     |    West Bank administered by Israel                    | WE
+6413     |    Wallis and Futuna                                   | WF
+6150     |    Samoa (Western Samoa)                               | WS
+5210     |    Yemen (Republic of Yemen)                           | YE
+7881     |    Mayotte                                             | YT
+7910     |    South Africa                                        | ZA
+7940     |    Zambia                                              | ZM
+7960     |    Zimbabwe                                            | ZW
+----------------------------------------------------------------------
+Source: Foreign Trade Division, U.S. Census Bureau, Washington, D.C. 20233
+This listing produced...31JAN14
+----------------------------------------------------------------------

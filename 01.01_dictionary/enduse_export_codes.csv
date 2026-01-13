@@ -1,0 +1,147 @@
+Code,Description
+00000,Wheat
+00010,Rice
+00100,Soybeans
+00110,"Oilseeds, food oils"
+00200,Corn
+00210,"Sorghum, barley, oats"
+00220,"Animal feeds, n.e.c."
+00300,"Meat, poultry, etc."
+00310,Dairy products and eggs
+00320,"Fruits,  frozen juices"
+00330,Vegetables
+00340,Nuts
+00350,Bakery products
+00360,Other foods
+00370,"Wine, beer, and related products"
+01000,Fish and shellfish
+01010,"Alcoholic beverages, excluding wine"
+01020,"Nonagricultural foods, etc."
+10000,"Cotton, raw"
+10100,"Tobacco, unmanufactured"
+10120,Hides and skins
+10130,Agric. industry-unmanufactured
+10140,Agric. farming-unmanufactured
+10150,"Agriculture-manufactured, other"
+11010,Metallurgical grade coal
+11020,"Coal and fuels, other"
+11100,Crude oil
+11110,Fuel oil
+11120,"Petroleum products, other"
+11130,Natural gas liquids
+11200,Gas-natural
+11300,Nuclear fuel materials
+11400,Electric energy
+12000,Steelmaking materials
+12100,Iron and steel mill products
+12110,"Iron and steel products, other"
+12200,Aluminum and alumina
+12210,Copper
+12260,Nonmonetary gold
+12270,"Precious metals, other"
+12290,"Nonferrous metals, other"
+12300,Finished metal shapes
+12420,Pulpwood and woodpulp
+12430,Newsprint
+12500,Plastic materials
+12510,Chemicals-fertilizers
+12530,Chemicals-inorganic
+12540,Chemicals-organic
+12550,Chemicals-other
+12600,Cotton fiber cloth
+12620,Manmade cloth
+12630,"Hair, waste materials"
+12640,Finished textile supplies
+12650,Leather and furs
+12700,Synthetic rubber-primary
+12720,Nonmetallic minerals
+12750,Industrial rubber products
+12760,Mineral supplies-manufactured
+12765,"Tapes, audio and visual"
+12770,Other industrial supplies
+13100,Logs and lumber
+13110,"Wood supplies, manufactured"
+13200,"Glass-plate, sheet, etc."
+13210,"Shingles, molding, wallboard"
+13220,Nontextile floor tiles
+20000,"Generators, accessories"
+20005,Electric apparatus
+21000,Drilling & oilfield equipment
+21010,Specialized mining
+21030,Excavating machinery
+21040,Nonfarm tractors and parts
+21100,Industrial engines
+21110,"Food, tobacco machinery"
+21120,Metalworking machine tools
+21130,"Textile, sewing machines"
+21140,"Wood, glass, plastic"
+21150,Pulp and paper machinery
+21160,"Measuring, testing, control instruments"
+21170,Materials handling equipment
+21180,"Industrial machines, other"
+21190,"Photo, service industry machinery"
+21200,"Agricultural machinery, equipment"
+21300,Computers
+21301,Computer accessories
+21320,Semiconductors
+21400,Telecommunications equipment
+21500,Business machines and equipment
+21600,Laboratory testing instruments
+21610,Medicinal equipment
+22000,Civilian aircraft
+22010,Parts-civilian aircraft
+22020,Engines-civilian aircraft
+22090,"Civilian aircraft, engines, equipment, and parts"
+22100,Railway transportation equipment
+22200,"Vessels, excluding scrap"
+22210,"Commercial vessels, other"
+22220,"Marine engines, parts"
+22300,"Spacecraft, excluding military"
+30000,"Passenger cars, new and used"
+30100,"Trucks, buses and special purpose vehicles"
+30200,"Engines and engine parts (carburetors, pistons, rings, and valves)"
+30210,Bodies and chassis for passenger cars
+30220,Automotive tires and tubes
+30230,Other parts and accessories of vehicles
+40000,"Apparel, household goods - textile"
+40030,"Apparel,household goods-nontextile"
+40050,Sports apparel and gear
+40100,Pharmaceutical preparations
+40110,"Books, printed matter"
+40120,Toiletries and cosmetics
+40130,"Tobacco, manufactured"
+40140,Other consumer nondurables
+41000,"Furniture, household goods, etc."
+41010,"Glassware, chinaware"
+41020,"Cookware, cutlery, tools"
+41030,Household appliances
+41040,Rugs
+41050,"Cell phones and other household goods, n.e.c."
+41110,Pleasure boats and motors
+41120,"Toys, games, and sporting goods"
+41140,Musical instruments
+41200,Televisions and video equipment
+41210,"Stereo equipment, etc."
+41220,Recorded media
+41300,Numismatic coins
+41310,"Jewelry, etc."
+41320,"Artwork, antiques, stamps, etc."
+42000,"Nursery stock, etc."
+42100,Gem diamonds
+50000,"Military aircraft, complete"
+50010,"Aircraft launching gear, parachutes, etc."
+50020,Engines and turbines for military aircraft
+50030,"Military trucks, armored vehicles, etc."
+50040,Military ships and boats
+50050,"Tanks, artillery, missiles, rockets, guns and ammunition"
+50060,Military apparel and footwear
+50070,Parts for military-type goods
+50090,Special category (military-type goods)
+60000,Minimum value shipments
+60010,Miscellaneous domestic exports and special transactions
+60030,Parts for aircraft and engines
+60040,Undocumented exports to Canada
+61000,Agricultural
+61020,Reexports of military-type goods
+61030,Reexports of nonmonetary gold
+61040,Other nonagricultural reexports

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panjiva Classification System - Index</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #667eea;
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.3em;
+            margin-bottom: 40px;
+        }
+
+        .status-banner {
+            background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 1.2em;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(46, 204, 113, 0.3);
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        .stat-box {
+            background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        h2 {
+            color: #667eea;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .link-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 5px solid #667eea;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            background: #e8e9fa;
+        }
+
+        .link-card h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        .link-card p {
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .link-card a {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .link-card a:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .emoji {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .data-link {
+            background: #e8f5e9;
+            border-left-color: #2ecc71;
+        }
+
+        .doc-link {
+            background: #e3f2fd;
+            border-left-color: #2196f3;
+        }
+
+        .footer {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .footer p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚢 Panjiva Classification System</h1>
+        <p class="subtitle">Maritime Cargo Classification Pipeline | 2023-2025</p>
+
+        <div class="status-banner">
+            ✅ SYSTEM COMPLETE & PRODUCTION-READY
+        </div>
+
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-value">1.3M</div>
+                <div class="stat-label">Records Processed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value">786K</div>
+                <div class="stat-label">Successfully Classified</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value">71.3%</div>
+                <div class="stat-label">Tonnage Captured</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value">40</div>
+                <div class="stat-label">Classification Rules</div>
+            </div>
+        </div>
+
+        <h2>📊 Interactive Dashboards</h2>
+        <div class="link-grid">
+            <div class="link-card">
+                <div class="emoji">📈</div>
+                <h3>Main Dashboard</h3>
+                <p>Interactive charts, 3-year comparisons, top commodities, and key discoveries timeline.</p>
+                <a href="classification_pipeline_dashboard.html" target="_blank">Open Dashboard →</a>
+            </div>
+
+            <div class="link-card">
+                <div class="emoji">🔧</div>
+                <h3>Technical Data Flow</h3>
+                <p>Column schema evolution, processing order, rule execution matrix, and architecture diagrams.</p>
+                <a href="classification_technical_dataflow.html" target="_blank">Open Technical Flow →</a>
+            </div>
+        </div>
+
+        <h2>📁 Documentation</h2>
+        <div class="link-grid">
+            <div class="link-card doc-link">
+                <div class="emoji">📋</div>
+                <h3>Master Pipeline Plan</h3>
+                <p>Complete system overview, architecture, file index, and next steps recommendations.</p>
+                <a href="PIPELINE_MASTER_PLAN_UPDATED.md" target="_blank">View Plan →</a>
+            </div>
+
+            <div class="link-card doc-link">
+                <div class="emoji">🏆</div>
+                <h3>Phase 10 Final Summary</h3>
+                <p>Detailed Phase 10 results, commodity breakdown, and 106M tons added across 15 commodity types.</p>
+                <a href="classification_phase10_final_summary.md" target="_blank">View Summary →</a>
+            </div>
+
+            <div class="link-card doc-link">
+                <div class="emoji">📊</div>
+                <h3>3-Year Comparison</h3>
+                <p>Cross-year analysis, commodity trends, rule performance, and year-specific anomalies.</p>
+                <a href="classification_3year_comparison.md" target="_blank">View Comparison →</a>
+            </div>
+        </div>
+
+        <h2>📚 Reference Dictionaries</h2>
+        <div class="link-grid">
+            <div class="link-card doc-link">
+                <div class="emoji">📦</div>
+                <h3>Cargo Dictionary (Latest)</h3>
+                <p>Harmonized cargo classification dictionary with HS codes, keywords, and 4-level taxonomy (Group → Commodity → Cargo → Cargo_Detail)</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/01.01_dictionary/01_cargo_dictionary_harmonized_v20260111_2313.csv" target="_blank">Open Dictionary →</a>
+            </div>
+
+            <div class="link-card doc-link">
+                <div class="emoji">🔢</div>
+                <h3>HS Code Lookups</h3>
+                <p>Complete HS code hierarchy (HS2/HS4/HS6) with descriptions. Includes 7.6MB JSON with full classification structure.</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/01.01_dictionary" target="_blank">Open Dictionary Folder →</a>
+            </div>
+
+            <div class="link-card doc-link">
+                <div class="emoji">⚓</div>
+                <h3>Port & Location</h3>
+                <p>US port dictionary (68KB), ACE port codes, Schedule D, country codes, and waterway cross-references.</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/01.01_dictionary/01_us_port_dictionary.csv" target="_blank">Open Port Dictionary →</a>
+            </div>
+
+            <div class="link-card doc-link">
+                <div class="emoji">🚢</div>
+                <h3>Ship Registry</h3>
+                <p>Complete ship registry (5.4MB) with IMO numbers, vessel names, types, and carrier SCAC codes (43KB).</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/01.01_dictionary/01_ships_register.csv" target="_blank">Open Ship Registry →</a>
+            </div>
+
+            <div class="link-card doc-link">
+                <div class="emoji">📊</div>
+                <h3>Trade Code Lookups</h3>
+                <p>Schedule B export/import codes (5.1MB total), SITC, NAICS, SIC, ATP, and end-use codes for trade classification.</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/01.01_dictionary/sked_b_import_codes.csv" target="_blank">Open Trade Codes →</a>
+            </div>
+
+            <div class="link-card doc-link">
+                <div class="emoji">🏭</div>
+                <h3>Specialized Cargo</h3>
+                <p>Industry-specific dictionaries: pig iron, pulp & paper, steel slabs, steel coils, and wind turbine components.</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/01.01_dictionary" target="_blank">Browse All Dictionaries →</a>
+            </div>
+        </div>
+
+        <h2>📂 Classified Data Files</h2>
+        <div class="link-grid">
+            <div class="link-card data-link">
+                <div class="emoji">📅</div>
+                <h3>2023 Data (454K records)</h3>
+                <p><strong>80.2% classified</strong> | 49.3% tonnage | 0.9% unclassified tonnage</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/build_documentation/classification_full_2023" target="_blank">Open Folder →</a>
+            </div>
+
+            <div class="link-card data-link">
+                <div class="emoji">📅</div>
+                <h3>2024 Data (449K records)</h3>
+                <p><strong>52.5% classified</strong> | 84.0% tonnage | LBK package rule: 275M tons!</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/build_documentation/classification_full_2024" target="_blank">Open Folder →</a>
+            </div>
+
+            <div class="link-card data-link">
+                <div class="emoji">📅</div>
+                <h3>2025 Data (399K records)</h3>
+                <p><strong>55.9% classified</strong> | 82.8% tonnage | Reefer spike: 5x increase</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/build_documentation/classification_full_2025" target="_blank">Open Folder →</a>
+            </div>
+        </div>
+
+        <h2>🎯 Key Discoveries</h2>
+        <div class="link-grid">
+            <div class="link-card" style="background: #fff3cd; border-left-color: #ffc107;">
+                <h3>🥇 LBK Package Rule</h3>
+                <p><strong>501M tons</strong> captured from single package type indicator. Accounts for ~50% of all classified tonnage!</p>
+            </div>
+
+            <div class="link-card" style="background: #d4edda; border-left-color: #28a745;">
+                <h3>🥈 Crude Oil Variants</h3>
+                <p><strong>79M tons</strong> added in Phase 10 by targeting specific grades (BASRAH, KIRKUK, LIZA, TUPI)</p>
+            </div>
+
+            <div class="link-card" style="background: #cfe2ff; border-left-color: #0d6efd;">
+                <h3>🥉 Simplified Salt Rule</h3>
+                <p>User's "salt is just salt" intuition: <strong>32.9M tons</strong> (13-19x better than complex variants)</p>
+            </div>
+        </div>
+
+        <h2>🚀 Next Steps</h2>
+        <div class="link-grid">
+            <div class="link-card" style="background: #e7f3ff; border-left-color: #2196f3;">
+                <h3>Option 1: Monthly Updates</h3>
+                <p>Process ~37K new records/month with 2-3 minute runtime</p>
+            </div>
+
+            <div class="link-card" style="background: #f3e5f5; border-left-color: #9c27b0;">
+                <h3>Option 2: ML Pattern Discovery</h3>
+                <p>Use 786K classified records as training set for automated rule refinement</p>
+            </div>
+
+            <div class="link-card" style="background: #fff9e6; border-left-color: #ff9800;">
+                <h3>Option 3: Granularity Refinement</h3>
+                <p>Refine "Steel NOS" → "Cold Rolled Coils" for higher analytical value</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Classification System Status:</strong> ✅ Functioning Sufficiently & ML-Ready</p>
+            <p style="margin-top: 15px; opacity: 0.9;">Built: 2026-01-13 | Coverage: 2023-2025 | Records: 1.3M | Tonnage: 2.1B tons</p>
+            <p style="margin-top: 10px; opacity: 0.8;">786K classified records provide robust training set for machine learning</p>
+        </div>
+    </div>
+</body>
+</html>

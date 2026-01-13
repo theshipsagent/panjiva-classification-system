@@ -1,0 +1,494 @@
+01 2937110000 SOMATOTROPIN, ITS DERIVATIVES AND STRUCTURAL ANALOGUES                                                                                                 
+01 2937190000 POLYPEPTIDE, PROTEIN AND GLYCOPROTEIN HORMONES, THEIR DERIVATIVES AND STRUCTURAL ANALOGUES, NESOI                                                      
+01 2937230000 ESTROGENS AND PROGESTINS                                                                                                                               
+01 2940002000 D-ARABINOSE                                                                                                                                            
+01 2940006000 SUGARS, CHEMICALLY PURE, OTHER THAN SUCROSE, LACTOSE, MALTOSE, GLUCOSE AND FRUCTOSE; SUGAR ETHERS AND SUGAR ESTERS, AND THEIR SALTS, NESOI             
+01 3002120090 ANTISERA AND OTHER BLOOD FRACTIONS                                                                                                                     
+01 3002130000 IMMUNOLOGICAL PRODUCTS, UNMIXED, NOT PUT UP IN MEASURED DOSES OR IN FORMS OR PACKINGS FOR RETAIL SALE                                                  
+01 3002140000 IMMUNOLOGICAL PRODUCTS, MIXED, NOT PUT UP IN MEASURED DOSES OR IN FORMS OR PACKINGS FOR RETAIL SALE                                                    
+01 3002150100 IMMUNOLOGICAL PRODUCTS, PUT UP IN MEASURED DOSES OR IN FORMS OR PACKINGS FOR RETAIL SALE                                                               
+01 3002410000 VACCINES FOR HUMAN MEDICINE, NESOI                                                                                                                     
+01 3002420000 VACCINES FOR VETERINARY MEDICINE                                                                                                                       
+01 3002490000 VACCINES, TOXINS, CULTURES OF MICRO-ORGANISMS EXCLUDING YEASTS, AND SIMILAR PRODUCTS, NESOI                                                            
+01 3002510000 CELL THERAPY PRODUCTS                                                                                                                                  
+01 3002590000 CELL CULTURES, WHETHER OR NOT MODIFIED, NESOI                                                                                                          
+01 3002905220 ANTIALLERGENIC PREPERATIONS, NESOI                                                                                                                     
+01 3002905250 HUMAN BLOOD; ANIMAL BLOOD PREPARED FOR THERAPEUTIC, PROPHYLATIC OR DIAGNOSTIC USES; ANTISERA AND OTHER BLOOD FRACTIONS, ETC. NESOI                     
+01 3822110000 MALARIA DIAGNOSTIC TEST KITS                                                                                                                           
+01 3822120000 DIAGNOSTIC OR LABORATORY REAGENTS FOR ZIKA AND OTHER DISEASES TRANSMITTED BY MOSQUITOES OF THE GENUS AEDES, WHETHER OR NOT PUT UP IN THE FORM OF KITS  
+02 2844410000 TRITIUM AND ITS COMPOUNDS; ALLOYS, DISPERSIONS INCLUDING CERMETS, CERAMIC PRODUCTS AND MIXTURES CONTAINING TRITIUM OR ITS COMPOUNDS                    
+02 2844420000 ACTINIUM-225, ACTINIUM-227, CALIFORNIUM-253, CURIUM-240, CURIUM-241, CURIUM-242, CURIUM-243, CURIUM-244, ETC CMPNDS, ALLYS, DISPERSN, CERAM PROD, MIX  
+02 2844430010 ELEMENTS, ISOTOPES AND COMPOUNDS WITH COBALT-60 RADIOACTIVITY ONLY                                                                                     
+02 2844430020 RADIOACTIVE ELEMENTS, ISOTOPES AND COMPOUNDS NESOI                                                                                                     
+02 2844430050 ALLOYS, DISPERSIONS, CERAMIC PRODUCTS & MIXTURES CONTAINING THESE ELEMENTS, ISOTOPES OR COMPOUNDS; RADIOACTIVE RESIDUES, NESOI                         
+02 2844440000 RADIOACTIVE RESIDUES                                                                                                                                   
+02 2845200000 BORON ENRICHED IN BORON-10 AND ITS COMPOUNDS                                                                                                           
+02 2845300000 LITHIUM ENRICHED IN LITHIUM-6 AND ITS COMPOUNDS                                                                                                        
+02 2845400000 HELIUM-3                                                                                                                                               
+02 2845900100 ISOTOPES, EXCEPT THOSE OF HDG 2844; COMPOUNDS, INORGANIC OR ORGANIC, OF SUCH ISOTOPES, WHETHER OR NOT CHEMICALLY DEFINED, NESOI                        
+02 2914620000 COENZYME Q10 (UBIDECARENONE (INN))                                                                                                                     
+02 2914692100 QUINONE DRUGS                                                                                                                                          
+02 2921460000 AMFETAMINE(INN), BENZFETAMINE(INN), DEXAMFETAMINE(INN), ETILAMFETAMINE(INN), FENCAMFAMIN(INN), LEFATAMINE(INN), LEVAMFETAMINE(INN) ETC & SALTS THEREOF 
+02 2922190900 AROMATIC DRUGS OF AMINO-ALCOHOLS, OTHER THAN THOSE CONTG MORE THAN ONE KIND OF OXYGEN FUNCTION, THEIR ETHERS AND ESTERS; SALTS THEREOF, NESOI          
+02 2928003000 NON-AROMATIC ORGANIC DERIVATIVES OF HYDRAZINE OR OF HYDROXYLAMINE FOR USE AS DRUGS                                                                     
+02 2931902200 AROMATIC ORGANO-INORGANIC COMPOUNDS USED AS DRUGS                                                                                                      
+02 2932910000 ISOSAFROLE                                                                                                                                             
+02 2932995500 BIS-O-[(4-METHYLPHENYL)-METHYLENE]-D-GLUCITOL (DIMETHYLBENZYLIDENE SORBITOL); AND RHODAMINE 2C BASE                                                    
+02 2933410000 LEVORPHANOL (INN) AND ITS SALTS                                                                                                                        
+02 2933492250 DRUGS CONTAINING A QUINOLINE OR ISOQUINOLINE RING-SYSTEM (WHETHER OR NOT HYDROGENATED) NOT FURTHER FUSED                                               
+02 2933595960 DRUGS CONTAINING A PYRIMIDINE RING (WHETHER OR NOT HYDROGENATED) OR PIPERAZINE RING IN THE STRUCTURE                                                   
+02 2933910000 ALPRAZOLAM(INN), CAMAZEPAM (INN), CHLORDIAZEPOXIDE (INN), CLONAZEPAM (INN), CLORAZEPATE & OTHER HETEROCYCLIC COMPOUNDS WITH NITRO ATOM(S) ONLY         
+02 2933994600 ANTI-INFECTIVE AGENTS, NESOI                                                                                                                           
+02 2933995300 CARDIOVASCULAR DRUGS, NESOI                                                                                                                            
+02 2933995500 ANALGESICS, ANTIPYRETICS AND NON-HORMONAL ANTI-INFLAMMATORY AGENTS                                                                                     
+02 2933996100 ANTIDEPRESSANTS, TRANQUILIZERS AND OTHER PSYCHOTHERAPEUTIC AGENTS, NESOI                                                                               
+02 2933996500 ANTICONVULSANTS, HYPNOTICS AND SEDATIVES                                                                                                               
+02 2933997000 DRUGS PRIMARILY AFFECTING THE CENTRAL NERVOUS SYSTEM, NESOI                                                                                            
+02 3002120030 HUMAN IMMUNE BLOOD SERA                                                                                                                                
+02 9011800000 OTHER COMPOUND OPTICAL MICROSCOPES, NESOI                                                                                                              
+02 9011900000 PARTS AND ACCESSORIES FOR COMPOUND OPTICAL MICROSCOPES                                                                                                 
+02 9012100000 MICROSCOPES OTHER THAN OPTICAL MICROSCOPES; DIFFRACTION APPARATUS                                                                                      
+02 9012900000 PARTS AND ACCESSORIES FOR MICROSCOPES OTHER THAN OPTICAL MICROSCOPES; DIFFRACTION APPARATUS                                                            
+02 9015808040 GEOPHYSICAL INSTRUMENTS AND APPLIANCES, NESOI                                                                                                          
+02 9015808080 SURVEYING, HYDROGRAPHIC, OCEANOGRAPHIC, HYDROLOGICAL OR METEOROLOGICAL INSTRUMENTS AND APPLIANCES, EXCLUDING COMPASSES AND RANGEFINDERS, NESOI         
+02 9018113000 ELECTROCARDIOGRAPHS                                                                                                                                    
+02 9018120000 ULTRASONIC SCANNING APPARATUS                                                                                                                          
+02 9018130000 MAGNETIC RESONANCE IMAGING APPARATUS USED IN MEDICAL, SURGICAL, DENTAL OR VETERINARY SCIENCES                                                          
+02 9018140000 SCINTIGRAPHIC APPARATUS FOR USE IN MEDICAL, SURGICAL, DENTAL OR VETERINARY SCIENCES                                                                    
+02 9018194000 ELECTRO-DIAGNOSTIC APPARATUS FOR FUNCTIONAL EXPLORATORY EXAMINATION, AND PARTS AND ACCESSORIES THEREOF                                                 
+02 9018195500 PATIENT MONITORING SYSTEMS                                                                                                                             
+02 9018199535 ELECTROENCEPHALOGRAPHS (EEG) AND ELECTROMYOGRAPHS (EMG)                                                                                                
+02 9018199550 ELECTRO-DIAGNOSTIC APPARATUS, USED IN MEDICAL, SURGICAL, DENTAL OR VETERINARY SCIENCES, NESOI                                                          
+02 9018199560 PARTS AND ACCESSORIES FOR ELECTRO-DIAGNOSTIC APPARATUS, FOR USE IN MEDICAL, SURGICAL, DENTAL OR VETERINARY SCIENCES                                    
+02 9018500000 OTHER OPHTHALMIC INSTRUMENTS AND APPLIANCES AND PARTS AND ACCESSORIES                                                                                  
+02 9018901500 OPTICAL INSTRUMENTS AND APPLIANCES AND PARTS AND ACCESSORIES, NESOI                                                                                    
+02 9018903000 ANESTHETIC INSTRUMENTS AND APPLIANCES AND PARTS AND ACCESSORIES                                                                                        
+02 9018906000 ELECTRO-SURGICAL INSTRUMENTS AND APPLIANCES AND PARTS AND ACCESSORIES                                                                                  
+02 9018907040 ULTRASONIC THERAPEUTIC APPLIANCES AND INSTRUMENTS                                                                                                      
+02 9018907060 THERAPEUTIC APPLIANCES AND INSTRUMENTS, EXCEPT ULTRASONIC                                                                                              
+02 9018907080 ELECTRO-MEDICAL INSTRUMENTS AND APPLIANCES AND PARTS AND ACCESSORIES, NESOI                                                                            
+02 9019200000 OZONE THERAPY, OXYGEN THERAPY, AEROSOL THERAPY, ARTIFICAL RESPIRATION OR OTHER THERAPEUTIC RESPIRATION APPARATUS; PARTS AND ACCESSORIES                
+02 9021100090 ORTHOPEDIC OR FRACTURE APPLIANCES AND PARTS AND ACCESSORIES THEREOF, NESOI                                                                             
+02 9021310000 ARTIFICIAL JOINTS AND PARTS AND ACCESSORIES THEREOF                                                                                                    
+02 9021390000 OTHER ARTIFICAL PARTS OF THE BODY AND PARTS AND ACCESSORIES                                                                                            
+02 9021400000 HEARING AIDS, EXCLUDING PARTS AND ACCESSORIES                                                                                                          
+02 9021500000 PACEMAKERS FOR STIMULATING HEART MUSCLES, EXCLUDING PARTS AND ACCESSORIES                                                                              
+02 9022120000 COMPUTED TOMOGRAPHY APPARATUS                                                                                                                          
+02 9022130000 APPARATUS BASED ON THE USE OF X-RAYS FOR DENTAL USES, NESOI                                                                                            
+02 9022140000 APPARATUS BASED ON THE USE OF X-RAYS FOR MEDICAL, SURGICAL, OR VETERINARY USES, NESOI                                                                  
+02 9022190000 APPARATUS BASED ON THE USE OF X-RAYS FOR OTHER USE, EXCEPT MEDICAL, SURGICAL, DENTAL OR VETERINARY, INCLUDING RADIOGRAPHY OR RADIOTHERAPY APPARATUS    
+02 9022210000 APPARATUS BASED ON THE USE OF ALPHA, BETA OR GAMMA RADIATIONS FOR MEDICAL, SURGICAL, DENTAL OR VETERINARY USES                                         
+02 9022298000 APPARATUS BASED ON THE USE OF ALPHA, BETA OR GAMMA RADIATIONS FOR OTHER USE, NESOI                                                                     
+02 9022300000 X-RAY TUBES                                                                                                                                            
+02 9022902000 HIGH TENSION GENERATORS, CONTROL PANELS, DESKS, SCREENS EXAMINATION OR TREATMENT TABLES,CHAIRS AND THE LIKE, NESOI                                     
+02 9022904000 PARTS AND ACCESSORIES OF X-RAY TUBES                                                                                                                   
+02 9024100000 MACHINES AND APPLIANCES FOR TESTING METALS                                                                                                             
+02 9024800000 OTHER MACHINES AND APPLIANCES FOR TESTING THE HARDNESS, STRENGTH, COMPRESSIBILITY, ELASTICITY OR OTHER MECHANICAL PROPERTIES OF MATERIALS,EXC METALS   
+02 9024900000 PARTS AND ACCESSORIES FOR MACHINES & APPLIANCES FOR TESTING HARDNESS, STRENGTH, COMPRESSIBILITY, ELASTICITY OR OTHER MECHANICAL PROPERTIES OF MATERIAL 
+02 9027202000 GAS CHROMATOGRAPHS                                                                                                                                     
+02 9027205030 ELECTRICAL ELECTROPHORESIS INSTRUMENTS                                                                                                                 
+02 9027206050 LIQUID CHROMATOGRAPHS                                                                                                                                  
+02 9027209000 CHROMATOGRAPHS AND ELECTROPHORESIS INSTRUMENTS, NESOI                                                                                                  
+02 9027308020 SPECTROSCOPES, EXCEPT ELECTRICAL                                                                                                                       
+02 9027502000 THERMAL ANALYSIS INSTRUMENTS AND APPARATUS                                                                                                             
+02 9027505000 CHEMICAL ANALYSIS INSTRUMENTS AND APPARATUS, NESOI                                                                                                     
+02 9027509000 INSTRUMENT AND APPARATUS FOR PHYSICAL OR CHEMICAL ANALYSIS USING OPTICAL RADIATIONS, NESOI                                                             
+02 9027810000 ELECTRICAL MASS SPECTROMETERS                                                                                                                          
+02 9027892500 NUCLEAR MAGNETIC RESONANCES INSTRUMENTS AND APPARATUS (EXCEPT THOSE OF HEADING 9018)                                                                   
+02 9027893100 ELECTROCHEMICAL INSTRUMENTS AND APPARATUS                                                                                                              
+02 9027893200 CHEMICAL ANALYSIS INSTRUMENTS AND APPARATUS, NESOI                                                                                                     
+02 9027898000 INSTRUMENTS AND APPARATUS FOR MEASURING/CHECKING VISCOSITY, POROSITY  EXPANSION, SURFACE TENSION OR THE LIKE, NESOI                                    
+02 9027902000 MICROTOMES, NESOI                                                                                                                                      
+02 9027905430 PARTS AND ACCESSORIES OF ARTICLES OF SUBHEADING 9027.30.4040 AND 9027.30.4080                                                                          
+02 9027905440 PARTS AND ACCESSORIES OF ARTICLES OF SUBHEADING 9027.50.1000                                                                                           
+02 9027908950 PARTS AND ACCESSORIES OF INSTRUMENTS & APPARATUS FOR PHYSICAL OR CHEMICAL ANALYSIS, NESOI                                                              
+02 9029206000 STROBOSCOPES                                                                                                                                           
+03 8443321010 LASER PRINTERS, CAPABLE OF CONNECTING TO AN AUTOMATIC DATA PROCESSING MACHINE OR NETWORK, PRODUCING MORE THAN 20 PAGES PER MINUTE                      
+03 8443321020 LASER PRINTERS, CAPABLE OF CONNECTING TO AN AUTOMATIC DATA PROCESSING MACHINE OR NETWORK, PRODUCING LESS THAN 20 PAGES PER MINUTE                      
+03 8456110000 MACHINE TOOLS FOR WORKING ANY MATERIAL BY REMOVAL OF MATERIAL BY LASER                                                                                 
+03 8456120000 MACHINE TOOLS FOR WORKING ANY MATERIAL BY REMOVAL OF MATERIAL BY OTHER LIGHT OR PHOTON BEAM PROCESS                                                    
+03 8471608000 OPTICAL SCANNERS AND MAGNETIC INK RECOGNITION DEVICES                                                                                                  
+03 8519814120 OPTICAL DISC RECORDERS                                                                                                                                 
+03 8540890060 LIGHT-SENSING TUBES                                                                                                                                    
+03 8541420000 SOLAR CELLS, NOT ASSEMBLED INTO MODULES OR MADE UP INTO PANELS                                                                                         
+03 8541430000 SOLAR CELLS ASSEMBLED INTO MODULES OR PANELS                                                                                                           
+03 8541491050 PHOTOSENSITIVE DIODES, NESOI                                                                                                                           
+03 8541497080 PHOTOSENSITIVE TRANSISTERS, NESOI                                                                                                                      
+03 8541498000 OPTICAL COUPLED ISOLATORS                                                                                                                              
+03 9011100000 STEREOSCOPIC MICROSCOPES                                                                                                                               
+03 9011200000 OTHER MICROSCOPES, FOR MICROPHOTOGRAPHY, MICROCINEMATOGRAPHY OR MICROPROJECTION, NESOI                                                                 
+03 9013200000 LASERS, OTHER THAN LASER DIODES                                                                                                                        
+03 9013800100 OPTICAL DEVICES, APPLIANCES AND INSTRUMENTS, NESOI                                                                                                     
+03 9014202000 OPTICAL INSTRUMENTS AND APPLIANCES FOR AERONAUTICAL OR SPACE NAVIGATION (OTHER THAN COMPASSES)                                                         
+03 9015100000 RANGEFINDERS                                                                                                                                           
+03 9015400000 PHOTOGRAMMETRICAL SURVEYING INSTRUMENTS AND APPLIANCES                                                                                                 
+03 9015802000 OPTICAL SURVEYING, HYDROGRAPHIC, OCEANOGRAPHIC, HYDROLOGICAL, METEOROLOGICAL OR GEOPHYSICAL INSTRUMENTS AND APPLIANCES, EXC RANGEFINDER&COMPASSES, NES 
+03 9031410000 OPTICAL INSTRUMENTS FOR INSPECTING SEMICONDUCTOR WAFERS OR DEVICES OR FOR INSPECTING PHOTOMASKS OR RETICLES USED IN MANUFG SEMICONDUCTOR DEVICES       
+03 9031494000 COORDINATE-MEASURING MACHINES FOR OPTICAL INSTRUMENTS AND APPLIANCES                                                                                   
+04 8443310000 MACHINES WHICH PERFORM TWO OR MORE OF THE FUNCTIONS OF PRINTING, COPYING OR FACSIMILE TRANSMISSION, CAPABLE OF CONNECTING TO AN ADP MACHINE OR NETWORK 
+04 8443325000 COPYING AND FACSIMILE MACHINES, CAPABLE OF CONNECTING TO AN AUTOMATIC DATA PROCESSING MACHINE OR NETWORK, NESOI                                        
+04 8443992210 INK CARTRIDGES FOR THE GOODS OF SUBHEADING 8443.31 AND OF PRINTER UNITS OF SUBHEADING 8443.32.10                                                       
+04 8443992250 PARTS AND ACCESSORIES FOR THE GOODS OF SUBHEADING 8443.31 AND OF PRINTER UNITS OF SUBHEADING 8443.32.10, OTHER THAN INK CARTRIDGES                     
+04 8443995600 PARTS AND ACCESSORIES OF OTHER PRINTERS AND FACSIMILE MACHINES, NESOI                                                                                  
+04 8470500020 POINT-OF-SALE TERMINAL TYPE CASH REGISTERS                                                                                                             
+04 8471300100 PORTABLE DIGTL AUTOMATIC DATA PROCESSING MACHINES,WEIGHT NOT MORE THAN 10 KG,CONSISTING OF AT LEAST A CENTRAL PROCESSING UNIT,KEYBOARD & A DISPLAY     
+04 8471410110 DIGITAL ADP MACH COMPRISING IN SAME HOUSING AT LEAST A CPU AND AN INPUT AND OUPUT UNIT,WHETHER OR NOT COMBINED,W/CATHODE RAY TUBE (CRT)                
+04 8471410150 DIGITAL ADP MACH COMPRISING IN SAME HOUSING AT LEAST A CPU AND AN INPUT AND OUTPUT UNIT WHETHER OR NOT COMBINED,WITHOUT CRT,NESOI                      
+04 8471490000 AUTOMATIC DATA PROCESSING MACHINES ENTERED IN THE FORM OF SYSTEMS, NESOI                                                                               
+04 8471500110 PROCESS UNITS W/ CATHODE RAY TUBE, WH/NOT CONTG IN THE SAME HOUSING 1 OR 2 OF STORAGE UNITS,INPUT UNITS OR OUTPUT UNITS                                
+04 8471500150 DIGITAL PROCESSING UNITS EXCLUDE SUBHEADING 8471.41 OR 8471.49, MAY CONTAIN IN SAME HOUSING 1 OR 2 OF FOLLOWING: STORAGE, INPUT OR OUTPUT UNITS, NESOI 
+04 8471601010 COMBINED INPUT/OUTPUT UNITS, WITH CATHODE RAY TUBE (CRT), NESOI                                                                                        
+04 8471601050 COMBINED INPUT/OUTPUT UNITS, WITHOUT A CATHODE RAY TUBE (CRT), NESOI                                                                                   
+04 8471607000 INPUT/OUTPUT UNITS, NESOI, SUITABLE FOR PHYSICAL INCORPORATION INTO AUTOMATIC DATA PROCESSING MACHINES OR UNITS THEREOF                                
+04 8471609030 CARD KEY AND MAGNETIC MEDIA ENTRY DEVICES                                                                                                              
+04 8471609050 ADP INPUT/OUTPUT UNITS, NESOI                                                                                                                          
+04 8471701000 MAGNETIC DISK DRIVE UNITS WITH A DISK DIAMETER GT=21 CM,WITH READ-WRITE UNITS ENTERED SEPERATELY                                                       
+04 8471702000 MAGNETIC DISK DRIVE UNTS FOR DISK OF DIAMETER EXCEEDING 21 CM(8.3 INCHES), UNTS FOR PHYSICAL INCORP INTO AUTO DATA PROCESS MACH OR UNT THEREOF, NESOI  
+04 8471703000 MAGNETIC DISK DRIVE UNITS, NESOI, WITH A DISK DIAMETER GT=21 CM                                                                                        
+04 8471704035 FLEXIBLE (FLOPPY) MAGNETIC DISK DRIVE UNITS,NOT ASSEMBLED IN CABINETS, AND WITHOUT ATTACHED EXTERNAL POWER SUPPLY, NESOI                               
+04 8471704065 HARD MAGNETIC DISK DRIVE UNITS, NESOI, NOT ASSEMBLED IN CABINETS, AND W/OUT ATTACHED EXTERNAL POWER SUPPLY UNITS                                       
+04 8471704095 DISK DRIVE UNITS, NESOI, NOT ASSEMBLED IN CABINETS, AND WITHOUT ATTACHED EXTERNAL POWER SUPPLY UNITS                                                   
+04 8471705035 FLEXIBLE (FLOPPY) MAGNETIC DISK DRIVE UNITS,NESOI                                                                                                      
+04 8471705065 HARD MAGNETIC DISK DRIVE UNITS, NESOI                                                                                                                  
+04 8471705095 MAGNETIC DISK DRIVE UNITS, NESOI                                                                                                                       
+04 8471706000 OTHER STORAGE UNITS, NESOI, NOT ASSEMBLED IN CABINETS FOR PLACING ON A TABLE, DESK, WALL FLOOR OR SIMILAR PLACE                                        
+04 8471709000 OTHER STORAGE UNITS, NESOI                                                                                                                             
+04 8471801000 CONTROL OR ADAPTER UNITS FOR AUTOMATIC DATA PROCESSING MACHINES                                                                                        
+04 8471804000 UNITS, NESOI, SUITABLE FOR PHYSICAL INCORPORATION INTO AUTOMATIC DATA PROCESSING MACHINES OR UNITS THEREOF                                             
+04 8471809000 OTHER UNITS FOR AUTOMATIC DATA PROCESSING MACHINES, NESOI                                                                                              
+04 8471900000 MACHINES AND UNITS THEREOF FOR PROCESSING DATA, NESOI                                                                                                  
+04 8473300002 PARTS & ACCESSORIES FOR MACHINES OF 8471                                                                                                               
+04 8473500000 PARTS AND ACCESSORIES EQUALLY SUITABLE FOR USE WITH MACHINES OF TWO OR MORE OF THE HEADINGS 8469 TO 8472                                               
+04 8517130000 SMARTPHONES                                                                                                                                            
+04 8517140020 RADIO TELEPHONES DESIGNED FOR INSTALLATION IN MOTOR VEHICLES FOR THE PUBLIC RADIOTELECOMMUNICATIONS SERVICE                                            
+04 8517140050 RADIO TELEPHONES DESIGNED FOR THE PUBLIC CELLULAR RADIOTELECOMMUNICATION SERVICE,VNESOI EXCLUDING FOR MOTOR VEHICLES                                   
+04 8517140080 TELEPHONES FOR CELLULAR NETWORKS OR FOR OTHER WIRELESS NETWORKS, NESOI                                                                                 
+04 8517180000 TELEPHONE SETS, NESOI                                                                                                                                  
+04 8517610000 BASE STATIONS                                                                                                                                          
+04 8517620010 MODEMS (MODULATOR-DEMODULATOR APPARATUS) OF A KIND USED WITH DATA PROCESSING MACHINES OF HEADING 8471                                                  
+04 8517620050 MACHINES FOR THE RECEPTION, CONVERSION & TRANSMISSION OR REGENERATION OF VOICE, IMAGES OR OTHER DATA, INCLUDING SWITCHING & ROUTING APPARATUS, NESOI   
+04 8517690000 APPARATUS FOR TRANSMISSION OR RECEPTION OF VOICE, IMAGES OR OTHER DATA, INCLUDING APPARATUS FOR COMMUNICATION IN A WIRED OR WIRELESS NETWORK, NESOI    
+04 8517710000 AERIALS AND AERIAL REFLECTORS OF ALL KINDS; PARTS SUITABLE FOR USE THEREWITH                                                                           
+04 8517790000 PARTS OF TELEPHONE SETS OR OTHER APPARATUS FOR THE TRANSMISSION OR RECEPTION OF VOICE, IMAGES OR OTHER DATA                                            
+04 8521900000 VIDEO RECORDING OR REPRODUCING APPARATUS, WHETHER OR NOT INCORPORATING A VIDEO TUNER, EXCEPT MAGNETIC TAPE-TYPE                                        
+04 8523292000 MAGNETIC TAPE FOR REPRODUCING PHENOMENA OTHER THAN SOUND OR IMAGE                                                                                      
+04 8523299000 RECORDED MAGNETIC MEDIA, NESOI                                                                                                                         
+04 8523492010 DISCS FOR LASER READING SYSTEMS, FOR REPRODUCING PHENOMENA OTHER THAN SOUND OR IMAGE, PREPACKAGED SOFTWARE OF A KIND SOLD AT RETAIL                    
+04 8523492020 DISCS FOR LASER READING SYSTEMS, FOR REPRODUCING PHENOMENA OTHER THAN SOUND OR IMAGE, NESOI                                                            
+04 8523493000 RECORDED OPTICAL MEDIA, FOR REPRODUCING SOUND ONLY                                                                                                     
+04 8523494000 RECORDED OPTICAL MEDIA FOR REPRODUCING REPRESENTATIONS OF INSTRUCTIONS, DATA, SOUND & IMAGE, MANIP/INTERACT BY ADP; PROPRIETARY FORMAT RECORDED DISKS  
+04 8523495000 DISCS FOR LASER READING SYSTEMS, NESOI                                                                                                                 
+04 8523510000 SOLID-STATE NON-VOLATILE STORAGE DEVICES FOR THE RECORDING OF SOUND OR OTHER PHENOMENA                                                                 
+04 8523590000 SEMICONDUCTOR MEDIA FOR THE RECORDING OF SOUND OR OTHER PHENOMENA, NESOI                                                                               
+04 8525506050 RADIO TRANSMITTERS CAPABLE OF TRANSMITTING ON FREQUENCIES NOT EXCEEDING 30 MHZ, NOT FOR USE IN CIVIL AIRCRAFT                                          
+04 8525508020 TRANSMISSION APPARATUS FOR CIVIL AIRCRAFT, NESOI                                                                                                       
+04 8525508040 TRANSMISION APPARATUS FOR RADIOTELEPHONY,RADIOTELEGRAPHY,RADIOBROADCASTING, NESOI                                                                      
+04 8525601055 RADIO TRANSCEIVERS, OTHER                                                                                                                              
+04 8525602000 TRANSMISSION APPARATUS INCORPORATING RECEPTION APPARATUS, NESOI                                                                                        
+04 8525810000 HIGH-SPEED TELEVISION CAMERAS, DIGITAL CAMERAS AND VIDEO CAMERA RECORDERS, AS SPECIFIED IN CHAPTER 85 SUBHEADING NOTE 1                                
+04 8525820000 RADIATION-HARDENED OR RADIATION-TOLERANT TELEVISION CAMERAS, DIGITAL CAMERAS AND VIDEO CAMERA RECORDERS, AS SPECIFIED IN CHAPTER 85 SUBHEADING NOTE 2  
+04 8525830000 TELEVISION CAMERAS, COLOR, NESOI                                                                                                                       
+04 8525892500 TELEVISION CAMERAS, COLOR                                                                                                                              
+04 8525893500 TELEVISION CAMERAS, EXCEPT COLOR                                                                                                                       
+04 8525894000 DIGITAL STILL IMAGE VIDEO CAMERAS                                                                                                                      
+04 8525895020 CAMCORDERS EXCEPT 8MM                                                                                                                                  
+04 8525895050 STILL IMAGE VIDEO CAMERAS AND VIDEO CAMERA RECORDERS, NESOI                                                                                            
+04 8526100020 RADAR APPARATUS DESIGNED FOR BOAT OR SHIP INSTALLATION                                                                                                 
+04 8526100070 RADAR APPARATUS NESOI                                                                                                                                  
+04 8526910010 RADIO NAVIGATIONAL AID APPARATUS FOR USE IN CIVIL AIRCRAFT                                                                                             
+04 8526910030 RADIO NAVIGATIONAL AID APPARATUS, RECEPTION ONLY TYPE                                                                                                  
+04 8526910070 RADIO NAVIGATIONAL AID APPARATUS,NESOI                                                                                                                 
+04 8526920000 RADIO REMOTE CONTROL APPARATUS                                                                                                                         
+04 8527993060 RADIO RECEIVERS, NOT FOR USE IN CIVIL AIRCRAFT                                                                                                         
+04 8527995030 RECEPTION APPARATUS, NESOI                                                                                                                             
+04 8528520000 MONITORS, OF A KIND SOLELY OR PRINCIPALLY USED IN AN AUTOMATIC DATA PROCESSING SYSTEMS OF HEADING 8471, NESOI                                          
+04 8528620000 PROJECTORS, OF A KIND SOLELY OR PRINCIPALLY USED IN AN AUTOMATIC DATA PROCESSING SYSTEMS OF HEADING 8471                                               
+04 8528710000 TV RECEPTION APPARATUS NOT DESIGNED TO INCORPORATE A VIDEO DISPLAY OR SCREEN                                                                           
+04 8528723000 TV RECEPTION APPARATUS, COLOR, INCORPORATING VIDEO RECORDING OR REPRODUCING APPARATUS                                                                  
+04 8529903000 TELEVISION CAMERA PARTS                                                                                                                                
+04 8529904720 RADAR APPARATUS PARTS                                                                                                                                  
+04 8529904740 RADIO NAVIGATIONAL AID APPARATUS PARTS (EXCEPT RADAR)                                                                                                  
+04 8529904760 RADIO REMOTE CONTROL APPARATUS PARTS                                                                                                                   
+04 8543706000 ARTICLES DESIGNED FOR CONNECTION TO TELEGRAPHIC OR TELEPHONIC APPARATUS OR INSTRUMENTS OR TO TELEGRAPHIC OR TELEPHONIC NETWORKS                        
+04 8802603000 COMMUNICATIONS SATELLITES                                                                                                                              
+04 8807903000 PARTS OF COMMUNICATIONS SATELLITES                                                                                                                     
+04 9017208040 HAND OPERATED INPUT DEVICES WHICH TRANSMIT POSITION DATA TO COMPUTER PROCESSORS OR DISPLAYS (DIGITIZERS)                                               
+04 9031900000 PARTS & ACCESSORIES OF MACHINES, NESOI IN THIS CHAPTER AND FOR PROFILE PROJECTORS                                                                      
+05 8486300000 MACHINES AND APPARATUS FOR THE MANUFACTURE OF FLAT PANEL DISPLAYS                                                                                      
+05 8523520010 SMART CARDS, UNRECORDED                                                                                                                                
+05 8523520090 SMART CARDS, RECORDED                                                                                                                                  
+05 8534000020 PC, PLASTICS IMPREGNATED, NOT FLEXIBLE TYPE, HAVING A BASE WHOLLY OF IMPREGNATED GLASS WITH 3 OR MORE LAYERS OF CONDUCTING MATERIALS                   
+05 8537109030 NUMERICAL CONTROLS FOR CONTROLLING MACHINE TOOLS, FOR VOLTAGE NOT EXCEEDING 1,000 V                                                                    
+05 8537109050 PANEL BOARDS AND DISTRIBUTION BOARDS, FOR VOLTAGES LT= 1,000 VOLTS                                                                                     
+05 8537109060 PROGRAMABLE CONTROLLERS FOR A VOLTAGE NOT EXCEEDING 1,000 VOLTS                                                                                        
+05 8540792000 MICROWAVE TUBES, NESOI                                                                                                                                 
+05 8541100040 UNMOUNTED CHIPS, DICE, WAFERS FOR DIODES OTHER THAN PHOTOSENSITIVE OR LIGHT-EMITTING DIODES                                                            
+05 8541100050 ZENER DIODES                                                                                                                                           
+05 8541100060 MICROWAVE DIODES                                                                                                                                       
+05 8541100070 DIODES, OTHER THAN PHOTOSENSITVE OR LED, WITH A MAXIMUM CURRENT OF 0.5 A OR LESS                                                                       
+05 8541100080 DIODES, OTHER THAN PHOTOSENSITVE OR LED, WITH A CURRENT GREATER THAN 0.5 A                                                                             
+05 8541210040 UNMOUNTED CHIPS, DICE, WAFERS FOR TRANSISTORS OTHER THAN PHOTOSENSITIVE WITH A DISSIPATION RATE OF LESS THAN 1W                                        
+05 8541210080 TRANSISTORS,OTHER THAN PHOTOSENSITIVE, WITH A DISSIPATION RATE OF LESS THAN 1 W, NESOI                                                                 
+05 8541290040 UNMOUNTED CHIPS, DICE AND WAFERS FOR TRANSISTORS OTHER THAN PHOTOSENSITIVE, WITH A DISSIPATION RATE OF 1W OR GREATER                                   
+05 8541290080 TRANSISTORS,OTHER THAN PHOTOSENSITIVE,WITH A DISSIPATION RATE OF 1 W OR GREATER, NESOI                                                                 
+05 8541300040 UNMOUNTED CHIPS, DICE & WAFERS FOR THYRISTORS, DIACS AND TRIACS, OTHER THAN PHOTOSENSITIVE                                                             
+05 8541300080 THYRISTORS, DIACS & TRIACS, OTHER THAN PHOTOSENSITIVE DEVICES, NESOI                                                                                   
+05 8541491010 UNMOUNTED CHIPS, DICE OR WAFERS FOR PHOTOSENSITIVE DIODES                                                                                              
+05 8541497040 UNMOUNTED CHIPS, DICE AND WAFERS FOR PHOTOSENSITIVE TRANSISTORS                                                                                        
+05 8541499500 PHOTOSENSITIVE SEMICONDUCTOR DEVICES, NESOI                                                                                                            
+05 8541510000 SEMICONDUCTOR-BASED TRANSDUCERS                                                                                                                        
+05 8541590040 UNMOUNTED CHIPS, DICE, WAFERS FOR SEMICONDUCTOR DEVICES, NESOI                                                                                         
+05 8541590080 SEMICONDUCTOR DEVICES, NESOI                                                                                                                           
+05 8541900000 DIODE, TRANSISTOR & SIMILAR SEMICONDUCTOR DEVICE PARTS                                                                                                 
+05 8542310000 ELECTRONIC INTEGRATED CIRCUITS, PROCESSORS & CONTROLLERS, WH/NOT COMBINED W/MEMORIES, CONVERTERS, LOGIC CIRCUITS, AMPLIFIERS, CLOCK ETC                
+05 8542320015 ELECTRIC INTEGRATED CIRCUITS MEMORY, DYNAMIC READ-WRITE RANDOM ACCESS NOT OVER 1 GIGABIT                                                               
+05 8542320023 ELECTRONIC INTEGRATED CIRCUITS, MEMORY, DYNAMIC READ-WRITE RANDOM ACCESS (DRAM) OVER 1 GIGABIT                                                         
+05 8542320040 ELECTRIC INTEGRATED CIRCUITS, MEMORY, STATIC READ-WRITE RANDOM ACCESS (SRAM)                                                                           
+05 8542320050 ELECTRONIC INTEGRATED CIRCUITS, ELECTRICALLY ERASABLE PROGRAMMABLE READ-ONLY MEMORY (EEPROM)                                                           
+05 8542320060 ELECTRIC INTEGRATED CIRCUITS,ERASABLE (EXCEPT ELECTRICALLY) PROGRAMMABLE READ-ONLY MEMORY (EPROM)                                                      
+05 8542320070 ELECTRONIC INTEGRATED CIRCUITS, MEMORY, NESOI                                                                                                          
+05 8542330000 ELECTRONIC INTEGRATED CIRCUITS, AMPLIFIERS                                                                                                             
+05 8542390000 ELECTRONIC INTEGRATED CIRCUITS, NESOI                                                                                                                  
+05 8542900000 ELECTRONIC INTEGRATED CIRCUITS AND MICROASSEMBLY PARTS                                                                                                 
+05 8543100000 PARTICLE ACCELERATORS, NESOI                                                                                                                           
+05 8543200000 SIGNAL GENERATORS                                                                                                                                      
+05 8701220015 ROAD TRACTORS FOR SEMI-TRAILERS, COMPRESSION IGNITION ENGINE AND ELECTRIC MOTOR, NEW, G.V.W. NOT EXCEEDING 36,287 KG (80,000 POUNDS)                   
+05 8701220045 ROAD TRACTORS FOR SEMI-TRAILERS, COMPRESSION IGNITION ENGINE AND ELECTRIC MOTOR, NEW, G.V.W. EXCEEDING 36,287 KG (80,000 POUNDS)                       
+05 8701220080 ROAD TRACTORS FOR SEMI-TRAILERS, COMPRESSION IGNITION ENGINE AND ELECTRIC MOTOR, USED                                                                  
+05 8701230015 ROAD TRACTORS FOR SEMI-TRAILERS, SPARK IGNITION ENGINE AND ELECTRIC MOTOR, NEW, G.V.W. NOT EXCEEDING 36,287 KG (80,000 POUNDS)                         
+05 8701230045 ROAD TRACTORS FOR SEMI-TRAILERS, SPARK IGNITION ENGINE AND ELECTRIC MOTOR, NEW, G.V.W. EXCEEDING 36,287 KG (80,000 POUNDS)                             
+05 8701230080 ROAD TRACTORS FOR SEMI-TRAILERS, SPARK IGNITION ENGINE AND ELECTRIC MOTOR, USED                                                                        
+05 8701240015 ROAD TRACTORS FOR SEMI-TRAILERS, NEW, ELECTRIC MOTOR, G.V.W. NOT EXCEEDING 36,287 KG (80,000 POUNDS)                                                   
+05 8701240045 ROAD TRACTORS FOR SEMI-TRAILERS, NEW, ELECTRIC MOTOR, G.V.W. EXCEEDING 36,287 KG (80,000 POUNDS)                                                       
+05 8701240080 ROAD TRACTORS FOR SEMI-TRAILERS, ELECTRIC MOTOR, USED                                                                                                  
+05 8703600005 PASSENGER MOTOR VEHICLES, OF A CYLINDER CAPACITY NOT EXCEEDING 1000 CC, WITH SPARK-IGNITION INTERNAL COMB RECIP PISTON ENG/ELECTRIC,CHRG BY PLUG NESOI 
+05 8703600010 PASS MOTOR VEHICLES WITH SPARK IGNITION INTERNAL COMBUSTION RECIPROCATING PISTON ENGINE AND ELECTRIC MOTOR WITH PLUG, EXCEEDING 1000 CC BUT NOT 1500CC 
+05 8703600015 MOTOR HOMES WITH SPARK-IGNITION INTERNAL COMBUSTION RECIPROCATING PISTON ENGINE AND ELETRIC MOTOR (W.PLUG), EXCEEDING 1500 CC BUT NOT 3000 CC          
+05 8703600020 PASSENGER MOTOR VEHICLES, NESOI, WITH SPARK IGN INT COMB PIST ENG/ELECTRIC CAP OF CHRGE BY PLUG WITH CYL CAP OV 1500 N/O 3000 CC, 4 CYL & UNDR         
+05 8703600030 PASSENGER MOTOR VEHICES WITH SPARK IGN INT COMB PIST ENG/ELECTRIC, CAPABLE OF CHARGE WITH PLUG, WITH CYL CAP OV 1500 N/O 3000 CC, >4 CYL<6 CYL,        
+05 8703600040 PASSENGER MOTOR VEHICLES WITH SPARK IGN INT COMB PIST ENG/ELECTRIC NOT CAPABLE OF CHARGE WITH PLUG WITH CYL CAP GT 1500 N/0 3000 CC, GT 6 CYL,NEW      
+05 8703600045 USED VHCLS, WITH SPARK-IGNITION INT COMBT RECIPROCATING PISTON ENGINE AND ELECTRIC MOTORS (W/ PLUG), EXCEEDING 1500 CC BUT NOT 3000 CC, NESOI          
+05 8703600050 AMBULANCES, HEARSES AND PRISON VANS WITH SPARK INGNITION INTERNAL COMBUSTION PISTON ENGINE AND ELECTRIC MOTOR (WITH PLUG), EXCEEDING 3,000 CC          
+05 8703600055 MOTOR HOMES WITH SPARK IGNITION INTERNAL COMBUSTION PISTON ENGINE AND ELECTRIC MOTOR (WITH PLUG), EXCEEDING 3,000 CC                                   
+05 8703600060 PASSENGER MOTOR VEHICLES WITH SPARK IGN INT COMB PIST ENG/ELECTRIC, CAPABLE OF CHARGE WITH PLUG, WITH CYL CAPACITY OV 3000 CC, 4 CYLINDERS AND UNDE    
+05 8703600070 PASSENGER MOTOR VEHICLES WITH SPARK IGN INT COMB PISTON ENGINE/ELECTRIC, CAPABLE OF CHRGE W PLUG WITH CYL CAPACITY >3000 CC,>4<6 CYL,NEW               
+05 8703600080 PASSENGER MOTOR VEHICLES WITH SPARK IGNITION INTERNAL COMBUSTION PISTON ENGINE/ELECTRIC, CAPABLE OF CHARGE W PLUG WITH CYL CAP>3000 CC,>6 CYL,NEW      
+05 8703600090 PASSENGER MOTOR VEHICLES WITH SPARK IGNITION INTERNAL COMBUSTION PISTON ENGINE AND ELECTRIC MOTOR (WITH PLUG), OVER 3000 CC, USED                      
+05 8703700010 PASSENGER MOTOR VEHICLES WITH COMPRESSION-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL) AND ELECTRIC MOTOR (WITH PLUG), NOT EXCEEDING 1,500 CC   
+05 8703700030 PASSENGER MOTOR VEHICLES WITH COMPRESSION-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL) AND ELECTRIC MOTOR (WITH PLUG), GT 1500 CC LT=25OO       
+05 8703700050 PASS MOTOR VEHICLES WITH COMPRESSION-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL) AND ELECTRIC MOTOR (WITH PLUG), OV 1500 CC BUT NOT 2500C,USED 
+05 8703700060 AMBULANCES, HEARSES AND PRISON VANS WITH COMPRESSION-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL) AND ELECTRIC MOTOR OF A CYLINDER CAPACITY EXC 
+05 8703700065 MOTOR HOMES WITH COMPRESSION-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL) AND ELECTRIC MOTOR OF A CYLINDER CAPACITY OVER 2500 CC                
+05 8703700070 PASSENGER MOTOR VEHICLES WITH COMPRESSION-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL) AND ELECTRIC MOTORS OF A CYLINDER CAPACITY EXCEEDING 2,5 
+05 8703700090 PASSENGER MOTOR VEHICLES WITH COMPRESSION-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL) AND ELECTRIC MOTOR OF A CYLINDER CAPACITY EXCEEDING 2,50 
+05 8703800000 PASSENGER MOTOR VEHICLES WITH ONLY ELECTRIC MOTORS, NESOI                                                                                              
+05 8704410000 TRUCKS GVW NOT OVER 5 METRIC TONS, W BOTH COMPRESSION-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL OR SEMI-DIESEL) AND ELECTR MOTOR FOR PROPULS  
+05 8704420020 TRUCKS GVW 5-9 METRIC TONS, W BOTH COMPRESSION-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL OR SEMI-DIESEL) AND ELECTR MOTOR FOR PROPULS         
+05 8704420040 TRUCKS GVW 9-12 METRIC TONS, W BOTH COMPRESSION-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL OR SEMI-DIESEL) AND ELECTR MOTOR FOR PROPULS        
+05 8704420060 TRUCKS GVW 12-15 METRIC TONS, W BOTH COMPRESSION-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL OR SEMI-DIESEL) AND ELECTR MOTOR FOR PROPULS       
+05 8704420080 TRUCKS GVW 15-20 METRIC TONS, W BOTH COMPRESSION-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL OR SEMI-DIESEL) AND ELECTR MOTOR FOR PROPULS       
+05 8704430000 TRUCKS GVW OVER 20 METRIC TONS, W BOTH COMPRESSION-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL OR SEMI-DIESEL) AND ELECTR MOTOR FOR PROPULSION  
+05 8704510020 TRUCKS GVW NOT OVER 2.5 METRIC TONS, W BOTH SPARK-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL OR SEMI-DIESEL) AND ELECTR MOTOR FOR PROPULS      
+05 8704510040 TRUCKS GVW 2.5-5 METRIC TONS, W BOTH SPARK-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL OR SEMI-DIESEL) AND ELECTR MOTOR FOR PROPULS             
+05 8704520010 TRUCKS GVW 5-9 METRIC TONS, W BOTH SPARK-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL OR SEMI-DIESEL) AND ELECTR MOTOR FOR PROPULS               
+05 8704520020 TRUCKS GVW 9-12 METRIC TONS, W BOTH SPARK-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL OR SEMI-DIESEL) AND ELECTR MOTOR FOR PROPULS              
+05 8704520030 TRUCKS GVW 12-15 METRIC TONS, W BOTH SPARK-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL OR SEMI-DIESEL) AND ELECTR MOTOR FOR PROPULS             
+05 8704520040 TRUCKS GVW 15-20 METRIC TONS, W BOTH SPARK-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL OR SEMI-DIESEL) AND ELECTR MOTOR FOR PROPULS             
+05 8704520050 TRUCKS GVW OVER 20 METRIC TONS, W BOTH SPARK-IGNITION INTERNAL COMBUSTION PISTON ENGINE (DIESEL OR SEMI-DIESEL) AND ELECTR MOTOR FOR PROPULSION        
+05 8704600000 TRUCKS/MOTOR VEHICLES FOR THE TRANSPORT OF GOODS, WITH ONLY ELECTRIC MOTOR FOR PROPULSION, NESOI                                                       
+05 9018197500 PRINTED CIRCUIT ASSEMBLIES FOR PARAMETER ACQUISITION MODULES                                                                                           
+05 9032896020 CONTROL INSTRUMENTS FOR AIR CONDITIONING, REFRIGERATION OR HEATING SYSTEMS                                                                             
+06 8427108060 AUTOMATED GUIDED VEHICLES (AGV) FITTED WITH LIFTING OR HANDLING EQUIPMENT                                                                              
+06 8428700000 INDUSTRIAL ROBOTS FOR LIFTING, HANDLING, LOADING OR UNLOADING, NESOI                                                                                   
+06 8456200000 MACHINE TOOLS FOR WORKING ANY MATERIAL BY REMOVAL OF MATERIAL BY ULTRASONIC PROCESSES                                                                  
+06 8456300000 MACHINE TOOLS FOR WORKING ANY MATERIAL BY REMOVAL OF MATERIAL BY ELECTRO-DISCHARGE PROCESSES                                                           
+06 8456401000 MACHINE TOOLS FOR WORKING METAL BY PLASMA ARC PROCESSES, NESOI                                                                                         
+06 8456409000 MACHINE TOOLS FOR WORKING ANY MATERIAL EXCEPT METAL, BY REMOVAL OF MATERIAL BY PLASMA ARC PROCESSES, NESOI                                             
+06 8456500000 MACHINE TOOLS FOR WORKING ANY MATERIAL EXCEPT METAL, BY REMOVAL OF MATERIAL BY WATER-JET CUTTING, NESOI                                                
+06 8456903100 MACHINE TOOLS FOR WORKING METAL BY ELECTRO-CHEMICAL, ELECTRON-BEAM, IONIC-BEAM, OR PLASMA ARC PROCESSES, NESOI                                         
+06 8456907100 MACHINE TOOLS FOR WORKING ANY MATERIAL EXCEPT METAL, BY REMOVAL OF MATERIAL BY ELECTRON-BEAM, IONIC-BEAM OR PLASMA ARC PROCESSES, NESOI                
+06 8457100015 MACHINING CENTERS, WITH AUTOMATIC TOOL CHANGERS, VERTICAL-SPINDLE MACHINES WITH A Y-AXIS TRAVEL OF NOT OVER 660 MM, NEW                                
+06 8457100025 MACHINING CENTERS, WITH AUTOMATIC TOOL CHANGERS, VERTICAL-SPINDLE MACHINES WITH A Y-AXIS TRAVEL OF OVER 660 MM, NEW                                    
+06 8457100036 HORIZONTAL MACHINING CENTERS, WITH AUTOMATIC TOOL CHANGERS                                                                                             
+06 8457100039 MACHINING CENTERS, WITH AUTOMATIC TOOL CHANGERS, NESOI                                                                                                 
+06 8457200010 UNIT CONSTRUCTION MACHINES (SINGLE STATION), NUMERICALLY CONTROLLED                                                                                    
+06 8457300010 MULTISTATION TRANSFER MACHINES, NUMERICALLY CONTROLLED                                                                                                 
+06 8458110010 HORIZONTAL LATHES, MULTIPLE SPINDLE, METAL REMOVING, NUMERICALLY CONTROLLED, NEW                                                                       
+06 8458110030 HORIZONTAL LATHES,EXCEPT MULTIPLE SPINDLE,METAL REMOVING,WITH A POWER RATING OF LESS THAN 18.65 KW, NUMERICALLY CONTROLLED, NEW                        
+06 8458110050 HORIZONTAL LATHES, EXCEPT MULTIPLE SPINDLE, METAL REMOVING, WITH A POWER RATING OF 18.65 KW OR GREATER BUT NOT EXCEEDING 37.3 KW, N/C, NEW             
+06 8458110090 HORIZONTAL LATHES, EXCEPT MULTIPLE SPINDLE, METAL REMOVING, WITH A POWER RATING EXCEEDING 37.3 KW, NUMERICALLY CONTROLLED, NEW                         
+06 8458911060 VERTICAL TURRET LATHES, METAL REMOVING, NUMERICALLY CONTROLLED, MULTIPLE SPINDLE, NEW                                                                  
+06 8458911080 VERTICAL TURRET LATHES, METAL REMOVING, NUMERICALLY CONTROLLED, EXCEPT MULTIPLE SPINDLE, NEW                                                           
+06 8458915050 LATHES FOR REMOVING METAL, NUMERICALLY CONTROLLED, MULTIPLE SPINDLE, NEW, NESOI                                                                        
+06 8458915070 LATHES FOR REMOVING METAL, NUMERICALLY CONTROLLED, EXCEPT MULTIPLE SPINDLE, NEW, NESOI                                                                 
+06 8459100000 WAY-TYPE UNIT HEAD MACHINES                                                                                                                            
+06 8459210080 DRILLING MACHINES, METAL REMOVING, NUMERICALLY CONTROLLED, NEW                                                                                         
+06 8459310010 COMBINATION BORING-MILLING MACHINES,HORIZONTAL SPINDLE,TABLE TYPE,METAL REMOVING,NUMERICALLY CONTROLLED,NEW                                            
+06 8459310040 COMBINATION BORING-MILLING MACHINES,HORIZONTAL SPINDLE,EXCEPT TABLE TYPE,METAL REMOVING,NUMERICALLY CONTROLLED,NEW                                     
+06 8459310070 COMBINATION BORING-MILLING MACHINES,EXCEPT HORIZONTAL SPINDLE,METAL REMOVING,NUMERICALLY CONTROLLED,NEW,NESOI                                          
+06 8459410010 OTHER BORING MACHINES, NUMERICALLY CONTROLLED METAL REMOVING, USED OR REBUILT                                                                          
+06 8459410020 OTHER BORING MACHINES, NUMERICALLY CONTROLLED, METAL REMOVING, VALUED UNDER $3,025 EACH, NEW                                                           
+06 8459410030 BORING MACHINES,VERTICAL,METAL REMOVING,NUMERICALLY CONTROLLED,VALUED $3,025 AND OVER EACH,NEW                                                         
+06 8459410090 BORING MACHINES,EXCEPT VERTICAL,METAL REMOVING,NUMERICALLY CONTROLLED,VALUED $3,025 AND OVER EACH,NEW                                                  
+06 8459510080 MILLING MACHINES,KNEE TYPE, METAL REMOVING,NUMERICALLY CONTROLLED,NEW                                                                                  
+06 8459610080 MILLING MACHINES, EXCEPT KNEE TYPE, METAL REMOVING, NUMERICALLY CONTROLLED, NEW                                                                        
+06 8459704000 THREADING OR TAPPING MACHINES, METAL REMOVING, NUMERICALLY CONTROLLED                                                                                  
+06 8460120040 FLAT-SURFACE GRINDING MACHINES, NUMERICALLY CONTROLLED, USED OR REBUILT                                                                                
+06 8460120080 FLAT-SURFACE GRINDING MACHINES, NUMERICALLY CONTROLLED, NEW                                                                                            
+06 8460220040 CENTERLESS GRINDING MACHINES, NUMBERICALLY CONTROLLED, USED OR REBUILT                                                                                 
+06 8460220080 CENTERLESS GRINDING MACHINES, NUMERICALLY CONTROLLED,NEW                                                                                               
+06 8460230040 OTHER CYLINDRICAL GRINDING MACHINES, NUMERICALLY CONTROLLED, USED OR REBUILT                                                                           
+06 8460230080 OTHER CYLINDRICAL GRINDING MACHINES, NUMERICALLY CONTROLLED, NEW                                                                                       
+06 8460240040 GRINDING MACHINES EXCEPT FLAT SURFACE, METAL REMOVING, NUMERICALLY CONTROLLED, USED OR REBUILT, NESOI                                                  
+06 8460240080 GRINDING MACHINES EXCEPT FLAT SURFACE, METAL REMOVING, NUMERICALLY CONTROLLED, NEW, NESOI                                                              
+06 8460310080 SHARPENING (TOOL OR CUTTER GRINDING) MACHINES, METAL REMOVING, NUMERICALLY CONTROLLED, NEW                                                             
+06 8460400060 HONING OR LAPPING MACHINES, METAL REMOVING, NUMERICALLY CONTROLLED, VALUED OVER $2,500 EACH, NEW                                                       
+06 8460900060 MACHINE TOOLS FOR FINISHING METAL BY REMOVING METAL USING GRINDING STONES, ABRASIVES OR POLISHING PRODUCTS, NESOI, N/C, VALUED $2,500 & OVER EACH, NEW 
+06 8461204000 SHAPING OR SLOTTING MACHINES, METAL REMOVING, NUMERICALLY CONTROLLED                                                                                   
+06 8461300060 BROACHING MACHINES, METAL REMOVING, NUMERICALLY CONTROLLED, VALUED   $2,500 AND OVER EACH, NEW                                                         
+06 8461500050 SAWING OR CUTTING-OFF MACHINES, METAL REMOVING, NUMERICALLY CONTROLLED, VALUED $2,500 AND OVER, NEW                                                    
+06 8461903040 PLANING MACHINES,METAL REMOVING,NUMERICALLY CONTROLLED,VALUED $3,025 AND OVER EACH,NEW                                                                 
+06 8461903080 MACHINE TOOLS WORKING BY REMOVING METAL,NUMERICALLY CONTROLLED,VALUED $3,025 AND OVER,NEW,NESOI                                                        
+06 8462230010 PRESS BRAKES, METAL FORMING, NUMERICALLY CONTROLLED, USED OR REBUILT                                                                                   
+06 8462230060 PRESS BRAKES, METAL FORMING, NUMERICALLY CONTROLLED, NEW, NESOI                                                                                        
+06 8462240010 PANEL BENDERS, METAL FORMING, NUMERICALLY CONTROLLED, USED OR REBUILT                                                                                  
+06 8462240060 PANEL BENDERS, METAL FORMING, NUMERICALLY CONTROLLED, NEW,NESOI                                                                                        
+06 8462250010 ROLL FORMING MACHINES, NUMERICALLY CONTROLLED, USED OR REBUILT                                                                                         
+06 8462250060 ROLL FORMING MACHINES, NUMERICALLY CONTROLLED, NEW, NESOI                                                                                              
+06 8462260010 BENDING, FOLDING, STRAIGHTENING OR FLATTENING MACHINES (INCLUDING PRESSES), METAL FORMING, NUMERICALLY CONTROLLED, USED OR REBUILT, NESOI              
+06 8462260060 BENDING, FOLDING, STRAIGHTENING OR FLATTENING MACHINES (INCLUDING PRESSES), METAL FORMING, NUMERICALLY CONTROLLED, NEW, NESOI                          
+06 8462321080 SITTING LINES AND CUT TO LENGTH LINES, NUMERICALLY CONTROLLED, NEW                                                                                     
+06 8462330080 SHEARING MACHINES (INC PRESSES), OTHER THAN COMBINED PUNCHING & SHEARING MACHINES, METAL FORMING, NUMERICALLY CONTROLLED, NEW                          
+06 8462420080 PUNCHING OR NOTCHING MACHINES (INC PRESSES), INCLUDING COMBINED PUNCHING AND SHEARING MACHINES, METAL REMOVING, NUMERICALLY CONTROLLED, NEW            
+06 8462510080 MACHINES FOR WORKING TUBE, PIPE, HOLLOW SECTION AND BAR, EXCLUDING PRESSES, NUMERICALLY CONTROLLED, NEW                                                
+06 8462610060 HYDRAULIC PRESSES, METAL FORMING, NUMERICALLY CONTROLLED, NEW                                                                                          
+06 8462620030 MECHANICAL PRESSES, METAL FORMING, NUMERICALLY CONTROLLED, NEW                                                                                         
+06 8462630030 SERVO-PRESSES, METAL FORMING, NUMERICALLY CONTROLLED, NEW                                                                                              
+06 8462690030 COLD METAL WORKING PRESSES, NEW, NUMERICALLY CONTROLLED, NESOI                                                                                         
+06 8462900030 MACHINE TOOLS (INCLUDING PRESSES) WORKING BY FORMING METAL, NESOI, N UMERICALLY CONTROLLED, VALUED $2,500 AND OVER, NEW                                
+06 8465100025 WOODWORKING TENONERS,NUMERICALLY CONTROLLED,NEW                                                                                                        
+06 8479500000 INDUSTRIAL ROBOTS, NESOI                                                                                                                               
+06 8479909640 PARTS OF INDUSTRIAL ROBOTS, NESOI                                                                                                                      
+06 8480714000 INJECTION OR COMPRESSION TYPE MOLDS FOR RUBBER OR PLASTICS, FOR THE MANUFACTURE OF SEMICONDUCTOR DEVICES                                               
+06 8486100000 MACHINES AND APPARATUS FOR THE MANUFACTURE OF BOULES OR WAFERS                                                                                         
+06 8486200000 MACHINES AND APPARATUS FOR THE MANUFACTURE OF SEMICONDUCTOR DEVICES OR OF ELECTRONIC INTEGRATED CIRCUITS                                               
+06 8486400010 MACHINES AND APPARATUS FOR THE MANUFACTURE OR REPAIR OF MASKS AND RETICLES                                                                             
+06 8486400020 MACHINES AND APPARATUS FOR ASSEMBLING SEMICONDUCTOR DEVICES OR ELECTRONIC INTEGRATED CIRCUITS                                                          
+06 8486400030 MACH & APPS FOR LIFTING, HANDLING, LOADING/UNLOADING OF BOULES, WAFERS, SEMICONDUCTOR DEVICES, ELECTRONIC INTEGRATED CIRCUITS & FLAT PANEL DISPLAYS    
+06 8515210000 MACHINES AND APPARATUS FOR RESISTANCE WELDING OF METAL, FULLY OR PARTLY AUTOMATIC                                                                      
+06 8515310000 MACHINES AND APPARATUS FOR ARC (INCLUDING PLASMA ARC) WELDING OF METALS, FULLY OR PARTLY AUTOMATIC                                                     
+06 8543702000 PHYSICAL VAPOR DEPOSITION (PVD) APPARATUS, NESOI                                                                                                       
+06 9030201500 OSCILLOSCOPES AND OSCILLOGRAPHS                                                                                                                        
+06 9030310000 MULTIMETERS WITHOUT A RECORDING DEVICE                                                                                                                 
+06 9030320000 MULTIMETERS, WITH A RECORDING DEVICE                                                                                                                   
+06 9030330040 APPARATUS TO TEST VOLTAGE, CURRENT OR RESISTANCE WITHOUT A RECORDING DEVICE                                                                            
+06 9030330080 INSTRUMENTS AND APPARATUS FOR MEASURING OR CHECKING POWER, WITHOUT A RECORDING DEVICE, NESOI                                                           
+06 9030400000 INSTRUMENTS AND APPARATUS, SPECIALLY DESIGNED FOR TELECOMMUNICATIONS (FOR EXAMPLE, CROSS-TALK METERS, GAIN MEASURING INSTRUMENTS ETC), NESOI           
+06 9030820000 INSTRUMENTS AND APPARATUS FOR MEASURING OR CHECKING SEMICONDUCTOR WAFERS AND DEVICES                                                                   
+06 9031808060 EQUIPMENT FOR TESTING ELECTRICAL CHARACTERISTICS OF INTERNAL COMBUSTION ENGINES                                                                        
+06 9032100000 THERMOSTATS                                                                                                                                            
+06 9032810040 HYDRAULIC OR PNEUMATIC INDUSTRIAL PROCESS CONTROL INSTRUMENTS AND APPARATUS                                                                            
+06 9032810080 HYDRAULIC AND PNEUMATIC INSTRUMENTS AND APPARATUS EXCEPT INDUSTRIAL PROCESS CONTROL                                                                    
+06 9032893000 AUTOMATIC VOLTAGE AND VOLTAGE-CURRENT REGULATORS                                                                                                       
+06 9032896030 PROCESS CONTROL INSTRUMENTS AND APPARATUS FOR COMPLETE SYSTEMS                                                                                         
+06 9032896040 PROCESS CONTROL INSTRUMENTS AND APPARATUS FOR TEMPERATURE CONTROL                                                                                      
+06 9032896050 PROCESS CONTROL INSTRUMENTS AND APPARATUS FOR PRESSURE DRAFT CONTROL                                                                                   
+06 9032896060 PROCESS CONTROL INSTRUMENTS AND APPARATUS FOR FLOW AND LIQUID LEVEL CONTROL                                                                            
+06 9032896070 PROCESS CONTROL INSTRUMENTS AND APPARATUS FOR HUMIDITY CONTROL                                                                                         
+06 9032896075 PROCESS CONTROL INSTRUMENTS AND APPARATUS, NESOI                                                                                                       
+07 3818000000 CHEMICAL ELEMENTS DOPED FOR USE IN ELECTRONICS, IN THE FORM OF DISCS  WAFERS OR SIMILAR FORMS; CHEMICAL COMPOUNDS DOPED FOR USE IN ELECTRONICS         
+07 8544700000 INSULATED OPTICAL FIBER CABLES WITH INDIVIDUALLY SHEATHED FIBERS                                                                                       
+07 9001100000 OPTICAL FIBERS, OPTICAL FIBER BUNDLES AND CABLES EXCEPT HEADING 8544                                                                                   
+08 8411114010 TURBOJET AIRCRAFT TURBINES (ENGINES) FOR USE IN CIVIL AIRCRAFT, OF A THRUST NOT EXCEEDING 25 KN                                                        
+08 8411114050 TURBOJET AIRCRAFT TURBINES (ENGINES) OTHER THAN FOR CIVIL AIRCRAFT, OF A THRUST NOT EXCEEDING 25 KN                                                    
+08 8411124010 TURBOJET AIRCRAFT TURBINES (ENGINES) FOR USE IN CIVIL AIRCRAFT, OF A THRUST EXCEEDING 25 KN                                                            
+08 8411124050 TURBOJET AIRCRAFT TURBINES (ENGINES) OTHER THAN FOR CIVIL AIRCRAFT, OF A THRUST EXCEEDING 25 KN                                                        
+08 8411214010 TURBOPROPELLER AIRCRAFT TURBINES (ENGINES) FOR USE IN CIVIL AIRCRAFT, OF A POWER NOT EXCEEDING 1100 KW                                                 
+08 8411214050 TURBOPROPELLER AIRCRAFT TURBINES (ENGINES) OTHER THAN FOR CIVIL AIRCRAFT, OF A POWER NOT EXCEEDING 1100 KW                                             
+08 8411224010 TURBOPROPELLER AIRCRAFT TURBINES (ENGINES) FOR USE IN CIVIL AIRCRAFT, OF A POWER EXCEEDING 1100 KW                                                     
+08 8411224050 TURBOPROPELLER AIRCRAFT TURBINES (ENGINES) OTHER THAN FOR USE IN CIVIL AIRCRAFT, OF A POWER EXCEEDING 1100 KW                                          
+08 8411814010 AIRCRAFT TURBINES (ENGINES) FOR USE IN CIVIL AIRCRAFT, OF A POWER NOT EXCEEDING 5000 KW                                                                
+08 8411814050 AIRCRAFT TURBINES (ENGINES), EXCEPT FOR USE IN CIVIL AIRCRAFT, OF A POWER NOT EXCEEDING 5000 KW                                                        
+08 8411824010 AIRCRAFT TURBINES (ENGINES) FOR USE IN CIVIL AIRCRAFT, OF A POWER EXCEEDING 5000 KW                                                                    
+08 8411824050 AIRCRAFT TURBINES (ENGINES), EXCEPT FOR USE IN CIVIL AIRCRAFT, OF A POWER EXCEEDING 5000 KW                                                            
+08 8411917010 PARTS OF TURBOJETS AND TURBOPROPELLER AIRCRAFT ENGINES FOR USE IN CIVIL AIRCRAFT                                                                       
+08 8411917050 PARTS OF TURBOJET AND TURBOPROPELLER AIRCRAFT ENGINES, OTHER THAN FOR USE IN CIVIL AIRCRAFT                                                            
+08 8411997010 PARTS OF GAS TURBINE AIRCRAFT ENGINES FOR USE IN CIVIL AIRCRAFT                                                                                        
+08 8411997050 PARTS OF GAS TURBINE AIRCRAFT ENGINES, OTHER THAN FOR USE IN CIVIL AIRCRAFT                                                                            
+08 8412100010 MISSILE AND ROCKET REACTION ENGINES                                                                                                                    
+08 8800000000 CIVILIAN AIRCRAFT, ENGINES, EQUIPMENT, AND PARTS                                                                                                       
+08 8802110115 NEW HELICOPTERS, MILITARY, OF AN UNLADEN WEIGHT NOT EXCEEDING 2,000 KG                                                                                 
+08 8802110130 NEW HELICOPTERS, NON-MILITARY, OF AN UNLADEN WEIGHT NOT EXCEEDING 998 KG                                                                               
+08 8802110145 NEW HELICOPTERS, NON-MILITARY, OF AN UNLADEN WEIGHT EXCEEDING 998 KG BUT NOT EXCEEDING 2000 KG                                                         
+08 8802120120 NEW HELICOPTERS, MILITARY, OF AN UNLADEN WEIGHT EXCEEDING 2,000 KG                                                                                     
+08 8802120140 NEW HELICOPTERS, NON-MILITARY, OF AN UNLADEN WEIGHT EXCEEDING 2,000 KG                                                                                 
+08 8802200120 NEW AIRPLANES, MILITARY, OF AN UNLADEN WEIGHT EXCEEDING 450 KG BUT NOT EXCEEDING 2,000 KG                                                              
+08 8802200130 NEW MILITARY AIRCRAFT, OF AN UNLADEN WEIGHT EXCEEDING 450 KG BUT NOT EXCEEDING 2,000 KG, NESOI                                                         
+08 8802200140 NEW SINGLE ENGINE AIRPLANES, NON-MILITARY, OF AN UNLADEN WEIGHT EXCEEDING 450 KG BUT NOT EXCEEDING 2,000 KG                                            
+08 8802200150 NEW MULTIPLE ENGINE AIRPLANES, NON-MILITARY, OF AN UNLADEN WEIGHT EXCEEDING 450 KG BUT NOT EXCEEDING 2,000 KG                                          
+08 8802200160 NEW AIRCRAFT, NON-MILITARY, OF AN UNLADEN WEIGHT EXCEEDING 450 KG BUT NOT EXCEEDING 2,000 KG, NESOI                                                    
+08 8802300110 NEW MILITARY AIRCRAFT FIGHTERS, OF AN UNLADEN WEIGHT EXCEEDING 2,000 KG BUT NOT EXCEEDING 15,000 KG                                                    
+08 8802300120 NEW MILITARY AIRCRAFT, EXCLUDING FIGHTERS, OF AN UNLADEN WEIGHT EXCEEDING 2,000 KG BUT NOT EXCEEDING 15,000 KG                                         
+08 8802300130 NEW MULTIPLE ENGINE AIRPLANES, NON-MILITARY, OF AN UNLADEN WEIGHT EXCEEDING 2,000 KG BUT NOT EXCEEDING 4,536 KG                                        
+08 8802300140 NEW TURBOFAN POWERED AIRPLANES, NON-MILITARY, OF AN UNLADEN WEIGHT EXCEEDING 4,536 KG BUT NOT EXCEEDING 15,000 KG                                      
+08 8802300150 NEW MULTIPLE ENGINE AIRPLANES, NON-MILITARY, EXCLUDING TURBOFAN POWERED, OF AN UNLADEN WEIGHT EXCEEDING 4,536 KG BUT NOT EXCEEDING 15,000 KG           
+08 8802300160 NEW AIRPLANES, OTHER THAN MULTIPLE ENGINES, NON-MILITARY, OF AN UNLADEN WEIGHT EXCEEDING 2,000 KG BUT NOT EXCEEDING 15,000 KG                          
+08 8802400115 NEW MILITARY AIRCRAFT FIGHTERS, OF AN UNLADEN WEIGHT EXCEEDING 15,000 KG                                                                               
+08 8802400120 NEW MILITARY CARGO TRANSPORT AIRCRAFT, OF AN UNLADEN WEIGHT EXCEEDING 15,000 KG                                                                        
+08 8802400130 NEW MILITARY AIRCRAFT,OTHER THAN FIGHTERS AND CARGO TRANSPORTS, OF AN UNLADEN WEIGHT EXCEEDING 15,000 KG                                               
+08 8802400140 NEW AIRCRAFT,PASSENGER TRANSPORTS, NON-MILITARY, OF AN UNLADEN WEIGHT EXCEEDING 15,000 KG                                                              
+08 8802400160 NEW AIRCRAFT,CARGO TRANSPORTS, NON-MILITARY, OF AN UNLADEN WEIGHT EXCEEDING 15,000 KG                                                                  
+08 8802400170 NEW AIRCRAFT, NON-MILITARY, NESOI (INCLUDING PASSENGER/CARGO COMBINATIONS), OF AN UNLADEN WEIGHT EXCEEDING 15,000 KG                                   
+08 8802609020 MILITARY SPACECRAFT AND SUBORBITAL AND SPACECRAFT LAUNCH VEHICLES (EXCLUDING COMMUNICATION SATELLITES)                                                 
+08 8802609040 NON-MILITARY SPACECRAFT AND SUBORBITAL AND SPACECRAFT LAUNCH VEHICLES (EXCLUDING COMMUNICATIONS SATELLITES)                                            
+08 8805210000 AIR COMBAT SIMULATORS AND PARTS THEREOF                                                                                                                
+08 8805290000 GROUND FLYING TRAINERS AND PARTS THEREOF, NESOI                                                                                                        
+08 8806100000 UNMANNED AIRCRAFT DESIGNED FOR THE CARRIAGE OF PASSENGERS                                                                                              
+08 8806210000 UNMANNED AIRCRAFT FOR REMOTE-CONTROLLED FLIGHT ONLY, WITH MAXIMUM TAKE-OFF WEIGHT NOT MORE THAN 250 G                                                  
+08 8806220000 UNMANNED AIRCRAFT FOR REMOTE-CONTROLLED FLIGHT ONLY, WITH MAXIMUM TAKE-OFF WEIGHT MORE THAN 250 G BUT NOT MORE THAN 7 KG                               
+08 8806230000 UNMANNED AIRCRAFT FOR REMOTE-CONTROLLED FLIGHT ONLY, WITH MAXIMUM TAKE-OFF WEIGHT MORE THAN 7 KG BUT NOT MORE THAN 25 KG                               
+08 8806240000 UNMANNED AIRCRAFT FOR REMOTE-CONTROLLED FLIGHT ONLY, WITH MAXIMUM TAKE-OFF WEIGHT MORE THAN 25 KG BUT NOT MORE THAN 150 KG                             
+08 8806290000 UNMANNED AIRCRAFT FOR REMOTE-CONTROLLED FLIGHT ONLY, WITH MAXIMUM TAKE-OFF WEIGHT MORE THAN 150 KG                                                     
+08 8806910000 UNMANNED AIRCRAFT WITH MAXIMUM TAKE-OFF WEIGHT NOT MORE THAN 250 G, NESOI                                                                              
+08 8806920000 UNMANNED AIRCRAFT WITH MAXIMUM TAKE-OFF WEIGHT MORE THAN 250 G BUT NOT MORE THAN 7 KG, NESOI                                                           
+08 8806930000 UNMANNED AIRCRAFT WITH MAXIMUM TAKE-OFF WEIGHT MORE THAN 7 KG BUT NOT MORE THAN 25 KG, NESOI                                                           
+08 8806940000 UNMANNED AIRCRAFT WITH MAXIMUM TAKE-OFF WEIGHT MORE THAN 25 KG BUT NOT MORE THAN 150 KG, NESOI                                                         
+08 8806990000 UNMANNED AIRCRAFT WITH MAXIMUM TAKE-OFF WEIGHT MORE THAN 150 KG, NESOI                                                                                 
+08 8807100010 PROPELLERS AND ROTORS AND PARTS THEREOF FOR USE IN CIVIL AIRCRAFT                                                                                      
+08 8807100060 PROPELLERS AND ROTORS AND PARTS THEREOF, FOR USE IN MILITARY AIRCRAFT                                                                                  
+08 8807200010 UNDERCARRIAGES AND PARTS THEREOF FOR USE IN CIVIL AIRCRAFT (INCLUDING NON-POWERED AIRCRAFT)                                                            
+08 8807200060 UNDERCARRIAGES AND PARTS THEREOF, FOR USE IN MILITARY AIRCRAFT                                                                                         
+08 8807300010 OTHER PARTS OF AIRPLANES OR HELICOPTERS FOR USE IN CIVIL AIRCRAFT (EXCLUDES PROPELLERS, ROTORS, UNDERCARRIAGES, AND PARTS THEREOF)                     
+08 8807300060 OTHER PARTS OF AIRPLANES OR HELICOPTERS FOR USE IN MILITARY AIRCRAFT (EXCLUDES PROPELLERS, ROTORS, UNDERCARRIAGES, AND PARTS THEREOF)                  
+08 9014107040 GYROSCOPIC COMPASSES, ELECTRICAL FOR USE IN CIVIL AIRCRAFT                                                                                             
+08 9014107080 GYROSCOPIC COMPASSES, ELECTRICAL, EXCEPT FOR USE IN CIVIL AIRCRAFT                                                                                     
+08 9014204000 AUTOMATIC PILOTS FOR AERONAUTICAL OR SPACE NAVIGATION                                                                                                  
+08 9014206000 ELECTRICAL INSTRUMENTS AND APPLIANCES FOR AERONAUTICAL OR SPACE NAVIGATION (OTHER THAN COMPASSES), NESOI                                               
+08 9014208040 INSTRUMENTS AND APPLIANCES FOR USE IN CIVIL AIRCRAFT                                                                                                   
+08 9014208080 INSTRUMENTS AND APPLIANCES FOR AERONAUTICAL OR SPACE NAVIGATION (OTHER THAN COMPASSES), NESOI                                                          
+08 9027504050 PHOTOMETERS                                                                                                                                            
+09 9005100020 PRISM BINOCULARS FOR USE WITH INFRARED LIGHT                                                                                                           
+09 9005804020 OPTICAL TELESCOPES FOR USE WITH INFRARED LIGHT                                                                                                         
+09 9005804040 OPTICAL TELESCOPES EXCEPT FOR USE WITH INFRARED LIGHT                                                                                                  
+09 9013104000 PERISCOPES, TELESCOPES DESIGNED TO FORM PARTS OF MACHINES, NESOI                                                                                       
+09 9014802000 SHIP' LOGS AND DEPTH-SOUNDING APPARATUS FOR NAVIGATION                                                                                                 
+09 9301100010 SELF-PROPELLED ARTILLERY WEAPONS (FOR EXAMPLE, GUNS, HOWITZERS AND MORTARS) MILITARY WEAPONS, OTHER THAN REVOLVERS & PISTOLS & ARMS OF HEADING 9307    
+09 9301100080 ARTILLERY WEAPONS, MILITARY, FOR EXAMPLE, GUNS, HOWITZERS AND MORTARS, EXCEPT SELF-PROPELLED                                                           
+09 9301200000 ROCKET LAUNCHERS FLAME-THROWERS, GRENADE LAUNCHERS, AND TORPEDO TUBES, AND SIMILAR PROJECTORS, MILITARY                                                
+09 9301909030 MACHINE GUNS, MILITARY                                                                                                                                 
+09 9306308000 PARTS OF CARTRIDGES, NESOI                                                                                                                             
+09 9306900020 GUIDED MISSLES                                                                                                                                         
+09 9306900060 PARTS FOR GUIDED MISSILES                                                                                                                              
+09 9306900080 PARTS FOR BOMBS, GRENADES, TORPEDOS, MINES, AND SIMILAR MUNITIONS OF WAR                                                                               
+10 2844200010 URANIUM OXIDE ENRICHED IN U235                                                                                                                         
+10 2844200020 URANIUM FLUORIDE ENRICHED IN U235                                                                                                                      
+10 2844200030 URANIUM COMPOUNDS ENRICHED IN U235, NESOI                                                                                                              
+10 2844200050 PLUTONIUM & ITS COMPOUNDS; ALLOYS, DISPERSIONS, CERAMIC PROD & MIXTURES CONTAIN URANIUM ENRICH IN U235, PLUTONIUM/COMPOUNDS OF THESE PRODUCTS, NESOI   
+10 2844302010 URANIUM OXIDE DEPLETED IN U235                                                                                                                         
+10 2844302060 URANIUM COMPOUNDS DEPLETED IN U235, EXCLUDING URANIUM OXIDE                                                                                            
+10 2844305000 ALLOYS, DISPERSIONS INCLUDING CERMETS, CERAMIC PRODUCTS & MIXTURES CONTAIN URANIUM DEPLETED IN U235, THORIUM, OR COMPOUNDS OF THESE PRODUCTS, NESOI    
+10 8401100000 NUCLEAR REACTORS                                                                                                                                       
+10 8401200000 ISOTOPIC SEPARATION MACHINERY AND APPARATUS AND PARTS THEREOF                                                                                          
+10 8401300000 FUEL ELEMENTS (CARTRIDGES), NON-IRRADIATED FOR NUCLEAR REACTORS, AND PARTS THEREOF                                                                     
+10 8401400000 PARTS OF NUCLEAR REACTORS                                                                                                                              
+10 9030100000 INSTRUMENTS AND APPARATUS FOR MEASURING OR DETECTING IONIZING RADIATIONS                                                                               

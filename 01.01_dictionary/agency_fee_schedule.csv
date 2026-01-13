@@ -1,0 +1,23 @@
+fee_category,base_fee_usd,direction_filter,rig_patterns,ship_type_patterns,icst_patterns,cargo_patterns,priority,notes
+Bulk Carrier Loading,9500,L,Motor.*dry cargo,Bulk Carrier,BULK CARRIER,,100,Bulk carriers in loading/export operations (E direction)
+Bulk Carrier Discharging,8500,D,Motor.*dry cargo,Bulk Carrier,BULK CARRIER,,100,Bulk carriers in discharging/import operations (I direction)
+Self-Unloading Bulker/Laker Load,3500,L,Motor.*dry cargo,,(LAKER|SELF.*UNLOAD),,95,Great Lakes self-unloading vessels loading
+Self-Unloading Bulker/Laker Discharge,3500,D,Motor.*dry cargo,,(LAKER|SELF.*UNLOAD),,95,Great Lakes self-unloading vessels discharging
+Tramp Liner Break Bulk Loading,4500,L,Motor.*dry cargo,General Cargo,GENERAL CARGO,,90,Break bulk general cargo vessels loading
+Tramp Liner Break Bulk Discharging,4500,D,Motor.*dry cargo,General Cargo,GENERAL CARGO,,90,Break bulk general cargo vessels discharging
+Container Vessel,750,B,Motor.*dry cargo,,CONTAINER,,85,Container vessels regardless of direction
+RoRo Vessel,750,B,Motor.*dry cargo,,(RO-RO|RORO|PCC|PCTC),,85,Roll-on/Roll-off and vehicle carriers
+Cruise Ship,1500,B,Motor.*dry cargo,,CRUISE,,80,Cruise ships and passenger vessels
+Crude Oil Tanker,4000,B,Motor.*tanker,(Aframax|Suezmax|VLCC|LR1|LR2|Panamax),CRUDE OIL TANKER,,75,Large crude oil tankers (Aframax and larger)
+LNG/LPG Carrier,3500,B,Motor.*tanker,,(LNG CARRIER|LPG CARRIER|GAS CARRIER),,72,Liquefied gas carriers
+Medium Size Tanker,3500,B,Motor.*tanker,,(MR1|MR2|Handy),,70,Medium range and handy size tankers (products/chemicals)
+Parcel Tank Vessel,3000,B,Motor.*tanker,,CHEMICAL TANKER,,68,Small parcel/chemical tankers (all sizes)
+Product Tanker,3500,B,Motor.*tanker,,(OIL PRODUCTS TANKER|CRUDE.*PRODUCTS),,67,Product and crude/product tankers
+General Tanker,3000,B,Motor.*tanker,,(TANKER|OIL),,66,Other tanker types not otherwise classified
+Barge,1500,B,(Barge|Scow),,(BARGE|SCOW),,65,Barges including tank barges and dry cargo barges
+Push Boat,1500,B,Tug,,PUSH,,64,Push boats
+Tug,1500,B,Tug,,(TUG|TOW),,63,Tugboats and towing vessels
+Reefer Vessel,4500,B,Motor.*dry cargo,Reefer,REEFER,,60,Refrigerated cargo vessels
+Livestock Carrier,4500,B,Motor.*dry cargo,,LIVESTOCK,,60,Livestock carriers
+Specialty Vessel,1500,B,,,(RESEARCH|SURVEY|FISH|DREDG|DRILL|OFFSHORE),,55,Research survey fishing drilling and offshore vessels
+Misc Vessel,1500,B,,,,,50,Default catch-all for unclassified vessels

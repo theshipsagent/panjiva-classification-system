@@ -1,0 +1,84 @@
+[2026-01-13 05:23:20] Loading full 2023 dataset...
+[2026-01-13 05:23:39] Loaded: 454,266 records
+[2026-01-13 05:23:40] Dataset prepared with 54 columns
+[2026-01-13 05:23:40] 
+[2026-01-13 05:24:19] ================================================================================
+[2026-01-13 05:24:19] PHASE 1: CARRIER FILTERS + HIGH-CONFIDENCE RULES
+[2026-01-13 05:24:19] ================================================================================
+[2026-01-13 05:25:04] Pass 0: Filtered 3,577 ship spares
+[2026-01-13 05:25:07] Pass 1: Classified Ro/Ro carriers
+[2026-01-13 05:25:45] Phase 1 Complete: 0/0 (nan%)
+[2026-01-13 05:25:45] 
+[2026-01-13 05:25:45] Running optimized inline classification (Phases 2-6)...
+[2026-01-13 05:25:45] This may take 5-10 minutes for 454K records...
+[2026-01-13 05:25:45] 
+[2026-01-13 05:26:14] Cement: 1,075 records
+[2026-01-13 05:26:14] Steel: 68,577 records
+[2026-01-13 05:26:28] Salt: 639 records
+[2026-01-13 05:26:35] Bauxite: 257 records
+[2026-01-13 05:26:47] Iron Ore: 98 records
+[2026-01-13 05:26:50] Copper: 1,802 records
+[2026-01-13 05:27:01] Paper: 16,472 records
+[2026-01-13 05:27:12] Lumber: 4,849 records
+[2026-01-13 05:27:12] Tanker: 23,177 records filtered
+[2026-01-13 05:27:13] Reefer: 8,339 records
+[2026-01-13 05:27:13] Fertilizers: 1,041 records
+[2026-01-13 05:27:13] Grain: 741 records
+[2026-01-13 05:27:13] Oils: 4,070 records
+[2026-01-13 05:27:13] Chemicals: 3,052 records
+[2026-01-13 05:27:13] Minerals: 1,170 records
+[2026-01-13 05:27:14] Aluminum: 4,181 records
+[2026-01-13 05:27:14] Machinery: 21,391 records
+[2026-01-13 05:27:14] Vehicles: 122,145 records
+[2026-01-13 05:27:14] Rubber: 4,744 records
+[2026-01-13 05:27:14] Plastics: 2,365 records
+[2026-01-13 05:27:14] 
+[2026-01-13 05:27:14] Commodity classification complete
+[2026-01-13 05:27:14] 
+[2026-01-13 05:27:14] ================================================================================
+[2026-01-13 05:27:14] FINAL CLASSIFICATION RESULTS - FULL 2023 DATASET
+[2026-01-13 05:27:14] ================================================================================
+[2026-01-13 05:27:15] Total records: 454,266
+[2026-01-13 05:27:15] Filtered out: 26,754
+[2026-01-13 05:27:15] Classifiable records: 427,512
+[2026-01-13 05:27:15] Classified: 267,008 (62.5%)
+[2026-01-13 05:27:15] Unclassified: 160,504 (37.5%)
+[2026-01-13 05:27:15] Total tonnage classified: 265,174,133 tons (36.4%)
+[2026-01-13 05:27:15] Total tonnage filtered: 375,526,844 tons (51.5%)
+[2026-01-13 05:27:15] 
+[2026-01-13 05:27:15] Top 20 Classifications by Record Count:
+[2026-01-13 05:27:16]    1. Cars/Trucks                             : 122,145 records,     20,561,098 tons
+[2026-01-13 05:27:16]    2. Steel Products NOS                      : 68,577 records,     73,912,033 tons
+[2026-01-13 05:27:16]    3. Industrial Equipment                    : 21,391 records,     23,137,331 tons
+[2026-01-13 05:27:16]    4. Paper/Pulp/Newsprint                    : 16,472 records,      8,148,793 tons
+[2026-01-13 05:27:16]    5. Fresh Fruit                             :  8,339 records,        402,916 tons
+[2026-01-13 05:27:16]    6. Lumber/Timber                           :  4,849 records,      5,068,410 tons
+[2026-01-13 05:27:16]    7. Tires & Rubber                          :  4,744 records,      2,009,181 tons
+[2026-01-13 05:27:16]    8. Aluminum Products                       :  4,181 records,      3,859,429 tons
+[2026-01-13 05:27:16]    9. Vegetable Oils NOS                      :  4,070 records,      6,750,735 tons
+[2026-01-13 05:27:16]   10. Chemicals NOS                           :  3,052 records,     33,327,817 tons
+[2026-01-13 05:27:16]   11. Resin/Polymer                           :  2,365 records,      3,708,760 tons
+[2026-01-13 05:27:16]   12. Copper Cathodes/Wire                    :  1,802 records,      1,136,695 tons
+[2026-01-13 05:27:16]   13. Minerals NOS                            :  1,170 records,     13,824,628 tons
+[2026-01-13 05:27:16]   14. Portland Cement/Clinker                 :  1,075 records,     20,332,262 tons
+[2026-01-13 05:27:16]   15. Fertilizer Products                     :  1,041 records,     15,059,478 tons
+[2026-01-13 05:27:16]   16. Grain/Oilseeds                          :    741 records,      4,580,267 tons
+[2026-01-13 05:27:16]   17. Rock Salt/Deicing Salt                  :    639 records,     16,459,620 tons
+[2026-01-13 05:27:16]   18. Bauxite                                 :    257 records,      6,484,732 tons
+[2026-01-13 05:27:16]   19. Iron Ore/Pellets                        :     98 records,      6,409,946 tons
+[2026-01-13 05:27:16] 
+[2026-01-13 05:27:16] ================================================================================
+[2026-01-13 05:27:16] SAVING FINAL OUTPUT
+[2026-01-13 05:27:16] ================================================================================
+[2026-01-13 05:27:16] Saving final classified dataset: G:\My Drive\LLM\project_manifest\build_documentation\classification_full_2023\panjiva_imports_2023_classified_final_20260113_0523.csv
+[2026-01-13 05:27:55]   -> Saved: 454,266 records
+[2026-01-13 05:27:55] 
+[2026-01-13 05:27:55] Generating pivot table summary...
+[2026-01-13 05:27:56] Saving pivot summary: G:\My Drive\LLM\project_manifest\build_documentation\classification_full_2023\classification_pivot_summary_final_20260113_0523.csv
+[2026-01-13 05:27:56]   -> Saved: 19 classification groups
+[2026-01-13 05:27:56] 
+[2026-01-13 05:27:56] ================================================================================
+[2026-01-13 05:27:56] FULL 2023 DATASET CLASSIFICATION COMPLETE!
+[2026-01-13 05:27:56] ================================================================================
+[2026-01-13 05:27:56] Final output: G:\My Drive\LLM\project_manifest\build_documentation\classification_full_2023\panjiva_imports_2023_classified_final_20260113_0523.csv
+[2026-01-13 05:27:56] Log file: G:\My Drive\LLM\project_manifest\build_documentation\classification_full_2023\classification_log_20260113_0523.txt

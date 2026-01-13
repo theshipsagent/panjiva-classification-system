@@ -1,0 +1,790 @@
+{
+  "VALERO": {
+    "canonical_name": "Valero Energy Corporation",
+    "entity_type": "Petroleum Refiner",
+    "name_patterns": [
+      "VALERO",
+      "VALERO MARKETING",
+      "VALERO ENERGY",
+      "VALERO REFINING",
+      "VALERO SERVICES",
+      "DIAMOND GREEN DIESEL",
+      "DGD LLC"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["27"],
+      "keywords": ["CRUDE", "PETROLEUM", "GASOLINE", "NAPHTHA", "DIESEL", "FUEL OIL", "BIODIESEL", "RENEWABLE DIESEL"]
+    },
+    "ports": ["Houston", "Corpus Christi", "Port Arthur", "Texas City", "St Charles"],
+    "headquarters": "San Antonio, TX",
+    "notes": "Diamond Green Diesel is a Valero subsidiary. Major US petroleum refiner with Gulf Coast operations."
+  },
+  "MARATHON": {
+    "canonical_name": "Marathon Petroleum Corporation",
+    "entity_type": "Petroleum Refiner",
+    "name_patterns": [
+      "MARATHON",
+      "MARATHON PETROLEUM",
+      "MARATHON REFINING",
+      "MARATHON OIL",
+      "MPC",
+      "ANDEAVOR"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["27"],
+      "keywords": ["CRUDE", "PETROLEUM", "GASOLINE", "NAPHTHA", "DIESEL", "FUEL OIL", "AVIATION FUEL"]
+    },
+    "ports": ["Texas City", "Detroit", "Catlettsburg", "Garyville", "St Paul Park"],
+    "headquarters": "Findlay, OH",
+    "notes": "Acquired Andeavor in 2018. One of largest US refiners."
+  },
+  "CHEVRON": {
+    "canonical_name": "Chevron Corporation",
+    "entity_type": "Petroleum Refiner",
+    "name_patterns": [
+      "CHEVRON",
+      "CHEVRON USA",
+      "CHEVRON PRODUCTS",
+      "CHEVRON TRADING",
+      "CHEVRON GLOBAL TRADING"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["27"],
+      "keywords": ["CRUDE", "PETROLEUM", "GASOLINE", "NAPHTHA", "DIESEL", "FUEL OIL", "LNG", "CONDENSATE"]
+    },
+    "ports": ["Richmond CA", "El Segundo", "Pascagoula"],
+    "headquarters": "San Ramon, CA",
+    "notes": "Integrated energy company with refining and trading operations."
+  },
+  "EXXONMOBIL": {
+    "canonical_name": "ExxonMobil Corporation",
+    "entity_type": "Petroleum Refiner",
+    "name_patterns": [
+      "EXXONMOBIL",
+      "EXXON MOBIL",
+      "EXXON",
+      "MOBIL",
+      "ESSO",
+      "XTO ENERGY"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["27", "29"],
+      "keywords": ["CRUDE", "PETROLEUM", "GASOLINE", "NAPHTHA", "DIESEL", "FUEL OIL", "LNG", "ETHANE", "PROPANE"]
+    },
+    "ports": ["Baytown", "Baton Rouge", "Beaumont", "Joliet", "Torrance"],
+    "headquarters": "Spring, TX",
+    "notes": "Largest US oil company with extensive refining and petrochemical operations."
+  },
+  "SHELL": {
+    "canonical_name": "Shell Oil Company",
+    "entity_type": "Petroleum Refiner",
+    "name_patterns": [
+      "SHELL",
+      "SHELL OIL",
+      "SHELL TRADING",
+      "SHELL INTERNATIONAL",
+      "MOTIVA ENTERPRISES"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["27", "29"],
+      "keywords": ["CRUDE", "PETROLEUM", "GASOLINE", "NAPHTHA", "DIESEL", "FUEL OIL", "LNG", "ETHYLENE"]
+    },
+    "ports": ["Deer Park", "Norco", "Mobile", "Anacortes"],
+    "headquarters": "Houston, TX",
+    "notes": "Motiva Enterprises is Shell-owned refining subsidiary."
+  },
+  "BP": {
+    "canonical_name": "BP America Inc.",
+    "entity_type": "Petroleum Refiner",
+    "name_patterns": [
+      "BP",
+      "BP AMERICA",
+      "BP PRODUCTS",
+      "BP OIL",
+      "BRITISH PETROLEUM"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["27"],
+      "keywords": ["CRUDE", "PETROLEUM", "GASOLINE", "NAPHTHA", "DIESEL", "FUEL OIL"]
+    },
+    "ports": ["Whiting", "Cherry Point", "Toledo"],
+    "headquarters": "Houston, TX",
+    "notes": "Major integrated oil company with US refining operations."
+  },
+  "PHILLIPS66": {
+    "canonical_name": "Phillips 66 Company",
+    "entity_type": "Petroleum Refiner",
+    "name_patterns": [
+      "PHILLIPS 66",
+      "PHILLIPS66",
+      "PHILLIPS PETROLEUM",
+      "PHILLIPS REFINING",
+      "CPChem"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["27", "29"],
+      "keywords": ["CRUDE", "PETROLEUM", "GASOLINE", "NAPHTHA", "DIESEL", "FUEL OIL", "ETHYLENE", "POLYPROPYLENE"]
+    },
+    "ports": ["Bayway", "Sweeny", "Ponca City", "Rodeo"],
+    "headquarters": "Houston, TX",
+    "notes": "CPChem is a Phillips 66 joint venture for petrochemicals."
+  },
+  "TRAFIGURA": {
+    "canonical_name": "Trafigura Group Pte Ltd",
+    "entity_type": "Commodity Trader",
+    "name_patterns": [
+      "TRAFIGURA",
+      "TRAFIGURA TRADING",
+      "TRAFIGURA PTE",
+      "TRAFIGURA BEHEER"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["27", "26", "72", "74", "76"],
+      "keywords": ["CRUDE", "PETROLEUM", "NAPHTHA", "DIESEL", "GASOLINE", "COPPER", "ZINC", "LEAD", "ORE", "CONCENTRATE"]
+    },
+    "ports": ["Various"],
+    "headquarters": "Singapore",
+    "notes": "Major global commodity trader in oil, metals, and minerals."
+  },
+  "VITOL": {
+    "canonical_name": "Vitol Group",
+    "entity_type": "Commodity Trader",
+    "name_patterns": [
+      "VITOL",
+      "VITOL INC",
+      "VITOL SA",
+      "VITOL TRADING"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["27"],
+      "keywords": ["CRUDE", "PETROLEUM", "NAPHTHA", "DIESEL", "GASOLINE", "FUEL OIL", "JET FUEL"]
+    },
+    "ports": ["Various"],
+    "headquarters": "Geneva, Switzerland",
+    "notes": "World's largest independent oil trader."
+  },
+  "GLENCORE": {
+    "canonical_name": "Glencore International AG",
+    "entity_type": "Commodity Trader",
+    "name_patterns": [
+      "GLENCORE",
+      "GLENCORE LTD",
+      "GLENCORE INTERNATIONAL",
+      "GLENCORE GRAIN"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["26", "27", "72", "74", "76", "10", "12"],
+      "keywords": ["COPPER", "ZINC", "LEAD", "ORE", "COAL", "CRUDE", "PETROLEUM", "GRAIN", "WHEAT", "CORN"]
+    },
+    "ports": ["Various"],
+    "headquarters": "Baar, Switzerland",
+    "notes": "Diversified commodity trader in metals, energy, and agricultural products."
+  },
+  "CEMEX": {
+    "canonical_name": "Cemex S.A.B. de C.V.",
+    "entity_type": "Cement Manufacturer",
+    "name_patterns": [
+      "CEMEX",
+      "CEMEX USA",
+      "CEMEX INC",
+      "CEMEX TRADING"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["25", "68"],
+      "keywords": ["CEMENT", "CLINKER", "AGGREGATE", "CONCRETE", "LIMESTONE", "GYPSUM"]
+    },
+    "ports": ["Houston", "New Orleans", "Mobile", "Tampa", "Savannah"],
+    "headquarters": "Monterrey, Mexico",
+    "notes": "Major global cement producer with extensive US operations."
+  },
+  "ARGOS": {
+    "canonical_name": "Argos Cement",
+    "entity_type": "Cement Manufacturer",
+    "name_patterns": [
+      "ARGOS",
+      "ARGOS CEMENT",
+      "ARGOS USA",
+      "CEMENTOS ARGOS"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["25", "68"],
+      "keywords": ["CEMENT", "CLINKER", "AGGREGATE", "CONCRETE", "LIMESTONE"]
+    },
+    "ports": ["Houston", "Savannah", "Tampa", "Jacksonville"],
+    "headquarters": "Medellin, Colombia",
+    "notes": "Colombian cement company with growing US presence."
+  },
+  "HOLCIM": {
+    "canonical_name": "Holcim Ltd",
+    "entity_type": "Cement Manufacturer",
+    "name_patterns": [
+      "HOLCIM",
+      "LAFARGEHOLCIM",
+      "LAFARGE HOLCIM",
+      "LAFARGE",
+      "HOLCIM USA"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["25", "68"],
+      "keywords": ["CEMENT", "CLINKER", "AGGREGATE", "CONCRETE", "LIMESTONE"]
+    },
+    "ports": ["Various"],
+    "headquarters": "Zug, Switzerland",
+    "notes": "Global cement leader formed from Holcim-Lafarge merger in 2015."
+  },
+  "HEIDELBERG": {
+    "canonical_name": "Heidelberg Materials AG",
+    "entity_type": "Cement Manufacturer",
+    "name_patterns": [
+      "HEIDELBERG",
+      "HEIDELBERG MATERIALS",
+      "LEHIGH HANSON",
+      "LEHIGH CEMENT",
+      "HANSON AGGREGATES"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["25", "68"],
+      "keywords": ["CEMENT", "CLINKER", "AGGREGATE", "CONCRETE", "LIMESTONE", "SAND", "GRAVEL"]
+    },
+    "ports": ["Various"],
+    "headquarters": "Heidelberg, Germany",
+    "notes": "Formerly Lehigh Hanson in North America. Rebranded to Heidelberg Materials in 2022."
+  },
+  "MARTIN_MARIETTA": {
+    "canonical_name": "Martin Marietta Materials Inc.",
+    "entity_type": "Cement Manufacturer",
+    "name_patterns": [
+      "MARTIN MARIETTA",
+      "MARTIN MARIETTA MATERIALS",
+      "MMM"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["25", "68"],
+      "keywords": ["AGGREGATE", "LIMESTONE", "STONE", "SAND", "GRAVEL", "CEMENT"]
+    },
+    "ports": ["Various coastal locations"],
+    "headquarters": "Raleigh, NC",
+    "notes": "Major US aggregates and cement producer."
+  },
+  "BUZZI": {
+    "canonical_name": "Buzzi Unicem SpA",
+    "entity_type": "Cement Manufacturer",
+    "name_patterns": [
+      "BUZZI",
+      "BUZZI UNICEM",
+      "BUZZI USA"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["25", "68"],
+      "keywords": ["CEMENT", "CLINKER", "CONCRETE"]
+    },
+    "ports": ["Houston", "New Orleans"],
+    "headquarters": "Casale Monferrato, Italy",
+    "notes": "Italian cement company with US operations."
+  },
+  "HOUSTON_CEMENT": {
+    "canonical_name": "Houston Cement Company",
+    "entity_type": "Cement Manufacturer",
+    "name_patterns": [
+      "HOUSTON CEMENT",
+      "HOUSTON CEMENT COMPANY"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["25", "68"],
+      "keywords": ["CEMENT", "CLINKER"]
+    },
+    "ports": ["Houston"],
+    "headquarters": "Houston, TX",
+    "notes": "Regional cement producer serving Houston market."
+  },
+  "ARCELORMITTAL": {
+    "canonical_name": "ArcelorMittal S.A.",
+    "entity_type": "Steel Manufacturer",
+    "name_patterns": [
+      "ARCELORMITTAL",
+      "ARCELOR MITTAL",
+      "ARCELOR",
+      "MITTAL STEEL"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["72", "73"],
+      "keywords": ["STEEL", "IRON", "SLAB", "COIL", "SHEET", "PLATE", "SCRAP"]
+    },
+    "ports": ["Burns Harbor", "Cleveland", "Baltimore"],
+    "headquarters": "Luxembourg City, Luxembourg",
+    "notes": "World's largest steel producer."
+  },
+  "TATA_STEEL": {
+    "canonical_name": "Tata Steel Limited",
+    "entity_type": "Steel Manufacturer",
+    "name_patterns": [
+      "TATA STEEL",
+      "TATA",
+      "TATA INTERNATIONAL"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["72", "73"],
+      "keywords": ["STEEL", "IRON", "SLAB", "COIL", "SHEET", "PLATE"]
+    },
+    "ports": ["Various"],
+    "headquarters": "Mumbai, India",
+    "notes": "Major Indian steel producer with global operations."
+  },
+  "NUCOR": {
+    "canonical_name": "Nucor Corporation",
+    "entity_type": "Steel Manufacturer",
+    "name_patterns": [
+      "NUCOR",
+      "NUCOR STEEL",
+      "NUCOR TRADING"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["72", "73"],
+      "keywords": ["STEEL", "IRON", "REBAR", "SHEET", "PLATE", "BEAM", "SCRAP"]
+    },
+    "ports": ["Various US locations"],
+    "headquarters": "Charlotte, NC",
+    "notes": "Largest US steel producer using electric arc furnace technology."
+  },
+  "STEEL_DYNAMICS": {
+    "canonical_name": "Steel Dynamics Inc.",
+    "entity_type": "Steel Manufacturer",
+    "name_patterns": [
+      "STEEL DYNAMICS",
+      "SDI",
+      "STEEL DYNAMICS INC"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["72", "73"],
+      "keywords": ["STEEL", "IRON", "SHEET", "PLATE", "BEAM", "REBAR"]
+    },
+    "ports": ["Various US locations"],
+    "headquarters": "Fort Wayne, IN",
+    "notes": "Major US mini-mill steel producer."
+  },
+  "SSAB": {
+    "canonical_name": "SSAB AB",
+    "entity_type": "Steel Manufacturer",
+    "name_patterns": [
+      "SSAB",
+      "SSAB AMERICAS",
+      "SSAB SPECIAL STEELS"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["72", "73"],
+      "keywords": ["STEEL", "PLATE", "SHEET", "COIL", "HIGH STRENGTH"]
+    },
+    "ports": ["Mobile", "Montpelier"],
+    "headquarters": "Stockholm, Sweden",
+    "notes": "Swedish steel producer specializing in high-strength steel."
+  },
+  "THYSSENKRUPP": {
+    "canonical_name": "ThyssenKrupp AG",
+    "entity_type": "Steel Manufacturer",
+    "name_patterns": [
+      "THYSSENKRUPP",
+      "THYSSEN KRUPP",
+      "THYSSEN",
+      "KRUPP"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["72", "73", "84"],
+      "keywords": ["STEEL", "IRON", "SLAB", "COIL", "SHEET", "PLATE", "MACHINERY"]
+    },
+    "ports": ["Calvert", "Various"],
+    "headquarters": "Essen, Germany",
+    "notes": "Major German industrial conglomerate with steel operations."
+  },
+  "POSCO": {
+    "canonical_name": "POSCO Holdings Inc.",
+    "entity_type": "Steel Manufacturer",
+    "name_patterns": [
+      "POSCO",
+      "POSCO INTERNATIONAL",
+      "POSCO AMERICA"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["72", "73"],
+      "keywords": ["STEEL", "IRON", "SLAB", "COIL", "SHEET", "PLATE", "STAINLESS"]
+    },
+    "ports": ["Various"],
+    "headquarters": "Pohang, South Korea",
+    "notes": "Major South Korean steel producer."
+  },
+  "VALE": {
+    "canonical_name": "Vale S.A.",
+    "entity_type": "Mining Company",
+    "name_patterns": [
+      "VALE",
+      "VALE SA",
+      "CVRD",
+      "COMPANHIA VALE DO RIO DOCE"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["26", "72"],
+      "keywords": ["IRON ORE", "ORE", "PELLETS", "NICKEL", "COPPER", "MANGANESE"]
+    },
+    "ports": ["Tubarao", "Ponta da Madeira", "Various"],
+    "headquarters": "Rio de Janeiro, Brazil",
+    "notes": "World's largest iron ore producer."
+  },
+  "BHP": {
+    "canonical_name": "BHP Group Limited",
+    "entity_type": "Mining Company",
+    "name_patterns": [
+      "BHP",
+      "BHP BILLITON",
+      "BROKEN HILL"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["26", "27"],
+      "keywords": ["IRON ORE", "ORE", "COPPER", "COAL", "NICKEL", "PETROLEUM"]
+    },
+    "ports": ["Port Hedland", "Various"],
+    "headquarters": "Melbourne, Australia",
+    "notes": "Major global mining company."
+  },
+  "RIO_TINTO": {
+    "canonical_name": "Rio Tinto Group",
+    "entity_type": "Mining Company",
+    "name_patterns": [
+      "RIO TINTO",
+      "RIOTINTO",
+      "RIO TINTO ALCAN"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["26", "76"],
+      "keywords": ["IRON ORE", "ORE", "COPPER", "ALUMINUM", "BAUXITE", "ALUMINA"]
+    },
+    "ports": ["Dampier", "Various"],
+    "headquarters": "London, UK / Melbourne, Australia",
+    "notes": "Major global mining company focused on iron ore and aluminum."
+  },
+  "CARGILL": {
+    "canonical_name": "Cargill Incorporated",
+    "entity_type": "Agricultural Trader",
+    "name_patterns": [
+      "CARGILL",
+      "CARGILL INC",
+      "CARGILL INTERNATIONAL",
+      "CARGILL AMERICAS"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["10", "12", "15", "17", "23"],
+      "keywords": ["GRAIN", "WHEAT", "CORN", "SOYBEAN", "SOYA", "MEAL", "OIL", "SUGAR"]
+    },
+    "ports": ["New Orleans", "Corpus Christi", "Norfolk", "Portland"],
+    "headquarters": "Minneapolis, MN",
+    "notes": "Largest privately held US company. Major agricultural trader and processor."
+  },
+  "BUNGE": {
+    "canonical_name": "Bunge Limited",
+    "entity_type": "Agricultural Trader",
+    "name_patterns": [
+      "BUNGE",
+      "BUNGE LIMITED",
+      "BUNGE NORTH AMERICA"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["10", "12", "15", "23"],
+      "keywords": ["GRAIN", "WHEAT", "CORN", "SOYBEAN", "SOYA", "MEAL", "OIL"]
+    },
+    "ports": ["New Orleans", "Corpus Christi", "Destrehan", "Various"],
+    "headquarters": "St Louis, MO",
+    "notes": "Major global agribusiness and food company."
+  },
+  "ADM": {
+    "canonical_name": "Archer Daniels Midland Company",
+    "entity_type": "Agricultural Trader",
+    "name_patterns": [
+      "ADM",
+      "ARCHER DANIELS MIDLAND",
+      "ARCHER DANIELS"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["10", "12", "15", "17", "23"],
+      "keywords": ["GRAIN", "WHEAT", "CORN", "SOYBEAN", "SOYA", "MEAL", "OIL", "ETHANOL"]
+    },
+    "ports": ["Decatur", "New Orleans", "Various"],
+    "headquarters": "Chicago, IL",
+    "notes": "Major agricultural processor and commodity trader."
+  },
+  "LOUIS_DREYFUS": {
+    "canonical_name": "Louis Dreyfus Company",
+    "entity_type": "Agricultural Trader",
+    "name_patterns": [
+      "LOUIS DREYFUS",
+      "LDC",
+      "LOUIS DREYFUS COMMODITIES"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["10", "12", "15", "17"],
+      "keywords": ["GRAIN", "WHEAT", "CORN", "SOYBEAN", "SOYA", "MEAL", "OIL", "SUGAR", "COTTON"]
+    },
+    "ports": ["Various"],
+    "headquarters": "Rotterdam, Netherlands",
+    "notes": "Major global agricultural commodity trader."
+  },
+  "WILMAR": {
+    "canonical_name": "Wilmar International Limited",
+    "entity_type": "Agricultural Trader",
+    "name_patterns": [
+      "WILMAR",
+      "WILMAR INTERNATIONAL",
+      "WILMAR TRADING"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["15", "17"],
+      "keywords": ["PALM OIL", "VEGETABLE OIL", "SUGAR", "LAURIC OIL"]
+    },
+    "ports": ["Singapore", "Various"],
+    "headquarters": "Singapore",
+    "notes": "Asia's leading agribusiness group, specializing in palm oil."
+  },
+  "SUZANO": {
+    "canonical_name": "Suzano S.A.",
+    "entity_type": "Forest Products",
+    "name_patterns": [
+      "SUZANO",
+      "SUZANO PAPEL",
+      "SUZANO PULP"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["47", "48"],
+      "keywords": ["PULP", "CELLULOSE", "PAPER", "EUCALYPTUS"]
+    },
+    "ports": ["Santos", "Various Brazilian ports"],
+    "headquarters": "Sao Paulo, Brazil",
+    "notes": "World's largest pulp producer."
+  },
+  "GEORGIA_PACIFIC": {
+    "canonical_name": "Georgia-Pacific LLC",
+    "entity_type": "Forest Products",
+    "name_patterns": [
+      "GEORGIA PACIFIC",
+      "GEORGIA-PACIFIC",
+      "GP",
+      "G-P"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["47", "48", "44"],
+      "keywords": ["PULP", "PAPER", "LUMBER", "PLYWOOD", "TISSUE"]
+    },
+    "ports": ["Various US locations"],
+    "headquarters": "Atlanta, GA",
+    "notes": "Major US forest products company owned by Koch Industries."
+  },
+  "INTERNATIONAL_PAPER": {
+    "canonical_name": "International Paper Company",
+    "entity_type": "Forest Products",
+    "name_patterns": [
+      "INTERNATIONAL PAPER",
+      "IP",
+      "INT PAPER"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["47", "48"],
+      "keywords": ["PULP", "PAPER", "CONTAINERBOARD", "CORRUGATED"]
+    },
+    "ports": ["Various US locations"],
+    "headquarters": "Memphis, TN",
+    "notes": "Major global producer of paper and packaging products."
+  },
+  "WEYERHAEUSER": {
+    "canonical_name": "Weyerhaeuser Company",
+    "entity_type": "Forest Products",
+    "name_patterns": [
+      "WEYERHAEUSER",
+      "WEYERHAUSER",
+      "WY"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["44", "47"],
+      "keywords": ["LUMBER", "TIMBER", "WOOD", "LOGS", "PULP"]
+    },
+    "ports": ["Various Pacific Northwest locations"],
+    "headquarters": "Seattle, WA",
+    "notes": "Major US timberland owner and forest products producer."
+  },
+  "WEST_FRASER": {
+    "canonical_name": "West Fraser Timber Co. Ltd.",
+    "entity_type": "Forest Products",
+    "name_patterns": [
+      "WEST FRASER",
+      "WESTFRASER",
+      "WEST FRASER TIMBER"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["44"],
+      "keywords": ["LUMBER", "TIMBER", "WOOD", "PLYWOOD", "OSB"]
+    },
+    "ports": ["Various North American locations"],
+    "headquarters": "Vancouver, Canada",
+    "notes": "Major North American lumber producer."
+  },
+  "BASF": {
+    "canonical_name": "BASF Corporation",
+    "entity_type": "Chemical Manufacturer",
+    "name_patterns": [
+      "BASF",
+      "BASF CORP",
+      "BASF SE"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["28", "29", "38", "39"],
+      "keywords": ["CHEMICAL", "AMMONIA", "METHANOL", "PLASTIC", "RESIN", "POLYMER", "SOLVENT"]
+    },
+    "ports": ["Freeport", "Geismar", "Various"],
+    "headquarters": "Ludwigshafen, Germany",
+    "notes": "World's largest chemical producer."
+  },
+  "DOW": {
+    "canonical_name": "Dow Chemical Company",
+    "entity_type": "Chemical Manufacturer",
+    "name_patterns": [
+      "DOW",
+      "DOW CHEMICAL",
+      "DOW INC",
+      "DOWDUPONT"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["28", "29", "38", "39"],
+      "keywords": ["CHEMICAL", "ETHYLENE", "PLASTIC", "RESIN", "POLYMER", "POLYETHYLENE"]
+    },
+    "ports": ["Freeport", "Plaquemine", "Various"],
+    "headquarters": "Midland, MI",
+    "notes": "Major US chemical company. Was merged with DuPont 2017-2019."
+  },
+  "DUPONT": {
+    "canonical_name": "DuPont de Nemours Inc.",
+    "entity_type": "Chemical Manufacturer",
+    "name_patterns": [
+      "DUPONT",
+      "DU PONT",
+      "DUPONT DE NEMOURS",
+      "DOWDUPONT"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["28", "29", "38", "39"],
+      "keywords": ["CHEMICAL", "PLASTIC", "RESIN", "POLYMER", "NYLON", "TEFLON"]
+    },
+    "ports": ["LaPorte", "Victoria", "Various"],
+    "headquarters": "Wilmington, DE",
+    "notes": "Major specialty chemical and materials company."
+  },
+  "EASTMAN": {
+    "canonical_name": "Eastman Chemical Company",
+    "entity_type": "Chemical Manufacturer",
+    "name_patterns": [
+      "EASTMAN",
+      "EASTMAN CHEMICAL"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["29", "38", "39"],
+      "keywords": ["CHEMICAL", "PLASTIC", "RESIN", "POLYMER", "ACETATE", "SOLVENT"]
+    },
+    "ports": ["Texas City", "Various"],
+    "headquarters": "Kingsport, TN",
+    "notes": "Specialty chemical company with diverse product portfolio."
+  },
+  "LYONDELLBASELL": {
+    "canonical_name": "LyondellBasell Industries N.V.",
+    "entity_type": "Chemical Manufacturer",
+    "name_patterns": [
+      "LYONDELLBASELL",
+      "LYONDELL BASELL",
+      "LYONDELL",
+      "BASELL"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["29", "39"],
+      "keywords": ["CHEMICAL", "PLASTIC", "RESIN", "POLYMER", "POLYETHYLENE", "POLYPROPYLENE", "ETHYLENE", "PROPYLENE"]
+    },
+    "ports": ["Channelview", "Corpus Christi", "Various"],
+    "headquarters": "Houston, TX",
+    "notes": "Major plastics, chemicals, and refining company."
+  },
+  "MAERSK": {
+    "canonical_name": "A.P. Moller-Maersk A/S",
+    "entity_type": "Ocean Carrier",
+    "name_patterns": [
+      "MAERSK",
+      "MAERSK LINE",
+      "AP MOLLER",
+      "MOLLER MAERSK"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["ALL"],
+      "keywords": ["CONTAINER", "FREIGHT", "CARGO"]
+    },
+    "ports": ["Various global ports"],
+    "headquarters": "Copenhagen, Denmark",
+    "notes": "World's largest container shipping company."
+  },
+  "MSC": {
+    "canonical_name": "Mediterranean Shipping Company S.A.",
+    "entity_type": "Ocean Carrier",
+    "name_patterns": [
+      "MSC",
+      "MEDITERRANEAN SHIPPING",
+      "MEDITERRANEAN SHIPPING COMPANY"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["ALL"],
+      "keywords": ["CONTAINER", "FREIGHT", "CARGO"]
+    },
+    "ports": ["Various global ports"],
+    "headquarters": "Geneva, Switzerland",
+    "notes": "Second largest container shipping company."
+  },
+  "CMA_CGM": {
+    "canonical_name": "CMA CGM S.A.",
+    "entity_type": "Ocean Carrier",
+    "name_patterns": [
+      "CMA CGM",
+      "CMA",
+      "CGM",
+      "COMPAGNIE MARITIME"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["ALL"],
+      "keywords": ["CONTAINER", "FREIGHT", "CARGO"]
+    },
+    "ports": ["Various global ports"],
+    "headquarters": "Marseille, France",
+    "notes": "Third largest container shipping company."
+  },
+  "HAPAG_LLOYD": {
+    "canonical_name": "Hapag-Lloyd AG",
+    "entity_type": "Ocean Carrier",
+    "name_patterns": [
+      "HAPAG LLOYD",
+      "HAPAG-LLOYD",
+      "HAPAG"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["ALL"],
+      "keywords": ["CONTAINER", "FREIGHT", "CARGO"]
+    },
+    "ports": ["Various global ports"],
+    "headquarters": "Hamburg, Germany",
+    "notes": "Major German container shipping company."
+  },
+  "COSCO": {
+    "canonical_name": "COSCO Shipping Lines Co. Ltd.",
+    "entity_type": "Ocean Carrier",
+    "name_patterns": [
+      "COSCO",
+      "COSCO SHIPPING",
+      "COSCO CONTAINER",
+      "CHINA SHIPPING"
+    ],
+    "cargo_context": {
+      "hs2_codes": ["ALL"],
+      "keywords": ["CONTAINER", "FREIGHT", "CARGO"]
+    },
+    "ports": ["Various global ports"],
+    "headquarters": "Shanghai, China",
+    "notes": "Major Chinese state-owned shipping company."
+  }
+}
