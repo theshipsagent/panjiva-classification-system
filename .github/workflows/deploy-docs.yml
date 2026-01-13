@@ -1,0 +1,89 @@
+name: Deploy Documentation to GitHub Pages
+
+# Deploys interactive dashboards and documentation to GitHub Pages
+# Accessible at: https://theshipsagent.github.io/panjiva-classification-system/
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'build_documentation/**'
+      - 'README.md'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+
+    - name: Create deployment structure
+      run: |
+        echo "=== Creating deployment structure ==="
+
+        # Create deployment directory
+        mkdir -p _site
+
+        # Copy documentation to root
+        cp -r build_documentation/* _site/
+
+        # Copy README as index fallback
+        cp README.md _site/README.md
+
+        # Create a redirect from root to INDEX.html
+        cat > _site/index.html << 'EOF'
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <meta http-equiv="refresh" content="0; url=INDEX.html">
+          <title>Redirecting to Panjiva Classification System</title>
+        </head>
+        <body>
+          <p>Redirecting to <a href="INDEX.html">Panjiva Classification System</a>...</p>
+        </body>
+        </html>
+        EOF
+
+        echo "✅ Deployment structure created"
+        echo "Files in _site:"
+        ls -lh _site/
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: '_site'
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
+
+    - name: Summary
+      run: |
+        echo "✅ Documentation deployed to GitHub Pages"
+        echo "🌐 URL: https://theshipsagent.github.io/panjiva-classification-system/"
+        echo ""
+        echo "📄 Available pages:"
+        echo "  - INDEX.html (main landing page)"
+        echo "  - classification_pipeline_dashboard.html"
+        echo "  - classification_technical_dataflow.html"
+        echo "  - PIPELINE_MASTER_PLAN_UPDATED.md"
+        echo "  - classification_phase10_final_summary.md"
+        echo "  - classification_3year_comparison.md"

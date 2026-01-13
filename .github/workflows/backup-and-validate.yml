@@ -1,0 +1,176 @@
+name: Backup and Validate
+
+# Automated backup workflow
+# Runs daily and on every push to main branch
+# Validates repository structure and creates backup snapshots
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    # Runs daily at 2:00 AM UTC (9:00 PM EST / 6:00 PM PST)
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  validate-and-backup:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Full history for proper backup
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas numpy
+
+    - name: Validate repository structure
+      run: |
+        echo "=== Validating Repository Structure ==="
+
+        # Check required directories exist
+        dirs=("build_documentation" "01.01_dictionary")
+        for dir in "${dirs[@]}"; do
+          if [ -d "$dir" ]; then
+            echo "✅ Directory exists: $dir"
+          else
+            echo "❌ Missing directory: $dir"
+            exit 1
+          fi
+        done
+
+        # Check required files exist
+        files=("README.md" "GIT_SETUP_GUIDE.md" ".gitignore")
+        for file in "${files[@]}"; do
+          if [ -f "$file" ]; then
+            echo "✅ File exists: $file"
+          else
+            echo "❌ Missing file: $file"
+            exit 1
+          fi
+        done
+
+        echo "✅ Repository structure validated"
+
+    - name: Count tracked files
+      id: count_files
+      run: |
+        file_count=$(git ls-files | wc -l)
+        echo "files=$file_count" >> $GITHUB_OUTPUT
+        echo "📊 Tracked files: $file_count"
+
+    - name: Validate dictionaries
+      run: |
+        echo "=== Validating Dictionary Files ==="
+
+        # Check cargo dictionary exists and is not empty
+        if [ -f "01.01_dictionary/01_cargo_dictionary_harmonized_v20260111_2313.csv" ]; then
+          lines=$(wc -l < "01.01_dictionary/01_cargo_dictionary_harmonized_v20260111_2313.csv")
+          echo "✅ Cargo dictionary: $lines lines"
+          if [ $lines -lt 10 ]; then
+            echo "⚠️ Warning: Cargo dictionary seems too small"
+          fi
+        else
+          echo "❌ Cargo dictionary not found"
+          exit 1
+        fi
+
+        # Check HS code lookup exists
+        if [ -f "01.01_dictionary/hs_code_lookup.json" ]; then
+          size=$(du -h "01.01_dictionary/hs_code_lookup.json" | cut -f1)
+          echo "✅ HS code lookup: $size"
+        else
+          echo "❌ HS code lookup not found"
+          exit 1
+        fi
+
+        # Check port dictionary
+        if [ -f "01.01_dictionary/01_us_port_dictionary.csv" ]; then
+          lines=$(wc -l < "01.01_dictionary/01_us_port_dictionary.csv")
+          echo "✅ Port dictionary: $lines lines"
+        else
+          echo "❌ Port dictionary not found"
+          exit 1
+        fi
+
+        echo "✅ All critical dictionaries validated"
+
+    - name: Validate documentation
+      run: |
+        echo "=== Validating Documentation ==="
+
+        # Check HTML dashboards exist
+        dashboards=("INDEX.html" "classification_pipeline_dashboard.html" "classification_technical_dataflow.html")
+        for dashboard in "${dashboards[@]}"; do
+          file="build_documentation/$dashboard"
+          if [ -f "$file" ]; then
+            size=$(du -h "$file" | cut -f1)
+            echo "✅ $dashboard: $size"
+          else
+            echo "❌ Missing: $dashboard"
+            exit 1
+          fi
+        done
+
+        # Check markdown docs exist
+        docs=("PIPELINE_MASTER_PLAN_UPDATED.md" "classification_phase10_final_summary.md" "classification_3year_comparison.md")
+        for doc in "${docs[@]}"; do
+          file="build_documentation/$doc"
+          if [ -f "$file" ]; then
+            lines=$(wc -l < "$file")
+            echo "✅ $doc: $lines lines"
+          else
+            echo "❌ Missing: $doc"
+            exit 1
+          fi
+        done
+
+        echo "✅ All documentation validated"
+
+    - name: Generate backup report
+      run: |
+        echo "=== Backup Report ===" > backup_report.txt
+        echo "Date: $(date -u)" >> backup_report.txt
+        echo "Commit: $(git rev-parse HEAD)" >> backup_report.txt
+        echo "Branch: $(git branch --show-current)" >> backup_report.txt
+        echo "" >> backup_report.txt
+        echo "Files tracked: $(git ls-files | wc -l)" >> backup_report.txt
+        echo "Repository size: $(du -sh . | cut -f1)" >> backup_report.txt
+        echo "" >> backup_report.txt
+        echo "Last 5 commits:" >> backup_report.txt
+        git log -5 --oneline >> backup_report.txt
+
+        cat backup_report.txt
+
+    - name: Create backup tag
+      if: github.event_name == 'schedule'
+      run: |
+        # Create daily backup tag
+        TAG="backup-$(date -u +%Y%m%d-%H%M%S)"
+        git tag -a "$TAG" -m "Automated daily backup"
+        echo "✅ Created backup tag: $TAG"
+
+        # Note: Pushing tags requires write permissions
+        # Uncomment below if you want to push tags automatically
+        # git push origin "$TAG"
+
+    - name: Upload backup report
+      uses: actions/upload-artifact@v3
+      with:
+        name: backup-report
+        path: backup_report.txt
+        retention-days: 90
+
+    - name: Summary
+      run: |
+        echo "✅ Backup and validation complete!"
+        echo "📊 Files tracked: ${{ steps.count_files.outputs.files }}"
+        echo "🕐 Backup timestamp: $(date -u)"
