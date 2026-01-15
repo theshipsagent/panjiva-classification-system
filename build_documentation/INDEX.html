@@ -556,6 +556,100 @@
             </div>
         </div>
 
+        <h2>🎯 Port Call Marriage & Matching <span class="new-badge">COMPLETE</span></h2>
+        <div class="status-banner" style="background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%); box-shadow: 0 5px 15px rgba(46, 204, 113, 0.3);">
+            🎯 PORT CALL MARRIAGE COMPLETE | 79.5% MATCH RATE | 65,475 COMPLETE PORT CALLS
+        </div>
+
+        <div class="stats">
+            <div class="stat-box" style="background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);">
+                <div class="stat-value">100.2K</div>
+                <div class="stat-label">Total Port Call Records</div>
+            </div>
+            <div class="stat-box" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);">
+                <div class="stat-value">65,475</div>
+                <div class="stat-label">Complete Port Calls (BOTH)</div>
+            </div>
+            <div class="stat-box" style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);">
+                <div class="stat-value">79.5%</div>
+                <div class="stat-label">Match Rate</div>
+            </div>
+            <div class="stat-box" style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);">
+                <div class="stat-value">871</div>
+                <div class="stat-label">Tug-Barge Operations</div>
+            </div>
+        </div>
+
+        <h3 style="color: #2ecc71; font-size: 1.2em; margin-bottom: 15px;">📊 Match Type Breakdown</h3>
+        <div class="link-grid">
+            <div class="link-card highlight-card">
+                <div class="emoji">✅</div>
+                <h3>BOTH (Complete Port Calls)</h3>
+                <p><strong>65,475 records (65.3%)</strong> | Full port call lifecycle captured with entrance + clearance data</p>
+            </div>
+
+            <div class="link-card highlight-card">
+                <div class="emoji">⛴️</div>
+                <h3>TUG_BARGE_PAIR</h3>
+                <p><strong>1,742 records (1.7%)</strong> | 871 tug-barge operations identified and linked through vessel registry</p>
+            </div>
+
+            <div class="link-card" style="background: #e3f2fd; border-left-color: #2196f3;">
+                <h3>ENTRANCE_ONLY</h3>
+                <p><strong>16,100 records (16.1%)</strong> | Vessels entered but no clearance record (foreign terminal, still in port, data gap)</p>
+            </div>
+
+            <div class="link-card" style="background: #f3e5f5; border-left-color: #9c27b0;">
+                <h3>CLEARANCE_ONLY</h3>
+                <p><strong>16,891 records (16.9%)</strong> | Vessels cleared but no entrance record (coastal movement, previous year entry)</p>
+            </div>
+        </div>
+
+        <h3 style="color: #2ecc71; font-size: 1.2em; margin-bottom: 15px; margin-top: 30px;">🔗 Port Call Marriage Files</h3>
+        <div class="link-grid">
+            <div class="link-card data-link">
+                <div class="emoji">🎯</div>
+                <h3>Port Call Master File <span class="new-badge">v1.0.0</span></h3>
+                <p><strong>100,208 records</strong> | Complete entrance-clearance marriage | Match types, time-in-port, fee calculations</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/02_STAGE02_CLASSIFICATION/usace_2023_entrance_clearance_MARRIED_v1.0.0.csv" target="_blank">Open File →</a>
+            </div>
+
+            <div class="link-card doc-link">
+                <div class="emoji">📊</div>
+                <h3>Marriage Summary Report</h3>
+                <p>Complete analysis: Match statistics, validation, tug-barge operations, time-in-port patterns, quality metrics</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/ENTRANCE_CLEARANCE_MARRIAGE_SUMMARY_20260115.md" target="_blank">View Report →</a>
+            </div>
+
+            <div class="link-card doc-link">
+                <div class="emoji">🗺️</div>
+                <h3>Data Lineage Graph</h3>
+                <p>Visual data flow from raw USACE files through marriage logic to final port call master file</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/build_documentation/project_data_lineage_graph.html" target="_blank">View Lineage →</a>
+            </div>
+        </div>
+
+        <h3 style="color: #2ecc71; font-size: 1.2em; margin-bottom: 15px; margin-top: 30px;">🏆 Key Achievements</h3>
+        <div class="link-grid">
+            <div class="link-card highlight-card">
+                <div class="emoji">🎯</div>
+                <h3>High Match Quality</h3>
+                <p><strong>79.5% match rate</strong> | Sophisticated multi-tier matching (exact vessel, tug-barge pairs, name variants)</p>
+            </div>
+
+            <div class="link-card highlight-card">
+                <div class="emoji">⏱️</div>
+                <h3>Time-in-Port Analysis</h3>
+                <p><strong>Median: 3.4 days</strong> | Captured full port lifecycle from entrance to clearance for operational insights</p>
+            </div>
+
+            <div class="link-card highlight-card">
+                <div class="emoji">💰</div>
+                <h3>Agency Fee Calculation</h3>
+                <p><strong>$143-$336 per call</strong> | User-edited fees by ICST vessel type | Ready for economic analysis</p>
+            </div>
+        </div>
+
         <h2>🚀 Next Steps</h2>
         <div class="link-grid">
             <div class="link-card" style="background: #e7f3ff; border-left-color: #2196f3;">
@@ -575,9 +669,9 @@
         </div>
 
         <div class="footer">
-            <p><strong>Dictionary v3.6.0 Status:</strong> ✅ Production Ready | 100% Test Classification Rate</p>
-            <p style="margin-top: 15px; opacity: 0.9;">Last Updated: 2026-01-14 20:00 | Dictionary: v3.6.0 | Rules: 668 | Coverage: 31 HS2 Chapters</p>
-            <p style="margin-top: 10px; opacity: 0.8;">Major Improvements: Break-Bulk eliminated | 218 new Phase 3 rules | Refined keyword strategy</p>
+            <p><strong>System Status:</strong> ✅ Classification v3.6.0 Production Ready | ✅ Port Call Marriage Complete (79.5% match rate)</p>
+            <p style="margin-top: 15px; opacity: 0.9;">Last Updated: 2026-01-15 | Dictionary: v3.6.0 | Rules: 668 | Port Calls: 100,208 (65,475 complete)</p>
+            <p style="margin-top: 10px; opacity: 0.8;">Latest Milestones: Entrance-clearance marriage | 871 tug-barge operations | Time-in-port & agency fee analysis</p>
         </div>
     </div>
 </body>
