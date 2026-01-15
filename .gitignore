@@ -1,121 +1,32 @@
-# Panjiva Project .gitignore
-# Excludes large data files while preserving documentation and dictionaries
+# Raw data files (too large for git)
+00_STAGE00_RAW_DATA/
+01_STAGE01_PREPROCESSING/
+02_STAGE02_CLASSIFICATION/
 
-# ============================================================================
-# RAW DATA - Exclude all raw source files
-# ============================================================================
-00_raw_data/**
-!00_raw_data/.gitkeep
+# Checkpoints and cache
+06_CHECKPOINTS/
+.claude/
 
-# ============================================================================
-# PROCESSED DATA - Exclude large processed CSV files
-# ============================================================================
-01_step_one/**/*.csv
-!01_step_one/.gitkeep
-
-# ============================================================================
-# CLASSIFIED OUTPUT DATA - Exclude classification results
-# ============================================================================
-build_documentation/classification_full_2023/*.csv
-build_documentation/classification_full_2024/*.csv
-build_documentation/classification_full_2025/*.csv
-
-# Keep the folders but exclude CSVs
-!build_documentation/classification_full_2023/.gitkeep
-!build_documentation/classification_full_2024/.gitkeep
-!build_documentation/classification_full_2025/.gitkeep
-
-# ============================================================================
-# ARCHIVE - Exclude all archived versions
-# ============================================================================
-_archive/**
-!_archive/.gitkeep
-
-# ============================================================================
-# TEMPORARY FILES & CACHES
-# ============================================================================
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.venv/
-.venv1/
-*.egg-info/
-dist/
-build/
-
-# Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb
-
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-
-# Logs
-*.log
-logs/**
-!logs/.gitkeep
-
-# Temporary files
+# Temp files
+nul
 *.tmp
 *.temp
-temp/
-tmp/
 
-# Windows
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large classified results (keep samples only)
+build_documentation/classification_full_*/
+
+# Keep sample test results but exclude large CSVs
+build_documentation/sample_test_15k/*.csv
+!build_documentation/sample_test_15k/classification_stats_*.csv
+
+# User notes CSVs (too many/large)
+user_notes/*.csv
+
+# OS files
+.DS_Store
 Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# ============================================================================
-# CHECKPOINT FILES - Exclude processing checkpoints
-# ============================================================================
-checkpoints/**
-*.parquet
-!checkpoints/.gitkeep
-
-# ============================================================================
-# LARGE DICTIONARY FILES - Optionally exclude very large lookups
-# ============================================================================
-# Uncomment if hs_code_lookup.json is too large for your repo
-# 01.01_dictionary/hs_code_lookup.json
-
-# Uncomment if ship registry is too large
-# 01.01_dictionary/01_ships_register.csv
-
-# ============================================================================
-# INCLUDE EXCEPTIONS - Force include critical files
-# ============================================================================
-# Force include all markdown documentation
-!*.md
-!**/*.md
-
-# Force include all HTML dashboards
-!*.html
-!**/*.html
-
-# Force include all Python scripts
-!*.py
-!**/*.py
-
-# Force include all JSON configuration files (except large lookups)
-!*.json
-!**/*.json
-
-# Force include dictionary CSV files under 5MB
-!01.01_dictionary/*.csv
-!01.01_dictionary/*.txt
-!01.01_dictionary/*.pdf
-!01.01_dictionary/*.xlsx
-
-# Force include small reference files
-!*.gitkeep

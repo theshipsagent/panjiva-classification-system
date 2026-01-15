@@ -1,15 +1,19 @@
-# 🚢 Panjiva Classification System
 
-**Maritime Cargo Classification Pipeline for U.S. Import Data (2023-2025)**
+## Latest Version: v3.6.0 (2026-01-14)
 
-A comprehensive classification system for Panjiva maritime import records using rule-based pattern matching, HS code analysis, and cargo taxonomy. Successfully classified 786,674 records (62.9%) capturing 1.47 billion tons (71.3%) across 15 commodity groups.
+**Major Release: 218 new user-edited rules with refined keyword strategy**
 
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)]()
-[![Coverage](https://img.shields.io/badge/Records-1.3M%20Processed-blue)]()
-[![Tonnage](https://img.shields.io/badge/Tonnage-71.3%25%20Captured-orange)]()
+- [OK] 668 total rules (+95 from v3.4.0)
+- [OK] 100% classification rate on 15K test sample
+- [OK] Break-Bulk group eliminated (improved from 82% vague to 95.7% Dry Bulk)
+- [OK] Comprehensive coverage: Crude Oil, Steel, Chemicals, Metals, Fertilizers
+- [OK] Refined keyword strategy: Key_Phrases, Primary_Keywords, Match_Strategy
 
----
-
+**Quick Links:**
+- [Version History](05_DOCUMENTATION/DICTIONARY_VERSION_HISTORY.md)
+- [v3.6.0 Summary](user_notes/DICTIONARY_V3.6.0_SUMMARY.md)
+- [v3.6.0 Test Results](user_notes/DICTIONARY_V3.6.0_TEST_RESULTS.md)
+- [Dictionary File](03_DICTIONARIES/03.01_cargo_classification/cargo_classification_dictionary_v3.6.0_20260114_1830.csv)
 ## 📋 Table of Contents
 
 - [Overview](#overview)

@@ -38,7 +38,22 @@
             text-align: center;
             color: #666;
             font-size: 1.3em;
+            margin-bottom: 20px;
+        }
+
+        .version-badge {
+            text-align: center;
             margin-bottom: 40px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 1.1em;
         }
 
         .status-banner {
@@ -78,6 +93,17 @@
         .stat-label {
             font-size: 0.9em;
             opacity: 0.9;
+        }
+
+        .new-badge {
+            display: inline-block;
+            background: #ff4444;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-size: 0.7em;
+            margin-left: 5px;
+            font-weight: bold;
         }
 
         h2 {
@@ -153,6 +179,11 @@
             border-left-color: #2196f3;
         }
 
+        .highlight-card {
+            background: #fff3cd;
+            border-left-color: #ffc107;
+        }
+
         .footer {
             background: #2c3e50;
             color: white;
@@ -172,26 +203,51 @@
         <h1>🚢 Panjiva Classification System</h1>
         <p class="subtitle">Maritime Cargo Classification Pipeline | 2023-2025</p>
 
+        <div class="version-badge">
+            <span class="badge">Dictionary v3.6.0 - Production Ready</span>
+        </div>
+
         <div class="status-banner">
-            ✅ SYSTEM COMPLETE & PRODUCTION-READY
+            ✅ v3.6.0 DEPLOYED | 100% CLASSIFICATION RATE | 668 RULES
         </div>
 
         <div class="stats">
             <div class="stat-box">
-                <div class="stat-value">1.3M</div>
-                <div class="stat-label">Records Processed</div>
+                <div class="stat-value">668</div>
+                <div class="stat-label">Classification Rules <span class="new-badge">+95</span></div>
             </div>
             <div class="stat-box">
-                <div class="stat-value">786K</div>
-                <div class="stat-label">Successfully Classified</div>
+                <div class="stat-value">100%</div>
+                <div class="stat-label">Classification Rate</div>
             </div>
             <div class="stat-box">
-                <div class="stat-value">71.3%</div>
-                <div class="stat-label">Tonnage Captured</div>
+                <div class="stat-value">95.7%</div>
+                <div class="stat-label">Dry Bulk <span class="new-badge">+84</span></div>
             </div>
             <div class="stat-box">
-                <div class="stat-value">40</div>
-                <div class="stat-label">Classification Rules</div>
+                <div class="stat-value">218</div>
+                <div class="stat-label">New User Rules <span class="new-badge">Phase 3</span></div>
+            </div>
+        </div>
+
+        <h2>🎉 v3.6.0 Highlights</h2>
+        <div class="link-grid">
+            <div class="link-card highlight-card">
+                <div class="emoji">🏆</div>
+                <h3>Break-Bulk Eliminated</h3>
+                <p><strong>82% → 0%</strong> | Vague classifications replaced with reliable Dry Bulk/Liquid Bulk/Liquid Gas groupings</p>
+            </div>
+
+            <div class="link-card highlight-card">
+                <div class="emoji">⚡</div>
+                <h3>218 New Specialized Rules</h3>
+                <p><strong>1,443 records</strong> (9.6%) now classified by user-edited Phase 3 rules across 31 HS2 chapters</p>
+            </div>
+
+            <div class="link-card highlight-card">
+                <div class="emoji">🔑</div>
+                <h3>Refined Keyword Strategy</h3>
+                <p>Key_Phrases + Primary_Keywords + Match_Strategy prevents false matches</p>
             </div>
         </div>
 
@@ -212,139 +268,133 @@
             </div>
         </div>
 
-        <h2>📁 Documentation</h2>
+        <h2>📁 v3.6.0 Documentation <span class="new-badge">NEW</span></h2>
         <div class="link-grid">
             <div class="link-card doc-link">
                 <div class="emoji">📋</div>
-                <h3>Master Pipeline Plan</h3>
-                <p>Complete system overview, architecture, file index, and next steps recommendations.</p>
-                <a href="PIPELINE_MASTER_PLAN_UPDATED.md" target="_blank">View Plan →</a>
+                <h3>v3.6.0 Summary</h3>
+                <p>Complete overview: 668 rules, refined keywords, comprehensive commodity coverage, test results.</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/user_notes/DICTIONARY_V3.6.0_SUMMARY.md" target="_blank">View Summary →</a>
             </div>
 
             <div class="link-card doc-link">
-                <div class="emoji">🏆</div>
-                <h3>Phase 10 Final Summary</h3>
-                <p>Detailed Phase 10 results, commodity breakdown, and 106M tons added across 15 commodity types.</p>
-                <a href="classification_phase10_final_summary.md" target="_blank">View Summary →</a>
+                <div class="emoji">🧪</div>
+                <h3>v3.6.0 Test Results</h3>
+                <p>15K sample test: 100% classification, Break-Bulk elimination, Phase 3 performance analysis.</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/user_notes/DICTIONARY_V3.6.0_TEST_RESULTS.md" target="_blank">View Test Results →</a>
             </div>
 
             <div class="link-card doc-link">
-                <div class="emoji">📊</div>
-                <h3>3-Year Comparison</h3>
-                <p>Cross-year analysis, commodity trends, rule performance, and year-specific anomalies.</p>
-                <a href="classification_3year_comparison.md" target="_blank">View Comparison →</a>
+                <div class="emoji">📜</div>
+                <h3>Version History</h3>
+                <p>Complete dictionary changelog from v1.0 to v3.6.0 with breaking changes and improvements.</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/05_DOCUMENTATION/DICTIONARY_VERSION_HISTORY.md" target="_blank">View History →</a>
             </div>
         </div>
 
-        <h2>📚 Reference Dictionaries</h2>
+        <h2>🗃️ Production Dictionary Files</h2>
         <div class="link-grid">
-            <div class="link-card doc-link">
+            <div class="link-card data-link">
                 <div class="emoji">📦</div>
-                <h3>Cargo Dictionary (Latest)</h3>
-                <p>Harmonized cargo classification dictionary with HS codes, keywords, and 4-level taxonomy (Group → Commodity → Cargo → Cargo_Detail)</p>
-                <a href="file:///G:/My Drive/LLM/project_manifest/01.01_dictionary/01_cargo_dictionary_harmonized_v20260111_2313.csv" target="_blank">Open Dictionary →</a>
+                <h3>Dictionary v3.6.0 (Latest) <span class="new-badge">PROD</span></h3>
+                <p><strong>668 rules</strong> | Phase 3: 218 user-edited rules | Refined keywords | 31 HS2 chapters</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/03_DICTIONARIES/03.01_cargo_classification/cargo_classification_dictionary_v3.6.0_20260114_1830.csv" target="_blank">Open Dictionary →</a>
             </div>
 
             <div class="link-card doc-link">
                 <div class="emoji">🔢</div>
-                <h3>HS Code Lookups</h3>
-                <p>Complete HS code hierarchy (HS2/HS4/HS6) with descriptions. Includes 7.6MB JSON with full classification structure.</p>
-                <a href="file:///G:/My Drive/LLM/project_manifest/01.01_dictionary" target="_blank">Open Dictionary Folder →</a>
+                <h3>HS Code Reference</h3>
+                <p>Complete HS code hierarchy (HS2/HS4/HS6) with descriptions, tonnage, and package type analysis.</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/user_notes/hs_code_reference_complete.csv" target="_blank">Open Reference →</a>
             </div>
 
             <div class="link-card doc-link">
                 <div class="emoji">⚓</div>
-                <h3>Port & Location</h3>
-                <p>US port dictionary (68KB), ACE port codes, Schedule D, country codes, and waterway cross-references.</p>
-                <a href="file:///G:/My Drive/LLM/project_manifest/01.01_dictionary/01_us_port_dictionary.csv" target="_blank">Open Port Dictionary →</a>
-            </div>
-
-            <div class="link-card doc-link">
-                <div class="emoji">🚢</div>
                 <h3>Ship Registry</h3>
-                <p>Complete ship registry (5.4MB) with IMO numbers, vessel names, types, and carrier SCAC codes (43KB).</p>
+                <p>Complete ship registry (5.4MB) with IMO numbers, vessel names, types, and carrier SCAC codes.</p>
                 <a href="file:///G:/My Drive/LLM/project_manifest/01.01_dictionary/01_ships_register.csv" target="_blank">Open Ship Registry →</a>
             </div>
+        </div>
 
-            <div class="link-card doc-link">
+        <h2>📂 Classified Test Data</h2>
+        <div class="link-grid">
+            <div class="link-card data-link">
+                <div class="emoji">🧪</div>
+                <h3>v3.6.0 Test (15K records) <span class="new-badge">NEW</span></h3>
+                <p><strong>100% classified</strong> | 55% Phase 1 | 9.6% Phase 3 | 35% Phase 5</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/build_documentation/sample_test_15k/sample_15k_classified_v3.6.0.csv" target="_blank">Open File →</a>
+            </div>
+
+            <div class="link-card data-link">
                 <div class="emoji">📊</div>
-                <h3>Trade Code Lookups</h3>
-                <p>Schedule B export/import codes (5.1MB total), SITC, NAICS, SIC, ATP, and end-use codes for trade classification.</p>
-                <a href="file:///G:/My Drive/LLM/project_manifest/01.01_dictionary/sked_b_import_codes.csv" target="_blank">Open Trade Codes →</a>
+                <h3>v3.6.0 Statistics</h3>
+                <p>Classification stats: Phase breakdown, Group distribution, Commodity analysis.</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/build_documentation/sample_test_15k/classification_stats_v3.6.0.csv" target="_blank">Open Stats →</a>
             </div>
 
-            <div class="link-card doc-link">
-                <div class="emoji">🏭</div>
-                <h3>Specialized Cargo</h3>
-                <p>Industry-specific dictionaries: pig iron, pulp & paper, steel slabs, steel coils, and wind turbine components.</p>
-                <a href="file:///G:/My Drive/LLM/project_manifest/01.01_dictionary" target="_blank">Browse All Dictionaries →</a>
+            <div class="link-card data-link">
+                <div class="emoji">🕒</div>
+                <h3>Historical Tests</h3>
+                <p>Previous test results: v3.4.0, v3.3.0, v3.2.0, v3.1.0, v3.0.0 for comparison.</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/build_documentation/sample_test_15k" target="_blank">Open Folder →</a>
             </div>
         </div>
 
-        <h2>📂 Classified Data Files</h2>
+        <h2>🎯 v3.6.0 Coverage by Commodity</h2>
         <div class="link-grid">
-            <div class="link-card data-link">
-                <div class="emoji">📅</div>
-                <h3>2023 Data (454K records)</h3>
-                <p><strong>80.2% classified</strong> | 49.3% tonnage | 0.9% unclassified tonnage</p>
-                <a href="file:///G:/My Drive/LLM/project_manifest/build_documentation/classification_full_2023" target="_blank">Open Folder →</a>
+            <div class="link-card" style="background: #ffe6e6; border-left-color: #e74c3c;">
+                <h3>⛽ Mineral Fuels (HS27)</h3>
+                <p><strong>13 rules</strong> | Crude Oil, Petroleum Products, Coal, LNG | 32+ crude oil records captured</p>
             </div>
 
-            <div class="link-card data-link">
-                <div class="emoji">📅</div>
-                <h3>2024 Data (449K records)</h3>
-                <p><strong>52.5% classified</strong> | 84.0% tonnage | LBK package rule: 275M tons!</p>
-                <a href="file:///G:/My Drive/LLM/project_manifest/build_documentation/classification_full_2024" target="_blank">Open Folder →</a>
+            <div class="link-card" style="background: #e6f3ff; border-left-color: #3498db;">
+                <h3>🔬 Chemicals (HS28-29, 38)</h3>
+                <p><strong>86 rules</strong> | Inorganic, Organic, Additives | 50+ chemical records classified</p>
             </div>
 
-            <div class="link-card data-link">
-                <div class="emoji">📅</div>
-                <h3>2025 Data (399K records)</h3>
-                <p><strong>55.9% classified</strong> | 82.8% tonnage | Reefer spike: 5x increase</p>
-                <a href="file:///G:/My Drive/LLM/project_manifest/build_documentation/classification_full_2025" target="_blank">Open Folder →</a>
-            </div>
-        </div>
-
-        <h2>🎯 Key Discoveries</h2>
-        <div class="link-grid">
-            <div class="link-card" style="background: #fff3cd; border-left-color: #ffc107;">
-                <h3>🥇 LBK Package Rule</h3>
-                <p><strong>501M tons</strong> captured from single package type indicator. Accounts for ~50% of all classified tonnage!</p>
+            <div class="link-card" style="background: #f0f0f0; border-left-color: #95a5a6;">
+                <h3>🏗️ Iron & Steel (HS72-73)</h3>
+                <p><strong>40 rules</strong> | Pig Iron, Flat Rolled, Long Products | 607 steel records captured</p>
             </div>
 
-            <div class="link-card" style="background: #d4edda; border-left-color: #28a745;">
-                <h3>🥈 Crude Oil Variants</h3>
-                <p><strong>79M tons</strong> added in Phase 10 by targeting specific grades (BASRAH, KIRKUK, LIZA, TUPI)</p>
+            <div class="link-card" style="background: #fff5e6; border-left-color: #f39c12;">
+                <h3>🏺 Construction (HS25, 68-69)</h3>
+                <p><strong>17 rules</strong> | Cement, Aggregates, Gypsum, Stone | 76+ construction records</p>
             </div>
 
-            <div class="link-card" style="background: #cfe2ff; border-left-color: #0d6efd;">
-                <h3>🥉 Simplified Salt Rule</h3>
-                <p>User's "salt is just salt" intuition: <strong>32.9M tons</strong> (13-19x better than complex variants)</p>
+            <div class="link-card" style="background: #e6ffe6; border-left-color: #2ecc71;">
+                <h3>🌾 Agricultural (HS08-23, 40)</h3>
+                <p><strong>14 rules</strong> | Grain, Oils, Coffee, Sugar, Rubber | 94+ ag records classified</p>
+            </div>
+
+            <div class="link-card" style="background: #f0e6ff; border-left-color: #9b59b6;">
+                <h3>⚙️ Metals (HS74, 76, 78-79)</h3>
+                <p><strong>26 rules</strong> | Aluminum, Copper, Lead, Zinc | 151+ metal records captured</p>
             </div>
         </div>
 
         <h2>🚀 Next Steps</h2>
         <div class="link-grid">
             <div class="link-card" style="background: #e7f3ff; border-left-color: #2196f3;">
-                <h3>Option 1: Monthly Updates</h3>
-                <p>Process ~37K new records/month with 2-3 minute runtime</p>
+                <h3>1. Full Dataset Classification</h3>
+                <p>Run v3.6.0 on complete 2024 dataset (500K+ records) to validate at scale</p>
             </div>
 
             <div class="link-card" style="background: #f3e5f5; border-left-color: #9c27b0;">
-                <h3>Option 2: ML Pattern Discovery</h3>
-                <p>Use 786K classified records as training set for automated rule refinement</p>
+                <h3>2. Add Remaining High-Tonnage HS4</h3>
+                <p>Continue user editing for 2M+ tons commodities not yet covered (remaining 38 HS4 codes)</p>
             </div>
 
             <div class="link-card" style="background: #fff9e6; border-left-color: #ff9800;">
-                <h3>Option 3: Granularity Refinement</h3>
-                <p>Refine "Steel NOS" → "Cold Rolled Coils" for higher analytical value</p>
+                <h3>3. Monitor Production Performance</h3>
+                <p>Track Phase 3 rule performance, identify false positives/negatives, refine keywords</p>
             </div>
         </div>
 
         <div class="footer">
-            <p><strong>Classification System Status:</strong> ✅ Functioning Sufficiently & ML-Ready</p>
-            <p style="margin-top: 15px; opacity: 0.9;">Built: 2026-01-13 | Coverage: 2023-2025 | Records: 1.3M | Tonnage: 2.1B tons</p>
-            <p style="margin-top: 10px; opacity: 0.8;">786K classified records provide robust training set for machine learning</p>
+            <p><strong>Dictionary v3.6.0 Status:</strong> ✅ Production Ready | 100% Test Classification Rate</p>
+            <p style="margin-top: 15px; opacity: 0.9;">Last Updated: 2026-01-14 20:00 | Dictionary: v3.6.0 | Rules: 668 | Coverage: 31 HS2 Chapters</p>
+            <p style="margin-top: 10px; opacity: 0.8;">Major Improvements: Break-Bulk eliminated | 218 new Phase 3 rules | Refined keyword strategy</p>
         </div>
     </div>
 </body>

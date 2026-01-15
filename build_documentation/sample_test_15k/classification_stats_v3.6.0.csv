@@ -1,0 +1,15 @@
+Metric,Count,Percentage
+Total Records,15000,100.0%
+Classified,15000,100.0%
+Unclassified,0,0.0%
+,,
+By Phase:,,
+  Phase 1,8253,55.0%
+  Phase 2,62,0.4%
+  Phase 3,1443,9.6%
+  Phase 5,5242,34.9%
+,,
+By Classification Group:,,
+  Dry Bulk,14349,95.7%
+  Liquid Bulk,649,4.3%
+  Liquid Gas,2,0.0%
