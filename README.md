@@ -20,6 +20,7 @@
 - [Key Features](#key-features)
 - [Architecture](#architecture)
 - [Results](#results)
+- [USACE Data Integration](#usace-data-integration)
 - [Quick Start](#quick-start)
 - [Documentation](#documentation)
 - [Repository Structure](#repository-structure)
@@ -151,6 +152,60 @@ Cargo_Detail:  Crude Oil - Basrah Heavy
 | 🥇 | LBK Package | 501M tons | Liquid bulk package type indicator |
 | 🥈 | Crude Oil Variants | 79M tons | Specific grades (BASRAH, KIRKUK, LIZA, TUPI) |
 | 🥉 | Simplified Salt | 32.9M tons | "Salt is just salt" - keyword matching |
+
+---
+
+## 🚢 USACE Data Integration
+
+**NEW: USACE Vessel Movement Data (2026-01-15)**
+
+In addition to Panjiva cargo classification, this system now processes USACE (U.S. Army Corps of Engineers) vessel entrance and clearance data.
+
+### Dataset
+
+- **Source**: USACE Waterborne Commerce Statistics
+- **Year**: 2023
+- **Records**: 165,683 vessel movements
+  - 82,343 entrances (inbound/imports)
+  - 83,340 clearances (outbound/exports)
+- **Output**: 37-column standardized schema
+
+### Key Features
+
+**Port Mapping (100% accuracy)**:
+- Discovered USACE uses proprietary port/waterway codes (NOT Census Sked D)
+- Built authoritative dictionary from source data (528 unique codes)
+
+**Vessel Enrichment (85.7% match rate)**:
+- Two-tier matching: IMO number (primary) + vessel name (secondary)
+- Added specifications: Type, DWT, Grain capacity, TPC, draft data
+
+**Draft Analysis (84.3% coverage)**:
+- Calculate actual draft as % of max DWT draft
+- Forecast vessel activity: >50% = Discharge (laden), ≤50% = Load (ballast)
+- Results: 81% Discharge, 3% Load
+
+**Cargo Classification (100% coverage)**:
+- Maps ICST vessel type to cargo Group and Commodity
+- 45.3% Dry Bulk, 23.8% Other, 18.7% Liquid Bulk
+
+### Files
+
+**Scripts**:
+- `04_SCRIPTS/transform_usace_entrance_data_v2.0.0.py`
+- `04_SCRIPTS/transform_usace_clearance_data_v2.0.0.py`
+
+**Dictionaries**:
+- `01.01_dictionary/usace_port_codes_from_data.csv` (528 USACE codes)
+- `01.01_dictionary/usace_sked_k_foreign_ports.csv` (1,907 foreign ports)
+- `01.01_dictionary/usace_cargoclass.csv` (40 cargo classifications)
+
+**Documentation**:
+- [USACE Data Transformation Guide](05_DOCUMENTATION/USACE_DATA_TRANSFORMATION_v2.0.0.md)
+
+**Output**:
+- `02_STAGE02_CLASSIFICATION/usace_2023_inbound_entrance_transformed_v2.1.0.csv`
+- `02_STAGE02_CLASSIFICATION/usace_2023_outbound_clearance_transformed_v2.1.0.csv`
 
 ---
 
