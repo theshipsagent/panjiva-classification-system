@@ -373,6 +373,99 @@
             </div>
         </div>
 
+        <h2>🚢 USACE Vessel Movement Data <span class="new-badge">NEW</span></h2>
+        <div class="status-banner" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);">
+            ⚓ USACE DATA v2.1.0 COMPLETE | 165,683 VESSEL MOVEMENTS | 100% PORT MAPPING
+        </div>
+
+        <div class="stats">
+            <div class="stat-box" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);">
+                <div class="stat-value">165.7K</div>
+                <div class="stat-label">Vessel Movements (2023)</div>
+            </div>
+            <div class="stat-box" style="background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%);">
+                <div class="stat-value">100%</div>
+                <div class="stat-label">Port Mapping</div>
+            </div>
+            <div class="stat-box" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+                <div class="stat-value">85.7%</div>
+                <div class="stat-label">Vessel Matched</div>
+            </div>
+            <div class="stat-box" style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);">
+                <div class="stat-value">84.3%</div>
+                <div class="stat-label">Draft Analysis</div>
+            </div>
+        </div>
+
+        <h3 style="color: #3498db; font-size: 1.2em; margin-bottom: 15px;">📊 Key Discovery: USACE Proprietary Port Codes</h3>
+        <div class="link-grid">
+            <div class="link-card highlight-card">
+                <div class="emoji">🔍</div>
+                <h3>Port Code Discovery</h3>
+                <p><strong>Critical Finding:</strong> USACE uses proprietary port/waterway codes (NOT Census Sked D). Built authoritative dictionary from source data (528 codes) → 100% mapping success</p>
+            </div>
+
+            <div class="link-card highlight-card">
+                <div class="emoji">⚓</div>
+                <h3>Vessel Enrichment</h3>
+                <p><strong>85.7% match rate</strong> | Two-tier strategy: IMO (84%) + Name (1.7%) | Added DWT, Type, Grain, TPC, Draft specs</p>
+            </div>
+
+            <div class="link-card highlight-card">
+                <div class="emoji">📐</div>
+                <h3>Draft Analysis</h3>
+                <p><strong>Load vs Discharge Forecasting</strong> | >50% draft = Discharge (81%), ≤50% = Load (3%) | 84.3% coverage</p>
+            </div>
+        </div>
+
+        <h3 style="color: #3498db; font-size: 1.2em; margin-bottom: 15px; margin-top: 30px;">📁 USACE Data Files</h3>
+        <div class="link-grid">
+            <div class="link-card data-link">
+                <div class="emoji">🛳️</div>
+                <h3>Entrance Data (Inbound) <span class="new-badge">v2.1.0</span></h3>
+                <p><strong>82,343 records</strong> | 37 columns | 100% port mapping | 85.7% vessel matched | 80.9% Discharge forecast</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/02_STAGE02_CLASSIFICATION/usace_2023_inbound_entrance_transformed_v2.1.0.csv" target="_blank">Open File →</a>
+            </div>
+
+            <div class="link-card data-link">
+                <div class="emoji">⚓</div>
+                <h3>Clearance Data (Outbound) <span class="new-badge">v2.1.0</span></h3>
+                <p><strong>83,340 records</strong> | 37 columns | 100% port mapping | 85.7% vessel matched | 81.7% Discharge forecast</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/02_STAGE02_CLASSIFICATION/usace_2023_outbound_clearance_transformed_v2.1.0.csv" target="_blank">Open File →</a>
+            </div>
+
+            <div class="link-card doc-link">
+                <div class="emoji">📘</div>
+                <h3>Technical Documentation</h3>
+                <p>Complete transformation guide: port mapping, vessel enrichment, draft analysis, cargo classification</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/05_DOCUMENTATION/USACE_DATA_TRANSFORMATION_v2.0.0.md" target="_blank">View Docs →</a>
+            </div>
+        </div>
+
+        <h3 style="color: #3498db; font-size: 1.2em; margin-bottom: 15px; margin-top: 30px;">🗃️ USACE Dictionaries</h3>
+        <div class="link-grid">
+            <div class="link-card data-link">
+                <div class="emoji">🗺️</div>
+                <h3>USACE Port Codes</h3>
+                <p><strong>528 unique codes</strong> | Extracted from source data | AUTHORITATIVE dictionary for USACE waterway system</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/01.01_dictionary/usace_port_codes_from_data.csv" target="_blank">Open Dictionary →</a>
+            </div>
+
+            <div class="link-card data-link">
+                <div class="emoji">🌍</div>
+                <h3>Foreign Ports (Sked K)</h3>
+                <p><strong>1,907 ports</strong> | Foreign port codes, names, countries | 67.3% match rate on WHERE_SCHEDK</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/01.01_dictionary/usace_sked_k_foreign_ports.csv" target="_blank">Open Dictionary →</a>
+            </div>
+
+            <div class="link-card data-link">
+                <div class="emoji">📦</div>
+                <h3>Cargo Classification</h3>
+                <p><strong>40 ICST types</strong> | Vessel type to cargo Group/Commodity mapping | 100% classification coverage</p>
+                <a href="file:///G:/My Drive/LLM/project_manifest/01.01_dictionary/usace_cargoclass.csv" target="_blank">Open Dictionary →</a>
+            </div>
+        </div>
+
         <h2>🚀 Next Steps</h2>
         <div class="link-grid">
             <div class="link-card" style="background: #e7f3ff; border-left-color: #2196f3;">
