@@ -56,7 +56,7 @@ Output: Classified CSVs + Pivot Summaries
 
 **Critical Concept**: This is NOT a code-driven system. All classification rules live in CSV dictionaries, not Python code. The classification scripts are generic engines that execute rules from the dictionary.
 
-**Main Dictionary**: `03_DICTIONARIES/03.01_cargo_classification/cargo_classification_dictionary_v*.csv`
+**Main Dictionary**: `01_DICTIONARIES/01.01_cargo_classification/cargo_classification_dictionary_CURRENT_v*.csv`
 
 **Dictionary Schema** (38 columns):
 - **Control**: `Rule_ID`, `Phase`, `Tier`, `Active`, `Lock_Group`, `Lock_Commodity`, `Lock_Cargo`, `Lock_Cargo_Detail`
@@ -102,43 +102,70 @@ Phase 10 (Crude Variants): All locks=TRUE
 
 ## File Organization
 
-### ⚠️ Folder Migration Status - READ THIS FIRST
+### ✅ Reorganization Completed (2026-01-16)
 
-The repository contains **BOTH old and new folder structures** as a migration is in progress. Many scripts still reference old paths.
+**Status**: Project reorganization is **COMPLETE**. The repository has been cleaned from 20+ scattered folders into a professional 7-folder hierarchy.
 
-**Old Structure (currently active - scripts use these)**:
-- `00_raw_data/` - Raw data files
-- `01_step_one/` - Preprocessed data (contains the actual year files)
-- `01.01_dictionary/` - Reference dictionaries (actively used)
-- `build_documentation/` - Output files
+**What Changed**:
+- 108 scripts organized by purpose (60+ scripts updated with new paths)
+- 12 AUTHORITATIVE data files standardized
+- 5 dictionary categories centralized
+- Complete historical snapshot preserved in `_archive/2026-01-16_pre_reorganization/`
 
-**New Structure (documented, being migrated to)**:
-- `00_STAGE00_RAW_DATA/` - Raw data files (new location)
-- `01_STAGE01_PREPROCESSING/` - Preprocessed data (new location)
-- `03_DICTIONARIES/` - Reference dictionaries (new location)
-- Other numbered STAGE folders
+**Old Structure (archived)**:
+- Old folders preserved in `_archive/` for rollback capability
+- Exception: `00_raw_data/` and `user_notes/` remain at root per user request
 
-**Critical for Claude Code**: When a script path doesn't work, try the alternate naming convention. Check both `01_step_one/` and `01_STAGE01_PREPROCESSING/` for data files. Check both `01.01_dictionary/` and `03_DICTIONARIES/` for reference files.
+See `REORGANIZATION_COMPLETE.md` for complete details.
 
-See `FOLDER_REORGANIZATION_SUMMARY.md` for complete migration details.
-
-### Directory Structure (Target State)
+### Directory Structure (Current)
 
 ```
 G:\My Drive\LLM\project_manifest\
-├── 00_STAGE00_RAW_DATA\          # Raw source files (170 Panjiva files)
-├── 01_STAGE01_PREPROCESSING\     # Year-split preprocessed files
-├── 02_STAGE02_CLASSIFICATION\    # Phase outputs and checkpoints
-├── 03_DICTIONARIES\              # All reference dictionaries
-│   ├── 03.01_cargo_classification\  # Main classification dictionary
-│   ├── 03.02_hs_codes\              # HS code hierarchies
-│   ├── 03.03_ports\                 # Port dictionaries
-│   └── 03.04_ships\                 # Ship registry, carrier codes
-├── 04_SCRIPTS\                   # Classification scripts (development)
-├── 05_DOCUMENTATION\             # Master plans, guides, dashboards
-├── 06_CHECKPOINTS\               # Processing checkpoints (.parquet)
-├── build_documentation\          # Final classified outputs
-└── [Old folders: 00_raw_data, 01_step_one, 01.01_dictionary - still active]
+├── README.md                     # Project overview
+├── CLAUDE.md                     # AI assistant instructions
+│
+├── 00_DATA/                      # All data files (4 stages)
+│   ├── 00.01_RAW/               # Raw sources - DO NOT TOUCH
+│   ├── 00.02_PREPROCESSED/      # 6 AUTHORITATIVE files
+│   ├── 00.03_MATCHED/           # 4 matched datasets
+│   └── 00.04_FINAL/             # 2 Port Call Master files ⭐ FINAL OUTPUTS
+│
+├── 01_DICTIONARIES/              # All reference data
+│   ├── 01.01_cargo_classification/  # CURRENT v3.6.0
+│   ├── 01.02_ports/             # 3 port dictionaries
+│   ├── 01.03_vessels/           # ships_register + US Flag inventory
+│   ├── 01.04_carriers/          # carrier SCAC mappings
+│   └── 01.05_hs_codes/          # HS2/4/6 lookups
+│
+├── 02_SCRIPTS/                   # Organized by purpose (108 scripts)
+│   ├── 02.01_preprocessing/     # 10 scripts
+│   ├── 02.02_matching/          # 14 scripts
+│   ├── 02.03_enrichment/        # 10 scripts
+│   ├── 02.04_analysis/          # 26 scripts
+│   ├── 02.05_validation/        # 11 scripts
+│   ├── 02.06_utilities/         # 35 scripts
+│   └── 02.07_production/        # 2 scripts
+│
+├── 03_DOCUMENTATION/             # Centralized documentation
+│   ├── 03.01_guides/            # 2 guides
+│   ├── 03.02_technical/         # 5 technical docs
+│   ├── 03.03_dashboards/        # 5 HTML dashboards + assets
+│   ├── 03.04_summaries/         # 21 summary reports
+│   └── 03.05_data_dictionaries/ # 4 CSV column lists
+│
+├── 04_DEVELOPMENT/               # Development files (hidden from production)
+│   ├── 04.01_experiments/       # 3 helper scripts
+│   ├── 04.02_tests/             # Test files
+│   └── 04.03_deprecated/        # 19 old script versions
+│
+├── 05_USER_NOTES/                # User working folder
+│
+├── 00_raw_data/                  # Preserved at root per user request
+├── user_notes/                   # Preserved at root (user actively working)
+│
+└── _archive/                     # Complete historical snapshot
+    └── 2026-01-16_pre_reorganization/
 ```
 
 ### Naming Conventions
@@ -171,31 +198,37 @@ stage{NN}_{purpose}_v{VERSION}.py
 
 ### Running Classification
 
+**IMPORTANT: Always use v2.0.0 scripts and data (as of 2026-01-29)**
+
 **Test on 15K sample** (recommended for development):
 ```bash
-cd "G:\My Drive\LLM\project_manifest\04_SCRIPTS"
+cd "G:\My Drive\LLM\project_manifest\02_SCRIPTS\02.07_production"
 
-# Find the latest version
-dir classify_15k_sample_v*.py
-
-# Run the latest version (e.g., v3.4.0 or newer)
-python classify_15k_sample_v3.4.0.py
+# Run 15K validation test
+python classify_15k_test_v2.0.0.py
 ```
-**Output**: `build_documentation/sample_test_15k/sample_15k_classified_v*.csv`
-**Runtime**: ~1-2 minutes
+**Input**: `00_DATA/00.02_PREPROCESSED/panjiva_imports_2024_AUTHORITATIVE_v2.0.0.csv` (first 15K)
+**Output**: `00_DATA/00.03_MATCHED/sample_15k_classified_v2.0.0_validation.csv`
+**Runtime**: ~20 minutes
+**Expected**: 100% classification, ~55% Phase 1 (carrier locks)
 
 **Full year classification** (use for production):
 
-⚠️ **Note**: Production scripts are located in `C:\Users\wsd3\` (separate from development scripts in `04_SCRIPTS\`). These are the mature, optimized versions used for full data processing.
-
 ```bash
-cd C:\Users\wsd3
+cd "G:\My Drive\LLM\project_manifest\02_SCRIPTS\02.07_production"
 
-# Run full year classification
-python classification_phase10_high_value.py 2024
+# Run full year classification (v2.0.0)
+python classify_full_year_v2.0.0.py --year 2023
+python classify_full_year_v2.0.0.py --year 2024
+python classify_full_year_v2.0.0.py --year 2025
 ```
-**Output**: `build_documentation/classification_full_2024/panjiva_2024_classified_*.csv`
-**Runtime**: ~40 minutes for full year
+**Input**: v2.0.0 AUTHORITATIVE files from `00_DATA/00.02_PREPROCESSED/`
+**Output**: `00_DATA/00.03_MATCHED/panjiva_imports_{year}_classified_v2.0.0.csv`
+**Runtime**:
+- 2023: ~20 minutes (15K records)
+- 2024: ~9 hours (449K records)
+- 2025: ~8 hours (398K records)
+**Expected**: 100% classification with vessel enrichment
 
 ### Editing Classification Rules
 
@@ -203,21 +236,21 @@ python classification_phase10_high_value.py 2024
 
 **Finding the latest dictionary**:
 ```bash
-# Check both old and new locations
-dir "G:\My Drive\LLM\project_manifest\03_DICTIONARIES\03.01_cargo_classification\cargo_classification_dictionary_v*.csv" /O-D
-dir "G:\My Drive\LLM\project_manifest\01.01_dictionary\cargo_classification_dictionary_v*.csv" /O-D
+# Check the cargo classification dictionary folder
+dir "G:\My Drive\LLM\project_manifest\01_DICTIONARIES\01.01_cargo_classification\cargo_classification_dictionary_*.csv" /O-D
 
-# The highest version number with most recent timestamp is the latest
+# Look for the file with "CURRENT" in the name for the active version
+# Example: cargo_classification_dictionary_CURRENT_v3.6.0.csv
 ```
 
 **Workflow**:
-1. Open latest dictionary (e.g., `cargo_classification_dictionary_v3.4.0_20260114_0400.csv`)
+1. Open latest dictionary (e.g., `cargo_classification_dictionary_CURRENT_v3.6.0.csv`)
 2. Add/modify rules following the schema (see "Dictionary Schema" section)
 3. Save with incremented version:
-   - New rules: `v3.4.0` → `v3.5.0` (minor bump)
-   - Bug fixes: `v3.4.0` → `v3.4.1` (patch bump)
-   - Schema changes: `v3.4.0` → `v4.0.0` (major bump)
-4. Update script's `DICTIONARY` path variable to point to new version
+   - New rules: `v3.6.0` → `v3.7.0` (minor bump)
+   - Bug fixes: `v3.6.0` → `v3.6.1` (patch bump)
+   - Schema changes: `v3.6.0` → `v4.0.0` (major bump)
+4. Update the filename to include "CURRENT" prefix and update script's `DICTIONARY` path variable
 5. Test on 15K sample before running full classification
 
 **Example: Adding a new crude oil variant**:
@@ -247,7 +280,7 @@ Tonnage_Impact: Medium
 
 **Quick tonnage report** (check tonnage distribution by commodity):
 ```bash
-cd "G:\My Drive\LLM\project_manifest\04_SCRIPTS"
+cd "G:\My Drive\LLM\project_manifest\02_SCRIPTS\02.04_analysis"
 
 # Use latest version
 python quick_tonnage_report_v*.py  # Find latest with: dir quick_tonnage_report_v*.py
@@ -255,16 +288,19 @@ python quick_tonnage_report_v*.py  # Find latest with: dir quick_tonnage_report_
 
 **Check specific phase impact** (see what a phase classified):
 ```bash
+cd "G:\My Drive\LLM\project_manifest\02_SCRIPTS\02.04_analysis"
 python analyze_phase5_v*.py
 ```
 
 **Identify unclassified records** (analyze TBN remaining):
 ```bash
+cd "G:\My Drive\LLM\project_manifest\02_SCRIPTS\02.04_analysis"
 python analyze_tbn_remaining_v*.py
 ```
 
 **Compare versions** (tonnage differences between dictionary versions):
 ```bash
+cd "G:\My Drive\LLM\project_manifest\02_SCRIPTS\02.04_analysis"
 python compare_v31_v32_tonnage.py  # Adjust version numbers as needed
 ```
 
@@ -272,11 +308,13 @@ python compare_v31_v32_tonnage.py  # Adjust version numbers as needed
 
 **Verify dictionary structure**:
 ```bash
+cd "G:\My Drive\LLM\project_manifest\02_SCRIPTS\02.05_validation"
 python verify_v3_dictionary.py
 ```
 
 **Check phase 1 lock conflicts**:
 ```bash
+cd "G:\My Drive\LLM\project_manifest\02_SCRIPTS\02.05_validation"
 python check_phase1_locks.py
 ```
 
@@ -370,47 +408,46 @@ All classification scripts follow the same pattern:
 
 ## Important Data Paths
 
-⚠️ **Note**: Due to folder migration, check both old and new paths. Scripts may reference either location.
-
-**Preprocessed Annual Files** (check both locations):
+**Preprocessed Annual Files** (AUTHORITATIVE versions - v2.0.0):
 ```
-# Old location (actively used by scripts)
-G:\My Drive\LLM\project_manifest\01_step_one\01_01_panjiva_imports_step_one\
-  - panjiva_imports_2023_20260112_STAGE00_v20260112_2052.csv (352 MB)
-  - panjiva_imports_2024_20260112_STAGE00_v20260112_2052.csv (347 MB)
-  - panjiva_imports_2025_20260112_STAGE00_v20260112_2052.csv (308 MB)
+G:\My Drive\LLM\project_manifest\00_DATA\00.02_PREPROCESSED\
+  - panjiva_imports_2023_AUTHORITATIVE_v2.0.0.csv (13 MB, 59 columns)
+  - panjiva_imports_2024_AUTHORITATIVE_v2.0.0.csv (373 MB, 59 columns)
+  - panjiva_imports_2025_AUTHORITATIVE_v2.0.0.csv (332 MB, 59 columns)
+  - panjiva_exports_2023_AUTHORITATIVE_v1.0.0.csv (76 MB)
+  - usace_2023_entrance_AUTHORITATIVE_v1.0.0.csv (29 MB)
+  - usace_2023_clearance_AUTHORITATIVE_v1.0.0.csv (29 MB)
 
-# New location (target)
-G:\My Drive\LLM\project_manifest\01_STAGE01_PREPROCESSING\01.01_annual_files\
-```
-
-**Ship Registry** (for vessel type enrichment, check both):
-```
-# Old location
-G:\My Drive\LLM\project_manifest\01.01_dictionary\01_ships_register.csv
-
-# New location
-G:\My Drive\LLM\project_manifest\03_DICTIONARIES\03.04_ships\
+Note: v2.0.0 includes vessel enrichment (88-90% match rate) and lock columns
 ```
 
-**Main Classification Dictionary** (check both locations):
+**Final Output Files** (Port Call Master):
 ```
-# Old location (actively used)
-G:\My Drive\LLM\project_manifest\01.01_dictionary\
-  - cargo_classification_dictionary_v*.csv
-
-# New location (target)
-G:\My Drive\LLM\project_manifest\03_DICTIONARIES\03.01_cargo_classification\
-  - cargo_classification_dictionary_v3.4.0_20260114_0400.csv (LATEST as of 2026-01-14)
+G:\My Drive\LLM\project_manifest\00_DATA\00.04_FINAL\
+  - usace_2023_portcall_master_v1.5.0_AUTHORITATIVE.csv (49 MB, 85 columns)
+  - usace_2023_portcall_master_v1.5.0_ABRIDGED.csv (35 MB, 46 columns) ⭐
 ```
 
-**Classified Outputs**:
+**Ship Registry** (for vessel type enrichment):
 ```
-G:\My Drive\LLM\project_manifest\build_documentation\
+G:\My Drive\LLM\project_manifest\01_DICTIONARIES\01.03_vessels\
+  - 01_ships_register.csv (5.4 MB)
+  - US Flag vessel inventory (9 Excel files)
+```
+
+**Main Classification Dictionary**:
+```
+G:\My Drive\LLM\project_manifest\01_DICTIONARIES\01.01_cargo_classification\
+  - cargo_classification_dictionary_CURRENT_v3.6.0.csv (LATEST as of 2026-01-16)
+```
+
+**Analysis Reports and Summaries**:
+```
+G:\My Drive\LLM\project_manifest\03_DOCUMENTATION\03.04_summaries\
   - classification_full_2023\
   - classification_full_2024\
   - classification_full_2025\
-  - sample_test_15k\  (development testing)
+  - sample_test_15k\ (development testing)
 ```
 
 ---
@@ -419,42 +456,43 @@ G:\My Drive\LLM\project_manifest\build_documentation\
 
 **Essential Reading**:
 - `README.md` - Project overview and results
-- `05_DOCUMENTATION/05.01_pipeline_docs/PIPELINE_MASTER_PLAN_UPDATED.md` - Complete system reference
-- `05_DOCUMENTATION/05.01_pipeline_docs/NAMING_CONVENTIONS_v1.0.0.md` - Versioning and naming standards
-- `05_DOCUMENTATION/05.01_pipeline_docs/RULE_EDITING_GUIDE_v1.0.0.md` - How to edit dictionary rules
-- `GIT_SETUP_GUIDE.md` - Version control workflow
+- `CLASSIFICATION_3YEAR_COMPARISON_v2.0.0.md` - **Complete v2.0.0 results and analysis** ⭐
+- `CLASSIFICATION_COMPLETE_20260130.md` - Final classification completion summary
+- `V2.0.0_PIPELINE_SUMMARY.md` - v2.0.0 technical details and improvements
+- `03_DOCUMENTATION/03.02_technical/ARCHITECTURE.md` - Complete system reference
+- `03_DOCUMENTATION/03.01_guides/` - Naming conventions and editing guides
+- `REORGANIZATION_COMPLETE.md` - Details of 2026-01-16 reorganization
 
 **Interactive Dashboards** (open in browser):
-- `build_documentation/INDEX.html` - Main landing page
-- `build_documentation/classification_pipeline_dashboard.html` - Charts & metrics
-- `build_documentation/classification_technical_dataflow.html` - Architecture diagrams
+- `03_DOCUMENTATION/03.03_dashboards/index.html` - Main landing page
+- `03_DOCUMENTATION/03.03_dashboards/classification_pipeline_dashboard.html` - Charts & metrics
+- `03_DOCUMENTATION/03.03_dashboards/classification_technical_dataflow.html` - Architecture diagrams
 
 **Analysis Reports**:
-- `build_documentation/classification_phase10_final_summary.md` - Latest phase results
-- `build_documentation/classification_3year_comparison.md` - Cross-year analysis
-- `build_documentation/classification_victory_summary.md` - Success metrics
+- `03_DOCUMENTATION/03.04_summaries/classification_phase10_final_summary.md` - Latest phase results
+- `03_DOCUMENTATION/03.04_summaries/classification_3year_comparison.md` - Cross-year analysis
+- `03_DOCUMENTATION/03.04_summaries/classification_victory_summary.md` - Success metrics
 
 ---
 
 ## Git Workflow
 
 **Large files are excluded** via `.gitignore`:
-- Raw data files (`00_raw_data/`, `00_STAGE00_RAW_DATA/`)
-- Preprocessed CSVs (`01_step_one/`, `01_STAGE01_PREPROCESSING/`)
-- Classified outputs (`build_documentation/classification_full_*/`)
+- All data files (`00_DATA/`, `00_raw_data/`)
 - Archive folder (`_archive/`)
-- Checkpoints (`*.parquet`, `06_CHECKPOINTS/`)
+- Deprecated scripts (`04_DEVELOPMENT/04.03_deprecated/`)
+- User working files (`user_notes/`, `05_USER_NOTES/`)
 
 **What IS tracked**:
-- Python scripts (04_SCRIPTS/)
-- Dictionaries (03_DICTIONARIES/)
-- Documentation (05_DOCUMENTATION/, build_documentation/*.md, *.html)
-- README, guides, summaries
+- Python scripts (`02_SCRIPTS/`)
+- Dictionaries (`01_DICTIONARIES/`)
+- Documentation (`03_DOCUMENTATION/`)
+- README, CLAUDE.md, REORGANIZATION_COMPLETE.md
 
 **Commit Pattern**:
 ```bash
-git add 03_DICTIONARIES/03.01_cargo_classification/cargo_classification_dictionary_v3.5.0_*.csv
-git commit -m "Dictionary v3.5.0: Add 10 new petroleum product rules"
+git add 01_DICTIONARIES/01.01_cargo_classification/cargo_classification_dictionary_CURRENT_v3.7.0.csv
+git commit -m "Dictionary v3.7.0: Add 10 new petroleum product rules"
 git push
 ```
 
@@ -466,16 +504,17 @@ git push
 
 **Problem**: Script can't find file at specified path
 ```
-FileNotFoundError: [Errno 2] No such file or directory: 'G:\My Drive\LLM\project_manifest\03_DICTIONARIES\...'
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\My Drive\LLM\project_manifest\01_DICTIONARIES\...'
 ```
 
 **Solutions**:
-1. Check alternate folder location (old vs new structure):
-   - Try `01.01_dictionary/` instead of `03_DICTIONARIES/`
-   - Try `01_step_one/` instead of `01_STAGE01_PREPROCESSING/`
-2. Verify Google Drive File Stream is mounted at `G:\`
-3. Use `dir` or `ls` to find actual file location
-4. Update script's path constants to match actual location
+1. Verify Google Drive File Stream is mounted at `G:\`
+2. Use current folder structure (reorganization completed 2026-01-16):
+   - Data files: `00_DATA/00.02_PREPROCESSED/`
+   - Dictionaries: `01_DICTIONARIES/01.0X_[category]/`
+   - Scripts: `02_SCRIPTS/02.0X_[purpose]/`
+3. Use `dir` to verify actual file location
+4. If using an old script from archive, update paths to new structure
 
 ### Dictionary Version Mismatch
 
@@ -483,21 +522,17 @@ FileNotFoundError: [Errno 2] No such file or directory: 'G:\My Drive\LLM\project
 
 **Solution**:
 ```python
-# In script, update the DICTIONARY path to latest version
-DICTIONARY = Path(r"G:\My Drive\LLM\project_manifest\03_DICTIONARIES\03.01_cargo_classification\cargo_classification_dictionary_v3.5.0_20260114_1200.csv")
+# In script, update the DICTIONARY path to use CURRENT version
+DICTIONARY = Path(r"G:\My Drive\LLM\project_manifest\01_DICTIONARIES\01.01_cargo_classification\cargo_classification_dictionary_CURRENT_v3.6.0.csv")
 ```
 
 ### Ship Registry Not Found
 
 **Problem**: Vessel type enrichment fails
 
-**Solution**: Check both locations:
+**Solution**: Use standardized location:
 ```bash
-# Old location
-dir "G:\My Drive\LLM\project_manifest\01.01_dictionary\01_ships_register.csv"
-
-# New location
-dir "G:\My Drive\LLM\project_manifest\03_DICTIONARIES\03.04_ships\*ships*.csv"
+dir "G:\My Drive\LLM\project_manifest\01_DICTIONARIES\01.03_vessels\01_ships_register.csv"
 ```
 
 ### Classification Results Don't Match Expected
@@ -521,31 +556,40 @@ dir "G:\My Drive\LLM\project_manifest\03_DICTIONARIES\03.04_ships\*ships*.csv"
 
 ## Notes for Future Claude Instances
 
-1. **Folder migration in progress** - check both old (`01_step_one/`, `01.01_dictionary/`) and new (`01_STAGE01_PREPROCESSING/`, `03_DICTIONARIES/`) paths when files not found
+1. **Reorganization completed 2026-01-16** - folder structure is final; old paths archived in `_archive/`
 2. **Never edit rules in Python code** - always edit the CSV dictionary and increment version
-3. **Test on 15K sample first** - takes ~1-2 minutes vs ~40 minutes for full year
-4. **Lock levels control refinement** - understand Lock_Group vs Lock_Commodity vs Lock_Cargo vs Lock_Cargo_Detail
-5. **Phase order matters** - Phase 2 carrier locks must fire before Phase 10 refinements
-6. **Carrier matching is substring** - "SCAC - Name" format requires `SCAC in record_carrier`
-7. **TBN is normal** - "To Be Named" indicates partial classification awaiting refinement
-8. **Package type is powerful** - "LBK" alone classified 501M tons
-9. **Dictionary is authoritative** - script versions lag dictionary versions (dictionary drives everything)
-10. **Timestamps in filenames** - helps track execution order and debugging
-11. **Large files stay on Google Drive** - never commit CSVs >10 MB to git
-12. **Production scripts separate** - mature scripts in `C:\Users\wsd3\`, development in `04_SCRIPTS\`
+3. **Use "CURRENT" dictionary** - look for `cargo_classification_dictionary_CURRENT_v*.csv` in `01_DICTIONARIES/01.01_cargo_classification/`
+4. **Test on 15K sample first** - takes ~1-2 minutes vs ~40 minutes for full year
+5. **Lock levels control refinement** - understand Lock_Group vs Lock_Commodity vs Lock_Cargo vs Lock_Cargo_Detail
+6. **Phase order matters** - Phase 2 carrier locks must fire before Phase 10 refinements
+7. **Carrier matching is substring** - "SCAC - Name" format requires `SCAC in record_carrier`
+8. **TBN is normal** - "To Be Named" indicates partial classification awaiting refinement
+9. **Package type is powerful** - "LBK" alone classified 501M tons
+10. **Dictionary is authoritative** - script versions lag dictionary versions (dictionary drives everything)
+11. **Timestamps in filenames** - helps track execution order and debugging
+12. **Large files stay on Google Drive** - never commit CSVs >10 MB to git
+13. **Scripts organized by purpose** - 108 scripts in 7 categories under `02_SCRIPTS/`
+14. **AUTHORITATIVE data files** - use files with "AUTHORITATIVE" tag in `00_DATA/00.02_PREPROCESSED/` and `00_DATA/00.04_FINAL/`
 
 ---
 
-## Current System Status (as of 2026-01-14)
+## Current System Status (as of 2026-01-30)
 
-- **Dictionary Version**: v3.4.0 (Fixed vehicle carrier Group classification)
-- **Latest Classification Run**: Phase 10 complete for all years
-- **Record Coverage**: 786,674 / 1,302,246 (60.4%)
-- **Tonnage Coverage**: 1.47B / 2.07B tons (71.3%)
-- **Production Status**: Ready for ML training set use
+- **Pipeline Version**: v2.0.0 (PRODUCTION READY - consolidated preprocessing + vessel enrichment)
+- **Dictionary Version**: v3.6.0 (668 active rules)
+- **Vessel Enrichment**: 74% average match rate (vs 0% in v1.0.0)
+- **Classification Status**: ✅ **ALL COMPLETE**
+  - 2023: ✅ COMPLETE (100% coverage, 15K records, 14 MB)
+  - 2024: ✅ COMPLETE (100% coverage, 449K records, 398 MB)
+  - 2025: ✅ COMPLETE (100% coverage, 398K records, 354 MB)
+  - **TOTAL**: 862,980 records classified (100% coverage)
+- **Schema**: 59 columns (up from 51 in v1.0.0)
+- **Production Status**: ✅ v2.0.0 pipeline VALIDATED and PRODUCTION READY
+- **Phase 1 Success**: 64.8% average via carrier locks (proves vessel enrichment works)
 
 ---
 
 **For detailed architecture and rule mechanics, see**:
-- `build_documentation/PIPELINE_MASTER_PLAN_UPDATED.md` (comprehensive technical reference)
-- `build_documentation/classification_technical_dataflow.html` (visual architecture diagrams)
+- `03_DOCUMENTATION/03.02_technical/ARCHITECTURE.md` (comprehensive technical reference)
+- `03_DOCUMENTATION/03.03_dashboards/classification_technical_dataflow.html` (visual architecture diagrams)
+- `REORGANIZATION_COMPLETE.md` (folder structure details)
