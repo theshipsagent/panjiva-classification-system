@@ -1,0 +1,259 @@
+2026-02-03 08:40:48,603 [INFO] 
+================================================================================
+2026-02-03 08:40:48,611 [INFO] PANJIVA PREPROCESSING v2.0.0 - CONSOLIDATED
+2026-02-03 08:40:48,613 [INFO] ================================================================================
+2026-02-03 08:40:48,614 [INFO] Start time: 2026-02-03 08:40:48.614505
+2026-02-03 08:40:48,616 [INFO] Sample size: FULL
+2026-02-03 08:40:48,617 [INFO] Year filter: 2023
+2026-02-03 08:40:48,618 [INFO] 
+================================================================================
+2026-02-03 08:40:48,619 [INFO] STEP 1: LOADING RAW DATA
+2026-02-03 08:40:48,621 [INFO] ================================================================================
+2026-02-03 08:40:48,646 [INFO] Found 161 raw files
+2026-02-03 08:40:49,006 [INFO] File 001: Panjiva-US_Imports-all-results_1_to_2571_of_2571-2026-01-06-12-26.csv (2,571 records)
+2026-02-03 08:40:49,501 [INFO] File 002: Panjiva-US_Imports-all-results_1_to_4594_of_4594-2026-01-06-13-08.csv (4,594 records)
+2026-02-03 08:40:50,102 [INFO] File 003: Panjiva-US_Imports-all-results_1_to_4617_of_4617-2026-01-06-10-41.csv (4,617 records)
+2026-02-03 08:40:50,719 [INFO] File 004: Panjiva-US_Imports-all-results_1_to_4901_of_4901-2026-01-06-10-41.csv (4,901 records)
+2026-02-03 08:40:51,633 [INFO] File 005: Panjiva-US_Imports-all-results_1_to_4988_of_4988-2026-01-06-11-18.csv (4,988 records)
+2026-02-03 08:40:52,681 [INFO] File 006: u_s_imports__all_shipments_results_1_to_10_000_of_10_003.csv (10,000 records)
+2026-02-03 08:40:53,537 [INFO] File 007: u_s_imports__all_shipments_results_1_to_10_000_of_10_044.csv (10,000 records)
+2026-02-03 08:40:54,412 [INFO] File 008: u_s_imports__all_shipments_results_1_to_10_000_of_10_066.csv (10,000 records)
+2026-02-03 08:40:55,250 [INFO] File 009: u_s_imports__all_shipments_results_1_to_10_000_of_10_173.csv (10,000 records)
+2026-02-03 08:40:56,592 [INFO] File 010: u_s_imports__all_shipments_results_1_to_10_000_of_10_187.csv (10,000 records)
+2026-02-03 08:40:57,872 [INFO] File 011: u_s_imports__all_shipments_results_1_to_10_000_of_10_195.csv (10,000 records)
+2026-02-03 08:40:59,072 [INFO] File 012: u_s_imports__all_shipments_results_1_to_10_000_of_10_301.csv (10,000 records)
+2026-02-03 08:41:00,136 [INFO] File 013: u_s_imports__all_shipments_results_1_to_10_000_of_10_315.csv (10,000 records)
+2026-02-03 08:41:01,370 [INFO] File 014: u_s_imports__all_shipments_results_1_to_10_000_of_10_322.csv (10,000 records)
+2026-02-03 08:41:02,630 [INFO] File 015: u_s_imports__all_shipments_results_1_to_10_000_of_10_336.csv (10,000 records)
+2026-02-03 08:41:03,610 [INFO] File 016: u_s_imports__all_shipments_results_1_to_10_000_of_10_371.csv (10,000 records)
+2026-02-03 08:41:04,721 [INFO] File 017: u_s_imports__all_shipments_results_1_to_10_000_of_10_433.csv (10,000 records)
+2026-02-03 08:41:05,968 [INFO] File 018: u_s_imports__all_shipments_results_1_to_10_000_of_10_440.csv (10,000 records)
+2026-02-03 08:41:06,623 [INFO] File 019: u_s_imports__all_shipments_results_1_to_5_246_of_5_246.csv (5,246 records)
+2026-02-03 08:41:07,394 [INFO] File 020: u_s_imports__all_shipments_results_1_to_5_710_of_5_710.csv (5,710 records)
+2026-02-03 08:41:08,201 [INFO] File 021: u_s_imports__all_shipments_results_1_to_5_975_of_5_975.csv (5,975 records)
+2026-02-03 08:41:08,794 [INFO] File 022: u_s_imports__all_shipments_results_1_to_6_010_of_6_010.csv (6,010 records)
+2026-02-03 08:41:09,401 [INFO] File 023: u_s_imports__all_shipments_results_1_to_6_108_of_6_108.csv (6,108 records)
+2026-02-03 08:41:10,054 [INFO] File 024: u_s_imports__all_shipments_results_1_to_6_134_of_6_134.csv (6,134 records)
+2026-02-03 08:41:10,594 [INFO] File 025: u_s_imports__all_shipments_results_1_to_6_233_of_6_233.csv (6,233 records)
+2026-02-03 08:41:11,070 [INFO] File 026: u_s_imports__all_shipments_results_1_to_6_247_of_6_247.csv (6,247 records)
+2026-02-03 08:41:11,909 [INFO] File 027: u_s_imports__all_shipments_results_1_to_6_289_of_6_289.csv (6,289 records)
+2026-02-03 08:41:12,535 [INFO] File 028: u_s_imports__all_shipments_results_1_to_6_322_of_6_322.csv (6,322 records)
+2026-02-03 08:41:13,042 [INFO] File 029: u_s_imports__all_shipments_results_1_to_6_368_of_6_368.csv (6,368 records)
+2026-02-03 08:41:13,568 [INFO] File 030: u_s_imports__all_shipments_results_1_to_6_420_of_6_420.csv (6,420 records)
+2026-02-03 08:41:14,055 [INFO] File 031: u_s_imports__all_shipments_results_1_to_6_433_of_6_433.csv (6,433 records)
+2026-02-03 08:41:14,548 [INFO] File 032: u_s_imports__all_shipments_results_1_to_6_508_of_6_508.csv (6,508 records)
+2026-02-03 08:41:15,015 [INFO] File 033: u_s_imports__all_shipments_results_1_to_6_545_of_6_545.csv (6,545 records)
+2026-02-03 08:41:15,487 [INFO] File 034: u_s_imports__all_shipments_results_1_to_6_567_of_6_567.csv (6,567 records)
+2026-02-03 08:41:15,905 [INFO] File 035: u_s_imports__all_shipments_results_1_to_6_618_of_6_618.csv (6,618 records)
+2026-02-03 08:41:16,327 [INFO] File 036: u_s_imports__all_shipments_results_1_to_6_624_of_6_624.csv (6,624 records)
+2026-02-03 08:41:16,766 [INFO] File 037: u_s_imports__all_shipments_results_1_to_6_665_of_6_665.csv (6,665 records)
+2026-02-03 08:41:17,271 [INFO] File 038: u_s_imports__all_shipments_results_1_to_6_729_of_6_729.csv (6,729 records)
+2026-02-03 08:41:17,750 [INFO] File 039: u_s_imports__all_shipments_results_1_to_6_772_of_6_772.csv (6,772 records)
+2026-02-03 08:41:18,289 [INFO] File 040: u_s_imports__all_shipments_results_1_to_6_903_of_6_903.csv (6,903 records)
+2026-02-03 08:41:18,818 [INFO] File 041: u_s_imports__all_shipments_results_1_to_6_940_of_6_940.csv (6,940 records)
+2026-02-03 08:41:19,413 [INFO] File 042: u_s_imports__all_shipments_results_1_to_6_943_of_6_943.csv (6,943 records)
+2026-02-03 08:41:20,159 [INFO] File 043: u_s_imports__all_shipments_results_1_to_6_968_of_6_968.csv (6,968 records)
+2026-02-03 08:41:20,984 [INFO] File 044: u_s_imports__all_shipments_results_1_to_6_969_of_6_969.csv (6,969 records)
+2026-02-03 08:41:21,846 [INFO] File 045: u_s_imports__all_shipments_results_1_to_6_981_of_6_981.csv (6,981 records)
+2026-02-03 08:41:22,848 [INFO] File 046: u_s_imports__all_shipments_results_1_to_6_989_of_6_989.csv (6,989 records)
+2026-02-03 08:41:23,884 [INFO] File 047: u_s_imports__all_shipments_results_1_to_6_999_of_6_999.csv (6,999 records)
+2026-02-03 08:41:24,697 [INFO] File 048: u_s_imports__all_shipments_results_1_to_7_006_of_7_006.csv (7,006 records)
+2026-02-03 08:41:25,557 [INFO] File 049: u_s_imports__all_shipments_results_1_to_7_021_of_7_021.csv (7,021 records)
+2026-02-03 08:41:26,477 [INFO] File 050: u_s_imports__all_shipments_results_1_to_7_053_of_7_053.csv (7,053 records)
+2026-02-03 08:41:27,314 [INFO] File 051: u_s_imports__all_shipments_results_1_to_7_122_of_7_122.csv (7,122 records)
+2026-02-03 08:41:28,539 [INFO] File 052: u_s_imports__all_shipments_results_1_to_7_137_of_7_137.csv (7,137 records)
+2026-02-03 08:41:29,890 [INFO] File 053: u_s_imports__all_shipments_results_1_to_7_138_of_7_138.csv (7,138 records)
+2026-02-03 08:41:31,331 [INFO] File 054: u_s_imports__all_shipments_results_1_to_7_143_of_7_143.csv (7,143 records)
+2026-02-03 08:41:32,870 [INFO] File 055: u_s_imports__all_shipments_results_1_to_7_152_of_7_152.csv (7,152 records)
+2026-02-03 08:41:34,212 [INFO] File 056: u_s_imports__all_shipments_results_1_to_7_153_of_7_153.csv (7,153 records)
+2026-02-03 08:41:35,403 [INFO] File 057: u_s_imports__all_shipments_results_1_to_7_206_of_7_206.csv (7,206 records)
+2026-02-03 08:41:36,988 [INFO] File 058: u_s_imports__all_shipments_results_1_to_7_255_of_7_255.csv (7,255 records)
+2026-02-03 08:41:38,685 [INFO] File 059: u_s_imports__all_shipments_results_1_to_7_281_of_7_281.csv (7,281 records)
+2026-02-03 08:41:40,098 [INFO] File 060: u_s_imports__all_shipments_results_1_to_7_286_of_7_286.csv (7,286 records)
+2026-02-03 08:41:41,252 [INFO] File 061: u_s_imports__all_shipments_results_1_to_7_356_of_7_356.csv (7,356 records)
+2026-02-03 08:41:43,093 [INFO] File 062: u_s_imports__all_shipments_results_1_to_7_385_of_7_385.csv (7,385 records)
+2026-02-03 08:41:44,281 [INFO] File 063: u_s_imports__all_shipments_results_1_to_7_430_of_7_430.csv (7,430 records)
+2026-02-03 08:41:45,486 [INFO] File 064: u_s_imports__all_shipments_results_1_to_7_455_of_7_455.csv (7,455 records)
+2026-02-03 08:41:46,632 [INFO] File 065: u_s_imports__all_shipments_results_1_to_7_513_of_7_513.csv (7,513 records)
+2026-02-03 08:41:47,636 [INFO] File 066: u_s_imports__all_shipments_results_1_to_7_602_of_7_602.csv (7,602 records)
+2026-02-03 08:41:48,675 [INFO] File 067: u_s_imports__all_shipments_results_1_to_7_662_of_7_662.csv (7,662 records)
+2026-02-03 08:41:49,550 [INFO] File 068: u_s_imports__all_shipments_results_1_to_7_699_of_7_699.csv (7,699 records)
+2026-02-03 08:41:50,365 [INFO] File 069: u_s_imports__all_shipments_results_1_to_7_724_of_7_724.csv (7,724 records)
+2026-02-03 08:41:51,093 [INFO] File 070: u_s_imports__all_shipments_results_1_to_7_732_of_7_732.csv (7,732 records)
+2026-02-03 08:41:51,749 [INFO] File 071: u_s_imports__all_shipments_results_1_to_7_795_of_7_795.csv (7,795 records)
+2026-02-03 08:41:52,291 [INFO] File 072: u_s_imports__all_shipments_results_1_to_7_803_of_7_803.csv (7,803 records)
+2026-02-03 08:41:52,897 [INFO] File 073: u_s_imports__all_shipments_results_1_to_7_814_of_7_814.csv (7,814 records)
+2026-02-03 08:41:53,428 [INFO] File 074: u_s_imports__all_shipments_results_1_to_7_830_of_7_830.csv (7,830 records)
+2026-02-03 08:41:54,143 [INFO] File 075: u_s_imports__all_shipments_results_1_to_7_835_of_7_835.csv (7,835 records)
+2026-02-03 08:41:54,938 [INFO] File 076: u_s_imports__all_shipments_results_1_to_7_870_of_7_870.csv (7,870 records)
+2026-02-03 08:41:55,669 [INFO] File 077: u_s_imports__all_shipments_results_1_to_7_878_of_7_878.csv (7,878 records)
+2026-02-03 08:41:56,318 [INFO] File 078: u_s_imports__all_shipments_results_1_to_7_888_of_7_888.csv (7,888 records)
+2026-02-03 08:41:56,944 [INFO] File 079: u_s_imports__all_shipments_results_1_to_7_922_of_7_922.csv (7,922 records)
+2026-02-03 08:41:57,570 [INFO] File 080: u_s_imports__all_shipments_results_1_to_8_016_of_8_016.csv (8,016 records)
+2026-02-03 08:41:58,144 [INFO] File 081: u_s_imports__all_shipments_results_1_to_8_029_of_8_029.csv (8,029 records)
+2026-02-03 08:41:58,949 [INFO] File 082: u_s_imports__all_shipments_results_1_to_8_093_of_8_093.csv (8,093 records)
+2026-02-03 08:41:59,492 [INFO] File 083: u_s_imports__all_shipments_results_1_to_8_095_of_8_095.csv (8,095 records)
+2026-02-03 08:42:00,206 [INFO] File 084: u_s_imports__all_shipments_results_1_to_8_110_of_8_110.csv (8,110 records)
+2026-02-03 08:42:00,888 [INFO] File 085: u_s_imports__all_shipments_results_1_to_8_121_of_8_121.csv (8,121 records)
+2026-02-03 08:42:01,442 [INFO] File 086: u_s_imports__all_shipments_results_1_to_8_128_of_8_128.csv (8,128 records)
+2026-02-03 08:42:02,038 [INFO] File 087: u_s_imports__all_shipments_results_1_to_8_145_of_8_145.csv (8,145 records)
+2026-02-03 08:42:02,774 [INFO] File 088: u_s_imports__all_shipments_results_1_to_8_174_of_8_174.csv (8,174 records)
+2026-02-03 08:42:03,562 [INFO] File 089: u_s_imports__all_shipments_results_1_to_8_192_of_8_192.csv (8,192 records)
+2026-02-03 08:42:04,060 [INFO] File 090: u_s_imports__all_shipments_results_1_to_8_213_of_8_213.csv (8,213 records)
+2026-02-03 08:42:04,590 [INFO] File 091: u_s_imports__all_shipments_results_1_to_8_215_of_8_215.csv (8,215 records)
+2026-02-03 08:42:05,259 [INFO] File 092: u_s_imports__all_shipments_results_1_to_8_236_of_8_236.csv (8,236 records)
+2026-02-03 08:42:05,754 [INFO] File 093: u_s_imports__all_shipments_results_1_to_8_267_of_8_267.csv (8,267 records)
+2026-02-03 08:42:06,236 [INFO] File 094: u_s_imports__all_shipments_results_1_to_8_268_of_8_268.csv (8,268 records)
+2026-02-03 08:42:06,733 [INFO] File 095: u_s_imports__all_shipments_results_1_to_8_276_of_8_276.csv (8,276 records)
+2026-02-03 08:42:07,248 [INFO] File 096: u_s_imports__all_shipments_results_1_to_8_282_of_8_282.csv (8,282 records)
+2026-02-03 08:42:07,745 [INFO] File 097: u_s_imports__all_shipments_results_1_to_8_289_of_8_289.csv (8,289 records)
+2026-02-03 08:42:08,224 [INFO] File 098: u_s_imports__all_shipments_results_1_to_8_297_of_8_297.csv (8,297 records)
+2026-02-03 08:42:08,685 [INFO] File 099: u_s_imports__all_shipments_results_1_to_8_305_of_8_305.csv (8,305 records)
+2026-02-03 08:42:09,135 [INFO] File 100: u_s_imports__all_shipments_results_1_to_8_338_of_8_338.csv (8,338 records)
+2026-02-03 08:42:09,608 [INFO] File 101: u_s_imports__all_shipments_results_1_to_8_356_of_8_356.csv (8,356 records)
+2026-02-03 08:42:10,091 [INFO] File 102: u_s_imports__all_shipments_results_1_to_8_389_of_8_389.csv (8,389 records)
+2026-02-03 08:42:10,577 [INFO] File 103: u_s_imports__all_shipments_results_1_to_8_399_of_8_399.csv (8,399 records)
+2026-02-03 08:42:11,057 [INFO] File 104: u_s_imports__all_shipments_results_1_to_8_401_of_8_401.csv (8,401 records)
+2026-02-03 08:42:11,562 [INFO] File 105: u_s_imports__all_shipments_results_1_to_8_402_of_8_402.csv (8,402 records)
+2026-02-03 08:42:12,033 [INFO] File 106: u_s_imports__all_shipments_results_1_to_8_420_of_8_420.csv (8,420 records)
+2026-02-03 08:42:12,511 [INFO] File 107: u_s_imports__all_shipments_results_1_to_8_450_of_8_450.csv (8,450 records)
+2026-02-03 08:42:12,972 [INFO] File 108: u_s_imports__all_shipments_results_1_to_8_459_of_8_459.csv (8,459 records)
+2026-02-03 08:42:13,430 [INFO] File 109: u_s_imports__all_shipments_results_1_to_8_463_of_8_463.csv (8,463 records)
+2026-02-03 08:42:13,880 [INFO] File 110: u_s_imports__all_shipments_results_1_to_8_465_of_8_465.csv (8,465 records)
+2026-02-03 08:42:14,360 [INFO] File 111: u_s_imports__all_shipments_results_1_to_8_497_of_8_497.csv (8,497 records)
+2026-02-03 08:42:14,841 [INFO] File 112: u_s_imports__all_shipments_results_1_to_8_502_of_8_502.csv (8,502 records)
+2026-02-03 08:42:15,317 [INFO] File 113: u_s_imports__all_shipments_results_1_to_8_539_of_8_539.csv (8,539 records)
+2026-02-03 08:42:15,831 [INFO] File 114: u_s_imports__all_shipments_results_1_to_8_563_of_8_563.csv (8,563 records)
+2026-02-03 08:42:16,398 [INFO] File 115: u_s_imports__all_shipments_results_1_to_8_564_of_8_564.csv (8,564 records)
+2026-02-03 08:42:17,220 [INFO] File 116: u_s_imports__all_shipments_results_1_to_8_594_of_8_594.csv (8,594 records)
+2026-02-03 08:42:17,879 [INFO] File 117: u_s_imports__all_shipments_results_1_to_8_621_of_8_621.csv (8,621 records)
+2026-02-03 08:42:18,534 [INFO] File 118: u_s_imports__all_shipments_results_1_to_8_641_of_8_641.csv (8,641 records)
+2026-02-03 08:42:19,175 [INFO] File 119: u_s_imports__all_shipments_results_1_to_8_645_of_8_645.csv (8,645 records)
+2026-02-03 08:42:19,695 [INFO] File 120: u_s_imports__all_shipments_results_1_to_8_684_of_8_684.csv (8,684 records)
+2026-02-03 08:42:20,206 [INFO] File 121: u_s_imports__all_shipments_results_1_to_8_685_of_8_685.csv (8,685 records)
+2026-02-03 08:42:20,772 [INFO] File 122: u_s_imports__all_shipments_results_1_to_8_707_of_8_707.csv (8,707 records)
+2026-02-03 08:42:21,297 [INFO] File 123: u_s_imports__all_shipments_results_1_to_8_721_of_8_721.csv (8,721 records)
+2026-02-03 08:42:21,839 [INFO] File 124: u_s_imports__all_shipments_results_1_to_8_749_of_8_749.csv (8,749 records)
+2026-02-03 08:42:22,511 [INFO] File 125: u_s_imports__all_shipments_results_1_to_8_798_of_8_798.csv (8,798 records)
+2026-02-03 08:42:23,086 [INFO] File 126: u_s_imports__all_shipments_results_1_to_8_801_of_8_801.csv (8,801 records)
+2026-02-03 08:42:23,626 [INFO] File 127: u_s_imports__all_shipments_results_1_to_8_876_of_8_876.csv (8,876 records)
+2026-02-03 08:42:24,206 [INFO] File 128: u_s_imports__all_shipments_results_1_to_8_888_of_8_888.csv (8,888 records)
+2026-02-03 08:42:24,751 [INFO] File 129: u_s_imports__all_shipments_results_1_to_8_898_of_8_898.csv (8,898 records)
+2026-02-03 08:42:25,312 [INFO] File 130: u_s_imports__all_shipments_results_1_to_8_977_of_8_977.csv (8,977 records)
+2026-02-03 08:42:25,856 [INFO] File 131: u_s_imports__all_shipments_results_1_to_8_988_of_8_988.csv (8,988 records)
+2026-02-03 08:42:26,376 [INFO] File 132: u_s_imports__all_shipments_results_1_to_9_066_of_9_066.csv (9,066 records)
+2026-02-03 08:42:26,898 [INFO] File 133: u_s_imports__all_shipments_results_1_to_9_084_of_9_084.csv (9,084 records)
+2026-02-03 08:42:27,470 [INFO] File 134: u_s_imports__all_shipments_results_1_to_9_091_of_9_091.csv (9,091 records)
+2026-02-03 08:42:28,155 [INFO] File 135: u_s_imports__all_shipments_results_1_to_9_129_of_9_129.csv (9,129 records)
+2026-02-03 08:42:28,984 [INFO] File 136: u_s_imports__all_shipments_results_1_to_9_174_of_9_174.csv (9,174 records)
+2026-02-03 08:42:29,634 [INFO] File 137: u_s_imports__all_shipments_results_1_to_9_183_of_9_183.csv (9,183 records)
+2026-02-03 08:42:30,261 [INFO] File 138: u_s_imports__all_shipments_results_1_to_9_219_of_9_219.csv (9,219 records)
+2026-02-03 08:42:30,846 [INFO] File 139: u_s_imports__all_shipments_results_1_to_9_259_of_9_259.csv (9,259 records)
+2026-02-03 08:42:31,439 [INFO] File 140: u_s_imports__all_shipments_results_1_to_9_299_of_9_299.csv (9,299 records)
+2026-02-03 08:42:31,978 [INFO] File 141: u_s_imports__all_shipments_results_1_to_9_360_of_9_360.csv (9,360 records)
+2026-02-03 08:42:32,540 [INFO] File 142: u_s_imports__all_shipments_results_1_to_9_362_of_9_362.csv (9,362 records)
+2026-02-03 08:42:33,091 [INFO] File 143: u_s_imports__all_shipments_results_1_to_9_373_of_9_373.csv (9,373 records)
+2026-02-03 08:42:33,645 [INFO] File 144: u_s_imports__all_shipments_results_1_to_9_381_of_9_381.csv (9,381 records)
+2026-02-03 08:42:34,175 [INFO] File 145: u_s_imports__all_shipments_results_1_to_9_382_of_9_382.csv (9,382 records)
+2026-02-03 08:42:34,752 [INFO] File 146: u_s_imports__all_shipments_results_1_to_9_418_of_9_418.csv (9,418 records)
+2026-02-03 08:42:35,398 [INFO] File 147: u_s_imports__all_shipments_results_1_to_9_436_of_9_436.csv (9,436 records)
+2026-02-03 08:42:36,018 [INFO] File 148: u_s_imports__all_shipments_results_1_to_9_459_of_9_459.csv (9,459 records)
+2026-02-03 08:42:36,625 [INFO] File 149: u_s_imports__all_shipments_results_1_to_9_473_of_9_473.csv (9,473 records)
+2026-02-03 08:42:37,211 [INFO] File 150: u_s_imports__all_shipments_results_1_to_9_518_of_9_518.csv (9,518 records)
+2026-02-03 08:42:37,841 [INFO] File 151: u_s_imports__all_shipments_results_1_to_9_525_of_9_525.csv (9,525 records)
+2026-02-03 08:42:38,424 [INFO] File 152: u_s_imports__all_shipments_results_1_to_9_617_of_9_617.csv (9,617 records)
+2026-02-03 08:42:38,997 [INFO] File 153: u_s_imports__all_shipments_results_1_to_9_641_of_9_641.csv (9,641 records)
+2026-02-03 08:42:39,812 [INFO] File 154: u_s_imports__all_shipments_results_1_to_9_662_of_9_662.csv (9,662 records)
+2026-02-03 08:42:40,900 [INFO] File 155: u_s_imports__all_shipments_results_1_to_9_672_of_9_672.csv (9,672 records)
+2026-02-03 08:42:41,934 [INFO] File 156: u_s_imports__all_shipments_results_1_to_9_686_of_9_686.csv (9,686 records)
+2026-02-03 08:42:42,688 [INFO] File 157: u_s_imports__all_shipments_results_1_to_9_828_of_9_828.csv (9,828 records)
+2026-02-03 08:42:43,270 [INFO] File 158: u_s_imports__all_shipments_results_1_to_9_874_of_9_874.csv (9,874 records)
+2026-02-03 08:42:43,839 [INFO] File 159: u_s_imports__all_shipments_results_1_to_9_910_of_9_910.csv (9,910 records)
+2026-02-03 08:42:44,456 [INFO] File 160: u_s_imports__all_shipments_results_1_to_9_948_of_9_948.csv (9,948 records)
+2026-02-03 08:42:45,059 [INFO] File 161: u_s_imports__all_shipments_results_1_to_9_954_of_9_954.csv (9,954 records)
+2026-02-03 08:42:47,571 [INFO] 
+Loaded 1,302,246 total records from 161 files
+2026-02-03 08:42:47,572 [INFO] Columns: 129
+2026-02-03 08:42:48,992 [INFO] 
+================================================================================
+2026-02-03 08:42:48,993 [INFO] STEP 2: ASSIGNING REC_ID
+2026-02-03 08:42:48,993 [INFO] ================================================================================
+2026-02-03 08:42:51,338 [INFO] 
+================================================================================
+2026-02-03 08:42:51,339 [INFO] STEP 3: SELECTING & RENAMING COLUMNS
+2026-02-03 08:42:51,340 [INFO] ================================================================================
+2026-02-03 08:42:53,330 [INFO] Kept 29 columns (dropped 106)
+2026-02-03 08:42:53,979 [INFO] Renamed 12 columns
+2026-02-03 08:42:55,061 [INFO] 
+================================================================================
+2026-02-03 08:42:55,069 [INFO] ================================================================================
+2026-02-03 08:49:20,307 [INFO] Split 1,302,246 / 1,302,246 quantities (100.0%)
+2026-02-03 08:49:20,582 [INFO] 
+================================================================================
+2026-02-03 08:49:20,583 [INFO] STEP 5: EXTRACTING HS CODES (HS2, HS4, HS6)
+2026-02-03 08:49:20,584 [INFO] ================================================================================
+2026-02-03 08:55:50,357 [INFO] Extracted HS2: 1,290,008 / 1,302,246 (99.1%)
+2026-02-03 08:55:50,361 [INFO] Extracted HS4: 1,290,008 / 1,302,246 (99.1%)
+2026-02-03 08:55:50,361 [INFO] Extracted HS6: 1,290,008 / 1,302,246 (99.1%)
+2026-02-03 08:55:50,362 [INFO] 
+================================================================================
+2026-02-03 08:55:50,363 [INFO] STEP 6: HARMONIZING SHIPPER/CONSIGNEE NAMES
+2026-02-03 08:55:50,363 [INFO] ================================================================================
+2026-02-03 08:56:21,826 [INFO]    Original values preserved in '(Original Format)' columns
+2026-02-03 08:56:21,827 [INFO] 
+================================================================================
+2026-02-03 08:56:21,828 [INFO] STEP 7: ADDING PORT ROLLUPS
+2026-02-03 08:56:21,829 [INFO] ================================================================================
+2026-02-03 08:56:21,889 [INFO] Loading ship registry...
+2026-02-03 08:56:22,355 [INFO] Loaded 52,034 vessels from registry
+2026-02-03 08:56:28,725 [INFO] Created lookup for 49,551 vessels
+2026-02-03 08:56:28,741 [INFO] 
+================================================================================
+2026-02-03 08:56:28,742 [INFO] STEP 8: ENRICHING VESSEL DATA
+2026-02-03 08:56:28,742 [INFO] ================================================================================
+2026-02-03 08:57:58,855 [INFO] Matched vessels: 1,131,620 / 1,302,246 (86.9%)
+2026-02-03 08:57:58,856 [INFO] 
+================================================================================
+2026-02-03 08:57:58,857 [INFO] STEP 9: ADDING METADATA COLUMNS
+2026-02-03 08:57:58,857 [INFO] ================================================================================
+2026-02-03 08:58:00,299 [INFO] 
+================================================================================
+2026-02-03 08:58:00,299 [INFO] STEP 10: INITIALIZING CLASSIFICATION COLUMNS
+2026-02-03 08:58:00,300 [INFO] ================================================================================
+2026-02-03 08:58:00,432 [INFO] 
+================================================================================
+2026-02-03 08:58:00,432 [INFO] STEP 11: SAVING OUTPUT
+2026-02-03 08:58:00,433 [INFO] ================================================================================
+2026-02-03 08:59:04,192 [INFO]    Records: 1,302,246
+2026-02-03 08:59:04,193 [INFO]    Columns: 59
+2026-02-03 08:59:04,193 [INFO]    Size: 1015.9 MB
+2026-02-03 08:59:04,194 [INFO] 
+First 10 columns:
+2026-02-03 08:59:04,194 [INFO]   1. Bill of Lading Number
+2026-02-03 08:59:04,195 [INFO]   2. Arrival Date
+2026-02-03 08:59:04,195 [INFO]   3. Consignee
+2026-02-03 08:59:04,196 [INFO]   4. Consignee (Original Format)
+2026-02-03 08:59:04,196 [INFO]   5. Consignee SIC Codes
+2026-02-03 08:59:04,197 [INFO]   6. Shipper
+2026-02-03 08:59:04,197 [INFO]   7. Shipper (Original Format)
+2026-02-03 08:59:04,198 [INFO]   8. Shipper SIC Codes
+2026-02-03 08:59:04,198 [INFO]   9. Notify Party
+2026-02-03 08:59:04,199 [INFO]   10. Carrier
+2026-02-03 08:59:04,199 [INFO] 
+Last 10 columns:
+2026-02-03 08:59:04,200 [INFO]   50. Cargo_Locked
+2026-02-03 08:59:04,200 [INFO]   51. Cargo_Detail_Locked
+2026-02-03 08:59:04,201 [INFO]   52. Classified_Phase
+2026-02-03 08:59:04,201 [INFO]   53. Last_Rule_ID
+2026-02-03 08:59:04,202 [INFO]   54. Report_One
+2026-02-03 08:59:04,202 [INFO]   55. Report_Two
+2026-02-03 08:59:04,203 [INFO]   56. Report_Three
+2026-02-03 08:59:04,204 [INFO]   57. Report_Four
+2026-02-03 08:59:04,204 [INFO]   58. Filter
+2026-02-03 08:59:04,205 [INFO]   59. Note
+2026-02-03 08:59:04,205 [INFO] 
+================================================================================
+2026-02-03 08:59:04,213 [INFO] ================================================================================
+2026-02-03 08:59:04,213 [INFO] End time: 2026-02-03 08:59:04.213653
+2026-02-03 08:59:04,214 [INFO] Output: G:\My Drive\LLM\project_manifest\00_DATA\00.02_PREPROCESSED\panjiva_imports_2023_AUTHORITATIVE_v2.0.0.csv
+2026-02-03 08:59:04,214 [INFO] Log file: G:\My Drive\LLM\project_manifest\logs\preprocess_v2.0.0_20260203_084048.log

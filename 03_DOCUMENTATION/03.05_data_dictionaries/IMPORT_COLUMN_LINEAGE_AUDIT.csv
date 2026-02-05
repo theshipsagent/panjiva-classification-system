@@ -1,0 +1,197 @@
+Stage_1_RAW_Column,Stage_2_PREPROCESSED_Column,Stage_3_CLASSIFIED_Column,Status,RAW_Sample_Value,PREPROCESSED_Sample_Value,CLASSIFIED_Sample_Value,Transformation,Notes
+Arrival Date,Arrival Date,Arrival Date,KEPT,2023-12-31,2023-08-11,2024-09-01,Kept,
+Bill of Lading Number,Bill of Lading Number,Bill of Lading Number,KEPT,GLNLPORCHERAFT3,FSHP2307091063,MAETVNL72460901,Kept,
+Bill of Lading Type,N/A,N/A,DROPPED,Simple,,,Dropped,
+Cargo,,,KEPT,,,,Kept,
+Cargo Detail,,,KEPT,,,,Kept,
+Carrier,Carrier,Carrier,KEPT,GLNL - Galene Logistics Inc,"FSHP - Formel, Stevenson Freight Services Llc",MAET - Maersk Tankers,Kept,
+Category,N/A,N/A,DROPPED,,,,Dropped,
+Consignee,Consignee,Consignee,KEPT,Fire Protection Service,Dr. Jane Reynolds Dba Paws Veterina,Exxonmobil Production Co.,Kept,
+Consignee (Original Format),Consignee (Original Format),Consignee (Original Format),KEPT,"FIRE PROTECTION SERVICES
+8050, Harrisburg Blvd
+Houston
+Texas
+77012
+United States","DR. JANE REYNOLDS DBA PAWS VETERINA
+PO BOX 502235
+ST. THOMAS VI 00805
+TE340-775-6623","EXXONMOBILE PRODUCTION SOLUTION
+COMPANY CARE OF 22777 SPRINGWOODS
+VILLAGE PARKWAY SPRING TX 77389",Kept,
+Consignee Address,N/A,N/A,DROPPED,"8050, Harrisburg Blvd",,,Dropped,
+Consignee City,N/A,N/A,DROPPED,Houston,,,Dropped,
+Consignee Country,N/A,N/A,DROPPED,United States,,,Dropped,
+Consignee D-U-N-S®,N/A,N/A,DROPPED,80861768.0,,,Dropped,
+Consignee Domestic HQ,N/A,N/A,DROPPED,Technip,,,Dropped,
+Consignee Domestic HQ Address,N/A,N/A,DROPPED,United States,,,Dropped,
+Consignee Domestic HQ D-U-N-S®,N/A,N/A,DROPPED,800763369.0,,,Dropped,
+Consignee Email 1,N/A,N/A,DROPPED,sales@fps-usa.com,,,Dropped,
+Consignee Email 2,N/A,N/A,DROPPED,i@chrobinson.com,,,Dropped,
+Consignee Email 3,N/A,N/A,DROPPED,raiz@chrobinson.com,,,Dropped,
+Consignee Employees,N/A,N/A,DROPPED,93.0,,,Dropped,
+Consignee Fax,N/A,N/A,DROPPED,+1 713 923 6272,,,Dropped,
+Consignee Full Address,N/A,N/A,DROPPED,"8050, Harrisburg Blvd, Houston, Texas, 77012, United States",,,Dropped,
+Consignee Global HQ,N/A,N/A,DROPPED,Technip,,,Dropped,
+Consignee Global HQ Address,N/A,N/A,DROPPED,United States,,,Dropped,
+Consignee Global HQ D-U-N-S®,N/A,N/A,DROPPED,,,,Dropped,
+Consignee Incorporation Year,N/A,N/A,DROPPED,1952.0,,,Dropped,
+Consignee Industry,N/A,N/A,DROPPED,"Electronic Equipment, Instruments and Components",,,Dropped,
+Consignee MI Key,N/A,N/A,DROPPED,5048100.0,,,Dropped,
+Consignee Market Capitalization,N/A,N/A,DROPPED,,,,Dropped,
+Consignee Phone 1,N/A,N/A,DROPPED,+1 713 924 9600,,,Dropped,
+Consignee Phone 2,N/A,N/A,DROPPED,+1 905 364 3153,,,Dropped,
+Consignee Phone 3,N/A,N/A,DROPPED,+1 346 229 2711,,,Dropped,
+Consignee Postal Code,N/A,N/A,DROPPED,77012,,,Dropped,
+Consignee Profile,N/A,N/A,DROPPED,https://panjiva.com/Fire-Protection-Service/3739601,,,Dropped,
+Consignee Revenue,N/A,N/A,DROPPED,16541450.0,,,Dropped,
+Consignee SIC Codes,Consignee SIC Codes,Consignee SIC Codes,KEPT,7389,5551,"2037, 4222",Kept,
+Consignee SPCIQ ID,N/A,N/A,DROPPED,4592672.0,,,Dropped,
+Consignee State/Region,N/A,N/A,DROPPED,Texas,,,Dropped,
+Consignee Stock Tickers,N/A,N/A,DROPPED,,,,Dropped,
+Consignee Trade Roles,N/A,N/A,DROPPED,Manufacturer,,,Dropped,
+Consignee Ultimate Parent,N/A,N/A,DROPPED,"Fire Protection Service, Inc.",,,Dropped,
+Consignee Ultimate Parent Headquarters Address,N/A,N/A,DROPPED,"8050 Harrisburg Boulevard, Houston Texas 77012, United States",,,Dropped,
+Consignee Ultimate Parent MI Key,N/A,N/A,DROPPED,5048100.0,,,Dropped,
+Consignee Ultimate Parent Profile,N/A,N/A,DROPPED,https://panjiva.com/Fire-Protection-Service-Inc/54952351,,,Dropped,
+Consignee Ultimate Parent SPCIQ ID,N/A,N/A,DROPPED,4592672.0,,,Dropped,
+Consignee Ultimate Parent Stock Tickers,N/A,N/A,DROPPED,"NYSE:HAL, BOVESPA:HALI34",,,Dropped,
+Consignee Ultimate Parent Website,N/A,N/A,DROPPED,www.fps-usa.com,,,Dropped,
+Consignee Unified,N/A,N/A,DROPPED,,,,Dropped,
+Consignee Website 1,N/A,N/A,DROPPED,fps-usa.com,,,Dropped,
+Consignee Website 2,N/A,N/A,DROPPED,,,,Dropped,
+Container Marks,N/A,N/A,DROPPED,424156 070004 574118 575077 564080,,,Dropped,
+Container Numbers,N/A,N/A,DROPPED,NC,,,Dropped,
+Container Type of Service,N/A,N/A,DROPPED,Non-containerized,,,Dropped,
+Container Types,N/A,N/A,DROPPED,,,,Dropped,
+Count,Count,Count,KEPT,,1,1,Kept,
+Dangerous Goods,N/A,N/A,DROPPED,false,,,Dropped,
+Divided/LCL,N/A,N/A,DROPPED,N,,,Dropped,
+FROB,N/A,N/A,DROPPED,,,,Dropped,
+Filter,,,KEPT,,,,Kept,
+Goods Shipped,Goods Shipped,Goods Shipped,KEPT,LIFE RAFTS FOR EXCHANGE,SEALED PLTS DOG & CAT FOOD,BENZENE AND MIXTURES HAVING 10 BENZENE OR MOR MORE,Kept,
+Group,,,KEPT,,,,Kept,
+HS Code,HS Code Desc.,HS Code Desc.,KEPT,Classified: 8907.10,Classified: 2309.10,Classified: 8703.90,Renamed,
+Has LCL,N/A,N/A,DROPPED,,,,Dropped,
+Inbond Code,N/A,N/A,DROPPED,,,,Dropped,
+Industry - GICS,N/A,N/A,DROPPED,25202010,,,Dropped,
+Industry - GICS Description,N/A,N/A,DROPPED,Leisure Products,,,Dropped,
+Is Containerized,Is Containerized,Is Containerized,KEPT,,,,Kept,
+Manifest Number,N/A,N/A,DROPPED,139103.0,,,Dropped,
+Master Bill of Lading Number,N/A,N/A,DROPPED,IDMCB232652001,,,Dropped,
+Matching Fields,N/A,N/A,DROPPED,,,,Dropped,
+Measurement,Measurement,Measurement,KEPT, , CF, ,Kept,
+Notify Party,Notify Party,Notify Party,KEPT,"HALLIBURTON  ENERGY SERVICES INC
+3101 COUNTY ROAD 401, ALVARADO TX 76009-7137 US, HOUSTON TX 76009","DR. JANE REYNOLDS DBA PAWS VETERINA
+PO BOX 502235, ST. THOMAS VI 00805, TE340-775-6623","EXXON TEAM
+BDP INTERNATIONAL INC 4690 WORLD, HOUSTON PARKWAY HOUSTON TX 77032",Kept,
+Notify Party SCAC,N/A,N/A,DROPPED,IDMC - Industrial Maritime Carriers Llc,,,Dropped,
+Notify Unified,N/A,N/A,DROPPED,,,,Dropped,
+Number of Containers,N/A,N/A,DROPPED,1.0,,,Dropped,
+Place of Receipt,Place of Receipt (F),Place of Receipt (F),KEPT,HOUSTON,"SAN JUAN, PR",SARNIA,Renamed,
+Port of Lading,Port of Loading (F),Port of Loading (F),KEPT,"Altamira, Mexico","Charlotte Amalie, St. Th, Virgin Islands (U.S.)","Sarnia, Ont, Canada",Renamed,
+Port of Lading Country,Country of Origin (F),Country of Origin (F),KEPT,Mexico,Virgin Islands (U.S.),Canada,Renamed,
+Port of Lading Region,N/A,N/A,DROPPED,North America,,,Dropped,
+Port of Unlading,Port of Discharge (D),Port of Discharge (D),KEPT,"Houston, Houston, Texas","Cyril E King Airport, Charlotte Amalie, Virgin Islands","Baton Rouge (BTR) Airport, Baton Rouge, Louisiana",Renamed,
+Port of Unlading Region,N/A,N/A,DROPPED,Southwest Region,,,Dropped,
+Quantity,Qty,Qty,KEPT,5 PCS,2,1,Renamed,
+Report 1,N/A,N/A,DROPPED,,,,Dropped,
+Report 2,N/A,N/A,DROPPED,,,,Dropped,
+Report 3,N/A,N/A,DROPPED,,,,Dropped,
+Report 4,N/A,N/A,DROPPED,,,,Dropped,
+Report 5,N/A,N/A,DROPPED,,,,Dropped,
+Report 6,N/A,N/A,DROPPED,,,,Dropped,
+Shipment Destination,Destination (D),Destination (D),KEPT,"Houston, Houston, Texas",Virgin Islands (U.S.),"Baton Rouge (BTR) Airport, Baton Rouge, Louisiana",Renamed,
+Shipment Destination Region,N/A,N/A,DROPPED,Southwest Region,,,Dropped,
+Shipment Origin,Origin (F),Origin (F),KEPT,Thailand,Puerto Rico,Canada,Renamed,
+Shipper,Shipper,Shipper,KEPT,Viking Life Saving Equipment,Pet Products Associates,Sarnia Chemical Plant Imperial,Kept,
+Shipper (Original Format),Shipper (Original Format),Shipper (Original Format),KEPT,"VIKING LIFE SAVING EQUIPMENT
+PINTONG INDUSTRIAL ESTATE
+789 128 178 MOO 1 NONGKHAM
+CHONBURY THBONNIE ","PET PRODUCTS ASSOCIATES
+PO BOX 2558
+GUAYNABO PR 009702558
+TE787-790-7380","SARNIA CHEMICAL PLANT IMPERIAL
+602 S CHRISTINA ST SARNIA ON N7T
+7M5",Kept,
+Shipper Address,N/A,N/A,DROPPED,"38/21,38/43 Moo 5",,,Dropped,
+Shipper City,N/A,N/A,DROPPED,Si Racha,,,Dropped,
+Shipper Country,N/A,N/A,DROPPED,United States,,,Dropped,
+Shipper D-U-N-S®,N/A,N/A,DROPPED,131489817.0,,,Dropped,
+Shipper Domestic HQ,N/A,N/A,DROPPED,Shell Petroleum Group,,,Dropped,
+Shipper Domestic HQ Address,N/A,N/A,DROPPED,"900 Louisiana Street, South Houston, TX 77587, USA",,,Dropped,
+Shipper Domestic HQ D-U-N-S®,N/A,N/A,DROPPED,131489817.0,,,Dropped,
+Shipper Email 1,N/A,N/A,DROPPED,emheidi.heslin@us.dsv.com,,,Dropped,
+Shipper Email 2,N/A,N/A,DROPPED,emricky.tinsley@shell.com,,,Dropped,
+Shipper Email 3,N/A,N/A,DROPPED,ema.yanaga@mitsui.com,,,Dropped,
+Shipper Employees,N/A,N/A,DROPPED,90.0,,,Dropped,
+Shipper Fax,N/A,N/A,DROPPED,+58 212 7084661,,,Dropped,
+Shipper Full Address,N/A,N/A,DROPPED,"38/21,38/43 Moo 5, Si Racha 20230, Thailand",,,Dropped,
+Shipper Global HQ,N/A,N/A,DROPPED,Valero Energy,,,Dropped,
+Shipper Global HQ Address,N/A,N/A,DROPPED,"One Valero Way, San Antonio Texas 78249, United States",,,Dropped,
+Shipper Global HQ D-U-N-S®,N/A,N/A,DROPPED,,,,Dropped,
+Shipper Incorporation Year,N/A,N/A,DROPPED,2002.0,,,Dropped,
+Shipper Industry,N/A,N/A,DROPPED,Chemicals,,,Dropped,
+Shipper MI Key,N/A,N/A,DROPPED,8734802.0,,,Dropped,
+Shipper Market Capitalization,N/A,N/A,DROPPED,76352393139.11,,,Dropped,
+Shipper Phone 1,N/A,N/A,DROPPED,+1 242 351 9200,,,Dropped,
+Shipper Phone 2,N/A,N/A,DROPPED,+60 3 3375 1288,,,Dropped,
+Shipper Phone 3,N/A,N/A,DROPPED,+60 603337336,,,Dropped,
+Shipper Postal Code,N/A,N/A,DROPPED,20230,,,Dropped,
+Shipper Profile,N/A,N/A,DROPPED,https://panjiva.com/Viking-Life-Saving-Equipment/158754915,,,Dropped,
+Shipper Revenue,N/A,N/A,DROPPED,9158114.0,,,Dropped,
+Shipper SIC Codes,Shipper SIC Codes,Shipper SIC Codes,KEPT,5541,"2899, 3469, 5012, 5013, 5169, 5999",4213,Kept,
+Shipper SPCIQ ID,N/A,N/A,DROPPED,423075008.0,,,Dropped,
+Shipper State/Region,N/A,N/A,DROPPED,Delaware,,,Dropped,
+Shipper Stock Tickers,N/A,N/A,DROPPED,"OTCPK:MITS.Y, TSE:8031",,,Dropped,
+Shipper Trade Roles,N/A,N/A,DROPPED,Manufacturer,,,Dropped,
+Shipper Ultimate Parent,N/A,N/A,DROPPED,Claus Sørensens Fond Holding A/S,,,Dropped,
+Shipper Ultimate Parent Headquarters Address,N/A,N/A,DROPPED,"Auktionsgade 6-8, Esbjerg Region of Southern Denmark 6700, Denmark",,,Dropped,
+Shipper Ultimate Parent MI Key,N/A,N/A,DROPPED,8343019.0,,,Dropped,
+Shipper Ultimate Parent Profile,N/A,N/A,DROPPED,https://panjiva.com/Claus-S-rensens-Fond-Holding-A-S/56987237,,,Dropped,
+Shipper Ultimate Parent SPCIQ ID,N/A,N/A,DROPPED,242836490.0,,,Dropped,
+Shipper Ultimate Parent Stock Tickers,N/A,N/A,DROPPED,NasdaqGS:CHRW,,,Dropped,
+Shipper Ultimate Parent Website,N/A,N/A,DROPPED,www.csfond.dk,,,Dropped,
+Shipper Unified,N/A,N/A,DROPPED,,,,Dropped,
+Shipper Website 1,N/A,N/A,DROPPED,pdvsa.com,,,Dropped,
+Shipper Website 2,N/A,N/A,DROPPED,,,,Dropped,
+Transport Method,N/A,N/A,DROPPED,Maritime,,,Dropped,
+Value of Goods (USD),Value,Value,KEPT,12000.0,2100.0,128724000.0,Renamed,
+Vessel,Vessel,Vessel,KEPT,PORTO CHELI,BONNIE G,YM SATURN,Kept,
+Vessel IMO,IMO,IMO,KEPT,9563706.0,8023864.0,9362138,Renamed,
+Vessel Voyage ID,Voyage,Voyage,KEPT,346W,BG90,24609,Renamed,
+Volume (Container TEU),N/A,N/A,DROPPED,,,,Dropped,
+Volume (TEU),N/A,N/A,DROPPED,,,,Dropped,
+Weight (Original Format),Weight (Original Format),Weight (Original Format),KEPT,750 KG,1000 L,8117803 KG,Kept,
+Weight (kg),Kilos,Kilos,KEPT,750.0,453.59238,8117803.0,Renamed,
+Weight (t),Tons,Tons,KEPT,0.75,0.45,8117.8,Renamed,
+_source_dir,N/A,N/A,DROPPED,us_gulf,,,Dropped,
+_source_file,N/A,N/A,DROPPED,Panjiva-US_Imports-all-results_1_to_2638_of_2638-2025-12-03-11-09.csv,,,Dropped,
+N/A,Cargo,Cargo,ADDED IN PREPROCESSING,,,TBN,Added,Added during preprocessing (derived/engineered)
+N/A,Cargo Detail,Cargo Detail,ADDED IN PREPROCESSING,,,TBN,Added,Added during preprocessing (derived/engineered)
+N/A,Carrier Name,Carrier Name,ADDED IN PREPROCESSING,,"FSHP - Formel, Stevenson Freight Services Llc",MAET - Maersk Tankers,Added,Added during preprocessing (derived/engineered)
+N/A,Commodity,Commodity,ADDED IN PREPROCESSING,,,TBN,Added,Added during preprocessing (derived/engineered)
+N/A,DWT,DWT,ADDED IN PREPROCESSING,,,,Added,Added during preprocessing (derived/engineered)
+N/A,Filter,Filter,ADDED IN PREPROCESSING,,,,Added,Added during preprocessing (derived/engineered)
+N/A,Group,Group,ADDED IN PREPROCESSING,,,Liquid Bulk,Added,Added during preprocessing (derived/engineered)
+N/A,HS2,HS2,ADDED IN PREPROCESSING,,23.0,87,Added,Added during preprocessing (derived/engineered)
+N/A,HS4,HS4,ADDED IN PREPROCESSING,,2309.0,8703,Added,Added during preprocessing (derived/engineered)
+N/A,HS6,HS6,ADDED IN PREPROCESSING,,230910.0,870390,Added,Added during preprocessing (derived/engineered)
+N/A,Note,Note,ADDED IN PREPROCESSING,,,,Added,Added during preprocessing (derived/engineered)
+N/A,Pckg,Pckg,ADDED IN PREPROCESSING,,PKG,LBK,Added,Added during preprocessing (derived/engineered)
+N/A,Port_Coast,Port_Coast,ADDED IN PREPROCESSING,,East,Gulf,Added,Added during preprocessing (derived/engineered)
+N/A,Port_Code,Port_Code,ADDED IN PREPROCESSING,,5101.0,2004,Added,Added during preprocessing (derived/engineered)
+N/A,Port_Consolidated,Port_Consolidated,ADDED IN PREPROCESSING,,Virgin Islands,New Orleans,Added,Added during preprocessing (derived/engineered)
+N/A,Port_Region,Port_Region,ADDED IN PREPROCESSING,,Caribbean,Gulf East,Added,Added during preprocessing (derived/engineered)
+N/A,RAW_REC_ID,RAW_REC_ID,ADDED IN PREPROCESSING,,PANV-20260112-00106392,PANV-20260112-00010001,Added,Added during preprocessing (derived/engineered)
+N/A,Report_Four,Report_Four,ADDED IN PREPROCESSING,,,,Added,Added during preprocessing (derived/engineered)
+N/A,Report_One,Report_One,ADDED IN PREPROCESSING,,,,Added,Added during preprocessing (derived/engineered)
+N/A,Report_Three,Report_Three,ADDED IN PREPROCESSING,,,,Added,Added during preprocessing (derived/engineered)
+N/A,Report_Two,Report_Two,ADDED IN PREPROCESSING,,,,Added,Added during preprocessing (derived/engineered)
+N/A,Type,Type,ADDED IN PREPROCESSING,,,,Added,Added during preprocessing (derived/engineered)
+N/A,N/A,Cargo_Detail_Locked,ADDED IN CLASSIFICATION,,,FALSE,Added,Added during classification (lock flags / metadata)
+N/A,N/A,Cargo_Locked,ADDED IN CLASSIFICATION,,,FALSE,Added,Added during classification (lock flags / metadata)
+N/A,N/A,Classified_Phase,ADDED IN CLASSIFICATION,,,1,Added,Added during classification (lock flags / metadata)
+N/A,N/A,Commodity_Locked,ADDED IN CLASSIFICATION,,,FALSE,Added,Added during classification (lock flags / metadata)
+N/A,N/A,Group_Locked,ADDED IN CLASSIFICATION,,,TRUE,Added,Added during classification (lock flags / metadata)
+N/A,N/A,Last_Rule_ID,ADDED IN CLASSIFICATION,,,CARR-MAET,Added,Added during classification (lock flags / metadata)
+N/A,N/A,Vessel_Type_Simple,ADDED IN CLASSIFICATION,,,Tanker,Added,Added during classification (lock flags / metadata)

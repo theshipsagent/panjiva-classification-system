@@ -1,0 +1,50 @@
+Rule_ID,Phase,Active,Carrier_SCAC,Vessel_Type,Package_Type,HS2,HS4,Keywords,Min_Tons,Max_Tons,Lock_Group,Lock_Commodity,Lock_Cargo,Lock_Cargo_Detail,Group,Commodity,Cargo,Cargo_Detail,Note,Date_Added,Tonnage_Impact
+CARRIER-RORO,1,TRUE,,RoRo,,,,,,,TRUE,TRUE,TRUE,TRUE,Ro/Ro,Ro/Ro,Ro/Ro,Ro/Ro,RoRo vessel type lock,2026-02-01,Very High
+CARRIER-REEFER,1,TRUE,,Reefer,,,,,,,TRUE,TRUE,TRUE,TRUE,Refrigerated,Refrigerated,Refrigerated,Refrigerated,Reefer vessel type lock,2026-02-01,High
+CARRIER-EXCLUDE,1,TRUE,CRNV|RCCU|DCRL|NOCL|VWTG|PNSS,,,,,,,TRUE,TRUE,TRUE,TRUE,EXCLUDED,EXCLUDED,EXCLUDED,EXCLUDED,Exclusion carrier list,2026-02-01,Medium
+CARRIER-DRYBULK,2,TRUE,,Bulk Carrier,,,,,,,TRUE,FALSE,FALSE,FALSE,Dry Bulk,TBN,TBN,TBN,Dry bulk vessel - group lock only,2026-02-01,High
+CARRIER-TANKER,2,TRUE,,Tanker,,,,,,,TRUE,FALSE,FALSE,FALSE,Liquid Bulk,TBN,TBN,TBN,Tanker vessel - group lock only,2026-02-01,High
+CARRIER-LNG,2,TRUE,,LNG Carrier,,,,,,,TRUE,FALSE,FALSE,FALSE,Liquid Gas,TBN,TBN,TBN,LNG carrier - group lock only,2026-02-01,Medium
+NOISE-LIGHT-LIQUID,3,TRUE,,,LBK,,,,,75,TRUE,TRUE,TRUE,TRUE,EXCLUDED,EXCLUDED,EXCLUDED,EXCLUDED,Liquid bulk under 75 tons excluded,2026-02-01,Low
+NOISE-LIGHT-GAS,3,TRUE,,,,,,,75,TRUE,TRUE,TRUE,TRUE,EXCLUDED,EXCLUDED,EXCLUDED,EXCLUDED,Liquid gas under 75 tons excluded,2026-02-01,Low
+NOISE-SHIPSPARES,3,TRUE,,,,,life raft|liferaft|ship spares|ships spares|ship equipment|ships equipment,,,TRUE,TRUE,TRUE,TRUE,EXCLUDED,EXCLUDED,EXCLUDED,EXCLUDED,Ship spares and equipment excluded,2026-02-01,Low
+NOISE-NONCARGO,3,TRUE,,,,,slops|washings|empty|landed for repair,,,TRUE,TRUE,TRUE,TRUE,EXCLUDED,EXCLUDED,EXCLUDED,EXCLUDED,Slops washings empty excluded,2026-02-01,Low
+NOISE-SMALL-CONTAINERS,3,TRUE,,,,,bottle|bottles,,,TRUE,TRUE,TRUE,TRUE,EXCLUDED,EXCLUDED,EXCLUDED,EXCLUDED,Bottles and small containers excluded,2026-02-01,Low
+SALT,4,TRUE,,,,25,,salt,500,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Minerals,Salt,Salt,Salt - BIG ONE,2026-02-01,Very High
+CEMENT,4,TRUE,,,,25,2523,cement|clinker|low alkali|low alkaline|portland,500,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Construction Materials,Cement,Cement,Cement HS4 95%+ accurate,2026-02-01,Very High
+AGGREGATES,4,TRUE,,,,25,,aggregate|limestone|lime stone|gravel|pebbles|sand|stones,500,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Construction Materials,Aggregates,Aggregates,Construction aggregates,2026-02-01,High
+GYPSUM,4,TRUE,,,,25,,gypsum,500,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Construction Materials,Gypsum,Gypsum,Gypsum,2026-02-01,Medium
+CRUDE-OIL,4,TRUE,,,,27,,maya|merey|arab|hibernia|cold lake|wti|syncrude|dco|crude oil|crude,5000,,TRUE,TRUE,TRUE,TRUE,Liquid Bulk,Petroleum,Crude Oil,Crude Oil,Crude oil HS2 27 only,2026-02-01,Very High
+DIESEL,4,TRUE,,,,27,,diesel|gasoil|ago|ulsd,1000,,TRUE,TRUE,TRUE,TRUE,Liquid Bulk,Petroleum,Refined Products,Diesel,Diesel fuel,2026-02-01,Very High
+JET-FUEL,4,TRUE,,,,27,,jet fuel|jet a|jet a1|kerosene|kero,1000,,TRUE,TRUE,TRUE,TRUE,Liquid Bulk,Petroleum,Refined Products,Jet Fuel,Jet fuel and kerosene,2026-02-01,High
+GASOLINE,4,TRUE,,,,27,,gasoline|cbob|rbob|mogas|premium|regular unleaded,1000,,TRUE,TRUE,TRUE,TRUE,Liquid Bulk,Petroleum,Refined Products,Gasoline,Gasoline,2026-02-01,Very High
+FUEL-OIL,4,TRUE,,,,27,,fuel oil|residual fuel|bunker|mazut|vgol|ifo,1000,,TRUE,TRUE,TRUE,TRUE,Liquid Bulk,Petroleum,Refined Products,Fuel Oil,Fuel oil,2026-02-01,High
+NAPHTHA,4,TRUE,,,,27,,naphtha,1000,,TRUE,TRUE,TRUE,TRUE,Liquid Bulk,Petroleum,Refined Products,Naphtha,Naphtha,2026-02-01,Medium
+COAL,4,TRUE,,,,27,,coal,1000,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Coal,Coal,Coal,Coal not coke,2026-02-01,High
+PETCOKE,4,TRUE,,,,27,,petroleum coke|petcoke|pet coke,1000,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Petcoke,Petcoke,Petcoke,Petroleum coke,2026-02-01,Medium
+IRON-ORE,4,TRUE,,,,26,,iron ore,5000,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Ores,Iron Ore,Iron Ore,Iron ore,2026-02-01,Very High
+PIG-IRON,4,TRUE,,,,72,,pig iron,500,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Steel,Pig Iron,Pig Iron,Pig iron HS2 72,2026-02-01,High
+STEEL-SLABS,4,TRUE,,,,72,,slab|continuous casting,2000,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Steel,Semi-Finished,Slabs,Steel slabs HS2 72,2026-02-01,High
+STEEL-COILS,4,TRUE,,,,72,7208,coil|coils|hot rolled|cold rolled,500,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Steel,Finished Steel,Coils,Steel coils HS2 72,2026-02-01,Very High
+STEEL-PLATE,4,TRUE,,,,72,,plate|plates|sheet|sheets|flat rolled,500,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Steel,Finished Steel,Plate,Steel plate HS2 72,2026-02-01,High
+STEEL-PIPE,4,TRUE,,,,72,7304,steel pipe|octg|casing|seamless|erw|steel tubes|tubing,500,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Steel,Finished Steel,Tubular,Steel pipe HS2 72,2026-02-01,High
+STEEL-PIPE-ALT,4,TRUE,,,,73,7306,steel pipe|octg|casing|seamless|erw|steel tubes|tubing,500,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Steel,Finished Steel,Tubular,Steel pipe HS2 73,2026-02-01,High
+STEEL-BEAM,4,TRUE,,,,72,,beam|beams|girder|girders|structural steel,500,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Steel,Finished Steel,Structural,Steel beams HS2 72,2026-02-01,Medium
+BAUXITE,4,TRUE,,,,26,,bauxite,2000,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Non-Ferrous,Bauxite,Bauxite,Bauxite ore,2026-02-01,Very High
+ALUMINA,4,TRUE,,,,28,,alumina,2000,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Non-Ferrous,Alumina,Alumina,Alumina,2026-02-01,Very High
+MANGANESE,4,TRUE,,,,26,,manganese,2000,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Ores,Manganese,Manganese,Manganese ore,2026-02-01,High
+FERRO-CHROME,4,TRUE,,,,72,,ferro chrome|ferrochrome|fecr,500,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Ferro Alloys,Ferro Chrome,Ferro Chrome,Ferro chrome,2026-02-01,Medium
+FERRO-SILICON,4,TRUE,,,,72,,ferro silicon|ferrosilicon|fesi,500,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Ferro Alloys,Ferro Silicon,Ferro Silicon,Ferro silicon,2026-02-01,Medium
+SLAG,4,TRUE,,,,26,,slag|dross,1000,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,By-Products,Slag,Slag,Slag and dross,2026-02-01,Medium
+FLY-ASH,4,TRUE,,,,26,,fly ash,1000,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,By-Products,Fly Ash,Fly Ash,Fly ash,2026-02-01,Medium
+PALM-OIL,4,TRUE,,,,15,,palm oil|palm kernel|rbd|cpko|cpo,500,,TRUE,TRUE,TRUE,TRUE,Liquid Bulk,Vegetable Oils,Palm Oil,Palm Oil,Palm oil,2026-02-01,High
+BENZENE,4,TRUE,,,,29,,benzene,100,,TRUE,TRUE,TRUE,TRUE,Liquid Bulk,Chemicals,Benzene,Benzene,Benzene chemical,2026-02-01,Medium
+GYPSUM-ALT,4,TRUE,,,,68,,gypsum,500,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Construction Materials,Gypsum,Gypsum,Gypsum HS2 68,2026-02-01,Low
+PULP,4,TRUE,,,,47,,pulp|wood pulp,500,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Forest Products,Pulp,Pulp,Wood pulp,2026-02-01,Medium
+PAPER,4,TRUE,,,,48,,paper|newsprint,200,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Forest Products,Paper,Paper,Paper products,2026-02-01,Medium
+LUMBER,4,TRUE,,,,44,,lumber|logs|timber|wood,200,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Forest Products,Lumber,Lumber,Lumber and logs,2026-02-01,Medium
+FERTILIZER-POTASH,4,TRUE,,,,31,,potash,1000,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Fertilizers,Potash,Potash,Potash fertilizer,2026-02-01,High
+FERTILIZER-DAP,4,TRUE,,,,31,,dap|diammonium phosphate,1000,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Fertilizers,DAP,DAP,DAP fertilizer,2026-02-01,Medium
+FERTILIZER-MAP,4,TRUE,,,,31,,map|monoammonium phosphate,1000,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Fertilizers,MAP,MAP,MAP fertilizer,2026-02-01,Medium
+FERTILIZER-UREA,4,TRUE,,,,31,,urea,1000,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Fertilizers,Urea,Urea,Urea fertilizer,2026-02-01,High
+FERTILIZER-PHOSPHATE,4,TRUE,,,,25,,phosphate rock|phos rock|phosphate,1000,,TRUE,TRUE,TRUE,TRUE,Dry Bulk,Fertilizers,Phosphate Rock,Phosphate Rock,Phosphate rock,2026-02-01,High

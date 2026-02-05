@@ -1,0 +1,163 @@
+PANJIVA CLASSIFICATION V2 - PROJECT STRUCTURE
+Created: 2026-01-28
+Status: Fresh Start with Strict Rules
+
+================================================================================
+
+panjiva_classification_v2/
+│
+├── 📋 PIPELINE_RULES.md              ⚠️ MUST FOLLOW (15 rules)
+├── 📄 README.md                      Current status & overview
+├── 🚀 QUICK_START.md                 Quick commands & reminders
+├── 🔒 .gitignore                     Git exclusions
+├── 📊 PROJECT_STRUCTURE.txt          This file
+│
+├── 📁 00_REFERENCE/ (READ-ONLY)
+│   ├── ship_registry.csv             52K vessels with specs (5.4 MB) ✅
+│   ├── dictionary_v3.6.0.csv         668 classification rules (299 KB) ✅
+│   └── port_dictionary.csv           Port mappings (future)
+│
+├── 📁 01_RAW_DATA/ (READ-ONLY)
+│   ├── panjiva_imports/              170 raw files (symlink to old project)
+│   ├── panjiva_exports/              Export data (future)
+│   └── usace_entrance_clearance/     USACE data (future)
+│
+├── 📁 02_SCRIPTS/ (VERSIONED)
+│   ├── step01_preprocess_v1.0.0.py   Preprocessing ONLY (to be created)
+│   ├── step02_classify_v1.0.0.py     Classification ONLY (to be created)
+│   ├── step03_match_v1.0.0.py        Matching ONLY (future)
+│   └── _archive/                     Old script versions
+│
+├── 📁 03_DATA/ (OUTPUT PIPELINE)
+│   ├── 00_excluded/                  Excluded records (saved, not deleted)
+│   ├── 01_preprocessed/              After step01 (61 columns)
+│   │   ├── panjiva_2024_preprocessed_v1.0.0_YYYYMMDD_HHMM.csv
+│   │   └── panjiva_2024_preprocessed_CURRENT.csv (symlink)
+│   ├── 02_classified/                After step02 (61 columns, filled)
+│   │   ├── panjiva_2024_classified_v1.0.0_YYYYMMDD_HHMM.csv
+│   │   └── panjiva_2024_classified_CURRENT.csv (symlink)
+│   ├── 03_matched/                   After step03 (future)
+│   └── 99_checkpoints/               Emergency checkpoints
+│
+├── 📁 04_TESTS/
+│   ├── sample_5k/                    5K test samples
+│   │   ├── sample_5k_preprocessed.csv
+│   │   └── sample_5k_classified.csv
+│   └── test_results/                 Test outputs & comparisons
+│
+├── 📁 05_LOGS/
+│   ├── step01_preprocess_20260128_1430.log
+│   ├── step02_classify_20260128_1645.log
+│   └── (archived logs)
+│
+└── 📁 06_DOCUMENTATION/
+    ├── COLUMN_EVOLUTION_TRACKER.csv  Track columns through pipeline ✅
+    └── HARMONIZATION_DECISIONS.md    Data transformation decisions ✅
+
+================================================================================
+
+DATA FLOW:
+
+    Raw (135 cols)
+         ↓
+    [Step 01: Preprocessing]
+         → 03_DATA/01_preprocessed/ (61 cols, all initialized)
+         → 03_DATA/00_excluded/ (excluded records saved)
+         ↓
+    [Step 02: Classification]
+         → 03_DATA/02_classified/ (61 cols, classification filled)
+         ↓
+    [Step 03: Matching] (FUTURE)
+         → 03_DATA/03_matched/ (matched to USACE)
+
+================================================================================
+
+SCRIPTS TO CREATE:
+
+🔴 step01_preprocess_v1.0.0.py (NEXT - HIGH PRIORITY)
+    - Assign REC_ID
+    - Drop 84 columns
+    - Rename 9 columns
+    - Split Quantity → Qty + Pckg
+    - Extract HS2/HS4/HS6
+    - Harmonize Shipper/Consignee
+    - Enrich vessel data (Type, DWT, Vessel_Type_Simple)
+    - Initialize classification columns (empty)
+    - Initialize lock flags (FALSE)
+    - Save excluded records
+    - Output: 61 columns
+
+🔴 step02_classify_v1.0.0.py (AFTER step01 tested)
+    - Load dictionary v3.6.0
+    - Match rules to records
+    - Fill Group/Commodity/Cargo/Cargo Detail
+    - Update lock flags
+    - Track Classified_Phase, Last_Rule_ID
+    - Output: 61 columns (filled)
+
+🔴 step03_match_v1.0.0.py (FUTURE)
+    - Match to USACE port call master
+    - Roll up, aggregate
+    - Output: TBD
+
+================================================================================
+
+KEY FILES STATUS:
+
+✅ CREATED:
+- Folder structure (7 top-level folders)
+- PIPELINE_RULES.md (15 rules)
+- README.md (comprehensive)
+- QUICK_START.md (quick reference)
+- .gitignore (proper exclusions)
+- 00_REFERENCE/ship_registry.csv (5.4 MB)
+- 00_REFERENCE/dictionary_v3.6.0.csv (299 KB)
+- 06_DOCUMENTATION/COLUMN_EVOLUTION_TRACKER.csv
+- 06_DOCUMENTATION/HARMONIZATION_DECISIONS.md
+
+🔴 TO CREATE:
+- 02_SCRIPTS/step01_preprocess_v1.0.0.py
+- 02_SCRIPTS/step02_classify_v1.0.0.py
+- Symlink to raw data folder
+
+================================================================================
+
+NEXT STEPS:
+
+1. Create symlink to raw data:
+   mklink /D "01_RAW_DATA\panjiva_imports" "G:\My Drive\LLM\project_manifest\00_raw_data\00_01_panjiva_imports_raw"
+
+2. Create step01_preprocess_v1.0.0.py
+
+3. Test on 5K sample:
+   python 02_SCRIPTS/step01_preprocess_v1.0.0.py --sample 5000 --year 2024
+
+4. Verify output:
+   - Check 61 columns
+   - Check REC_ID unique
+   - Check vessel enrichment >70%
+
+5. Create step02_classify_v1.0.0.py
+
+6. Test classification on 5K
+
+7. Run full year if tests pass
+
+================================================================================
+
+RULES REMINDER:
+
+⚠️ Test on 5K BEFORE full run (Rule 7)
+⚠️ Every row needs REC_ID (Rule 1)
+⚠️ Save excluded records (Rule 2)
+⚠️ Column changes = preprocessing only (Rule 6)
+⚠️ Version everything (Rule 8)
+
+See PIPELINE_RULES.md for complete list
+
+================================================================================
+
+STATUS: 🟢 READY FOR DEVELOPMENT
+NEXT ACTION: Create step01_preprocess_v1.0.0.py
+
+================================================================================

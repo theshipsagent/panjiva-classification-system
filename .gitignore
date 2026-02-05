@@ -1,31 +1,42 @@
-# Raw data files (too large for git)
+# Data files (too large for git - stay on Google Drive)
+00_DATA/
+00_raw_data/
+
+# Archive folder (complete historical snapshot)
+_archive/
+
+# Deprecated scripts
+04_DEVELOPMENT/04.03_deprecated/
+
+# User working files
+user_notes/
+05_USER_NOTES/
+
+# Embedded git repositories (should be submodules if needed)
+panjiva_production_v1/
+panjiva_classification_v2/.git/
+
+# Old folder structure (if any remain)
 00_STAGE00_RAW_DATA/
 01_STAGE01_PREPROCESSING/
 02_STAGE02_CLASSIFICATION/
-
-# Checkpoints and cache
 06_CHECKPOINTS/
-.claude/
-
-# Temp files
-nul
-*.tmp
-*.temp
 
 # Python cache
 __pycache__/
 *.pyc
 *.pyo
 
-# Large classified results (keep samples only)
-build_documentation/classification_full_*/
+# Temp files
+nul
+*.tmp
+*.temp
+.claude/
 
-# Keep sample test results but exclude large CSVs
-build_documentation/sample_test_15k/*.csv
-!build_documentation/sample_test_15k/classification_stats_*.csv
-
-# User notes CSVs (too many/large)
-user_notes/*.csv
+# Large output files
+*.csv
+!01_DICTIONARIES/**/*.csv
+!03_DOCUMENTATION/**/*.csv
 
 # OS files
 .DS_Store

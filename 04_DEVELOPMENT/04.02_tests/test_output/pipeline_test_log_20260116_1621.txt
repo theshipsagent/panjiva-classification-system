@@ -1,0 +1,118 @@
+================================================================================
+TESTING COMPLETE PIPELINE ON 15K SAMPLES
+================================================================================
+Test started: 2026-01-16 16:21:21.969518
+Log file: G:\My Drive\LLM\project_manifest\04_DEVELOPMENT\04.02_tests\test_output\pipeline_test_log_20260116_1621.txt
+
+
+================================================================================
+STEP 1: LOAD TEST SAMPLES
+================================================================================
+
+Loading Panjiva imports sample...
+  Panjiva imports: 15,000 records
+  Columns: 51
+
+Loading Panjiva exports sample...
+  Panjiva exports: 15,000 records
+  Columns: 80
+
+Loading USACE entrance sample...
+  USACE entrance: 15,000 records
+  Columns: 44
+
+Loading USACE clearance sample...
+  USACE clearance: 15,000 records
+  Columns: 40
+
+[OK] STEP 1 COMPLETE: All samples loaded successfully
+
+================================================================================
+STEP 2: LOAD SHIP REGISTRY
+================================================================================
+
+Loading ship registry from: G:\My Drive\LLM\project_manifest\01_DICTIONARIES\01.03_vessels\01_ships_register.csv
+  Ship registry: 52,034 vessels
+  Columns: ['IMO', 'Vessel', 'Design', 'Type', 'DWT', 'LOA', 'Beam', 'Depth(m)', 'GT', 'NRT'] ...
+
+[OK] STEP 2 COMPLETE: Ship registry loaded
+
+================================================================================
+STEP 3: CHECK COLUMN COMPATIBILITY
+================================================================================
+
+Checking key columns in USACE entrance:
+  [OK] IMO: 14,156 non-null values
+  [OK] Vessel: 15,000 non-null values
+  [OK] PORT: 15,000 non-null values
+  [OK] Arrival_Date: 15,000 non-null values
+  [OK] RECID: 15,000 non-null values
+
+Checking key columns in USACE clearance:
+  [OK] IMO: 14,272 non-null values
+  [OK] Vessel: 15,000 non-null values
+  [OK] PORT: 15,000 non-null values
+  [OK] Clearance_Date: 15,000 non-null values
+  [OK] RECID: 15,000 non-null values
+
+Checking key columns in Panjiva imports:
+  [OK] Carrier: 15,000 non-null values
+  [OK] Arrival Date: 15,000 non-null values
+  [OK] IMO: 10,333 non-null values
+  [OK] Vessel: 15,000 non-null values
+
+[OK] STEP 3 COMPLETE: Column check done
+
+================================================================================
+STEP 4: TEST SIMPLE MATCHING (IMO-based)
+================================================================================
+
+Testing IMO-based matching between Panjiva imports and USACE entrance...
+  USACE entrance unique IMOs: 5,720
+  Panjiva imports unique IMOs: 1,530
+  IMO overlap: 1,080
+  Potential match rate: 18.9%
+
+Testing vessel name matching...
+  USACE entrance unique vessels: 5,836
+  Panjiva imports unique vessels: 2,608
+  Vessel name overlap: 1,766
+
+[OK] STEP 4 COMPLETE: Matching feasibility confirmed
+
+================================================================================
+STEP 5: TEST SHIP REGISTRY MATCHING
+================================================================================
+
+Testing vessel type enrichment from ship registry...
+  Ship registry IMOs: 52,034
+  USACE entrance IMOs: 5,720
+  Registry match potential: 0 (0.0%)
+
+[OK] STEP 5 COMPLETE: Registry matching tested
+
+================================================================================
+PIPELINE TEST SUMMARY
+================================================================================
+
+[OK] All preliminary tests completed successfully!
+
+Test data ready:
+  - Panjiva imports: 15,000 records
+  - Panjiva exports: 15,000 records
+  - USACE entrance: 15,000 records
+  - USACE clearance: 15,000 records
+  - Ship registry: 52,034 vessels
+
+Matching potential:
+  - IMO overlap: 1,080 vessels
+  - Registry matches: 0 vessels
+
+Next steps:
+  1. Run actual matching scripts with test data
+  2. Test port call master generation
+  3. Test enrichment scripts
+
+[OK] Pipeline test log saved to: G:\My Drive\LLM\project_manifest\04_DEVELOPMENT\04.02_tests\test_output\pipeline_test_log_20260116_1621.txt
+
+Test completed: 2026-01-16 16:21:26.315160

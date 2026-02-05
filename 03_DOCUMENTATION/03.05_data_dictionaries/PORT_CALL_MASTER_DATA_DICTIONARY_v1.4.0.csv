@@ -1,0 +1,83 @@
+Column_Number,Column_Name,Sample_Value,Source,Description
+1,PORTCALL_ID,PC_000001,Derived - Unique ID,Unique port call identifier
+2,Record_Type,BOTH,Derived - Matching,BOTH / ENTRANCE_ONLY / CLEARANCE_ONLY / TUG_BARGE_PAIR
+3,Vessel_Name,ST. MARYS CHALLENGER,USACE Entrance/Clearance,Vessel_Name from USACE Entrance/Clearance
+4,IMO,5009984.0,USACE Entrance/Clearance,IMO from USACE Entrance/Clearance
+5,Flag_Country,United States of America,USACE Entrance/Clearance,Flag_Country from USACE Entrance/Clearance
+6,ICST_Vessel_Type,OTHER DRY CARGO BARGE NEI,Ship Registry / Derived,ICST_Vessel_Type from Ship Registry / Derived
+7,Rig_Description,"Barge, Scow",USACE Entrance/Clearance,Rig_Description from USACE Entrance/Clearance
+8,Vessel_Type_Registry,"PCC/PCTC => 4,000 cars",Ship Registry / Derived,Vessel_Type_Registry from Ship Registry / Derived
+9,DWT,11543.0,Ship Registry / Derived,DWT from Ship Registry / Derived
+10,NRT,5136.0,Ship Registry / Derived,NRT from Ship Registry / Derived
+11,GRT,6969.0,Ship Registry / Derived,GRT from Ship Registry / Derived
+12,Grain_Capacity_m3,0.0,Ship Registry / Derived,Grain_Capacity_m3 from Ship Registry / Derived
+13,TPC,0.0,Ship Registry / Derived,TPC from Ship Registry / Derived
+14,DWT_Draft_m,6.471,Ship Registry / Derived,DWT_Draft_m from Ship Registry / Derived
+15,DWT_Draft_ft,21.23,Ship Registry / Derived,DWT_Draft_ft from Ship Registry / Derived
+16,Registry_Match_Method,IMO,Ship Registry / Derived,Registry_Match_Method from Ship Registry / Derived
+17,USFlag_CG_Number,202859.0,US Flag Registry (NEW v1.4.0),USFlag_CG_Number from US Coast Guard vessel inventory
+18,USFlag_ICST_Code,229.0,US Flag Registry (NEW v1.4.0),USFlag_ICST_Code from US Coast Guard vessel inventory
+19,USFlag_ICST_Description,Tug,US Flag Registry (NEW v1.4.0),USFlag_ICST_Description from US Coast Guard vessel inventory
+20,USFlag_HP,3000.0,US Flag Registry (NEW v1.4.0),USFlag_HP from US Coast Guard vessel inventory
+21,USFlag_Length_ft,530.0,US Flag Registry (NEW v1.4.0),USFlag_Length_ft from US Coast Guard vessel inventory
+22,USFlag_Beam_ft,56.2,US Flag Registry (NEW v1.4.0),USFlag_Beam_ft from US Coast Guard vessel inventory
+23,USFlag_Capacity_Tons,10250.0,US Flag Registry (NEW v1.4.0),USFlag_Capacity_Tons from US Coast Guard vessel inventory
+24,USFlag_Year_Built,1906.0,US Flag Registry (NEW v1.4.0),USFlag_Year_Built from US Coast Guard vessel inventory
+25,USFlag_Base_Port,MUSKEGON,US Flag Registry (NEW v1.4.0),USFlag_Base_Port from US Coast Guard vessel inventory
+26,USFlag_State,MI,US Flag Registry (NEW v1.4.0),USFlag_State from US Coast Guard vessel inventory
+27,USFlag_Match_Quality,EXACT_MATCH,US Flag Registry (NEW v1.4.0),USFlag_Match_Quality from US Coast Guard vessel inventory
+28,Arrival_Date,2023-05-03,Derived - Matching,Arrival_Date from entrance/clearance matching
+29,Clearance_Date,2023-06-11,Derived - Matching,Clearance_Date from entrance/clearance matching
+30,Port_Stay_Days,39.0,Derived - Matching,Port_Stay_Days from entrance/clearance matching
+31,Entrance_RECID,80588.0,USACE Entrance,Entrance_RECID from USACE entrance record
+32,Entrance_Port_Name,Lake Michigan,USACE Entrance,Entrance_Port_Name from USACE entrance record
+33,Entrance_Port_USACE,Lake Michigan,USACE Entrance,Entrance_Port_USACE from USACE entrance record
+34,Entrance_Port_Code,3701.0,USACE Entrance,Entrance_Port_Code from USACE entrance record
+35,Entrance_Draft_ft,18.0,USACE Entrance,Entrance_Draft_ft from USACE entrance record
+36,Entrance_Draft_in,0.0,USACE Entrance,Entrance_Draft_in from USACE entrance record
+37,Entrance_Draft_Pct_Max,84.8,USACE Entrance,Entrance_Draft_Pct_Max from USACE entrance record
+38,Entrance_Activity,Discharge,USACE Entrance,Entrance_Activity from USACE entrance record
+39,Entrance_Origin,Foreign,USACE Entrance,Entrance_Origin from USACE entrance record
+40,Entrance_Previous_Port,"Owen Sound, ONT",USACE Entrance,Entrance_Previous_Port from USACE entrance record
+41,Entrance_Previous_Country,Canada,USACE Entrance,Entrance_Previous_Country from USACE entrance record
+42,Clearance_RECID,81529.0,USACE Clearance,Clearance_RECID from USACE clearance record
+43,Clearance_Port_Name,Lake Michigan,USACE Clearance,Clearance_Port_Name from USACE clearance record
+44,Clearance_Port_USACE,Lake Michigan,USACE Clearance,Clearance_Port_USACE from USACE clearance record
+45,Clearance_Port_Code,3701.0,USACE Clearance,Clearance_Port_Code from USACE clearance record
+46,Clearance_Draft_ft,18.0,USACE Clearance,Clearance_Draft_ft from USACE clearance record
+47,Clearance_Draft_in,0.0,USACE Clearance,Clearance_Draft_in from USACE clearance record
+48,Clearance_Draft_Pct_Max,84.8,USACE Clearance,Clearance_Draft_Pct_Max from USACE clearance record
+49,Clearance_Activity,Discharge,USACE Clearance,Clearance_Activity from USACE clearance record
+50,Clearance_Destination,Foreign,USACE Clearance,Clearance_Destination from USACE clearance record
+51,Clearance_Next_Port,"Owen Sound, ONT",USACE Clearance,Clearance_Next_Port from USACE clearance record
+52,Clearance_Next_Country,Canada,USACE Clearance,Clearance_Next_Country from USACE clearance record
+53,Port_Consolidated,Detroit-Milwaukee,Derived - Port Mapping,Port_Consolidated from port mapping
+54,Port_Coast,Great Lakes,Derived - Port Mapping,Port_Coast from port mapping
+55,Port_Region,Great Lakes,Derived - Port Mapping,Port_Region from port mapping
+56,Import_VOY_RECID,VOY_0004994,Panjiva Import,Import_VOY_RECID from Panjiva import manifest
+57,Import_Carrier,ALOM - Algoma Central Corporation,Panjiva Import,Import_Carrier from Panjiva import manifest
+58,Import_Cargo_Group,,Panjiva Import,Import_Cargo_Group from Panjiva import manifest
+59,Import_Cargo_Commodity,,Panjiva Import,Import_Cargo_Commodity from Panjiva import manifest
+60,Import_Tons,17000.0,Panjiva Import,Import_Tons from Panjiva import manifest
+61,Import_Match_Days_Offset,0.0,Panjiva Import,Import_Match_Days_Offset from Panjiva import manifest
+62,Import_Match_Pass,1.0,Panjiva Import,Import_Match_Pass from Panjiva import manifest
+63,Import_Match_Method,IMO,Panjiva Import,Import_Match_Method from Panjiva import manifest
+64,Export_VOY_RECID,VOY_EXP_0000351,Panjiva Export,Export_VOY_RECID from Panjiva export manifest
+65,Export_Shipper,Us Steel,Panjiva Export,Export_Shipper from Panjiva export manifest
+66,Export_Cargo_Group,Dry Bulk,Panjiva Export,Export_Cargo_Group from Panjiva export manifest
+67,Export_Cargo_Commodity,Barge,Panjiva Export,Export_Cargo_Commodity from Panjiva export manifest
+68,Export_Tons,16025.01,Panjiva Export,Export_Tons from Panjiva export manifest
+69,Export_Match_Days_Offset,3.0,Panjiva Export,Export_Match_Days_Offset from Panjiva export manifest
+70,Export_Match_Pass,2.0,Panjiva Export,Export_Match_Pass from Panjiva export manifest
+71,Export_Match_Method,Vessel_Name,Panjiva Export,Export_Match_Method from Panjiva export manifest
+72,Grain_Export,False,FGIS Grain Export,Grain_Export from FGIS grain export certification
+73,FGIS_RECID,,FGIS Grain Export,FGIS_RECID from FGIS grain export certification
+74,Grain_Type,,FGIS Grain Export,Grain_Type from FGIS grain export certification
+75,Grain_Detail,,FGIS Grain Export,Grain_Detail from FGIS grain export certification
+76,Grain_MT,,FGIS Grain Export,Grain_MT from FGIS grain export certification
+77,Grain_Pounds,,FGIS Grain Export,Grain_Pounds from FGIS grain export certification
+78,Grain_Match_Quality,,FGIS Grain Export,Grain_Match_Quality from FGIS grain export certification
+79,Match_Score,0.8,Derived - Matching,Match_Score from entrance/clearance matching
+80,Match_Method,IMO,Derived - Matching,Match_Method from entrance/clearance matching
+81,Tug_Barge_Pair_ID,TB_ENT_27,Derived - Matching,Tug_Barge_Pair_ID from entrance/clearance matching
+82,Tug_Barge_Confidence,HIST_1X,Derived - Matching,Tug_Barge_Confidence from entrance/clearance matching
