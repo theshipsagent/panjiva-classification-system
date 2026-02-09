@@ -575,6 +575,8 @@ dir "G:\My Drive\LLM\project_manifest\01_DICTIONARIES\01.03_vessels\01_ships_reg
 
 ## Current System Status (as of 2026-02-09)
 
+### Classification Pipeline
+
 - **Pipeline Version**: v2.1.0 (PRODUCTION READY - added automatic BOL deduplication)
 - **Dictionary Version**: v3.6.0 (668 active rules)
 - **Dataset**: 854,870 records, 1.35 billion tons (deduplicated from 1,302,246 raw records)
@@ -586,6 +588,31 @@ dir "G:\My Drive\LLM\project_manifest\01_DICTIONARIES\01.03_vessels\01_ships_reg
 - **Schema**: 69 columns in final output (includes vessel & port data)
 - **Production Status**: ✅ v2.1.0 pipeline VALIDATED and PRODUCTION READY
 - **Major Fix**: Deduplication removes 447,376 duplicate BOLs (34.4% of raw data)
+
+### Party Harmonization System (NEW - 2026-02-09)
+
+- **Status**: ✅ **TESTED AND READY FOR PRODUCTION**
+- **Dictionary**: party_harmonization_master_v1.3.0.csv (163 entities)
+- **Coverage**: 11 sectors (Cement, Steel, Petroleum, Chemicals, Aggregates, etc.)
+- **Test Results** (January 2024 sample, 25,399 records):
+  - Shipper: 5.9% records matched, **32.5% tonnage captured**
+  - Consignee: 6.7% records matched, **53.3% tonnage captured**
+  - Notify Party: 3.5% records matched, 43.3% tonnage captured
+- **Key Insight**: Low record match but HIGH tonnage capture (big players harmonized)
+- **Location**: `05_TASKS/05.01_party_harmonization/`
+- **Scripts**: 4 harmonization scripts + controlled refinement system
+- **Integration**: NOT yet integrated with cargo classification pipeline
+- **Projected Coverage**: 68-72% consignee tonnage when deployed on full data
+
+### Controlled Refinement System (NEW - 2026-02-09)
+
+- **Architecture**: Two-tier classification (stable high-level + progressive detail refinement)
+- **Task Registry**: Explicit overwrite permissions per refinement task
+- **Active Tasks**: 4 construction material tasks (cement, SCM, aggregates, trade lanes)
+- **Pending Tasks**: Steel product forms, wind/solar component detection
+- **Philosophy**: "No drift" - all changes tracked, audited, controlled
+- **Example**: "Cement NOS" → "Cement - Turkish Import (Nuh Cimento)"
+- **Location**: `05_TASKS/05.01_party_harmonization/refinement_tasks/`
 
 ---
 

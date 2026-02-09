@@ -158,6 +158,80 @@ Cargo_Detail:  Crude Oil - Basrah Heavy
 
 ---
 
+## 🏢 Party Harmonization System
+
+**NEW: Entity-Based Classification (2026-02-09)**
+
+In addition to commodity classification, the system now includes **party name harmonization** to standardize raw shipper/consignee/notify party names into canonical entities.
+
+### Overview
+
+- **Purpose**: Standardize messy party names → clean entities for firm-based cargo rules
+- **Dictionary**: 163 entities across 11 sectors
+- **Version**: v1.3.0
+- **Status**: Tested and ready for production deployment
+
+### Key Features
+
+**High Tonnage Capture**:
+- January 2024 test (25,399 records, 45.7M tons):
+  - Shipper: 5.9% records matched → **32.5% tonnage captured**
+  - Consignee: 6.7% records matched → **53.3% tonnage captured**
+  - Notify Party: 3.5% records matched → 43.3% tonnage captured
+- **Key Insight**: Low record match but HIGH tonnage capture (harmonizes big players)
+
+**Match Strategies**:
+- EXACT: Direct name match (100% confidence)
+- Contains: Keyword appears in party name (95% confidence)
+- Contains_All: All required keywords present (90% confidence)
+- FUZZY: 75%+ word overlap (85% confidence)
+
+**Entity Categories** (163 total):
+- Cement: 23 entities (Nuh Cimento, Cemex, Argos, etc.)
+- Steel: 31 entities (ArcelorMittal, Ternium, NLMK, etc.)
+- Petroleum: 42 entities (Chevron, Ecopetrol, Vale, etc.)
+- Chemicals: 18 entities (Celanese, Dow, BASF, etc.)
+- Aggregates: 11 entities (Vulcan, Martin Marietta, etc.)
+- [+ 6 more sectors]
+
+### Controlled Refinement Architecture
+
+**Two-Tier Classification**:
+1. **Stable High-Level** (Group/Commodity/Cargo) - rarely changes
+2. **Progressive Detail** (Cargo_Detail) - controlled refinement over time
+
+**Task Registry System**:
+- Explicit overwrite permissions per refinement task
+- Prevents "drift" - no random modifications
+- Full audit trail of all changes
+- Example: "Cement NOS" → "Cement - Turkish Import (Nuh Cimento)"
+
+**Active Refinement Tasks**:
+- CEMENT_ORIGIN_v1.0: Add origin detail to cement shipments
+- SCM_PRODUCTS_v1.0: Identify GGBFS, fly ash, natural pozzolan
+- AGGREGATES_DETAIL_v1.0: Distinguish crushed stone, sand, gravel
+- CONSTRUCTION_TRADE_LANES_v1.0: Tag market segments for analysis
+
+### Files
+
+**Scripts**: `05_TASKS/05.01_party_harmonization/`
+- `harmonize_party_names_v1.0.0.py` - Main harmonization
+- `infer_parties_from_trade_lanes_v1.0.0.py` - Infer missing parties
+- `refine_cement_with_entities_v1.0.0.py` - Cement refinement
+- `validate_harmonization_v1.0.0.py` - Validation reports
+
+**Dictionary**: `01_DICTIONARIES/01.06_parties/`
+- `party_harmonization_master_v1.3.0.csv` (163 entities)
+- Top 200 profiling files for shippers/consignees
+
+**Documentation**:
+- `05_TASKS/05.01_party_harmonization/README.md` - Complete system documentation
+- `SESSION_HANDOFF_20260209.md` - Development history and next steps
+
+**Integration Status**: NOT yet integrated with main cargo classification pipeline
+
+---
+
 ## 🚢 USACE Data Integration
 
 **NEW: USACE Vessel Movement Data (2026-01-15)**
