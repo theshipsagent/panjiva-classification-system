@@ -1,0 +1,44 @@
+PARTY HARMONIZATION TEST REPORT
+================================================================================
+Date: 2026-02-09 14:47:55
+Test Sample: January 2024 (1 month)
+Total Records: 25,399
+Total Tonnage: 45,772,276 tons
+
+MATCH RATES BY PARTY ROLE
+--------------------------------------------------------------------------------
+
+Shipper:
+  Records Matched: 1,509 / 25,399 (5.9%)
+  Tonnage Matched: 14,862,659 / 45,772,276 (32.5%)
+  Match Types:
+    Contains: 1,112
+    Contains_All: 397
+
+Consignee:
+  Records Matched: 1,701 / 25,399 (6.7%)
+  Tonnage Matched: 24,406,436 / 45,772,276 (53.3%)
+  Match Types:
+    Contains: 1,340
+    Contains_All: 361
+
+Notify Party:
+  Records Matched: 888 / 25,399 (3.5%)
+  Tonnage Matched: 19,800,704 / 45,772,276 (43.3%)
+  Match Types:
+    Contains: 800
+    Contains_All: 88
+
+
+TOP 10 ENTITIES BY TONNAGE
+--------------------------------------------------------------------------------
+ 1. Coppersmith Global Logistics                             9,379,774 tons
+ 2. Chevron                                                  7,512,724 tons
+ 3. Vale                                                     6,217,551 tons
+ 4. PBF Energy                                               2,473,668 tons
+ 5. Celanese                                                 2,445,750 tons
+ 6. Irving Oil                                               1,791,836 tons
+ 7. ArcelorMittal                                            1,217,999 tons
+ 8. Ecopetrol                                                1,189,173 tons
+ 9. Ternium                                                  1,013,647 tons
+10. Carib LPG Trading                                          959,843 tons
