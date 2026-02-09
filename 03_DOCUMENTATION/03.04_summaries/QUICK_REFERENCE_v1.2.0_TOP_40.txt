@@ -1,0 +1,260 @@
+================================================================================
+PARTY HARMONIZATION v1.2.0 - TOP 40 ENTITIES QUICK REFERENCE
+================================================================================
+Date: 2026-02-06
+Current Coverage: 49.5% (358.5M / 723.7M tons)
+Target Coverage: 60.0% (+76M tons with Top 40)
+Impact per Entity: Average 1.9M tons
+
+================================================================================
+TOP 40 ENTITIES FOR v1.2.0 (Ranked by Priority)
+================================================================================
+
+TIER 1: OIL/GAS & TRADING (10 entities, 22M tons)
+--------------------------------------------------------------------------------
+1.  Totsa Totalenergies Trading Sa      2.92M tons  C/S  196 recs   Oil/Gas
+2.  Carib Lpg Trading Ltd.               2.60M tons  C/S   49 recs   Oil/Gas
+3.  Novum Energy Trading Corp.           2.45M tons  C/S  108 recs   Oil/Gas
+4.  Gunvor Group                         2.18M tons  C/S   98 recs   Trading
+5.  Ep Petroecuador                      2.10M tons  S     48 recs   Oil/Gas
+6.  Gs Caltex Corporation                2.02M tons  S    102 recs   Oil/Gas
+7.  Diamond Green Diesel Llc             1.98M tons  C/S  578 recs   Oil/Gas
+8.  New Fortress Energy                  1.80M tons  C/S  248 recs   LNG
+9.  Ergon Oil Purchasing Inc.            1.80M tons  C/S   26 recs   Oil/Gas
+10. Equinor Marketing And Trading Us     1.66M tons  C/S   27 recs   Trading
+
+TIER 2: CEMENT/AGGREGATES (10 entities, 21M tons)
+--------------------------------------------------------------------------------
+11. Lafarge North America                2.65M tons  C/S  237 recs   Cement
+12. Houston Cement Co.                   2.30M tons  C     49 recs   Cement
+13. Hollingshead Cement Llc              2.19M tons  C     53 recs   Cement
+14. St. Mary's Cement Corp.              2.09M tons  C/S  163 recs   Cement
+15. Argos Usa                            2.03M tons  C    140 recs   Cement
+16. Sesco Cement Corp.                   1.93M tons  C    107 recs   Cement
+17. Taiheiyo Cement Corporation          1.89M tons  S     73 recs   Cement
+18. Titan Cement Company S.A.            1.88M tons  S     47 recs   Cement
+19. Nuh Cimento Sanayi A.S.              1.83M tons  C/S   50 recs   Cement
+20. Hm Southeast Cement Llc              1.71M tons  C     41 recs   Cement
+
+TIER 3: MINING & STEEL (10 entities, 17M tons)
+--------------------------------------------------------------------------------
+21. Eastern Salt Co. Inc.                2.27M tons  C     56 recs   Salt
+22. Grupo Minero Del Mar De Cortes       2.15M tons  S     79 recs   Mining
+23. Samarco Mineracao Sa                 2.02M tons  S     26 recs   Iron Ore
+24. Yara North America                   1.68M tons  C    413 recs   Fertilizer
+25. Posco                                1.61M tons  C/S 3239 recs   Steel ⭐
+26. Nu Iron Unlimited                    1.61M tons  S     48 recs   Steel
+27. Carver Sand & Gravel Se Llc          1.60M tons  C/S   40 recs   Aggregates
+28. Ontario Trap Rock                    1.45M tons  C/S   80 recs   Aggregates
+29. Unipec America                       1.42M tons  C/S   24 recs   Oil/Gas
+30. Aramco Trading Fujairah              1.41M tons  C/S   48 recs   Oil/Gas
+
+TIER 4: AUTOMOTIVE & DIVERSIFIED (10 entities, 16M tons)
+--------------------------------------------------------------------------------
+31. Toyota Motor Corporation             2.13M tons  C/S 1555 recs   Automotive ⭐
+32. Toyota Motor Sales                   2.10M tons  C   1421 recs   Automotive ⭐
+33. Vissai Ninh Binh Jsc                 2.00M tons  S     89 recs   Cement
+34. Aes Puerto Rico Lp                   2.55M tons  C/S   66 recs   Utility
+35. Ril Usa Inc.                         1.81M tons  C     80 recs   Oil/Gas
+36. Bp Oil International Ltd.            1.36M tons  C/S   33 recs   Oil/Gas
+37. Scl Rotterdam                        1.35M tons  C/S  115 recs   Cement
+38. General Motors Corp.                 1.18M tons  C/S 2337 recs   Automotive ⭐
+39. Mazda Motor Corporation              1.15M tons  C/S 1452 recs   Automotive ⭐
+40. The Dow Chemical Co.                 1.12M tons  C/S  142 recs   Chemicals
+
+================================================================================
+LEGEND
+================================================================================
+C/S = Consignee/Shipper (Multi-field - use field-agnostic matching)
+C   = Consignee only (Single field)
+S   = Shipper only (Single field)
+⭐  = High record count (1000+ records)
+
+================================================================================
+FIELD MATCHING STRATEGY
+================================================================================
+Multi-Field (22 entities): Match in ALL three fields (Shipper, Consignee, Notify)
+Single-Field (18 entities): Match in specified field only
+
+Multi-Field Entities:
+- Totsa Totalenergies Trading Sa
+- Carib Lpg Trading Ltd.
+- Novum Energy Trading Corp.
+- Gunvor Group
+- Diamond Green Diesel Llc
+- Ergon Oil Purchasing Inc.
+- Equinor Marketing And Trading Us
+- Lafarge North America
+- St. Mary's Cement Corp.
+- Nuh Cimento Sanayi A.S.
+- Posco
+- Carver Sand & Gravel Se Llc
+- Ontario Trap Rock
+- Unipec America
+- Aramco Trading Fujairah
+- Toyota Motor Corporation
+- Aes Puerto Rico Lp
+- Bp Oil International Ltd.
+- Scl Rotterdam
+- General Motors Corp.
+- Mazda Motor Corporation
+- The Dow Chemical Co.
+
+Single-Field Entities (Consignee):
+- Houston Cement Co.
+- Hollingshead Cement Llc
+- Argos Usa
+- Sesco Cement Corp.
+- Hm Southeast Cement Llc
+- Eastern Salt Co. Inc.
+- Yara North America
+- Toyota Motor Sales
+- Ril Usa Inc.
+
+Single-Field Entities (Shipper):
+- Ep Petroecuador
+- Gs Caltex Corporation
+- New Fortress Energy
+- Taiheiyo Cement Corporation
+- Titan Cement Company S.A.
+- Grupo Minero Del Mar De Cortes
+- Samarco Mineracao Sa
+- Nu Iron Unlimited
+- Vissai Ninh Binh Jsc
+
+================================================================================
+INDUSTRY BREAKDOWN
+================================================================================
+Oil/Gas:         12 entities   22.8M tons   30.0%
+Cement:          12 entities   24.5M tons   32.2%
+Automotive:       4 entities    8.6M tons   11.3%
+Mining/Steel:     7 entities    9.6M tons   12.6%
+Trading:          2 entities    3.8M tons    5.0%
+Utility:          1 entity      2.6M tons    3.4%
+Chemicals:        1 entity      1.1M tons    1.5%
+Other:            1 entity      3.0M tons    4.0%
+
+================================================================================
+HIGH-VALUE TARGETS (Record Count > 1000)
+================================================================================
+Posco                        3,239 records   1.61M tons   Steel
+General Motors Corp.         2,337 records   1.18M tons   Automotive
+Toyota Motor Corporation     1,555 records   2.13M tons   Automotive
+Mazda Motor Corporation      1,452 records   1.15M tons   Automotive
+Toyota Motor Sales           1,421 records   2.10M tons   Automotive
+
+Combined: 9,004 records (2% of total dataset) = 8.2M tons
+
+================================================================================
+VARIANT PATTERNS TO INCLUDE
+================================================================================
+
+Corporation Variants:
+- Corp. / Corp / Corporation
+
+Company Variants:
+- Co. / Co / Company
+
+Limited Variants:
+- Ltd. / Ltd / Limited / Llc / L.L.C.
+
+And Variants:
+- & / And
+
+Case Handling:
+- UPPERCASE / Title Case / lowercase / Mixed Case
+
+Punctuation:
+- With periods: St. Mary's
+- Without periods: St Marys
+- Without apostrophes: Saint Marys
+
+================================================================================
+IMPLEMENTATION PRIORITY
+================================================================================
+
+PHASE 1 (Week 1):
+- Add Top 20 entities (Tiers 1-2)
+- Test on 15K sample
+- Target: 55-57% coverage
+
+PHASE 2 (Week 2):
+- Add entities 21-40 (Tiers 3-4)
+- Deploy to full 2024 dataset
+- Target: 60% coverage
+
+PHASE 3 (Week 3):
+- Validate results
+- Generate v1.1.0 vs v1.2.0 comparison
+- Plan v1.3.0
+
+================================================================================
+EXPECTED RESULTS (v1.2.0 with Top 40)
+================================================================================
+
+Coverage:             49.5% → 60.0%         +10.5 points
+Matched Tonnage:      358.5M → 434.5M       +76M tons
+Unmatched Tonnage:    365.2M → 289.2M       -76M tons
+Dictionary Size:      ~30 → ~70 entities    +133% growth
+Avg Impact:           1.9M tons/entity
+
+By Industry:
+- Oil/Gas:            22.8M tons improvement
+- Cement:             24.5M tons improvement
+- Automotive:          8.6M tons improvement
+- Mining/Steel:        9.6M tons improvement
+- Trading:             3.8M tons improvement
+- Other:               7.7M tons improvement
+
+================================================================================
+SUCCESS CRITERIA
+================================================================================
+
+PRIMARY:
+✓ Overall coverage ≥ 60%
+✓ Tonnage improvement ≥ 70M tons
+
+SECONDARY:
+✓ False positive rate < 5%
+✓ Multi-field match rate > 80%
+✓ No single industry > 50% of matched tonnage
+
+TERTIARY:
+✓ Record coverage improvement ≥ 8%
+✓ Entity utilization rate > 90%
+✓ Average impact ≥ 1.5M tons per entity
+
+================================================================================
+FILES GENERATED
+================================================================================
+
+Analysis:
+- unmatched_parties_v1.1.0_analysis_20260206_0119.csv (Top 100)
+- v1.2.0_expansion_candidates_20260206_0119.csv (Top 50)
+- gap_analysis_summary_v1.1.0_20260206_0119.txt
+
+Documentation:
+- UNMATCHED_PARTY_ANALYSIS_COMPLETE_20260206.md (Comprehensive)
+- v1.2.0_priority_recommendations_20260206.md (Strategic)
+- EXECUTIVE_SUMMARY_v1.2.0_ROADMAP.md (Executive)
+- QUICK_REFERENCE_v1.2.0_TOP_40.txt (This file)
+
+Script:
+- find_unmatched_high_tonnage_v1.1.0.py
+
+Location:
+- G:\My Drive\LLM\project_manifest\03_DOCUMENTATION\03.04_summaries\
+
+================================================================================
+NEXT ACTION
+================================================================================
+
+Create v1.2.0 dictionary JSON file with Top 40 entities:
+- Location: 01_DICTIONARIES/01.04_parties/parties_harmonization_master_v1.2.0.json
+- Format: Follow v1.1.0 structure
+- Include: Name variants, field specifications, match types
+- Test: Run on 15K sample before full deployment
+
+================================================================================
+STATUS: ✅ READY FOR v1.2.0 IMPLEMENTATION
+================================================================================

@@ -1,0 +1,1334 @@
+Consignee_Harmonized,Port of Loading (F),Country of Origin (F),Shipper_Harmonized,Tons,Consignee_Entity_ID,Pct_of_Entity_Total,Route_Rank
+Aes Puerto Rico Lp,"Puerto Drummond, Colombia",Colombia,Drummond,2468800.0,,100.0,1.0
+Aramco Americas,"Freeport, Grand Bahama I, Bahamas",Bahamas,Aramco Americas,590124.94,ARAMCO-001,28.7,1.0
+Aramco Americas,"Forcados, Nigeria",Nigeria,Monroe Energy,524244.0,ARAMCO-001,25.5,2.0
+Aramco Americas,"All Other Nigeria Ports, Nigeria",Nigeria,Nigerian National Petroleum Corp.,211660.14,ARAMCO-001,10.3,3.0
+Aramco Americas,"Pointe A Pierre, Trinidad and Tobago",Trinidad and Tobago,Heritage Petroleum,157773.28,ARAMCO-001,7.67,4.0
+Aramco Americas,"Freeport, Grand Bahama I, Bahamas",Bahamas,Aramco Trading Co.,112854.78,ARAMCO-001,5.49,5.0
+Aramco Americas,"Puerto Matias De Galves, Guatemala",Guatemala,Perenco Guatemala Ltd.,84236.36,ARAMCO-001,4.1,6.0
+Aramco Americas,"All Other Trinidad Ports, Trinidad and Tobago",Trinidad and Tobago,Heritage Petroleum,50489.0,ARAMCO-001,2.46,7.0
+Aramco Americas,"Dhuba, Saudi Arabia",Saudi Arabia,Aramco Trading Fujairah,44332.27,ARAMCO-001,2.16,8.0
+Aramco Americas,"Freeport, Grand Bahama I, Bahamas",Bahamas,Aramco Trading Fujairah,43741.0,ARAMCO-001,2.13,9.0
+Aramco Americas,"Cartagena, Colombia",Colombia,Ecopetrol,40883.0,ARAMCO-001,1.99,10.0
+Aramco Americas,"Dos Bocas, Mexico",Mexico,PMI Trading,40356.0,ARAMCO-001,1.96,11.0
+Aramco Americas,"Skikda, Algeria",Algeria,Aramco Americas,39293.0,ARAMCO-001,1.91,12.0
+Aramco Americas,"All Other Saudi Arabia Ports, Saudi Arabia",Saudi Arabia,Aramco Trading Co.,34853.78,ARAMCO-001,1.7,13.0
+Aramco Americas,"All Other Saudi Arabia Ports, Saudi Arabia",Saudi Arabia,Aramaco Trading Co.,30770.0,ARAMCO-001,1.5,14.0
+Aramco Americas,"Adabiya, Egypt",Egypt,Aramco Trading Fujairah,25678.0,ARAMCO-001,1.25,15.0
+Aramco Americas,"Dhuba, Saudi Arabia",Saudi Arabia,Aramaco Trading Co.,18634.0,ARAMCO-001,0.91,16.0
+Aramco Americas,"Montevideo, Uruguay",Uruguay,Yarus S.A.,2090.87,ARAMCO-001,0.1,17.0
+Aramco Americas,"All Other Saudi Arabia Ports, Saudi Arabia",Saudi Arabia,Aramco Trading Fujairah,1000.0,ARAMCO-001,0.05,18.0
+Aramco Americas,"Sao Paulo, Brazil",Brazil,Minerva S.A.,861.27,ARAMCO-001,0.04,19.0
+Aramco Americas,"Sao Paulo, Brazil",Brazil,Minerva S A,752.19,ARAMCO-001,0.04,20.0
+Aramco Americas,"Sao Paulo, Brazil",Brazil,Minerva S.A,576.69,ARAMCO-001,0.03,21.0
+Aramco Americas,"Sao Paulo, Brazil",Brazil,Minerva Sa,398.24,ARAMCO-001,0.02,22.0
+Aramco Americas,"Sao Paulo, Brazil",Brazil,Minervasp,327.77,ARAMCO-001,0.02,23.0
+ArcelorMittal,"Lazaro Cardenas, Mexico",Mexico,ArcelorMittal,1494889.13,ARCELORMITTAL-001,22.08,1.0
+ArcelorMittal,"Praia Mole, Brazil",Brazil,ArcelorMittal,897896.48,ARCELORMITTAL-001,13.26,2.0
+ArcelorMittal,"Port Cartier, Que, Canada",Canada,ArcelorMittal,667918.0,ARCELORMITTAL-001,9.86,3.0
+ArcelorMittal,"Quebec, Que, Canada",Canada,Iron Ore Company of Canada,621366.0,ARCELORMITTAL-001,9.18,4.0
+ArcelorMittal,"Sept Iles, QUE, Canada",Canada,Iron Ore Company of Canada,531041.0,ARCELORMITTAL-001,7.84,5.0
+ArcelorMittal,"Antwerp, Belgium",Belgium,ArcelorMittal,463171.77,ARCELORMITTAL-001,6.84,6.0
+ArcelorMittal,"Point Ubu, Brazil",Brazil,Samarco Mineracao S A,423739.0,ARCELORMITTAL-001,6.26,7.0
+ArcelorMittal,"Point Ubu, Brazil",Brazil,Samarco Mineracao S.A.,317073.0,ARCELORMITTAL-001,4.68,8.0
+ArcelorMittal,"All Other Belgium Ports, Belgium",Belgium,ArcelorMittal,304822.5,ARCELORMITTAL-001,4.5,9.0
+ArcelorMittal,"All Other Brazil Ports South Of Recife, Brazil",Brazil,ArcelorMittal,251813.73,ARCELORMITTAL-001,3.72,10.0
+ArcelorMittal,"Pasages, Spain",Spain,ArcelorMittal,130062.5,ARCELORMITTAL-001,1.92,11.0
+ArcelorMittal,"Antwerp, Belgium",Belgium,Arcelor Mittal Bremen Gmb H,86503.95,ARCELORMITTAL-001,1.28,12.0
+ArcelorMittal,"All Other Canada Atlantic Region Ports, Canada",Canada,Iron Ore Company of Canada,74298.0,ARCELORMITTAL-001,1.1,13.0
+ArcelorMittal,"Port Cartier, Que, Canada",Canada,Arcelor Mittal Mining Canada,72389.0,ARCELORMITTAL-001,1.07,14.0
+ArcelorMittal,"Quebec, Canada",Canada,ArcelorMittal,70123.0,ARCELORMITTAL-001,1.04,15.0
+ArcelorMittal,"All Other Brazil Ports North Of Recife, Brazil",Brazil,ArcelorMittal,62143.0,ARCELORMITTAL-001,0.92,16.0
+ArcelorMittal,"Praia Mole, Brazil",Brazil,Enterprises Shipping Trading Sa,51912.02,ARCELORMITTAL-001,0.77,17.0
+ArcelorMittal,"Stettin, Poland",Poland,ArcelorMittal,46226.78,ARCELORMITTAL-001,0.68,18.0
+ArcelorMittal,"Lido, Italy",Italy,Tamini Trasformatori S.R.L.,38763.0,ARCELORMITTAL-001,0.57,19.0
+ArcelorMittal,"Pecem, Brazil",Brazil,ArcelorMittal,30132.0,ARCELORMITTAL-001,0.45,20.0
+ArcelorMittal,"Pecem, Brazil",Brazil,Arcelormettal Pecum Sa,29396.0,ARCELORMITTAL-001,0.43,21.0
+ArcelorMittal,"Fos, France",France,ArcelorMittal,18012.66,ARCELORMITTAL-001,0.27,22.0
+ArcelorMittal,"Juzhny, Ukraine",Ukraine,ArcelorMittal,14151.8,ARCELORMITTAL-001,0.21,23.0
+ArcelorMittal,"Aviles, Spain",Spain,ArcelorMittal,13894.8,ARCELORMITTAL-001,0.21,24.0
+ArcelorMittal,"Praia Mole, Brazil",Brazil,Arcelor Mittal Brasil S.A.,13038.88,ARCELORMITTAL-001,0.19,25.0
+ArcelorMittal,"Constanta, Romania",Romania,Arcelor Mittal Products Roman Sa,10672.75,ARCELORMITTAL-001,0.16,26.0
+ArcelorMittal,"All Other Viet Nam Ports, Vietnam",Vietnam,"Hoa Phat Steel Co., Ltd.",8562.96,ARCELORMITTAL-001,0.13,27.0
+ArcelorMittal,"Hamburg, Germany",Germany,ArcelorMittal,8063.49,ARCELORMITTAL-001,0.12,28.0
+ArcelorMittal,"Sepetiba Bay, Brazil",Brazil,Arcelor Mittal Brasil S.A.,6380.56,ARCELORMITTAL-001,0.09,29.0
+ArcelorMittal,"Sao Francisco Do Sul, Brazil",Brazil,ArcelorMittal,3604.0,ARCELORMITTAL-001,0.05,30.0
+ArcelorMittal,"Bremen, Germany",Germany,Arcelor Mittal Bremen Gmb H,2273.01,ARCELORMITTAL-001,0.03,31.0
+ArcelorMittal,"Antwerp, Belgium",Belgium,Arcelor Mittal Commercial Rps S.A.R.L.,2154.92,ARCELORMITTAL-001,0.03,32.0
+ArcelorMittal,"Richard's Bay, South Africa",South Africa,ArcelorMittal,2034.43,ARCELORMITTAL-001,0.03,33.0
+ArcelorMittal,"All Other Viet Nam Ports, Vietnam",Vietnam,Nam Kim Steel Jsc,604.47,ARCELORMITTAL-001,0.01,34.0
+ArcelorMittal,"Barranquilla, Colombia",Colombia,Corpacero S.A.,554.71,ARCELORMITTAL-001,0.01,35.0
+ArcelorMittal,"Constanta, Romania",Romania,Liberty Tubular Products Galati Sa,443.38,ARCELORMITTAL-001,0.01,36.0
+ArcelorMittal,"Antwerp, Belgium",Belgium,Arcelor Mittal,265.22,ARCELORMITTAL-001,0.0,37.0
+ArcelorMittal,"Antwerp, Belgium",Belgium,Gontermann Peipers,215.04,ARCELORMITTAL-001,0.0,38.0
+ArcelorMittal,"Antwerp, Belgium",Belgium,Karl Buch Walzengiesserei Gmb H & Co.,146.8,ARCELORMITTAL-001,0.0,39.0
+ArcelorMittal,"Zeebrugge, Belgium",Belgium,ArcelorMittal,83.56,ARCELORMITTAL-001,0.0,40.0
+ArcelorMittal,"Zeebrugge, Belgium",Belgium,Arcelor Mittal Wire France,77.14,ARCELORMITTAL-001,0.0,41.0
+ArcelorMittal,"Bremerhaven, Germany",Germany,Aumund Fordertechnik Gmb H,5.4,ARCELORMITTAL-001,0.0,42.0
+Argos Usa,"Cartagena, Colombia",Colombia,Zona Franca Argos S.A.S.,792026.96,,39.0,1.0
+Argos Usa,"All Other Turkey Black Sea and Sea of Marmara Port, Turkey",Turkey,Nuh Cimento Sanayi A.S.,646372.38,,31.82,2.0
+Argos Usa,"Mizushima, Japan",Japan,Jfe Shoji Corp.,208776.0,,10.28,3.0
+Argos Usa,"Fukuyama, Japan",Japan,Jfe Shoji Trade Corp.,124850.0,,6.15,4.0
+Argos Usa,"Fukuyama, Japan",Japan,Jfe Shoji Corp.,83963.74,,4.13,5.0
+Argos Usa,"All Other Spain Mediterranean Region Ports, Spain",Spain,Saint Gobain Placo Iberica Sa,83350.0,,4.1,6.0
+Argos Usa,"Alexandretta, Turkey",Turkey,Medcem Global,46000.0,,2.26,7.0
+Argos Usa,"Gabes, Tunisia",Tunisia,Ste Tuniso Andalouse De Cement,45668.0,,2.25,8.0
+Argos Usa,"All Other Turkey Mediterranean Region Ports, Turkey",Turkey,Nuh Cimento Sanayi A.S.,33.0,,0.0,9.0
+Atalco Gramercy,"Port Rhoades, Jamaica",Jamaica,Discovery Bauxite,3975558.0,ATALCO-001,100.0,1.0
+BP,"Angra Dos Reis, Brazil",Brazil,Petrobras,588773.77,BP-001,13.12,1.0
+BP,"Freeport, Grand Bahama I, Bahamas",Bahamas,BP,570039.19,BP-001,12.7,2.0
+BP,"Comodoro Rivadavia, Argentina",Argentina,Pan American Energy Llc,493371.35,BP-001,10.99,3.0
+BP,"Porto De Sines, Portugal",Portugal,Petrogal S.A.,235187.02,BP-001,5.24,4.0
+BP,"Klaipeda, Lithuania",Lithuania,Public Co. Orlen Lietuva,208031.01,BP-001,4.64,5.0
+BP,"Amsterdam, Netherlands",Netherlands,Scl Rotterdam,158782.24,BP-001,3.54,6.0
+BP,"Mongstad, Norway",Norway,Equinor Asa,114209.32,BP-001,2.54,7.0
+BP,"Bedi, India",India,Reliance Industries,111071.14,BP-001,2.47,8.0
+BP,"Daesan, South Korea",South Korea,"Hyundai Oilbank Co., Ltd.",105149.83,BP-001,2.34,9.0
+BP,"Sao Sebastio, Brazil",Brazil,Petrobras,103632.0,BP-001,2.31,10.0
+BP,"Bedi, India",India,Ril,102582.0,BP-001,2.29,11.0
+BP,"Come By Chance, Nfld, Canada",Canada,Suncor Energy,94778.0,BP-001,2.11,12.0
+BP,"Antwerp, Belgium",Belgium,Glencore Energy Uk Ltd.,75750.0,BP-001,1.69,13.0
+BP,"Kaohsiung, Taiwan",Taiwan,BP,74134.0,BP-001,1.65,14.0
+BP,"Sarroch Oil Terminal, Italy",Italy,Saras Saras Trading Sa,73968.84,BP-001,1.65,15.0
+BP,"Amsterdam, Netherlands",Netherlands,Equinor Asa,73570.0,BP-001,1.64,16.0
+BP,"Caleta Cordova, Argentina",Argentina,Capex Sa,70901.0,BP-001,1.58,17.0
+BP,"Amsterdam, Netherlands",Netherlands,Totsa Totalenergies Trading Sa,70464.0,BP-001,1.57,18.0
+BP,"Dos Bocas, Mexico",Mexico,PMI Trading,70068.25,BP-001,1.56,19.0
+BP,"Suape, Brazil",Brazil,Petrobras,69789.89,BP-001,1.55,20.0
+BP,"Daesan, South Korea",South Korea,"Aramco Trading Singapore Pte., Ltd.",64311.98,BP-001,1.43,21.0
+BP,"Samil, South Korea",South Korea,"Brb Singapore Pte., Ltd.",60324.98,BP-001,1.34,22.0
+BP,"Pembroke, United Kingdom",United Kingdom,Valero,55356.0,BP-001,1.23,23.0
+BP,"Imbituba, Brazil",Brazil,Petrocoque Sa Industria E Comercio,50098.22,BP-001,1.12,24.0
+BP,"Sao Sebastio, Brazil",Brazil,Petrocoque Sa Industria E Comercio,50039.24,BP-001,1.11,25.0
+BP,"All Other Peoples Republic of China Ports, China",China,Zhejiang Petroleum And Chemical,48402.53,BP-001,1.08,26.0
+BP,"Porto De Sines, Portugal",Portugal,Petrogal Sa,46475.0,BP-001,1.04,27.0
+BP,"Onsan, South Korea",South Korea,Lotte Chemical Corp.,45990.2,BP-001,1.02,28.0
+BP,"Comodoro Rivadavia, Argentina",Argentina,Capex Sa,45438.88,BP-001,1.01,29.0
+BP,"Sao Paulo, Brazil",Brazil,Petrobras,39340.3,BP-001,0.88,30.0
+BP,"All Other China (Taiwan) Ports, Taiwan",Taiwan,Formosa Petrochemical Corp.,38521.13,BP-001,0.86,31.0
+BP,"Rio De Janeiro, Brazil",Brazil,Petrobras,35312.0,BP-001,0.79,32.0
+BP,"Taichung, Taiwan",Taiwan,"Brb Singapore Pte., Ltd.",34972.56,BP-001,0.78,33.0
+BP,"Rotterdam, Netherlands",Netherlands,BP,33883.5,BP-001,0.75,34.0
+BP,"Porto De Sines, Portugal",Portugal,BP,32972.35,BP-001,0.73,35.0
+BP,"Comodoro Rivadavia, Argentina",Argentina,Tecpetrol S.A.,27263.32,BP-001,0.61,36.0
+BP,"All Other Argentina Ports, Argentina",Argentina,ExxonMobil,26129.0,BP-001,0.58,37.0
+BP,"Rotterdam, Netherlands",Netherlands,Bp Europa Se,25006.68,BP-001,0.56,38.0
+BP,"Bahia Blanca, Argentina",Argentina,Emirates Aluminium (EGA),24869.0,BP-001,0.55,39.0
+BP,"Vancouver, BC, Canada",Canada,BP,23733.64,BP-001,0.53,40.0
+BP,"Samil, South Korea",South Korea,Gs Caltex Corporation,21601.56,BP-001,0.48,41.0
+BP,"Samil, South Korea",South Korea,Trafigura,21400.0,BP-001,0.48,42.0
+BP,"Sarroch Oil Terminal, Italy",Italy,La Raffineria Sarlux,17702.4,BP-001,0.39,43.0
+BP,"Singapore, Singapore",Singapore,"Brb Singapore Pte., Ltd.",17520.09,BP-001,0.39,44.0
+BP,"Montreal, Que, Canada",Canada,Suncor Energy,17004.0,BP-001,0.38,45.0
+BP,"Sarroch Oil Terminal, Italy",Italy,Sarlux Refinery Sarroch (Itally),15844.0,BP-001,0.35,46.0
+BP,"Bonny, Nigeria",Nigeria,Nigerian National Petroleum Corp.,15001.0,BP-001,0.33,47.0
+BP,"Kaohsiung, Taiwan",Taiwan,"Brb Singapore Pte., Ltd.",12871.8,BP-001,0.29,48.0
+BP,"Soyo Oil Terminal, Angola",Angola,Chevron,12630.0,BP-001,0.28,49.0
+BP,"Le Havre, France",France,Totsa Totalenergies Trading Sa,11177.0,BP-001,0.25,50.0
+BP,"Soyo Oil Terminal, Angola",Angola,Angola Lng Ltd.,10526.0,BP-001,0.23,51.0
+BP,"All Other China (Taiwan) Ports, Taiwan",Taiwan,"Brb Singapore Pte., Ltd.",10067.3,BP-001,0.22,52.0
+BP,"Bedi, India",India,Reliance Industres Ltd.,8948.0,BP-001,0.2,53.0
+BP,"Amsterdam, Netherlands",Netherlands,Aramco Trading Ltd.,7191.6,BP-001,0.16,54.0
+BP,"Porto De Sines, Portugal",Portugal,Neste Oil (Suisse),5928.0,BP-001,0.13,55.0
+BP,"Huelva, Spain",Spain,Cia Espanola De Petroleos Sa,5267.0,BP-001,0.12,56.0
+BP,"Mamonal, Colombia",Colombia,Refineria De Cartagena S.A.,3397.0,BP-001,0.08,57.0
+BP,"Bahia Blanca, Argentina",Argentina,Transportadora De Gas Del Sur Sa,686.0,BP-001,0.02,58.0
+BP,"Mamonal, Colombia",Colombia,BP,628.0,BP-001,0.01,59.0
+BP,"Antwerp, Belgium",Belgium,By Cast Nv,82.46,BP-001,0.0,60.0
+Blue Water Industries,"All Other Newfoundland Ports, Canada",Canada,Emirates Aluminium (EGA),1809300.0,BLUE-WATER-001,100.0,1.0
+Celanese,"Coatzacoalcos, Mexico",Mexico,Celanese,4588386.0,CELANESE-001,99.91,1.0
+Celanese,"Huelva, Spain",Spain,Cepsa Quimica S.A,2039.0,CELANESE-001,0.04,2.0
+Celanese,"Rotterdam, Netherlands",Netherlands,Mitsui & Co. Deutschland Gmb H,1936.84,CELANESE-001,0.04,3.0
+Cemex,"All Other Canada Atlantic Region Ports, Canada",Canada,Cemex,947755.0,CEMEX-001,23.62,1.0
+Cemex,"All Other Turkey Mediterranean Region Ports, Turkey",Turkey,Medcem Global,552514.73,CEMEX-001,13.77,2.0
+Cemex,"Alcanar, Spain",Spain,Cemex,503639.81,CEMEX-001,12.55,3.0
+Cemex,"All Other Viet Nam Ports, Vietnam",Vietnam,Vissai Ninh Binh Jsc,450399.0,CEMEX-001,11.22,4.0
+Cemex,"Ad Dammam, Saudi Arabia",Saudi Arabia,Saudi Cement Co.,257874.0,CEMEX-001,6.43,5.0
+Cemex,"Altamira, Mexico",Mexico,Cemex,233854.39,CEMEX-001,5.83,6.0
+Cemex,"All Other Newfoundland Ports, Canada",Canada,Cemex,167856.0,CEMEX-001,4.18,7.0
+Cemex,"All Other Viet Nam Ports, Vietnam",Vietnam,"Long Son Industrials Co., Ltd.",112840.0,CEMEX-001,2.81,8.0
+Cemex,"All Other Spain Mediterranean Region Ports, Spain",Spain,Transporte La Fama Sa,109460.0,CEMEX-001,2.73,9.0
+Cemex,"Bur Said, Egypt",Egypt,Heidelberg Materials Suez Cement,88000.0,CEMEX-001,2.19,10.0
+Cemex,"Oran, Algeria",Algeria,Sarl Macore,81500.0,CEMEX-001,2.03,11.0
+Cemex,"Adana, Turkey",Turkey,Medcem Global,65700.0,CEMEX-001,1.64,12.0
+Cemex,"All Other Viet Nam Ports, Vietnam",Vietnam,Nam Phuong Imex Imp. & Exp. . J,64035.92,CEMEX-001,1.6,13.0
+Cemex,"Guaymas, Mexico",Mexico,Cemex,55660.0,CEMEX-001,1.39,14.0
+Cemex,"All Other Turkey Black Sea and Sea of Marmara Port, Turkey",Turkey,Ep Power Minerals Gmb H,54191.0,CEMEX-001,1.35,15.0
+Cemex,"Linden, Guyana",Guyana,Bosai Minerals Group (Guyana) Inc.,52934.29,CEMEX-001,1.32,16.0
+Cemex,"All Other Turkey Black Sea and Sea of Marmara Port, Turkey",Turkey,Akcansa Cimento San Tic As,44000.0,CEMEX-001,1.1,17.0
+Cemex,"Bur Said, Egypt",Egypt,Heidelberg Materials Suez Cement Sae K30 Maadi Ein Sokhna Road Cairo Egypt,44000.0,CEMEX-001,1.1,17.0
+Cemex,"All Other Saudi Arabia Ports, Saudi Arabia",Saudi Arabia,Saudi Cement Co.,30400.0,CEMEX-001,0.76,18.0
+Cemex,"All Other Turkey Black Sea and Sea of Marmara Port, Turkey",Turkey,Cenal Elektrik Uretim A.S.,30006.0,CEMEX-001,0.75,19.0
+Cemex,"All Other Turkey Black Sea and Sea of Marmara Port, Turkey",Turkey,Medcem Global,27500.0,CEMEX-001,0.69,20.0
+Cemex,"All Other Viet Nam Ports, Vietnam",Vietnam,"Long Son Co., Ltd.",14000.0,CEMEX-001,0.35,21.0
+Cemex,"All Other Mexico East Coast Region Ports, Mexico",Mexico,Cemex,11498.23,CEMEX-001,0.29,22.0
+Cemex,"All Other China (Taiwan) Ports, Taiwan",Taiwan,Rizhao Jinghua New Type Building,10000.0,CEMEX-001,0.25,23.0
+Cemex,"Coatzacoalcos, Mexico",Mexico,Cemex,1902.22,CEMEX-001,0.05,24.0
+Cemex,"Kaohsiung, Taiwan",Taiwan,China Steel Corporation,804.52,CEMEX-001,0.02,25.0
+Cemex,"Antwerp, Belgium",Belgium,Aumund Fordertechnik Gmb H,150.52,CEMEX-001,0.0,26.0
+Cemex,"Zeebrugge, Belgium",Belgium,Untha Iberica,80.42,CEMEX-001,0.0,27.0
+Chevron,"Armuelles, Panama",Panama,Chevron,9305655.82,CHEVRON-001,21.55,1.0
+Chevron,"Jose, Venezuela",Venezuela,Petropiar,5313346.93,CHEVRON-001,12.3,2.0
+Chevron,"Jose, Venezuela",Venezuela,PDVSA,2873740.52,CHEVRON-001,6.66,3.0
+Chevron,"Bajo Grande, Venezuela",Venezuela,PDVSA,2509651.76,CHEVRON-001,5.81,4.0
+Chevron,"Cayo Arcas, Mexico",Mexico,PMI Trading,1983770.67,CHEVRON-001,4.59,5.0
+Chevron,"All Other Venezuela Ports, Venezuela",Venezuela,PDVSA,1844896.04,CHEVRON-001,4.27,6.0
+Chevron,"Pajaritos, Mexico",Mexico,PMI Trading,1781572.33,CHEVRON-001,4.13,7.0
+Chevron,"Skikda, Algeria",Algeria,Chevron,1649630.15,CHEVRON-001,3.82,8.0
+Chevron,"Mina Saud, Kuwait",Kuwait,Chevron,1413216.7,CHEVRON-001,3.27,9.0
+Chevron,"All Other Venezuela Ports, Venezuela",Venezuela,Petropiar,1148145.64,CHEVRON-001,2.66,10.0
+Chevron,"Vancouver, BC, Canada",Canada,Cenovus Energy,974867.18,CHEVRON-001,2.26,11.0
+Chevron,"Freeport, Grand Bahama I, Bahamas",Bahamas,Chevron,931731.61,CHEVRON-001,2.16,12.0
+Chevron,"Covenas, Colombia",Colombia,Trafigura,515305.58,CHEVRON-001,1.19,13.0
+Chevron,"Antwerp, Belgium",Belgium,Chevron,421476.64,CHEVRON-001,0.98,14.0
+Chevron,"Vancouver, BC, Canada",Canada,Chevron,407648.84,CHEVRON-001,0.94,15.0
+Chevron,"Bahia Blanca, Argentina",Argentina,Compania De Hidrocarburo,399129.24,CHEVRON-001,0.92,16.0
+Chevron,"Skikda, Algeria",Algeria,Sonatrach,398198.9,CHEVRON-001,0.92,17.0
+Chevron,"Samil, South Korea",South Korea,Gs Caltex Corporation,392740.02,CHEVRON-001,0.91,18.0
+Chevron,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Statoil Brasil Oleo E Gas Ltda,390612.0,CHEVRON-001,0.9,19.0
+Chevron,"Dos Bocas, Mexico",Mexico,PMI Trading,344280.72,CHEVRON-001,0.8,20.0
+Chevron,"Coatzacoalcos, Mexico",Mexico,PMI Trading,328503.32,CHEVRON-001,0.76,21.0
+Chevron,"Whiffen Head, Nfld, Canada",Canada,Chevron,309663.94,CHEVRON-001,0.72,22.0
+Chevron,"All Other Colombian Caribbean Region Ports, Colombia",Colombia,Frontera Energy Colombia Corp.,299711.98,CHEVRON-001,0.69,23.0
+Chevron,"Pointe A Pierre, Trinidad and Tobago",Trinidad and Tobago,Heritage Petroleum,293563.52,CHEVRON-001,0.68,24.0
+Chevron,"All Other Guyana Ports, Guyana",Guyana,ExxonMobil,283162.14,CHEVRON-001,0.66,25.0
+Chevron,"All Other Panama West Coast Region Ports, Panama",Panama,Chevron,275744.34,CHEVRON-001,0.64,26.0
+Chevron,"Pajaritos, Mexico",Mexico,Pmi Commercio International S.A. De,261240.0,CHEVRON-001,0.6,27.0
+Chevron,"Bedi, India",India,Reliance Industries,235067.84,CHEVRON-001,0.54,28.0
+Chevron,"All Other Brazil Ports North Of Recife, Brazil",Brazil,Statoil Brasil Oleo E Gas Ltda,227469.0,CHEVRON-001,0.53,29.0
+Chevron,"Esmeraldas, Ecuador",Ecuador,Ep Petroecuador,208599.63,CHEVRON-001,0.48,30.0
+Chevron,"Fujairah, United Arab Emirates",United Arab Emirates,Chevron,181138.0,CHEVRON-001,0.42,31.0
+Chevron,"Skikda, Algeria",Algeria,Sonatrach Activite,175990.0,CHEVRON-001,0.41,32.0
+Chevron,"Armuelles, Panama",Panama,Trafigura,171919.87,CHEVRON-001,0.4,33.0
+Chevron,"Novorossiysk, Russia",Russia,Karachaganak Petroleum Operating,166082.0,CHEVRON-001,0.38,34.0
+Chevron,"All Other Bahrain Ports, Bahrain",Bahrain,Bapco Refining Bsc,160151.74,CHEVRON-001,0.37,35.0
+Chevron,"All Other Argentina Ports, Argentina",Argentina,Chevrn Argentina Srl,159466.35,CHEVRON-001,0.37,36.0
+Chevron,"All Other Malaysia Ports, Malaysia",Malaysia,Chevron,153493.72,CHEVRON-001,0.36,37.0
+Chevron,"Jose, Venezuela",Venezuela,Oeste,153010.0,CHEVRON-001,0.35,38.0
+Chevron,"Cartagena, Colombia",Colombia,Trafigura,150420.0,CHEVRON-001,0.35,39.0
+Chevron,"Cayo Arcas, Mexico",Mexico,Pmi Commercio International S.A. De,147658.0,CHEVRON-001,0.34,40.0
+Chevron,"Dos Bocas, Mexico",Mexico,P M I Comercio International S A,143294.0,CHEVRON-001,0.33,41.0
+Chevron,"Angra Dos Reis, Brazil",Brazil,Petrobras,141148.26,CHEVRON-001,0.33,42.0
+Chevron,"Armuelles, Panama",Panama,Petrorio Luxembourg Holding Sari,140949.28,CHEVRON-001,0.33,43.0
+Chevron,"Esmeraldas, Ecuador",Ecuador,Trafigura,136897.44,CHEVRON-001,0.32,44.0
+Chevron,"Chiriqui Grande Terminal, Panama",Panama,Natixis Paris,133503.12,CHEVRON-001,0.31,45.0
+Chevron,"All Other Scotland East Coast Ports, United Kingdom",United Kingdom,Equinor Asa,124512.0,CHEVRON-001,0.29,46.0
+Chevron,"All Other England South And East Coast Ports, United Kingdom",United Kingdom,Bp Oil International Ltd.,123439.4,CHEVRON-001,0.29,47.0
+Chevron,"Ensteadvaerket, Denmark",Denmark,Chevron,122891.68,CHEVRON-001,0.28,48.0
+Chevron,"Salina Cruz, Mexico",Mexico,PMI Trading,117234.16,CHEVRON-001,0.27,49.0
+Chevron,"Vancouver, BC, Canada",Canada,Suncor Energy,106125.0,CHEVRON-001,0.25,50.0
+Chevron,"Galeota Point, Trinidad and Tobago",Trinidad and Tobago,Woodside Energy Trinidad C2 Ltd.,101506.88,CHEVRON-001,0.24,51.0
+Chevron,"Balboa, Panama",Panama,Trafigura,100969.66,CHEVRON-001,0.23,52.0
+Chevron,"Bedi, India",India,Chevron,86165.0,CHEVRON-001,0.2,53.0
+Chevron,"All Other Canada Pacific Region Ports, Canada",Canada,Suncor Energy,85846.0,CHEVRON-001,0.2,54.0
+Chevron,"Altamira, Mexico",Mexico,PMI Trading,83415.92,CHEVRON-001,0.19,55.0
+Chevron,"All Other Canada Pacific Region Ports, Canada",Canada,Cenovus Energy Inc.,82823.0,CHEVRON-001,0.19,56.0
+Chevron,"Skikda, Algeria",Algeria,Sonatrach Commercialisation,81269.0,CHEVRON-001,0.19,57.0
+Chevron,"Antwerp, Belgium",Belgium,Petroineos Trading Ltd.,79364.0,CHEVRON-001,0.18,58.0
+Chevron,"Come By Chance, Nfld, Canada",Canada,Chevron,79093.0,CHEVRON-001,0.18,59.0
+Chevron,"Vancouver, BC, Canada",Canada,Parkland Corp.,77081.75,CHEVRON-001,0.18,60.0
+Chevron,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Equinor Brasil,73540.0,CHEVRON-001,0.17,61.0
+Chevron,"All Other Argentina Ports, Argentina",Argentina,Compania De Hidrocarburo,73318.0,CHEVRON-001,0.17,62.0
+Chevron,"All Other Colombian Caribbean Region Ports, Colombia",Colombia,Bp Latin America Llc Sucursal Co.,72638.38,CHEVRON-001,0.17,63.0
+Chevron,"All Other Scotland West Coast Ports, United Kingdom",United Kingdom,Bp Oil International Ltd.,71560.0,CHEVRON-001,0.17,64.0
+Chevron,"Campeche, Mexico",Mexico,Pmi Commercio International S.A. De,70989.23,CHEVRON-001,0.16,65.0
+Chevron,"Daesan, South Korea",South Korea,Chevron,70170.6,CHEVRON-001,0.16,66.0
+Chevron,"Amsterdam, Netherlands",Netherlands,Trafigura,70012.0,CHEVRON-001,0.16,67.0
+Chevron,"Bahia Blanca, Argentina",Argentina,Chevron,67529.86,CHEVRON-001,0.16,68.0
+Chevron,"Bahia Blanca, Argentina",Argentina,Petronas E&P Argentinas.A.,64690.19,CHEVRON-001,0.15,69.0
+Chevron,"Mab Ta Pud, Thailand",Thailand,Chevron,63026.08,CHEVRON-001,0.15,70.0
+Chevron,"All Other Scotland East Coast Ports, United Kingdom",United Kingdom,Bp Oil International Ltd.,61751.38,CHEVRON-001,0.14,71.0
+Chevron,"Rotterdam, Netherlands",Netherlands,Petroineos Trading Ltd.,58829.16,CHEVRON-001,0.14,72.0
+Chevron,"All Other Argentina Ports, Argentina",Argentina,Trafigura,58157.16,CHEVRON-001,0.13,73.0
+Chevron,"All Other Bahamas Ports, Bahamas",Bahamas,Chevron,57809.4,CHEVRON-001,0.13,74.0
+Chevron,"Bajo Grande, Venezuela",Venezuela,Torre Este Piso Ph. Of. Ph. Urb.,55893.34,CHEVRON-001,0.13,75.0
+Chevron,"All Other Senegal Ports, Senegal",Senegal,Woodside Energy Ltd.B.V.,51904.0,CHEVRON-001,0.12,76.0
+Chevron,"Huelva, Spain",Spain,Cia Espanola De Petroleos Sa,49129.93,CHEVRON-001,0.11,77.0
+Chevron,"Daesan, South Korea",South Korea,"Hanwha Total Petrochemical Co., Ltd.",47550.0,CHEVRON-001,0.11,78.0
+Chevron,"Cristobal, Panama",Panama,Tartan Oil Llc,41978.0,CHEVRON-001,0.1,79.0
+Chevron,"Rotterdam, Netherlands",Netherlands,Scl Rotterdam,39636.12,CHEVRON-001,0.09,80.0
+Chevron,"Amsterdam, Netherlands",Netherlands,Totsa Totalenergies Trading Sa,37449.0,CHEVRON-001,0.09,81.0
+Chevron,"Daesan, South Korea",South Korea,"Hyundai Oilbank Co., Ltd.",34488.8,CHEVRON-001,0.08,82.0
+Chevron,"Talara, Peru",Peru,Peninsula Petroleum Panama Inc.,33419.0,CHEVRON-001,0.08,83.0
+Chevron,"All Other Argentina Ports, Argentina",Argentina,Chevron,30941.14,CHEVRON-001,0.07,84.0
+Chevron,"All Other Argentina Ports, Argentina",Argentina,Petroleos Sudamericanos Sa,30843.17,CHEVRON-001,0.07,85.0
+Chevron,"All Other Kalimantan Ports, Indonesia",Indonesia,Chevron,30708.68,CHEVRON-001,0.07,86.0
+Chevron,"All Other Senegal Ports, Senegal",Senegal,La Holding Societe Des,30371.0,CHEVRON-001,0.07,87.0
+Chevron,"Vancouver, BC, Canada",Canada,Adm Agri Industries Co.,29998.86,CHEVRON-001,0.07,88.0
+Chevron,"Manaus, Brazil",Brazil,Novum Energy Trading Corp.,27261.81,CHEVRON-001,0.06,89.0
+Chevron,"Samil, South Korea",South Korea,Chevron,23743.2,CHEVRON-001,0.05,90.0
+Chevron,"Al Jubail, Saudi Arabia",Saudi Arabia,Saudi Aramco Toatl Refining And,23535.0,CHEVRON-001,0.05,91.0
+Chevron,"All Other Colombian Caribbean Region Ports, Colombia",Colombia,Trafigura,21539.12,CHEVRON-001,0.05,92.0
+Chevron,"Onsan, South Korea",South Korea,Chevron,21204.97,CHEVRON-001,0.05,93.0
+Chevron,"Gibraltar, Gibraltar",Gibraltar,Chevron,19376.56,CHEVRON-001,0.04,94.0
+Chevron,"Bahia Blanca, Argentina",Argentina,Vista Energy Argentina Sau,16194.62,CHEVRON-001,0.04,95.0
+Chevron,"All Other Mexico East Coast Region Ports, Mexico",Mexico,PMI Trading,16132.0,CHEVRON-001,0.04,96.0
+Chevron,"Le Havre, France",France,Chevron,12434.38,CHEVRON-001,0.03,97.0
+Chevron,"Rotterdam, Netherlands",Netherlands,Chevron,10008.06,CHEVRON-001,0.02,98.0
+Chevron,"Soyo Oil Terminal, Angola",Angola,Chevron,8394.0,CHEVRON-001,0.02,99.0
+Chevron,"Lakeview, Ont, Canada",Canada,Petro Canada Lubricants Inc.,4605.0,CHEVRON-001,0.01,100.0
+Chevron,"Quebec, Que, Canada",Canada,Petro Canada Lubricants Inc.,2490.0,CHEVRON-001,0.01,101.0
+Chevron,"Clarkson, Ont, Canada",Canada,Petro Canada Lubricants Inc.,2406.0,CHEVRON-001,0.01,102.0
+Chevron,"Mongstad, Norway",Norway,Equinor Asa,1383.0,CHEVRON-001,0.0,103.0
+Chevron,"Jose, Venezuela",Venezuela,Caribbean Voyager,1164.0,CHEVRON-001,0.0,104.0
+Chevron,"La Libertad, Ecuador",Ecuador,Hafnia Leo,616.0,CHEVRON-001,0.0,105.0
+Chevron,"Veracruz, Mexico",Mexico,Chevron,565.5,CHEVRON-001,0.0,106.0
+Chevron,"Veracruz, Mexico",Mexico,Tubos De Acero De Mexico S.A.,454.68,CHEVRON-001,0.0,107.0
+Chevron,"Savona, Italy",Italy,Villa & Bonaldi Sp A,243.09,CHEVRON-001,0.0,108.0
+Chevron,"Lido, Italy",Italy,Brembana & Rolle Sp A,215.2,CHEVRON-001,0.0,109.0
+Chevron,"Marina Di Carrara, Italy",Italy,Carpenteria Corsi Srl,136.4,CHEVRON-001,0.0,110.0
+Chevron,"Malabo, Equatorial Guinea",Equatorial Guinea,"Cabinda Gulf Oil Co., Ltd.",1.4,CHEVRON-001,0.0,111.0
+Chevron,"Armuelles, Panama",Panama,Apollo Voyager,0.1,CHEVRON-001,0.0,112.0
+Chevron,"Singapore, Singapore",Singapore,El Segundo Voyager,0.09,CHEVRON-001,0.0,113.0
+Chevron,"All Other Singapore Ports, Singapore",Singapore,Richmond Voyager,0.08,CHEVRON-001,0.0,114.0
+Chevron,"Novorossiysk, Russia",Russia,Mediterranean Voyager,0.04,CHEVRON-001,0.0,115.0
+Chevron,"Cape Town, South Africa",South Africa,El Segundo Voyager,0.02,CHEVRON-001,0.0,116.0
+Chevron,"Cape Town, South Africa",South Africa,Houston Voyager,0.02,CHEVRON-001,0.0,116.0
+Chevron,"Singapore, Singapore",Singapore,Glasgow Voyager,0.02,CHEVRON-001,0.0,116.0
+Chevron,"Singapore, Singapore",Singapore,Pascagoula Voyager,0.02,CHEVRON-001,0.0,116.0
+Chevron,"Cape Town, South Africa",South Africa,Pascagoula Voyager,0.01,CHEVRON-001,0.0,117.0
+Chevron,"Port Louis, Mauritius",Mauritius,London Voyager,0.01,CHEVRON-001,0.0,117.0
+Chevron,"All Other Venezuela Ports, Venezuela",Venezuela,Master,0.0,CHEVRON-001,0.0,118.0
+Chevron,"Esbjerg, Denmark",Denmark,Wind Scylla,0.0,CHEVRON-001,0.0,118.0
+Chevron,"Jose, Venezuela",Venezuela,Carina Voyager,0.0,CHEVRON-001,0.0,118.0
+Chevron,"Singapore, Singapore",Singapore,Richmond Voyager,0.0,CHEVRON-001,0.0,118.0
+Chevron,"Skikda, Algeria",Algeria,Caribbean Voyager,0.0,CHEVRON-001,0.0,118.0
+Citgo,"Pointe A Pierre, Trinidad and Tobago",Trinidad and Tobago,Heritage Petroleum,706040.07,CITGO-001,15.1,1.0
+Citgo,"Pointe A Pierre, Trinidad and Tobago",Trinidad and Tobago,Socar Trading North America,698880.93,CITGO-001,14.95,2.0
+Citgo,"Amsterdam, Netherlands",Netherlands,Totsa Totalenergies Trading Sa,445343.54,CITGO-001,9.53,3.0
+Citgo,"Dos Bocas, Mexico",Mexico,PMI Trading,432041.81,CITGO-001,9.24,4.0
+Citgo,"Cayo Arcas, Mexico",Mexico,PMI Trading,297869.72,CITGO-001,6.37,5.0
+Citgo,"Covenas, Colombia",Colombia,Ecopetrol,285128.0,CITGO-001,6.1,6.0
+Citgo,"Pajaritos, Mexico",Mexico,PMI Trading,266448.5,CITGO-001,5.7,7.0
+Citgo,"All Other Colombian Caribbean Region Ports, Colombia",Colombia,Ecopetrol,241373.75,CITGO-001,5.16,8.0
+Citgo,"All Other Guyana Ports, Guyana",Guyana,ExxonMobil,231840.1,CITGO-001,4.96,9.0
+Citgo,"Cartagena, Colombia",Colombia,Frontera Energy Colombia Corp.,139962.7,CITGO-001,2.99,10.0
+Citgo,"Pembroke, United Kingdom",United Kingdom,Valero,126285.4,CITGO-001,2.7,11.0
+Citgo,"Balboa, Panama",Panama,"Petrochina International Co., Ltd.",104304.06,CITGO-001,2.23,12.0
+Citgo,"Georgetown, Guyana",Guyana,ExxonMobil,99562.0,CITGO-001,2.13,13.0
+Citgo,"Puerto Bolivar, Colombia",Colombia,Chevron,97880.0,CITGO-001,2.09,14.0
+Citgo,"Covenas, Colombia",Colombia,Unisea Shipping,83219.0,CITGO-001,1.78,15.0
+Citgo,"Amsterdam, Netherlands",Netherlands,Gunvor Group,76520.72,CITGO-001,1.64,16.0
+Citgo,"Antwerp, Belgium",Belgium,Totsa Totalenergies Trading Sa,73973.02,CITGO-001,1.58,17.0
+Citgo,"Mongstad, Norway",Norway,Equinor Asa,43941.0,CITGO-001,0.94,18.0
+Citgo,"Pembroke, United Kingdom",United Kingdom,Citgo,41944.62,CITGO-001,0.9,19.0
+Citgo,"Amsterdam, Netherlands",Netherlands,Totsa Total Oil Trading S.A.,36456.0,CITGO-001,0.78,20.0
+Citgo,"Milford Haven, United Kingdom",United Kingdom,Valero,34848.0,CITGO-001,0.75,21.0
+Citgo,"Amsterdam, Netherlands",Netherlands,BP,34008.0,CITGO-001,0.73,22.0
+Citgo,"Sao Paulo, Brazil",Brazil,Braskem S.A.,26892.0,CITGO-001,0.58,23.0
+Citgo,"Mongstad, Norway",Norway,Equinor Marketing & Trading Us Inc.,23255.77,CITGO-001,0.5,24.0
+Citgo,"Amsterdam, Netherlands",Netherlands,Neste Oil (Suisse),17142.0,CITGO-001,0.37,25.0
+Citgo,"Aratu, Brazil",Brazil,Braskem S.A.,6064.0,CITGO-001,0.13,26.0
+Citgo,"Point Tupper, Cbi, Canada",Canada,Ampol Us Trading Llc,3490.71,CITGO-001,0.07,27.0
+Compass Minerals,"Goderich, Ont, Canada",Canada,Compass Minerals,3348505.03,COMPASS-001,100.0,1.0
+Diamond Green Diesel Llc,"Rotterdam, Netherlands",Netherlands,Best Commodity Trade,178848.0,,10.04,1.0
+Diamond Green Diesel Llc,"Lianyungang, China",China,Amarus International Pte,81389.0,,4.57,2.0
+Diamond Green Diesel Llc,"Rotterdam, Netherlands",Netherlands,Progan Eu Bv,80264.03,,4.5,3.0
+Diamond Green Diesel Llc,"Sao Paulo, Brazil",Brazil,Industria Agro Quimica Braido Ltda,60585.38,,3.4,4.0
+Diamond Green Diesel Llc,"Sao Paulo, Brazil",Brazil,Progan Br Sa,60089.08,,3.37,5.0
+Diamond Green Diesel Llc,"Vancouver, BC, Canada",Canada,West Coast Reduction Ltd.,55341.79,,3.11,6.0
+Diamond Green Diesel Llc,"All Other Malaysia Ports, Malaysia",Malaysia,Diamond Green Diesel Llc,52920.0,,2.97,7.0
+Diamond Green Diesel Llc,"Barao De Teffe, Brazil",Brazil,Fasa Commercial Exportadora Ltda,49732.0,,2.79,8.0
+Diamond Green Diesel Llc,"Barao De Teffe, Brazil",Brazil,Celena Alimentos S A,49576.3,,2.78,9.0
+Diamond Green Diesel Llc,"Nantong, China",China,Xiamen C And D Commodity Trading,46688.08,,2.62,10.0
+Diamond Green Diesel Llc,"Nansha, China",China,"C&D Logistics (Shanghai) Co., Ltd.",46572.52,,2.61,11.0
+Diamond Green Diesel Llc,"Brisbane, Australia",Australia,Graincorp Commodity Management (Pty) ),45073.78,,2.53,12.0
+Diamond Green Diesel Llc,"Barranquilla, Colombia",Colombia,Agropecuaria San Fernando Sa Agrosa,40569.3,,2.28,13.0
+Diamond Green Diesel Llc,"Rotterdam, Netherlands",Netherlands,Progan Eu B.V,37678.0,,2.11,14.0
+Diamond Green Diesel Llc,"Tianjin, China",China,Xiamen C And D Commodity Trading,37087.0,,2.08,15.0
+Diamond Green Diesel Llc,"Santa Clara, Brazil",Brazil,Fasa Comercial Exportadora Ltda,36218.24,,2.03,16.0
+Diamond Green Diesel Llc,"Itaqui, Brazil",Brazil,Fasa Commercial Exportadora Ltda,35248.0,,1.98,17.0
+Diamond Green Diesel Llc,"Napier, New Zealand",New Zealand,Graincorp Commodity Management (Pty) ),32747.64,,1.84,18.0
+Diamond Green Diesel Llc,"Itaqui, Brazil",Brazil,Fasa Comercial Exportadora Ltda,32291.22,,1.81,19.0
+Diamond Green Diesel Llc,"Lianyungang, China",China,"Amarus International Pte., Ltd.",30000.0,,1.68,20.0
+Diamond Green Diesel Llc,"Montevideo, Uruguay",Uruguay,Cardama Sa,27836.75,,1.56,21.0
+Diamond Green Diesel Llc,"Barao De Teffe, Brazil",Brazil,Fasa Comercial Exportadora Ltda,27487.72,,1.54,22.0
+Diamond Green Diesel Llc,"Nantong, China",China,"Xiamen C D Chemical Co., Ltd.",27310.77,,1.53,23.0
+Diamond Green Diesel Llc,"Montevideo, Uruguay",Uruguay,Sapi Sp A,25492.0,,1.43,24.0
+Diamond Green Diesel Llc,"Sao Paulo, Brazil",Brazil,Cargil Agricola S A,24742.0,,1.39,25.0
+Diamond Green Diesel Llc,"Montevideo, Uruguay",Uruguay,Cardama S.A Camino De Los Molinos 5611,23998.0,,1.35,26.0
+Diamond Green Diesel Llc,"Hong Kong, Hong Kong",Hong Kong,Diamond Green Diesel Llc,20968.0,,1.18,27.0
+Diamond Green Diesel Llc,"Nansha, China",China,Xiamen C And D Commodity Trading,20909.28,,1.17,28.0
+Diamond Green Diesel Llc,"Nantong, China",China,Xiaoxian Kangdeli Grease Tech,18085.26,,1.01,29.0
+Diamond Green Diesel Llc,"Bluff Harbor, New Zealand",New Zealand,Graincorp Commodity Management (Pty) ),17377.9,,0.98,30.0
+Diamond Green Diesel Llc,"Santa Clara, Brazil",Brazil,Faros Industriesde Farinha De Ossos Ltda,16918.92,,0.95,31.0
+Diamond Green Diesel Llc,"All Other Argentina Ports, Argentina",Argentina,Agrupacion De Colaboracion San,16772.82,,0.94,32.0
+Diamond Green Diesel Llc,"Rotterdam, Netherlands",Netherlands,Diamond Green Diesel Llc,16006.0,,0.9,33.0
+Diamond Green Diesel Llc,"Nansha, China",China,Sumec Technology And Equipment Co.,15456.58,,0.87,34.0
+Diamond Green Diesel Llc,"Barranquilla, Colombia",Colombia,C I Progan Co Sas,14663.86,,0.82,35.0
+Diamond Green Diesel Llc,"Tianjin, China",China,"Tianjin Honor Green Energy Co., Ltd.",13045.56,,0.73,36.0
+Diamond Green Diesel Llc,"San Antonio, Chile",Chile,Arsa Group Sp A,12881.0,,0.72,37.0
+Diamond Green Diesel Llc,"All Other Indonesia Ports, Indonesia",Indonesia,Diamond Green Diesel Llc,12657.7,,0.71,38.0
+Diamond Green Diesel Llc,"Adelaide, Australia",Australia,Graincorp Commodity Management (Pty) ),12358.36,,0.69,39.0
+Diamond Green Diesel Llc,"Sao Paulo, Brazil",Brazil,Sanimax Do Brasil Industrias,12151.16,,0.68,40.0
+Diamond Green Diesel Llc,"Timaru, New Zealand",New Zealand,Graincorp Commodity Management (Pty) ),12001.27,,0.67,41.0
+Diamond Green Diesel Llc,"Tianjin, China",China,"Xiamen C D Chemical Co., Ltd.",11628.0,,0.65,42.0
+Diamond Green Diesel Llc,"Durban, South Africa",South Africa,Fr Waring International (Pty) ) Ltd.,11354.21,,0.64,43.0
+Diamond Green Diesel Llc,"Lianyungang, China",China,Xiaoxian Kangdeli Grease Tech,11150.0,,0.63,44.0
+Diamond Green Diesel Llc,"Montevideo, Uruguay",Uruguay,Yarus S.A.,11102.34,,0.62,45.0
+Diamond Green Diesel Llc,"All Other Indonesia Ports, Indonesia",Indonesia,"C&D Logistics (Shanghai) Co., Ltd.",11039.9,,0.62,46.0
+Diamond Green Diesel Llc,"Sao Paulo, Brazil",Brazil,Progan Br S.A.,10679.7,,0.6,47.0
+Diamond Green Diesel Llc,"Sao Paulo, Brazil",Brazil,Agroindustrial Olhos Verdes Ltda,10626.0,,0.6,48.0
+Diamond Green Diesel Llc,"Buenos Aires, Argentina",Argentina,Agrupacion De Colaboracion San,10531.0,,0.59,49.0
+Diamond Green Diesel Llc,"San Antonio, Chile",Chile,Arsa Groups Sp A,10304.0,,0.58,50.0
+Diamond Green Diesel Llc,"Lianyungang, China",China,"Hebei Duancheng Trading Co., Ltd.",10013.0,,0.56,51.0
+Diamond Green Diesel Llc,"All Other Peoples Republic of China Ports, China",China,"C&D Logistics (Shanghai) Co., Ltd.",9980.89,,0.56,52.0
+Diamond Green Diesel Llc,"Soerabaja, Indonesia",Indonesia,Pt Apeiron Bioenergy Indonesia,8900.0,,0.5,53.0
+Diamond Green Diesel Llc,"All Other Viet Nam Ports, Vietnam",Vietnam,"Throne Biofuel Co., Ltd.",8352.03,,0.47,54.0
+Diamond Green Diesel Llc,"Adelaide, Australia",Australia,Graincorp Commodity Mgmt (Pty) ) Ltd.,8091.0,,0.45,55.0
+Diamond Green Diesel Llc,"Tianjin, China",China,Shandong Lancheng Tianbao Supply,7642.0,,0.43,56.0
+Diamond Green Diesel Llc,"Buenos Aires, Argentina",Argentina,Mapar S.A.,6985.17,,0.39,57.0
+Diamond Green Diesel Llc,"Buenos Aires, Argentina",Argentina,Marbel S.A.,6893.48,,0.39,58.0
+Diamond Green Diesel Llc,"Melbourne, Australia",Australia,Graincorp Commodity Management (Pty) ),6574.76,,0.37,59.0
+Diamond Green Diesel Llc,"Tianjin, China",China,"China Base Ningbo Foreign Trade Co., Ltd.",6552.42,,0.37,60.0
+Diamond Green Diesel Llc,"All Other Viet Nam Ports, Vietnam",Vietnam,Vinh Thanh Dat Trading Exp. Imp.,6481.52,,0.36,61.0
+Diamond Green Diesel Llc,"Barao De Teffe, Brazil",Brazil,Pacifico Industria E Comercio De,6356.63,,0.36,62.0
+Diamond Green Diesel Llc,"Sao Paulo, Brazil",Brazil,Progan Br Sa Rua,6237.78,,0.35,63.0
+Diamond Green Diesel Llc,"Tianjin, China",China,Sumec Technology And Equipment Co.,5987.0,,0.34,64.0
+Diamond Green Diesel Llc,"Barao De Teffe, Brazil",Brazil,Pacifico Ind E Com De Oleos E Pro,5326.0,,0.3,65.0
+Diamond Green Diesel Llc,"All Other Indonesia Ports, Indonesia",Indonesia,Pt Apeiron Bioenergy Indonesia,4735.89,,0.27,66.0
+Diamond Green Diesel Llc,"All Other Tasmania Ports, Australia",Australia,Graincorp Commodity Management (Pty) ),4662.21,,0.26,67.0
+Diamond Green Diesel Llc,"Brisbane, Australia",Australia,Wilmar Trading (Australia) (Pty) ) Ltd.,4641.92,,0.26,68.0
+Diamond Green Diesel Llc,"Soerabaja, Indonesia",Indonesia,Apeiron Bioenergy Indonesia,4493.0,,0.25,69.0
+Diamond Green Diesel Llc,"Soerabaja, Indonesia",Indonesia,Pt Apeiron Bioenergy Grand Slipi To,4306.0,,0.24,70.0
+Diamond Green Diesel Llc,"Rotterdam, Netherlands",Netherlands,Orangeoils B.V.,4175.96,,0.23,71.0
+Diamond Green Diesel Llc,"Nansha, China",China,"Luzhou C & D Commodity Co., Ltd.",4103.0,,0.23,72.0
+Diamond Green Diesel Llc,"Liverpool, United Kingdom",United Kingdom,Olleco Battlefield Road,3999.0,,0.22,73.0
+Diamond Green Diesel Llc,"All Other Indonesia Ports, Indonesia",Indonesia,Pt Apeiron Bioenergy Grand Slipi To,3965.0,,0.22,74.0
+Diamond Green Diesel Llc,"Tianjin, China",China,"Hebei Duancheng Trading Co., Ltd.",3941.0,,0.22,75.0
+Diamond Green Diesel Llc,"Rotterdam, Netherlands",Netherlands,Proggan Eu B.V Veerkade,3890.0,,0.22,76.0
+Diamond Green Diesel Llc,"Merak, Indonesia",Indonesia,Pt Apeiron Bioenergy Indonesia,3884.02,,0.22,77.0
+Diamond Green Diesel Llc,"Tianjin, China",China,Hunan Machinery And Equipment Imp.,3802.0,,0.21,78.0
+Diamond Green Diesel Llc,"Brisbane, Australia",Australia,Swift And Co. Trade Group,3606.0,,0.2,79.0
+Diamond Green Diesel Llc,"Sao Paulo, Brazil",Brazil,Celena Aumentos S A.,3599.09,,0.2,80.0
+Diamond Green Diesel Llc,"Buenos Aires, Argentina",Argentina,Refineria De Grasas Sudamericana,3580.0,,0.2,81.0
+Diamond Green Diesel Llc,"Tianjin, China",China,Vitol,3516.69,,0.2,82.0
+Diamond Green Diesel Llc,"Sao Paulo, Brazil",Brazil,Celena Alimentos Sa,2399.7,,0.13,83.0
+Diamond Green Diesel Llc,"Sao Paulo, Brazil",Brazil,Minerva S.A.,2216.0,,0.12,84.0
+Diamond Green Diesel Llc,"Sao Paulo, Brazil",Brazil,Celena Alimentos Sa Endereco Rua,2137.26,,0.12,85.0
+Diamond Green Diesel Llc,"Tianjin, China",China,"Qingdao Jingyun Unite Trade Co., Ltd.",2017.45,,0.11,86.0
+Diamond Green Diesel Llc,"Buenos Aires, Argentina",Argentina,Insugra S.A.,1919.24,,0.11,87.0
+Diamond Green Diesel Llc,"Lianyungang, China",China,Qingdao Baditu New Energy Technolog,1769.0,,0.1,88.0
+Diamond Green Diesel Llc,"Santa Clara, Brazil",Brazil,Pacifico Industria E Comercio De,1548.87,,0.09,89.0
+Diamond Green Diesel Llc,"Barao De Teffe, Brazil",Brazil,Rio Verde Industria De Gorduras E,1548.23,,0.09,90.0
+Diamond Green Diesel Llc,"Santa Clara, Brazil",Brazil,Faros Industries De Farinha De,1541.0,,0.09,91.0
+Diamond Green Diesel Llc,"Santa Clara, Brazil",Brazil,Fasa Comercial Exportadora Ltd.,1427.81,,0.08,92.0
+Diamond Green Diesel Llc,"Buenos Aires, Argentina",Argentina,Grabya Srl,1258.56,,0.07,93.0
+Diamond Green Diesel Llc,"Barao De Teffe, Brazil",Brazil,Araguaia Industria Oleos E Prot S.A,1218.66,,0.07,94.0
+Diamond Green Diesel Llc,"Itaqui, Brazil",Brazil,Pacifico Ind E Com De Oleos E Pro,1004.0,,0.06,95.0
+Diamond Green Diesel Llc,"Timaru, New Zealand",New Zealand,Wilmar Trading (Australia) (Pty) ) Ltd.,997.31,,0.06,96.0
+Diamond Green Diesel Llc,"Sao Paulo, Brazil",Brazil,Minerva S.A,794.0,,0.04,97.0
+Diamond Green Diesel Llc,"Barao De Teffe, Brazil",Brazil,Agroindustrial Sao Francisco Ltda,545.77,,0.03,98.0
+Diamond Green Diesel Llc,"Barao De Teffe, Brazil",Brazil,Santa Rita Industria De Oleos,538.38,,0.03,99.0
+Diamond Green Diesel Llc,"Buenos Aires, Argentina",Argentina,Ramgras Sacia Constituyentes 153,446.28,,0.03,100.0
+Diamond Green Diesel Llc,"Buenos Aires, Argentina",Argentina,Hdk S.A.,420.48,,0.02,101.0
+Diamond Green Diesel Llc,"Buenos Aires, Argentina",Argentina,Ramgras S.A.C.I. A.,223.7,,0.01,102.0
+Diamond Green Diesel Llc,"Buenos Aires, Argentina",Argentina,Marbel S.A,178.0,,0.01,103.0
+Diamond Green Diesel Llc,"Barao De Teffe, Brazil",Brazil,Ossotuba Industria E Comercio De,65.12,,0.0,104.0
+Diamond Green Diesel Llc,"Sao Paulo, Brazil",Brazil,Minerva Sa,6.0,,0.0,105.0
+Eastern Salt Co. Inc.,"All Other Chile Ports, Chile",Chile,Compania Minera,1872121.06,,82.44,1.0
+Eastern Salt Co. Inc.,"All Other Egypt Mediterranean Region Ports, Egypt",Egypt,North Coast Commodities Ltd.,139450.0,,6.14,2.0
+Eastern Salt Co. Inc.,"All Other Mexico West Coast Region Ports, Mexico",Mexico,Exportadora De Sal S.A. De C.V. Mor,99100.0,,4.36,3.0
+Eastern Salt Co. Inc.,"Cerros Island, Mexico",Mexico,Exp. Adora De Sal Sa De Cv Morro,59816.0,,2.63,4.0
+Eastern Salt Co. Inc.,"All Other Egypt Mediterranean Region Ports, Egypt",Egypt,North Coast Commodities Dmcc,51768.2,,2.28,5.0
+Eastern Salt Co. Inc.,"All Other Brazil Ports North Of Recife, Brazil",Brazil,Salinor Salinas Do Nordeste S.A.,48650.0,,2.14,6.0
+Ecopetrol,"All Other Colombian Caribbean Region Ports, Colombia",Colombia,Ecopetrol,3244318.06,ECOPETROL-001,54.56,1.0
+Ecopetrol,"Covenas, Colombia",Colombia,Ecopetrol,2504735.12,ECOPETROL-001,42.12,2.0
+Ecopetrol,"Mamonal, Colombia",Colombia,Refineria De Cartagena S.A.,80032.0,ECOPETROL-001,1.35,3.0
+Ecopetrol,"Cartagena, Colombia",Colombia,Ecopetrol,57976.66,ECOPETROL-001,0.97,4.0
+Ecopetrol,"Sint Eustatius, Netherlands Antilles",Netherlands Antilles,Ecopetrol,38874.0,ECOPETROL-001,0.65,5.0
+Ecopetrol,"Barranquilla, Colombia",Colombia,Ecopetrol,20586.0,ECOPETROL-001,0.35,6.0
+Emirates Aluminium (EGA),"All Other Canada Pacific Region Ports, Canada",Canada,Orca Sand and Gravel,5550969.43,EMIRATES-001,36.46,1.0
+Emirates Aluminium (EGA),"All Other United Arab Emirates Ports, United Arab Emirates",United Arab Emirates,Emirates Aluminium (EGA),4156288.7,EMIRATES-001,27.3,2.0
+Emirates Aluminium (EGA),"All Other United Arab Emirates Ports, United Arab Emirates",United Arab Emirates,Dubai Aluminium,3917761.98,EMIRATES-001,25.73,3.0
+Emirates Aluminium (EGA),"Meldrum Bay, Canada",Canada,Lafarge North America,658448.83,EMIRATES-001,4.32,4.0
+Emirates Aluminium (EGA),"All Other Newfoundland Ports, Canada",Canada,Cemex,148582.0,EMIRATES-001,0.98,5.0
+Emirates Aluminium (EGA),"Meldrum Bay, Canada",Canada,Lafarge Na Meldrum Bay,133000.0,EMIRATES-001,0.87,6.0
+Emirates Aluminium (EGA),"Bruce Mines, Ont, Canada",Canada,Ontario Trap Rock,111000.0,EMIRATES-001,0.73,7.0
+Emirates Aluminium (EGA),"Bruce Mines, Ont, Canada",Canada,Ontario Trap Rock A Division Of,108305.16,EMIRATES-001,0.71,8.0
+Emirates Aluminium (EGA),"Algoma, Ont, Canada",Canada,Inter Ontario Equipment Rental,99900.0,EMIRATES-001,0.66,9.0
+Emirates Aluminium (EGA),"All Other Canada Atlantic Region Ports, Canada",Canada,Cemex,55902.0,EMIRATES-001,0.37,10.0
+Emirates Aluminium (EGA),"Abu Zabi, United Arab Emirates",United Arab Emirates,Emirates Aluminium (EGA),48672.86,EMIRATES-001,0.32,11.0
+Emirates Aluminium (EGA),"Tarragona, Spain",Spain,Canteras La Ponerosa S.A.,46681.0,EMIRATES-001,0.31,12.0
+Emirates Aluminium (EGA),"Abu Zabi, United Arab Emirates",United Arab Emirates,Dubai Aluminium,45241.29,EMIRATES-001,0.3,13.0
+Emirates Aluminium (EGA),"Thessalon, Ont, Canada",Canada,Lafarge Holcim,20000.0,EMIRATES-001,0.13,14.0
+Emirates Aluminium (EGA),"Algoma, Ont, Canada",Canada,Inter Ontario Equipment,18000.0,EMIRATES-001,0.12,15.0
+Emirates Aluminium (EGA),"Thessalon, Ont, Canada",Canada,Lafarge Canada Smelter Bay Quarry,17000.0,EMIRATES-001,0.11,16.0
+Emirates Aluminium (EGA),"Brake, Germany",Germany,Emirates Aluminium (EGA),16737.06,EMIRATES-001,0.11,17.0
+Emirates Aluminium (EGA),"Alexandretta, Turkey",Turkey,Altin Ates Kimya A.S.,13295.2,EMIRATES-001,0.09,18.0
+Emirates Aluminium (EGA),"Rotterdam, Netherlands",Netherlands,Emirates Aluminium (EGA),12531.94,EMIRATES-001,0.08,19.0
+Emirates Aluminium (EGA),"All Other Mexico West Coast Region Ports, Mexico",Mexico,Mar Y Carmen S.A. De C.V.,10156.44,EMIRATES-001,0.07,20.0
+Emirates Aluminium (EGA),"Marina Di Carrara, Italy",Italy,Emirates Aluminium (EGA),7913.34,EMIRATES-001,0.05,21.0
+Emirates Aluminium (EGA),"Adana, Turkey",Turkey,Tamka Tarim San Ve Tic Ltd. Sti,6900.0,EMIRATES-001,0.05,22.0
+Emirates Aluminium (EGA),"Adana, Turkey",Turkey,Lotus Ege Tarim Ticaret As,5198.98,EMIRATES-001,0.03,23.0
+Emirates Aluminium (EGA),"Porto Corsini, Italy",Italy,Emirates Aluminium (EGA),5130.0,EMIRATES-001,0.03,24.0
+Emirates Aluminium (EGA),"Monfalcone, Italy",Italy,Emirates Aluminium (EGA),3069.82,EMIRATES-001,0.02,25.0
+Emirates Aluminium (EGA),"Antwerp, Belgium",Belgium,ArcelorMittal,1275.8,EMIRATES-001,0.01,26.0
+Emirates Aluminium (EGA),"Algeciras, Spain",Spain,Benin Organics Sa,910.56,EMIRATES-001,0.01,27.0
+Emirates Aluminium (EGA),"Zeebrugge, Belgium",Belgium,Caterpillar Americas Sarl Route De Frontenex 76,691.92,EMIRATES-001,0.0,28.0
+Emirates Aluminium (EGA),"Shanghai, China",China,Caterpillar Americas C.V.,675.94,EMIRATES-001,0.0,29.0
+Emirates Aluminium (EGA),"Southhampton, United Kingdom",United Kingdom,Mc Closkey International Ltd.,481.96,EMIRATES-001,0.0,30.0
+Emirates Aluminium (EGA),"Barao De Teffe, Brazil",Brazil,Caterpillar Brasil Ltda.,366.14,EMIRATES-001,0.0,31.0
+Emirates Aluminium (EGA),"Buenos Aires, Argentina",Argentina,Materia Hnos Sacif,360.76,EMIRATES-001,0.0,32.0
+Emirates Aluminium (EGA),"Yokohama, Japan",Japan,Caterpillar (Qingzhou) Ltd.,297.56,EMIRATES-001,0.0,33.0
+Emirates Aluminium (EGA),"Yokohama, Japan",Japan,Caterpillar Americas C.V.,284.72,EMIRATES-001,0.0,34.0
+Emirates Aluminium (EGA),"Shanghai, China",China,"Caterpillar (Suzhou) Co., Ltd.",281.26,EMIRATES-001,0.0,35.0
+Emirates Aluminium (EGA),"Oxelosund, Sweden",Sweden,Ssab Emea Ab,223.36,EMIRATES-001,0.0,36.0
+Emirates Aluminium (EGA),"All Other Belgium Ports, Belgium",Belgium,Dillinger Middle East Fze,211.72,EMIRATES-001,0.0,37.0
+Emirates Aluminium (EGA),"Nagoya, Japan",Japan,Terberg Tractors Malaysia Sdn Bhd,210.0,EMIRATES-001,0.0,38.0
+Emirates Aluminium (EGA),"Shanghai, China",China,Caterpillar (Qingzhou) Ltd.,201.18,EMIRATES-001,0.0,39.0
+Emirates Aluminium (EGA),"Southhampton, United Kingdom",United Kingdom,Edge Innovate Ltd.,185.4,EMIRATES-001,0.0,40.0
+Emirates Aluminium (EGA),"Zeebrugge, Belgium",Belgium,Caterpillar Americas C.V.,164.7,EMIRATES-001,0.0,41.0
+Emirates Aluminium (EGA),"Sao Paulo, Brazil",Brazil,Caterpillar Brasil Ltda.,163.7,EMIRATES-001,0.0,42.0
+Emirates Aluminium (EGA),"Southhampton, United Kingdom",United Kingdom,Kallinger Crushing 6 Screening,153.0,EMIRATES-001,0.0,43.0
+Emirates Aluminium (EGA),"Majorca, Spain",Spain,Emirates Aluminium (EGA),142.0,EMIRATES-001,0.0,44.0
+Emirates Aluminium (EGA),"Shanghai, China",China,Fuzhou Helmsman Yachts Indusrty,138.9,EMIRATES-001,0.0,45.0
+Emirates Aluminium (EGA),"Kingston, Jamaica",Jamaica,Bayerische Motoren Werke Ag,130.2,EMIRATES-001,0.0,46.0
+Emirates Aluminium (EGA),"Southhampton, United Kingdom",United Kingdom,Caterpillar Americas Sarl Route De Frontenex 76,111.92,EMIRATES-001,0.0,47.0
+Emirates Aluminium (EGA),"All Other Viet Nam Ports, Vietnam",Vietnam,Hoa Sen Group,110.17,EMIRATES-001,0.0,48.0
+Emirates Aluminium (EGA),"Kingston, Jamaica",Jamaica,Rubble Master Hmh Gmb H,102.8,EMIRATES-001,0.0,49.0
+Emirates Aluminium (EGA),"Kimitsu, Japan",Japan,"Nippon Steel Trading Co., Ltd.",99.79,EMIRATES-001,0.0,50.0
+Emirates Aluminium (EGA),"Las Salinas, Chile",Chile,Comercial Greenvic S.A.,88.46,EMIRATES-001,0.0,51.0
+Emirates Aluminium (EGA),"Liverpool, United Kingdom",United Kingdom,Edge Innovate Ltd.,88.0,EMIRATES-001,0.0,52.0
+Emirates Aluminium (EGA),"Southhampton, United Kingdom",United Kingdom,Hansen Shipping (Uk) Ltd.,86.8,EMIRATES-001,0.0,53.0
+Emirates Aluminium (EGA),"Bremerhaven, Germany",Germany,K.R. Pfiffner Gmb H,85.64,EMIRATES-001,0.0,54.0
+Emirates Aluminium (EGA),"Zeebrugge, Belgium",Belgium,Kallinger Crushing 6 Screening,84.0,EMIRATES-001,0.0,55.0
+Emirates Aluminium (EGA),"Kawasaki, Japan",Japan,Provide Cars Ltd.,83.45,EMIRATES-001,0.0,56.0
+Emirates Aluminium (EGA),"Liverpool, United Kingdom",United Kingdom,Lippmann,76.0,EMIRATES-001,0.0,57.0
+Emirates Aluminium (EGA),"Las Salinas, Chile",Chile,Frutera San Fernando S.A.,75.28,EMIRATES-001,0.0,58.0
+Emirates Aluminium (EGA),"Las Salinas, Chile",Chile,Terrafrut S.A,73.38,EMIRATES-001,0.0,59.0
+Emirates Aluminium (EGA),"Las Salinas, Chile",Chile,Nicofrut S.A,73.06,EMIRATES-001,0.0,60.0
+Emirates Aluminium (EGA),"Shanghai, China",China,Emirates Aluminium (EGA),71.5,EMIRATES-001,0.0,61.0
+Emirates Aluminium (EGA),"Pyongtaek, South Korea",South Korea,"Wirtgen India Pvt., Ltd.",68.0,EMIRATES-001,0.0,62.0
+Emirates Aluminium (EGA),"Livorno, Italy",Italy,Manitou Acces Est,59.12,EMIRATES-001,0.0,63.0
+Emirates Aluminium (EGA),"Kobe, Japan",Japan,Provide Cars Ltd.,57.84,EMIRATES-001,0.0,64.0
+Emirates Aluminium (EGA),"Jeddeh, Saudi Arabia",Saudi Arabia,Zahid Tractor,52.3,EMIRATES-001,0.0,65.0
+Emirates Aluminium (EGA),"Southhampton, United Kingdom",United Kingdom,Caterpillar Americas C.V.,50.46,EMIRATES-001,0.0,66.0
+Emirates Aluminium (EGA),"Zeebrugge, Belgium",Belgium,Mercedes Benz Amg Gmb H,42.34,EMIRATES-001,0.0,67.0
+Emirates Aluminium (EGA),"Yokohama, Japan",Japan,Caterpillar (Thailand) Ltd. Caterpillar America C.V.,36.7,EMIRATES-001,0.0,68.0
+Emirates Aluminium (EGA),"Shanghai, China",China,Caterpillar (Qingzhou) Ltd. On Beh,36.4,EMIRATES-001,0.0,69.0
+Emirates Aluminium (EGA),"Hamburg, Germany",Germany,Axopar Boats Oy Markos Sp Z.O.O.,34.0,EMIRATES-001,0.0,70.0
+Emirates Aluminium (EGA),"Shanghai, China",China,Fuzhou Helmsman Yachts Industries,31.0,EMIRATES-001,0.0,71.0
+Emirates Aluminium (EGA),"Yokohama, Japan",Japan,"Be Forward Co., Ltd.",25.58,EMIRATES-001,0.0,72.0
+Emirates Aluminium (EGA),"Shanghai, China",China,Caterpillar (Wujiang) Ltd.,20.64,EMIRATES-001,0.0,73.0
+Emirates Aluminium (EGA),"Yokohama, Japan",Japan,"Kbb Group Co., Ltd.",19.76,EMIRATES-001,0.0,74.0
+Emirates Aluminium (EGA),"Eemshaven, Netherlands",Netherlands,Emirates Aluminium (EGA),19.5,EMIRATES-001,0.0,75.0
+Emirates Aluminium (EGA),"Yokohama, Japan",Japan,Autocraft Japan Ltd.,18.9,EMIRATES-001,0.0,76.0
+Emirates Aluminium (EGA),"Caldera, Chile",Chile,Frutera San Fernando S.A.,17.66,EMIRATES-001,0.0,77.0
+Emirates Aluminium (EGA),"Las Salinas, Chile",Chile,Nicofrut S.A.,17.6,EMIRATES-001,0.0,78.0
+Emirates Aluminium (EGA),"Zeebrugge, Belgium",Belgium,Bavius Technologie Gmb H,16.2,EMIRATES-001,0.0,79.0
+Emirates Aluminium (EGA),"Las Salinas, Chile",Chile,Exportadora Prize Ltda,14.64,EMIRATES-001,0.0,80.0
+Emirates Aluminium (EGA),"Kobe, Japan",Japan,"Integrity Exp. Co., Ltd.",14.48,EMIRATES-001,0.0,81.0
+Emirates Aluminium (EGA),"Bremerhaven, Germany",Germany,Cetotec Gmb H,14.41,EMIRATES-001,0.0,82.0
+Emirates Aluminium (EGA),"Kobe, Japan",Japan,"Be Forward Co., Ltd.",13.86,EMIRATES-001,0.0,83.0
+Emirates Aluminium (EGA),"Kobe, Japan",Japan,Autocraft Japan Ltd.,13.5,EMIRATES-001,0.0,84.0
+Emirates Aluminium (EGA),"Southhampton, United Kingdom",United Kingdom,Emirates Aluminium (EGA),13.04,EMIRATES-001,0.0,85.0
+Emirates Aluminium (EGA),"Yokohama, Japan",Japan,Provide Cars Ltd.,10.56,EMIRATES-001,0.0,86.0
+Emirates Aluminium (EGA),"Danzig, Poland",Poland,Emirates Aluminium (EGA),9.5,EMIRATES-001,0.0,87.0
+Emirates Aluminium (EGA),"Yokohama, Japan",Japan,Sonarism Inc.,8.88,EMIRATES-001,0.0,88.0
+Emirates Aluminium (EGA),"Charlotte Amalie, St. Th, Virgin Islands (U.S.)",Virgin Islands (U.S.),Emirates Aluminium (EGA),8.69,EMIRATES-001,0.0,89.0
+Emirates Aluminium (EGA),"Kingston, Jamaica",Jamaica,Provide Cars Ltd.,8.6,EMIRATES-001,0.0,90.0
+Emirates Aluminium (EGA),"Yokohama, Japan",Japan,Autocom Japan Inc.,5.72,EMIRATES-001,0.0,91.0
+Emirates Aluminium (EGA),"Bremerhaven, Germany",Germany,Screen Led Doberstajn Sp. K.,5.43,EMIRATES-001,0.0,92.0
+Emirates Aluminium (EGA),"Nagoya, Japan",Japan,Provide Cars Ltd.,5.3,EMIRATES-001,0.0,93.0
+Emirates Aluminium (EGA),"Veracruz, Mexico",Mexico,"Ford Trading Co., Llc",4.52,EMIRATES-001,0.0,94.0
+Emirates Aluminium (EGA),"Kobe, Japan",Japan,"Integrityexports Co., Ltd.",3.76,EMIRATES-001,0.0,95.0
+Emirates Aluminium (EGA),"Charlotte Amalie, St. Th, Virgin Islands (U.S.)",Virgin Islands (U.S.),Gorgeous Rides Co.,3.52,EMIRATES-001,0.0,96.0
+Emirates Aluminium (EGA),"Kobe, Japan",Japan,Autocom Japan Inc.,3.1,EMIRATES-001,0.0,97.0
+Emirates Aluminium (EGA),"Yokohama, Japan",Japan,Aaj Plus K.K.,2.95,EMIRATES-001,0.0,98.0
+Emirates Aluminium (EGA),"Yokohama, Japan",Japan,"Jitsu Motors Co., Ltd.",2.82,EMIRATES-001,0.0,99.0
+Emirates Aluminium (EGA),"Kaohsiung, Taiwan",Taiwan,Evergreen Marine Corp.,2.81,EMIRATES-001,0.0,100.0
+Emirates Aluminium (EGA),"Kobe, Japan",Japan,Stacked Inc.,2.8,EMIRATES-001,0.0,101.0
+Emirates Aluminium (EGA),"Yokohama, Japan",Japan,"Royal Trading Co., Ltd.",2.42,EMIRATES-001,0.0,102.0
+Emirates Aluminium (EGA),"Kingston, Jamaica",Jamaica,"Be Forward Co., Ltd.",2.18,EMIRATES-001,0.0,103.0
+Emirates Aluminium (EGA),"Singapore, Singapore",Singapore,Richmond Voyager,1.6,EMIRATES-001,0.0,104.0
+Emirates Aluminium (EGA),"Manzanillo, Panama",Panama,Unit International,1.0,EMIRATES-001,0.0,105.0
+Emirates Aluminium (EGA),"Point Lisas, Trinidad and Tobago",Trinidad and Tobago,Schlumberger Trinidad Inc.,1.0,EMIRATES-001,0.0,105.0
+Emirates Aluminium (EGA),"Road Harbour, Tortola, Virgin Islands (British)",Virgin Islands (British),Princess Cruises,0.91,EMIRATES-001,0.0,106.0
+Emirates Aluminium (EGA),"Fos, France",France,Aubrilam,0.78,EMIRATES-001,0.0,107.0
+Emirates Aluminium (EGA),"Parham Harbour, Antigua, Antigua And Barbuda",Antigua And Barbuda,Princess Cruises,0.65,EMIRATES-001,0.0,108.0
+Emirates Aluminium (EGA),"Ningbo, China",China,"Ningbo Jiecheng Axle Trade Co., Ltd.",0.57,EMIRATES-001,0.0,109.0
+Emirates Aluminium (EGA),"Freeport, Grand Bahama I, Bahamas",Bahamas,Emirates Aluminium (EGA),0.32,EMIRATES-001,0.0,110.0
+Emirates Aluminium (EGA),"Nassau, New Providence I, Bahamas",Bahamas,Carnival Cruise Lines,0.18,EMIRATES-001,0.0,111.0
+Emirates Aluminium (EGA),"Coatzacoalcos, Mexico",Mexico,Master Of Ps Amalfi,0.05,EMIRATES-001,0.0,112.0
+Emirates Aluminium (EGA),"Port Elizabeth, South Africa",South Africa,Bw Fleet Management As,0.04,EMIRATES-001,0.0,113.0
+Emirates Aluminium (EGA),"Puerto Plata, Dominican Republic",Dominican Republic,Carnival Cruise Lines,0.03,EMIRATES-001,0.0,114.0
+Emirates Aluminium (EGA),"Freeport, Grand Bahama I, Bahamas",Bahamas,Master Of Four Wind,0.02,EMIRATES-001,0.0,115.0
+Emirates Aluminium (EGA),"Suape, Brazil",Brazil,Mv Ottoman Equity,0.02,EMIRATES-001,0.0,115.0
+Emirates Aluminium (EGA),"Vancouver, BC, Canada",Canada,Columbia Shipmanagement Singapore,0.02,EMIRATES-001,0.0,115.0
+Emirates Aluminium (EGA),"All Other Nicaragua West Coast Region Ports, Nicaragua",Nicaragua,Master Of Ps Augusta,0.01,EMIRATES-001,0.0,116.0
+Emirates Aluminium (EGA),"Bahia Blanca, Argentina",Argentina,M V Gaschem Dollart V. 0324,0.01,EMIRATES-001,0.0,116.0
+Emirates Aluminium (EGA),"Balboa, Panama",Panama,Master Of Ps Roma,0.01,EMIRATES-001,0.0,116.0
+Emirates Aluminium (EGA),"Bullen Baai, Netherlands Antilles",Netherlands Antilles,Chemikalien Seetransport,0.01,EMIRATES-001,0.0,116.0
+Emirates Aluminium (EGA),"Dos Bocas, Mexico",Mexico,Master Of Ps Venezia,0.01,EMIRATES-001,0.0,116.0
+Emirates Aluminium (EGA),"Veracruz, Mexico",Mexico,Master Of Silver Dubai,0.01,EMIRATES-001,0.0,116.0
+Emirates Aluminium (EGA),"Vancouver, BC, Canada",Canada,Princess Cruises,0.0,EMIRATES-001,0.0,117.0
+Emirates Aluminium (EGA),"Victoria, Pei, Canada",Canada,Princess Cruises,0.0,EMIRATES-001,0.0,117.0
+Eucatex,"Sao Paulo, Brazil",Brazil,Eucatex,3579905.34,EUCATEX-001,100.0,1.0
+ExxonMobil,"Rotterdam, Netherlands",Netherlands,ExxonMobil,4724498.6,EXXONMOBIL-001,33.67,1.0
+ExxonMobil,"Rio De Janeiro, Brazil",Brazil,Petrobras,1031942.86,EXXONMOBIL-001,7.35,2.0
+ExxonMobil,"Come By Chance, Nfld, Canada",Canada,ExxonMobil,933373.62,EXXONMOBIL-001,6.65,3.0
+ExxonMobil,"Altamira, Mexico",Mexico,PMI Trading,862981.56,EXXONMOBIL-001,6.15,4.0
+ExxonMobil,"Whiffen Head, Nfld, Canada",Canada,ExxonMobil,845109.0,EXXONMOBIL-001,6.02,5.0
+ExxonMobil,"Pajaritos, Mexico",Mexico,PMI Trading,804976.42,EXXONMOBIL-001,5.74,6.0
+ExxonMobil,"Coatzacoalcos, Mexico",Mexico,PMI Trading,482609.41,EXXONMOBIL-001,3.44,7.0
+ExxonMobil,"Ras At Tannurah, Saudi Arabia",Saudi Arabia,Aramco Trading Fujairah,319761.47,EXXONMOBIL-001,2.28,8.0
+ExxonMobil,"Kwa Ibo Terminal, Nigeria",Nigeria,Mobil Producing Nigeria Unlimited,253634.0,EXXONMOBIL-001,1.81,9.0
+ExxonMobil,"Freeport, Grand Bahama I, Bahamas",Bahamas,BP,210116.0,EXXONMOBIL-001,1.5,10.0
+ExxonMobil,"Bedi, India",India,Reliance Industries,208128.82,EXXONMOBIL-001,1.48,11.0
+ExxonMobil,"Amsterdam, Netherlands",Netherlands,Totsa Totalenergies Trading Sa,171109.58,EXXONMOBIL-001,1.22,12.0
+ExxonMobil,"Vancouver, BC, Canada",Canada,ExxonMobil,163144.0,EXXONMOBIL-001,1.16,13.0
+ExxonMobil,"All Other Nigeria Ports, Nigeria",Nigeria,Nnpc Suppliers To Socar,151627.86,EXXONMOBIL-001,1.08,14.0
+ExxonMobil,"Antwerp, Belgium",Belgium,Glencore Energy Uk Ltd.,149043.0,EXXONMOBIL-001,1.06,15.0
+ExxonMobil,"All Other India West Coast Ports, India",India,Reliance Industries,143740.31,EXXONMOBIL-001,1.02,16.0
+ExxonMobil,"All Other Guyana Ports, Guyana",Guyana,Cnoc Petroleum Guyana Ltd.,140311.5,EXXONMOBIL-001,1.0,17.0
+ExxonMobil,"Forcados, Nigeria",Nigeria,Nnpc Suppliers To Socar,130278.0,EXXONMOBIL-001,0.93,18.0
+ExxonMobil,"All Other Nigeria Ports, Nigeria",Nigeria,Mobil Producing Nigeria Unlimited,126579.0,EXXONMOBIL-001,0.9,19.0
+ExxonMobil,"Mamonal, Colombia",Colombia,Grey Rock Gathering & Marketing Ll,91240.0,EXXONMOBIL-001,0.65,20.0
+ExxonMobil,"Cartagena, Colombia",Colombia,Grey Rock Gathering & Marketing Ll,90610.0,EXXONMOBIL-001,0.65,21.0
+ExxonMobil,"Aliaga, Turkey",Turkey,Star Rafineri As,87008.0,EXXONMOBIL-001,0.62,22.0
+ExxonMobil,"All Other Guyana Ports, Guyana",Guyana,ExxonMobil,82129.0,EXXONMOBIL-001,0.59,23.0
+ExxonMobil,"Ras At Tannurah, Saudi Arabia",Saudi Arabia,Aramco Trading Co.,81864.0,EXXONMOBIL-001,0.58,24.0
+ExxonMobil,"Bilbao, Spain",Spain,Petroleos Del Norte Sa,78484.5,EXXONMOBIL-001,0.56,25.0
+ExxonMobil,"Mongstad, Norway",Norway,Equinor Asa,77456.13,EXXONMOBIL-001,0.55,26.0
+ExxonMobil,"La Pampilla, Peru",Peru,Refineria La Pampilla Saa,76642.97,EXXONMOBIL-001,0.55,27.0
+ExxonMobil,"Antwerp, Belgium",Belgium,ExxonMobil,76626.7,EXXONMOBIL-001,0.55,28.0
+ExxonMobil,"Madre De Deus, Brazil",Brazil,Refinaria De Mataripe S.A.,74909.66,EXXONMOBIL-001,0.53,29.0
+ExxonMobil,"Sao Paulo, Brazil",Brazil,Petrobras,74409.53,EXXONMOBIL-001,0.53,30.0
+ExxonMobil,"All Other Sweden Ports, Sweden",Sweden,Bp Europa Se Bp Nederland,73998.72,EXXONMOBIL-001,0.53,31.0
+ExxonMobil,"Skoldvik, Finland",Finland,Neste Oil Oyj,73708.74,EXXONMOBIL-001,0.53,32.0
+ExxonMobil,"Amsterdam, Netherlands",Netherlands,Aramco Trading Ltd.,73174.0,EXXONMOBIL-001,0.52,33.0
+ExxonMobil,"Bonny, Nigeria",Nigeria,ExxonMobil,66002.0,EXXONMOBIL-001,0.47,34.0
+ExxonMobil,"Port Jerome, France",France,ExxonMobil,61812.32,EXXONMOBIL-001,0.44,35.0
+ExxonMobil,"Bonny, Nigeria",Nigeria,Nigerian National Petroleum Corp.,60002.0,EXXONMOBIL-001,0.43,36.0
+ExxonMobil,"Skikda, Algeria",Algeria,Novum Energy Trading Corp.,55087.87,EXXONMOBIL-001,0.39,37.0
+ExxonMobil,"Quebec, Que, Canada",Canada,ExxonMobil,51504.0,EXXONMOBIL-001,0.37,38.0
+ExxonMobil,"Al Jubail, Saudi Arabia",Saudi Arabia,Saudi Aramco Products,47969.0,EXXONMOBIL-001,0.34,39.0
+ExxonMobil,"Singapore, Singapore",Singapore,ExxonMobil,46529.0,EXXONMOBIL-001,0.33,40.0
+ExxonMobil,"Mamonal, Colombia",Colombia,Refineria De Cartagena S.A.,46072.0,EXXONMOBIL-001,0.33,41.0
+ExxonMobil,"All Other Colombian Caribbean Region Ports, Colombia",Colombia,Grey Rock Gathering & Marketing Ll,45459.18,EXXONMOBIL-001,0.32,42.0
+ExxonMobil,"Lido, Italy",Italy,Officine Meccaniche Villa & Bonaldi,38706.0,EXXONMOBIL-001,0.28,43.0
+ExxonMobil,"Sarnia, Ont, Canada",Canada,Sarnia Chemical Plant Imperial,38591.62,EXXONMOBIL-001,0.28,44.0
+ExxonMobil,"Sao Sebastio, Brazil",Brazil,Petrobras,37231.0,EXXONMOBIL-001,0.27,45.0
+ExxonMobil,"Immingham, United Kingdom",United Kingdom,Associated Petroleum Terminals,35282.0,EXXONMOBIL-001,0.25,46.0
+ExxonMobil,"All Other France Atlantic Region Ports, France",France,Esso Saf,31989.12,EXXONMOBIL-001,0.23,47.0
+ExxonMobil,"Port Jerome, France",France,Esso Saf Raffinerie De Port Jerome,31720.03,EXXONMOBIL-001,0.23,48.0
+ExxonMobil,"Port Jerome, France",France,Esso Saf Raffinerie De,31500.2,EXXONMOBIL-001,0.22,49.0
+ExxonMobil,"Sarnia, Ont, Canada",Canada,Imperial Oil Ltd.,27784.72,EXXONMOBIL-001,0.2,50.0
+ExxonMobil,"Manzanillo, Mexico",Mexico,PMI Trading,25906.76,EXXONMOBIL-001,0.18,51.0
+ExxonMobil,"Lazaro Cardenas, Mexico",Mexico,PMI Trading,25855.68,EXXONMOBIL-001,0.18,52.0
+ExxonMobil,"All Other Mexico East Coast Region Ports, Mexico",Mexico,PMI Trading,24116.48,EXXONMOBIL-001,0.17,53.0
+ExxonMobil,"All Other Saudi Arabia Ports, Saudi Arabia",Saudi Arabia,ExxonMobil,22558.0,EXXONMOBIL-001,0.16,54.0
+ExxonMobil,"Salvador, Brazil",Brazil,Petrobras,21000.36,EXXONMOBIL-001,0.15,55.0
+ExxonMobil,"Pembroke, United Kingdom",United Kingdom,Valero,20745.0,EXXONMOBIL-001,0.15,56.0
+ExxonMobil,"Aigion, Greece",Greece,Trafigura,17924.0,EXXONMOBIL-001,0.13,57.0
+ExxonMobil,"Le Havre, France",France,ExxonMobil,17455.56,EXXONMOBIL-001,0.12,58.0
+ExxonMobil,"Antwerp, Belgium",Belgium,Totsa Totalenergies Trading Sa,16316.0,EXXONMOBIL-001,0.12,59.0
+ExxonMobil,"Quebec, Que, Canada",Canada,Valero,16229.54,EXXONMOBIL-001,0.12,60.0
+ExxonMobil,"Whiffen Head, Nfld, Canada",Canada,Canada Hibernia Holding Corp.,14534.0,EXXONMOBIL-001,0.1,61.0
+ExxonMobil,"Huelva, Spain",Spain,Cia Espanola De Petroleos Sa,13830.0,EXXONMOBIL-001,0.1,62.0
+ExxonMobil,"Sarnia, Ont, Canada",Canada,Suncor Energy,12817.0,EXXONMOBIL-001,0.09,63.0
+ExxonMobil,"Soyo Oil Terminal, Angola",Angola,Chevron,12592.0,EXXONMOBIL-001,0.09,64.0
+ExxonMobil,"Sarnia, Ont, Canada",Canada,ExxonMobil,12054.0,EXXONMOBIL-001,0.09,65.0
+ExxonMobil,"Aigion, Greece",Greece,Corinth Pipeworks Pipe Industry S.A,9546.0,EXXONMOBIL-001,0.07,66.0
+ExxonMobil,"Dhuba, Saudi Arabia",Saudi Arabia,ExxonMobil,7218.72,EXXONMOBIL-001,0.05,67.0
+ExxonMobil,"All Other Peoples Republic of China Ports, China",China,Xiamen C And D Commodity Trading,6867.47,EXXONMOBIL-001,0.05,68.0
+ExxonMobil,"Sarnia, Ont, Canada",Canada,Imperial Oil Canada,3323.9,EXXONMOBIL-001,0.02,69.0
+ExxonMobil,"Sao Paulo, Brazil",Brazil,Braskem S.A.,3144.0,EXXONMOBIL-001,0.02,70.0
+ExxonMobil,"Rotterdam, Netherlands",Netherlands,Mobil Chemical Products,2594.0,EXXONMOBIL-001,0.02,71.0
+ExxonMobil,"Pajaritos, Mexico",Mexico,Hafnia Pools Ltd.,2586.0,EXXONMOBIL-001,0.02,72.0
+ExxonMobil,"Aviles, Spain",Spain,Idesa Fabrications Sa,1103.38,EXXONMOBIL-001,0.01,73.0
+ExxonMobil,"Pajaritos, Mexico",Mexico,Hafnia Andromeda,890.0,EXXONMOBIL-001,0.01,74.0
+ExxonMobil,"Rotterdam, Netherlands",Netherlands,Exxon Chemical Ltd.,804.0,EXXONMOBIL-001,0.01,75.0
+ExxonMobil,"All Other China (Taiwan) Ports, Taiwan",Taiwan,The Challenge Petrochemical Machine,495.21,EXXONMOBIL-001,0.0,76.0
+ExxonMobil,"Hamburg, Germany",Germany,America Apex B.V.,375.06,EXXONMOBIL-001,0.0,77.0
+ExxonMobil,"Tuxpan, Mexico",Mexico,Hafnia Pools Ltd.,232.0,EXXONMOBIL-001,0.0,78.0
+ExxonMobil,"Busan, South Korea",South Korea,Mitsubishi Heavy Inds,226.11,EXXONMOBIL-001,0.0,79.0
+ExxonMobil,"Coco Solo, Panama",Panama,Hafnia Pools Ltd.,216.0,EXXONMOBIL-001,0.0,80.0
+ExxonMobil,"Cul De Sac, Saint Lucia",Saint Lucia,Master Bastille Street,160.0,EXXONMOBIL-001,0.0,81.0
+ExxonMobil,"Georgetown, Guyana",Guyana,Esso Exploration & Production Guyana Ltd.,115.93,EXXONMOBIL-001,0.0,82.0
+ExxonMobil,"Daesan, South Korea",South Korea,Milestone Chemical Tankers America Inc.,60.0,EXXONMOBIL-001,0.0,83.0
+ExxonMobil,"Shanghai, China",China,"Qingdao Npa Industries Co., Ltd.",33.48,EXXONMOBIL-001,0.0,84.0
+Fibria Celulose,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Suzano S A,202942.4,FIBRIA-001,78.53,1.0
+Fibria Celulose,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Veracel Celulose S A,49700.0,FIBRIA-001,19.23,2.0
+Fibria Celulose,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Suzano Papel E Celulose S.A.,5800.0,FIBRIA-001,2.24,3.0
+Glacier Northwest,"All Other Viet Nam Ports, Vietnam",Vietnam,Taiheiyo Cement Corporation,922747.0,GLACIER-001,29.25,1.0
+Glacier Northwest,"All Other South Korea Ports, South Korea",South Korea,Taiheiyo Cement Corporation,719816.74,GLACIER-001,22.82,2.0
+Glacier Northwest,"All Other Viet Nam Ports, Vietnam",Vietnam,Vissai Ninh Binh Joint Stock,607226.0,GLACIER-001,19.25,3.0
+Glacier Northwest,"All Other Viet Nam Ports, Vietnam",Vietnam,Vissai Ninh Binh Jsc,386900.0,GLACIER-001,12.27,4.0
+Glacier Northwest,"Bukpyung, South Korea",South Korea,Taiheiyo Cement Corporation,184880.0,GLACIER-001,5.86,5.0
+Glacier Northwest,"Victoria, Bc, Canada",Canada,Coast Mountain Resources,66000.0,GLACIER-001,2.09,6.0
+Glacier Northwest,"All Other North Korea Ports, North Korea",North Korea,Taiheiyo Cement Corporation,61600.0,GLACIER-001,1.95,7.0
+Glacier Northwest,"All Other Viet Nam Ports, Vietnam",Vietnam,Vissai Ninh Binh Joint Stock Plot C7 Gian Khau Industries Zone Gia Vien District,58180.0,GLACIER-001,1.84,8.0
+Glacier Northwest,"Muroran, Japan",Japan,"Nippon Steel Trading Co., Ltd.",57080.0,GLACIER-001,1.81,9.0
+Glacier Northwest,"Beale Cove, Bc, Canada",Canada,Lafarge Texada Quarrying,54170.0,GLACIER-001,1.72,10.0
+Glacier Northwest,"Victoria, Bc, Canada",Canada,Granite Infrastructure Canada,35600.0,GLACIER-001,1.13,11.0
+Hollingshead Cement Llc,"All Other United Arab Emirates Ports, United Arab Emirates",United Arab Emirates,Lafrage Emirates Cement Llc,1218090.0,,55.55,1.0
+Hollingshead Cement Llc,"All Other Turkey Black Sea and Sea of Marmara Port, Turkey",Turkey,Nuh Cimento Sanayi A.S.,398346.0,,18.17,2.0
+Hollingshead Cement Llc,"All Other Algeria Ports, Algeria",Algeria,Lafarge Ciment Msila Sp A,140317.4,,6.4,3.0
+Hollingshead Cement Llc,"Djeno Terminal, Congo",Congo,Lafarge Ciment Msla Sp A B O,137600.0,,6.27,4.0
+Hollingshead Cement Llc,"Annaba, Algeria",Algeria,Lafarge Ciment Msila Sp A,111780.0,,5.1,5.0
+Hollingshead Cement Llc,"Annaba, Algeria",Algeria,Lafarge Ciment Msla Sp A B O,96522.0,,4.4,6.0
+Hollingshead Cement Llc,"All Other Saudi Arabia Ports, Saudi Arabia",Saudi Arabia,Lafrage Emirates Cement Llc,45251.0,,2.06,7.0
+Hollingshead Cement Llc,"All Other Algeria Ports, Algeria",Algeria,Lafarge Ciment Msla Sp A B O,45000.0,,2.05,8.0
+Houston Cement Co.,"All Other Turkey Mediterranean Region Ports, Turkey",Turkey,Medcem Global,495278.0,,26.84,1.0
+Houston Cement Co.,"All Other Turkey Black Sea and Sea of Marmara Port, Turkey",Turkey,Akcansa Cimento San. Tic. A.S.,300780.0,,16.3,2.0
+Houston Cement Co.,"All Other Viet Nam Ports, Vietnam",Vietnam,"Long Son Co., Ltd. Thanh Hoa Branch",209624.0,,11.36,3.0
+Houston Cement Co.,"All Other Viet Nam Ports, Vietnam",Vietnam,Cty Tnhh Cong Nghiep Long Son,102800.0,,5.57,4.0
+Houston Cement Co.,"All Other Turkey Mediterranean Region Ports, Turkey",Turkey,Sonmez Cimento Api Ve Madencilik,102568.0,,5.56,5.0
+Houston Cement Co.,"All Other Viet Nam Ports, Vietnam",Vietnam,"Long Son Industrials Co., Ltd.",101352.0,,5.49,6.0
+Houston Cement Co.,"All Other Turkey Black Sea and Sea of Marmara Port, Turkey",Turkey,Akcansa Cimento San Tic As,101090.0,,5.48,7.0
+Houston Cement Co.,"Augusta, Italy",Italy,Buzzi Unicem Sp A,77000.0,,4.17,8.0
+Houston Cement Co.,"All Other Viet Nam Ports, Vietnam",Vietnam,"Long Son Co., Ltd.",52130.0,,2.83,9.0
+Houston Cement Co.,"All Other Turkey Black Sea and Sea of Marmara Port, Turkey",Turkey,Medcem Global,49740.0,,2.7,10.0
+Houston Cement Co.,"Adana, Turkey",Turkey,Medcem Global,49500.0,,2.68,11.0
+Houston Cement Co.,"All Other Turkey Black Sea and Sea of Marmara Port, Turkey",Turkey,Akcansa Cimento Sanayi Ve Ticaret.,49500.0,,2.68,11.0
+Houston Cement Co.,"All Other Turkey Black Sea and Sea of Marmara Port, Turkey",Turkey,Sonmez Cimento Api Ve Madencilik,48910.0,,2.65,12.0
+Houston Cement Co.,"Adana, Turkey",Turkey,Sonmez Cemento Yapi Ve,48206.0,,2.61,13.0
+Houston Cement Co.,"Aigion, Greece",Greece,Titan Cement Company S.A.,43020.0,,2.33,14.0
+Houston Cement Co.,"All Other Saudi Arabia Ports, Saudi Arabia",Saudi Arabia,Saudi Cement Co.,13600.0,,0.74,15.0
+Houston Refining,"Covenas, Colombia",Colombia,Ecopetrol,626049.48,HOUSTON-REFINING-001,24.45,1.0
+Houston Refining,"Cayo Arcas, Mexico",Mexico,PMI Trading,410632.96,HOUSTON-REFINING-001,16.04,2.0
+Houston Refining,"Dos Bocas, Mexico",Mexico,PMI Trading,375797.45,HOUSTON-REFINING-001,14.68,3.0
+Houston Refining,"Covenas, Colombia",Colombia,Trafigura,372016.0,HOUSTON-REFINING-001,14.53,4.0
+Houston Refining,"All Other Mexico East Coast Region Ports, Mexico",Mexico,PMI Trading,244278.44,HOUSTON-REFINING-001,9.54,5.0
+Houston Refining,"All Other Colombian Caribbean Region Ports, Colombia",Colombia,Ecopetrol,234706.2,HOUSTON-REFINING-001,9.17,6.0
+Houston Refining,"Covenas, Colombia",Colombia,Carrera 7,208706.32,HOUSTON-REFINING-001,8.15,7.0
+Houston Refining,"Whiffen Head, Nfld, Canada",Canada,Chevron,88588.0,HOUSTON-REFINING-001,3.46,8.0
+Idemitsu Apollo,"Onsan, South Korea",South Korea,S-Oil,1159076.03,IDEMITSU-001,35.49,1.0
+Idemitsu Apollo,"Onsan, South Korea",South Korea,"Sk Energy Co., Ltd.",513938.1,IDEMITSU-001,15.73,2.0
+Idemitsu Apollo,"Onsan, South Korea",South Korea,"Sk Energy Co., Ltd. For And On",475492.66,IDEMITSU-001,14.56,3.0
+Idemitsu Apollo,"Vancouver, BC, Canada",Canada,Idemitsu Apollo,263001.29,IDEMITSU-001,8.05,4.0
+Idemitsu Apollo,"Samil, South Korea",South Korea,Gs Caltex Corp.,200772.9,IDEMITSU-001,6.15,5.0
+Idemitsu Apollo,"Samil, South Korea",South Korea,Gs Caltex Corporation,158716.8,IDEMITSU-001,4.86,6.0
+Idemitsu Apollo,"Daesan, South Korea",South Korea,"Hd Hyundai Oilbank Co., Ltd.",157592.8,IDEMITSU-001,4.82,7.0
+Idemitsu Apollo,"Daesan, South Korea",South Korea,"Aramco Trading Singapore Pte., Ltd.",118445.64,IDEMITSU-001,3.63,8.0
+Idemitsu Apollo,"Daesan, South Korea",South Korea,"Hanwha Total Petrochemical Co., Ltd.",109440.0,IDEMITSU-001,3.35,9.0
+Idemitsu Apollo,"Onsan, South Korea",South Korea,Idemitsu International (Asia) Pte,69811.9,IDEMITSU-001,2.14,10.0
+Idemitsu Apollo,"Daesan, South Korea",South Korea,"Hyundai Oilbank Co., Ltd.",35725.0,IDEMITSU-001,1.09,11.0
+Idemitsu Apollo,"Samil, South Korea",South Korea,Idemitsu International (Asia) Pte,4268.0,IDEMITSU-001,0.13,12.0
+Irving Oil,"Saint John, Nb, Canada",Canada,Irving Oil,18207152.6,IRVING-001,99.93,1.0
+Irving Oil,"Saint Jean, Que, Canada",Canada,Irving Oil,13022.18,IRVING-001,0.07,2.0
+Marathon Petroleum,"Al Basrah, Iraq",Iraq,State Oil Marketing Company (SOMO),4740636.06,MARATHON-001,29.76,1.0
+Marathon Petroleum,"Pajaritos, Mexico",Mexico,PMI Trading,731905.06,MARATHON-001,4.6,2.0
+Marathon Petroleum,"Freeport, Grand Bahama I, Bahamas",Bahamas,Marathon International Product,619284.93,MARATHON-001,3.89,3.0
+Marathon Petroleum,"Armuelles, Panama",Panama,Gunvor Group,573704.75,MARATHON-001,3.6,4.0
+Marathon Petroleum,"Al Basrah, Iraq",Iraq,Trafigura,550616.0,MARATHON-001,3.46,5.0
+Marathon Petroleum,"Dos Bocas, Mexico",Mexico,PMI Trading,509507.13,MARATHON-001,3.2,6.0
+Marathon Petroleum,"Vancouver, BC, Canada",Canada,Suncor Energy,439194.31,MARATHON-001,2.76,7.0
+Marathon Petroleum,"Angra Dos Reis, Brazil",Brazil,Petrobras,408966.62,MARATHON-001,2.57,8.0
+Marathon Petroleum,"All Other Argentina Ports, Argentina",Argentina,Trafigura,351004.0,MARATHON-001,2.2,9.0
+Marathon Petroleum,"Cayo Arcas, Mexico",Mexico,PMI Trading,298889.17,MARATHON-001,1.88,10.0
+Marathon Petroleum,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Shell Brasil Petroleo Ltda,263664.74,MARATHON-001,1.66,11.0
+Marathon Petroleum,"Onsan, South Korea",South Korea,S-Oil,243124.72,MARATHON-001,1.53,12.0
+Marathon Petroleum,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Shell,239439.78,MARATHON-001,1.5,13.0
+Marathon Petroleum,"Sao Paulo, Brazil",Brazil,Shell Brasil Petroleo Ltda,203017.0,MARATHON-001,1.27,14.0
+Marathon Petroleum,"Coatzacoalcos, Mexico",Mexico,PMI Trading,202366.25,MARATHON-001,1.27,15.0
+Marathon Petroleum,"Sao Paulo, Brazil",Brazil,Shell Brazil Petroleo Ltda,199782.73,MARATHON-001,1.25,16.0
+Marathon Petroleum,"Vancouver, BC, Canada",Canada,Marathon Petroleum,190585.38,MARATHON-001,1.2,17.0
+Marathon Petroleum,"All Other Argentina Ports, Argentina",Argentina,Equinor Argentina Bv Suc,179788.0,MARATHON-001,1.13,18.0
+Marathon Petroleum,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Petrogal Brasil S.A.,170299.37,MARATHON-001,1.07,19.0
+Marathon Petroleum,"Onsan, South Korea",South Korea,"Sk Energy Co., Ltd.",166264.01,MARATHON-001,1.04,20.0
+Marathon Petroleum,"Esmeraldas, Ecuador",Ecuador,Ep Petroecuador,160650.9,MARATHON-001,1.01,21.0
+Marathon Petroleum,"Vancouver, BC, Canada",Canada,Shell,157517.68,MARATHON-001,0.99,22.0
+Marathon Petroleum,"Vancouver, BC, Canada",Canada,ExxonMobil,152998.0,MARATHON-001,0.96,23.0
+Marathon Petroleum,"All Other Mexico East Coast Region Ports, Mexico",Mexico,PMI Trading,148260.32,MARATHON-001,0.93,24.0
+Marathon Petroleum,"Dos Bocas, Mexico",Mexico,Eni Mexico S. De R.L. De C.V.,146648.87,MARATHON-001,0.92,25.0
+Marathon Petroleum,"All Other Brazil Ports North Of Recife, Brazil",Brazil,Cnodc Brazil Petroleo E Gas Ltda,138223.0,MARATHON-001,0.87,26.0
+Marathon Petroleum,"Pajaritos, Mexico",Mexico,Pmi Commercio International S.A. De,134888.0,MARATHON-001,0.85,27.0
+Marathon Petroleum,"Rio De Janeiro, Brazil",Brazil,Trafigura,133898.26,MARATHON-001,0.84,28.0
+Marathon Petroleum,"Esmeraldas, Ecuador",Ecuador,Petrochina International America,133310.0,MARATHON-001,0.84,29.0
+Marathon Petroleum,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Repsol Sinopec Brasil Sa,127715.0,MARATHON-001,0.8,30.0
+Marathon Petroleum,"All Other Iraq Ports, Iraq",Iraq,Galaxy Oil Fz Llc,121161.24,MARATHON-001,0.76,31.0
+Marathon Petroleum,"Bahia Blanca, Argentina",Argentina,Vista Energy Argentina Sau,119710.24,MARATHON-001,0.75,32.0
+Marathon Petroleum,"Tumaco, Colombia",Colombia,Ecopetrol,113798.0,MARATHON-001,0.71,33.0
+Marathon Petroleum,"All Other Panama West Coast Region Ports, Panama",Panama,Marathon Petroleum,103803.0,MARATHON-001,0.65,34.0
+Marathon Petroleum,"Balao, Ecuador",Ecuador,Ep Petroecuador,103063.59,MARATHON-001,0.65,35.0
+Marathon Petroleum,"Esmeraldas, Ecuador",Ecuador,Shell,102816.77,MARATHON-001,0.65,36.0
+Marathon Petroleum,"All Other Panama Caribbean Region Ports, Panama",Panama,Petrochina International America,101529.04,MARATHON-001,0.64,37.0
+Marathon Petroleum,"Cartagena, Colombia",Colombia,Grey Rock Gathering And,98070.12,MARATHON-001,0.62,38.0
+Marathon Petroleum,"All Other Panama Caribbean Region Ports, Panama",Panama,Unipec America,95233.55,MARATHON-001,0.6,39.0
+Marathon Petroleum,"Balboa, Panama",Panama,Trafigura,93382.75,MARATHON-001,0.59,40.0
+Marathon Petroleum,"All Other Argentina Ports, Argentina",Argentina,Shell,87232.16,MARATHON-001,0.55,41.0
+Marathon Petroleum,"Dos Bocas, Mexico",Mexico,Marathon Petroleum,85219.34,MARATHON-001,0.54,42.0
+Marathon Petroleum,"Puerto Matias De Galves, Guatemala",Guatemala,Perenco Guatemala Ltd.,84267.46,MARATHON-001,0.53,43.0
+Marathon Petroleum,"Samil, South Korea",South Korea,Gs Caltex Corporation,83038.52,MARATHON-001,0.52,44.0
+Marathon Petroleum,"All Other Nigeria Ports, Nigeria",Nigeria,Oriental Energy Resources Ltd.,82533.02,MARATHON-001,0.52,45.0
+Marathon Petroleum,"All Other Argentina Ports, Argentina",Argentina,Vista Energy Sau,81255.0,MARATHON-001,0.51,46.0
+Marathon Petroleum,"Samil, South Korea",South Korea,"Gs Caltex Singapore Pte., Ltd.",79095.4,MARATHON-001,0.5,47.0
+Marathon Petroleum,"Covenas, Colombia",Colombia,Ecopetrol,76737.89,MARATHON-001,0.48,48.0
+Marathon Petroleum,"Campeche, Mexico",Mexico,PMI Trading,74480.77,MARATHON-001,0.47,49.0
+Marathon Petroleum,"Freeport, Grand Bahama I, Bahamas",Bahamas,Marathon Oil Co.,73868.0,MARATHON-001,0.46,50.0
+Marathon Petroleum,"Cayo Arcas, Mexico",Mexico,Pmi,73270.81,MARATHON-001,0.46,51.0
+Marathon Petroleum,"All Other Argentina Ports, Argentina",Argentina,Pluspetrol Sa,72939.0,MARATHON-001,0.46,52.0
+Marathon Petroleum,"Mexico, Mexico",Mexico,PMI Trading,72710.26,MARATHON-001,0.46,53.0
+Marathon Petroleum,"Panama Canal  Pacific, Panama",Panama,Petrochina International America,72286.0,MARATHON-001,0.45,54.0
+Marathon Petroleum,"Armuelles, Panama",Panama,Trafigura,70273.47,MARATHON-001,0.44,55.0
+Marathon Petroleum,"Pajaritos, Mexico",Mexico,Marathon Petroleum,70019.29,MARATHON-001,0.44,56.0
+Marathon Petroleum,"Al Jubail, Saudi Arabia",Saudi Arabia,Saudi Aramco Toatl Refining And,69487.68,MARATHON-001,0.44,57.0
+Marathon Petroleum,"All Other Guyana Ports, Guyana",Guyana,ExxonMobil,68121.0,MARATHON-001,0.43,58.0
+Marathon Petroleum,"Freeport, Grand Bahama I, Bahamas",Bahamas,Marathon Petroleum,68070.0,MARATHON-001,0.43,59.0
+Marathon Petroleum,"Bahia Blanca, Argentina",Argentina,Petronas E&P Argentinas.A.,64715.37,MARATHON-001,0.41,60.0
+Marathon Petroleum,"Altamira, Mexico",Mexico,PMI Trading,61158.07,MARATHON-001,0.38,61.0
+Marathon Petroleum,"Bahia Blanca, Argentina",Argentina,Trafigura,57101.12,MARATHON-001,0.36,62.0
+Marathon Petroleum,"All Other Panama Caribbean Region Ports, Panama",Panama,Ep Petroecuador,54339.26,MARATHON-001,0.34,63.0
+Marathon Petroleum,"Vancouver, BC, Canada",Canada,Adm Agri Industries Co.,50031.18,MARATHON-001,0.31,64.0
+Marathon Petroleum,"Sarnia, Ont, Canada",Canada,Suncor Energy,41590.86,MARATHON-001,0.26,65.0
+Marathon Petroleum,"Daesan, South Korea",South Korea,"Hyundai Oilbank Co., Ltd.",39442.76,MARATHON-001,0.25,66.0
+Marathon Petroleum,"Vancouver, BC, Canada",Canada,Transmountain Westridge Marine,37318.0,MARATHON-001,0.23,67.0
+Marathon Petroleum,"All Other Argentina Ports, Argentina",Argentina,Compania De Hidrocarburo,34753.01,MARATHON-001,0.22,68.0
+Marathon Petroleum,"Vancouver, BC, Canada",Canada,Richardson Oilseed Ltd.,31790.78,MARATHON-001,0.2,69.0
+Marathon Petroleum,"All Other Argentina Ports, Argentina",Argentina,Pampa Energia Sa,26745.0,MARATHON-001,0.17,70.0
+Marathon Petroleum,"Vancouver, BC, Canada",Canada,West Coast Reduction Ltd.,24998.04,MARATHON-001,0.16,71.0
+Marathon Petroleum,"Port Alma, Australia",Australia,Graincorp Commodity Management (Pty) ),21786.46,MARATHON-001,0.14,72.0
+Marathon Petroleum,"Sarnia, Ont, Canada",Canada,Vane Line Bunkering Inc.,20600.0,MARATHON-001,0.13,73.0
+Marathon Petroleum,"All Other Argentina Ports, Argentina",Argentina,Petrolera Aconcagua Energis Sa,19449.0,MARATHON-001,0.12,74.0
+Marathon Petroleum,"All Other Argentina Ports, Argentina",Argentina,Petroquimica Comodoro Rivadavia,19449.0,MARATHON-001,0.12,74.0
+Marathon Petroleum,"Goderich, Ont, Canada",Canada,Suncor Energy,16510.8,MARATHON-001,0.1,75.0
+Marathon Petroleum,"Daesan, South Korea",South Korea,"Aramco Trading Singapore Pte., Ltd.",12545.0,MARATHON-001,0.08,76.0
+Marathon Petroleum,"All Other Argentina Ports, Argentina",Argentina,Capex Sa,12153.0,MARATHON-001,0.08,77.0
+Marathon Petroleum,"All Other Argentina Ports, Argentina",Argentina,Gas Y Petroleo Del Neuquen Sa,9738.0,MARATHON-001,0.06,78.0
+Marathon Petroleum,"Sao Paulo, Brazil",Brazil,Sanimax Do Brasil Industrias,8799.98,MARATHON-001,0.06,79.0
+Marathon Petroleum,"Sao Paulo, Brazil",Brazil,Minerva S.A.,8429.52,MARATHON-001,0.05,80.0
+Marathon Petroleum,"Amsterdam, Netherlands",Netherlands,Totsa Totalenergies Trading Sa,8144.67,MARATHON-001,0.05,81.0
+Marathon Petroleum,"All Other Argentina Ports, Argentina",Argentina,President Petroleum Sa,7296.0,MARATHON-001,0.05,82.0
+Marathon Petroleum,"Vancouver, BC, Canada",Canada,Bunge Canada,7006.0,MARATHON-001,0.04,83.0
+Marathon Petroleum,"Montevideo, Uruguay",Uruguay,Frigorifico Canelones S A,4078.48,MARATHON-001,0.03,84.0
+Marathon Petroleum,"Campana, Argentina",Argentina,Ris S.A.,2701.7,MARATHON-001,0.02,85.0
+Marathon Petroleum,"Campana, Argentina",Argentina,Swlft Argentina S.A.,2435.88,MARATHON-001,0.02,86.0
+Marathon Petroleum,"Campana, Argentina",Argentina,Refineria Del Centro Sa,2249.08,MARATHON-001,0.01,87.0
+Marathon Petroleum,"All Other Argentina Ports, Argentina",Argentina,Mapar S.A.,2178.14,MARATHON-001,0.01,88.0
+Marathon Petroleum,"Sao Paulo, Brazil",Brazil,Minerva S.A,1673.44,MARATHON-001,0.01,89.0
+Marathon Petroleum,"All Other Argentina Ports, Argentina",Argentina,Agrupacion De Colaboracion San,1537.28,MARATHON-001,0.01,90.0
+Marathon Petroleum,"Sao Paulo, Brazil",Brazil,Minerva Sa,470.86,MARATHON-001,0.0,91.0
+Marathon Petroleum,"All Other Argentina Ports, Argentina",Argentina,Ramgras S.A.C.I. A.,284.74,MARATHON-001,0.0,92.0
+Marathon Petroleum,"Zeebrugge, Belgium",Belgium,By Cast Nv,242.24,MARATHON-001,0.0,93.0
+Martin Marietta,"Auld's Cove, Ns, Canada",Canada,Martin Marietta,5216170.0,MARTIN-001,61.5,1.0
+Martin Marietta,"Freeport, Grand Bahama I, Bahamas",Bahamas,Bahama Rock,3264909.17,MARTIN-001,38.5,2.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Nnpc Suppliers To Nnpc Trading Sa,784088.66,MONROE-001,16.0,1.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Totalenergies Ep Nigeria Ltd.,343601.04,MONROE-001,7.01,2.0
+Monroe Energy,"Arzew, Algeria",Algeria,Sonatrach,324543.0,MONROE-001,6.62,3.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Mobil Producing Nigeria Unlimited,321065.56,MONROE-001,6.55,4.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Nnpc,261836.76,MONROE-001,5.34,5.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Sterling Oil Exploration Energy,256460.0,MONROE-001,5.23,6.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Nnpc Exploration And Production,239660.0,MONROE-001,4.89,7.0
+Monroe Energy,"Forcados, Nigeria",Nigeria,Shoreline Natural Resources Ltd.,180866.0,MONROE-001,3.69,8.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,First Exploration And Petroluem,174402.28,MONROE-001,3.56,9.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Trafigura,174256.0,MONROE-001,3.56,10.0
+Monroe Energy,"Bonny, Nigeria",Nigeria,Newcross Exploration And Production,131108.4,MONROE-001,2.67,11.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Nnpc Trading Sa,131100.0,MONROE-001,2.67,12.0
+Monroe Energy,"Forcados, Nigeria",Nigeria,Sterling Oil Exploration Energy,128305.0,MONROE-001,2.62,13.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Nigerian National Petroleum Corp.,126261.0,MONROE-001,2.58,14.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Nnpc Suppliers To Oando Plc,124442.0,MONROE-001,2.54,15.0
+Monroe Energy,"Mongstad, Norway",Norway,Petroineos Trading Ltd.,122426.0,MONROE-001,2.5,16.0
+Monroe Energy,"Bonny, Nigeria",Nigeria,Nnpc Suppliers To Socar,120289.0,MONROE-001,2.45,17.0
+Monroe Energy,"Brass, Nigeria",Nigeria,Oando Oil Ltd.,103944.0,MONROE-001,2.12,18.0
+Monroe Energy,"Arzew, Algeria",Algeria,Societe Nationale Pour La Recherche,98344.0,MONROE-001,2.01,19.0
+Monroe Energy,"Bonny, Nigeria",Nigeria,The Shell Petroleum Development,98277.0,MONROE-001,2.0,20.0
+Monroe Energy,"Brass, Nigeria",Nigeria,Antan Producing Ltd. To Unicorp,95944.0,MONROE-001,1.96,21.0
+Monroe Energy,"Forcados, Nigeria",Nigeria,The Shell Petroleum Development,93292.0,MONROE-001,1.9,22.0
+Monroe Energy,"Cul De Sac, Saint Lucia",Saint Lucia,ExxonMobil,90138.0,MONROE-001,1.84,23.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Nigerian Petroleum Corp.,84628.08,MONROE-001,1.73,24.0
+Monroe Energy,"Bonny, Nigeria",Nigeria,Aradel Energy Ltd.,66140.0,MONROE-001,1.35,25.0
+Monroe Energy,"Bonny, Nigeria",Nigeria,Oml 18 Energy Resources Ltd.,53992.0,MONROE-001,1.1,26.0
+Monroe Energy,"Galeota Point, Trinidad and Tobago",Trinidad and Tobago,Bp Trinidad And Tobago,50287.59,MONROE-001,1.03,27.0
+Monroe Energy,"Bonny, Nigeria",Nigeria,Heirs Energies Ltd.,40548.0,MONROE-001,0.83,28.0
+Monroe Energy,"Bonny, Nigeria",Nigeria,Green Energy International Ltd.,25412.0,MONROE-001,0.52,29.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,General Hydrocarbons Ltd.,15549.26,MONROE-001,0.32,30.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Green Energy International Ltd.,14577.0,MONROE-001,0.3,31.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Lekoil Oil And Gas Investments Ltd.,10339.0,MONROE-001,0.21,32.0
+Monroe Energy,"Bonny, Nigeria",Nigeria,Lekoil Lekoil Oil And Gas,5150.0,MONROE-001,0.11,33.0
+Monroe Energy,"Bonny, Nigeria",Nigeria,"Millenium Oil And Gas Co., Ltd.",4046.0,MONROE-001,0.08,34.0
+Monroe Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Allgrace Energy Ltd.,3526.0,MONROE-001,0.07,35.0
+Monroe Energy,"Bonny, Nigeria",Nigeria,Allgrace Energy Ltd.,2812.0,MONROE-001,0.06,36.0
+Morton Salt,"Caleta Patillos, Chile",Chile,Sociedad Punta de Lobos,2283163.46,MORTON-001,49.74,1.0
+Morton Salt,"Great Inagua, Bahamas",Bahamas,Morton Bahamas Ltd.,1165766.0,MORTON-001,25.4,2.0
+Morton Salt,"Windsor, Ont, Canada",Canada,K And S Windsor Salt Ltd.,659640.0,MORTON-001,14.37,3.0
+Morton Salt,"Caleta Patillos, Chile",Chile,Sociedad Punta Delobos Sa,204650.0,MORTON-001,4.46,4.0
+Morton Salt,"All Other Chile Ports, Chile",Chile,Sociedad Punta de Lobos,148802.0,MORTON-001,3.24,5.0
+Morton Salt,"Bath, Ont, Canada",Canada,K And S Windsor Salt Ltd.,66000.0,MORTON-001,1.44,6.0
+Morton Salt,"All Other Mexico West Coast Region Ports, Mexico",Mexico,Exportadora De Sal S.A. De C.V.,54034.64,MORTON-001,1.18,7.0
+Morton Salt,"Nassau, New Providence I, Bahamas",Bahamas,Morton Bahamas Ltd.,7865.0,MORTON-001,0.17,8.0
+Morton Salt,"Castaway Cay, Bahamas",Bahamas,Seacor Island Lines,0.91,MORTON-001,0.0,9.0
+Mosaic,"All Other Peru Ports, Peru",Peru,Compania Minera,4482763.02,MOSAIC-001,87.14,1.0
+Mosaic,"All Other Saudi Arabia Ports, Saudi Arabia",Saudi Arabia,Mosaic Global Sales Llc,395145.45,MOSAIC-001,7.68,2.0
+Mosaic,"Vancouver, BC, Canada",Canada,H.J. Baker Sulphur Canada Ulc,212878.0,MOSAIC-001,4.14,3.0
+Mosaic,"All Other Saudi Arabia Ports, Saudi Arabia",Saudi Arabia,"Aramco Trading Sinapore Pte., Ltd.",53690.0,MOSAIC-001,1.04,4.0
+North American Marine,"All Other Ports In Bulgaria, Bulgaria",Bulgaria,Interpipe,3347084.31,NORTH-AMERICAN-MARINE-001,99.24,1.0
+North American Marine,"All Other Ukraine Ports, Ukraine",Ukraine,Interpipe,15167.19,NORTH-AMERICAN-MARINE-001,0.45,2.0
+North American Marine,"Varna, Bulgaria",Bulgaria,Interpipe,10296.67,NORTH-AMERICAN-MARINE-001,0.31,3.0
+North American Marine,"Bilbao, Spain",Spain,Sidenor Aceros Especiales S.L,319.42,NORTH-AMERICAN-MARINE-001,0.01,4.0
+Nucor Steel,"Praia Mole, Brazil",Brazil,Vale,931350.0,NUCOR-001,42.1,1.0
+Nucor Steel,"Point Ubu, Brazil",Brazil,Samarco Mineracao Sa,695976.0,NUCOR-001,31.46,2.0
+Nucor Steel,"Quebec, Que, Canada",Canada,Iron Ore Company of Canada,156282.0,NUCOR-001,7.06,3.0
+Nucor Steel,"Bogen, Norway",Norway,Luossavaara Kiirunavaara Ab,152260.0,NUCOR-001,6.88,4.0
+Nucor Steel,"Sept Iles, QUE, Canada",Canada,Iron Ore Company of Canada,152060.0,NUCOR-001,6.87,5.0
+Nucor Steel,"Vancouver, BC, Canada",Canada,Richmond Steel Recycling Ltd.,117534.0,NUCOR-001,5.31,6.0
+Nucor Steel,"Vancouver, BC, Canada",Canada,Lafarge Canada Inc.,6000.0,NUCOR-001,0.27,7.0
+Nucor Steel,"Masan, South Korea",South Korea,Hyundai Steel Co.,381.36,NUCOR-001,0.02,8.0
+Nucor Steel,"Livorno, Italy",Italy,Intl Freight Transport,160.0,NUCOR-001,0.01,9.0
+Nucor Steel,"Savona, Italy",Italy,Danieli Centro Combustion Sp A,119.0,NUCOR-001,0.01,10.0
+Nucor Steel,"Masan, South Korea",South Korea,Doosan Enerbility,39.85,NUCOR-001,0.0,11.0
+PAR Hawaii Refining,"Marsa Al Hariga, Libya",Libya,National Oil Corp,967110.8,PAR-HAWAII-001,31.26,1.0
+PAR Hawaii Refining,"All Other Argentina Ports, Argentina",Argentina,Trafigura,434989.64,PAR-HAWAII-001,14.06,2.0
+PAR Hawaii Refining,"Marsa Al Hariga, Libya",Libya,PAR Hawaii Refining,413957.1,PAR-HAWAII-001,13.38,3.0
+PAR Hawaii Refining,"All Other Nigeria Ports, Nigeria",Nigeria,Nnpc Trading Sa,248708.0,PAR-HAWAII-001,8.04,4.0
+PAR Hawaii Refining,"All Other Gabon Ports, Gabon",Gabon,Green Energy International Ltd.,182437.4,PAR-HAWAII-001,5.9,5.0
+PAR Hawaii Refining,"Comodoro Rivadavia, Argentina",Argentina,Trafigura,147640.05,PAR-HAWAII-001,4.77,6.0
+PAR Hawaii Refining,"Marsa Al Hariga, Libya",Libya,Noc,138978.4,PAR-HAWAII-001,4.49,7.0
+PAR Hawaii Refining,"All Other Algeria Ports, Algeria",Algeria,Sonatrach,133543.98,PAR-HAWAII-001,4.32,8.0
+PAR Hawaii Refining,"All Other Nigeria Ports, Nigeria",Nigeria,Totsaenergies Ep Nigeria Ltd.,130266.0,PAR-HAWAII-001,4.21,9.0
+PAR Hawaii Refining,"Caleta Cordova, Argentina",Argentina,Trafigura,111446.88,PAR-HAWAII-001,3.6,10.0
+PAR Hawaii Refining,"All Other Nigeria Ports, Nigeria",Nigeria,Green Energy International Ltd.,67062.0,PAR-HAWAII-001,2.17,11.0
+PAR Hawaii Refining,"Bahia Blanca, Argentina",Argentina,Vista Energy Argentina Sau,65142.73,PAR-HAWAII-001,2.11,12.0
+PAR Hawaii Refining,"All Other Argentina Ports, Argentina",Argentina,PAR Hawaii Refining,52572.43,PAR-HAWAII-001,1.7,13.0
+PBF Energy,"Freeport, Grand Bahama I, Bahamas",Bahamas,PBF Energy,1418996.18,PBF-001,16.55,1.0
+PBF Energy,"Pajaritos, Mexico",Mexico,PMI Trading,797412.65,PBF-001,9.3,2.0
+PBF Energy,"Dos Bocas, Mexico",Mexico,PMI Trading,723123.72,PBF-001,8.44,3.0
+PBF Energy,"Novorossiysk, Russia",Russia,Tengizchevroil,498232.0,PBF-001,5.81,4.0
+PBF Energy,"Salina Cruz, Mexico",Mexico,PMI Trading,496534.18,PBF-001,5.79,5.0
+PBF Energy,"Pointe A Pierre, Trinidad and Tobago",Trinidad and Tobago,Heritage Petroleum,358180.49,PBF-001,4.18,6.0
+PBF Energy,"Esmeraldas, Ecuador",Ecuador,Ep Petroecuador,303899.32,PBF-001,3.54,7.0
+PBF Energy,"Angra Dos Reis, Brazil",Brazil,Petrobras,264137.6,PBF-001,3.08,8.0
+PBF Energy,"Alert Bay, Bc, Canada",Canada,Ecopetrol,223151.04,PBF-001,2.6,9.0
+PBF Energy,"All Other Mexico East Coast Region Ports, Mexico",Mexico,PMI Trading,222682.2,PBF-001,2.6,10.0
+PBF Energy,"Armuelles, Panama",Panama,Uam Logistics & Trad Llc,218551.76,PBF-001,2.55,11.0
+PBF Energy,"All Other Panama West Coast Region Ports, Panama",Panama,Petrochina International America,208182.6,PBF-001,2.43,12.0
+PBF Energy,"Whiffen Head, Nfld, Canada",Canada,Equinor Marketing & Trading,183074.0,PBF-001,2.14,13.0
+PBF Energy,"All Other Colombian Caribbean Region Ports, Colombia",Colombia,Ecopetrol,151341.82,PBF-001,1.77,14.0
+PBF Energy,"Covenas, Colombia",Colombia,Ecopetrol,151209.83,PBF-001,1.76,15.0
+PBF Energy,"Cayo Arcas, Mexico",Mexico,PMI Trading,150496.0,PBF-001,1.76,16.0
+PBF Energy,"Campeche, Mexico",Mexico,PMI Trading,147370.03,PBF-001,1.72,17.0
+PBF Energy,"Dos Bocas, Mexico",Mexico,Eni Mexico S. De R.L. De C.V.,146950.0,PBF-001,1.71,18.0
+PBF Energy,"Covenas, Colombia",Colombia,Trafigura,146450.02,PBF-001,1.71,19.0
+PBF Energy,"Angra Dos Reis, Brazil",Brazil,PBF Energy,139998.64,PBF-001,1.63,20.0
+PBF Energy,"Vancouver, BC, Canada",Canada,Suncor Energy,139225.37,PBF-001,1.62,21.0
+PBF Energy,"Novorossiysk, Russia",Russia,Karachaganak Petroleum Operating,138739.17,PBF-001,1.62,22.0
+PBF Energy,"All Other Brazil Ports North Of Recife, Brazil",Brazil,Shell,124694.3,PBF-001,1.45,23.0
+PBF Energy,"Esmeraldas, Ecuador",Ecuador,Trafigura,116690.0,PBF-001,1.36,24.0
+PBF Energy,"All Other Panama Caribbean Region Ports, Panama",Panama,"Petrochina International Co., Ltd.",104582.73,PBF-001,1.22,25.0
+PBF Energy,"All Other Panama West Coast Region Ports, Panama",Panama,"Petrochina International Co., Ltd.",101965.49,PBF-001,1.19,26.0
+PBF Energy,"Cul De Sac, Saint Lucia",Saint Lucia,ExxonMobil,98697.2,PBF-001,1.15,27.0
+PBF Energy,"Balboa, Panama",Panama,Trafigura,94044.0,PBF-001,1.1,28.0
+PBF Energy,"Come By Chance, Nfld, Canada",Canada,ExxonMobil,93373.24,PBF-001,1.09,29.0
+PBF Energy,"Sullom Voe, United Kingdom",United Kingdom,Bp Oil International Ltd.,91314.0,PBF-001,1.07,30.0
+PBF Energy,"Esmeraldas, Ecuador",Ecuador,Equinor Marketing And Trading Us,87882.35,PBF-001,1.03,31.0
+PBF Energy,"Armuelles, Panama",Panama,Trafigura,73091.59,PBF-001,0.85,32.0
+PBF Energy,"All Other Trinidad Ports, Trinidad and Tobago",Trinidad and Tobago,Heritage Petroleum,72750.9,PBF-001,0.85,33.0
+PBF Energy,"Esmeraldas, Ecuador",Ecuador,Shell,58874.79,PBF-001,0.69,34.0
+PBF Energy,"All Other Peru Ports, Peru",Peru,Trafigura,46955.0,PBF-001,0.55,35.0
+PBF Energy,"Vancouver, BC, Canada",Canada,Parkland Refining (B.C) Ltd. A,40831.09,PBF-001,0.48,36.0
+PBF Energy,"Lazaro Cardenas, Mexico",Mexico,PMI Trading,29348.86,PBF-001,0.34,37.0
+PBF Energy,"Altamira, Mexico",Mexico,PMI Trading,28428.58,PBF-001,0.33,38.0
+PBF Energy,"Whiffen Head, Nfld, Canada",Canada,Chevron,23680.0,PBF-001,0.28,39.0
+PBF Energy,"All Other Canada Pacific Region Ports, Canada",Canada,Parkland Refining (B.C) Ltd. A,19394.08,PBF-001,0.23,40.0
+PBF Energy,"Vancouver, BC, Canada",Canada,PBF Energy,19106.0,PBF-001,0.22,41.0
+PBF Energy,"Vancouver, BC, Canada",Canada,Parkland Refining (B.C.) Ltd.,19000.36,PBF-001,0.22,42.0
+PMI Trading,"Cayo Arcas, Mexico",Mexico,PMI Trading,2322187.66,PMI-001,34.1,1.0
+PMI Trading,"Dos Bocas, Mexico",Mexico,PMI Trading,2078786.18,PMI-001,30.53,2.0
+PMI Trading,"All Other Mexico East Coast Region Ports, Mexico",Mexico,PMI Trading,718188.7,PMI-001,10.55,3.0
+PMI Trading,"Pajaritos, Mexico",Mexico,PMI Trading,356442.0,PMI-001,5.23,4.0
+PMI Trading,"Campeche, Mexico",Mexico,PMI Trading,267563.56,PMI-001,3.93,5.0
+PMI Trading,"Altamira, Mexico",Mexico,PMI Trading,252798.93,PMI-001,3.71,6.0
+PMI Trading,"Salina Cruz, Mexico",Mexico,PMI Trading,230279.39,PMI-001,3.38,7.0
+PMI Trading,"Cayo Arcas, Mexico",Mexico,Pmi Commercio International S.A. De,167284.0,PMI-001,2.46,8.0
+PMI Trading,"All Other Mexico West Coast Region Ports, Mexico",Mexico,PMI Trading,166420.78,PMI-001,2.44,9.0
+PMI Trading,"Coatzacoalcos, Mexico",Mexico,PMI Trading,148568.0,PMI-001,2.18,10.0
+PMI Trading,"Vancouver, BC, Canada",Canada,BP,53280.0,PMI-001,0.78,11.0
+PMI Trading,"Coatzacoalcos, Mexico",Mexico,Gunvor Usa,27147.0,PMI-001,0.4,12.0
+PMI Trading,"Altamira, Mexico",Mexico,Gunvor Usa,20801.0,PMI-001,0.31,13.0
+PMI Trading,"Progreso, Mexico",Mexico,PMI Trading,156.0,PMI-001,0.0,14.0
+PMI Trading,"Cartagena, Colombia",Colombia,Baker Hughes De Colombia,0.54,PMI-001,0.0,15.0
+Puerto Rico Energy,"Amsterdam, Netherlands",Netherlands,Totsa Totalenergies Trading Sa,203923.7,PUERTO-RICO-001,8.02,1.0
+Puerto Rico Energy,"Saint John, Nb, Canada",Canada,Irving Oil,196124.9,PUERTO-RICO-001,7.71,2.0
+Puerto Rico Energy,"Mamonal, Colombia",Colombia,Refineria De Cartagena S.A.,188896.94,PUERTO-RICO-001,7.43,3.0
+Puerto Rico Energy,"Skoldvik, Finland",Finland,Neste Oil Oyj,130753.28,PUERTO-RICO-001,5.14,4.0
+Puerto Rico Energy,"Montreal, Que, Canada",Canada,Suncor Energy,121302.64,PUERTO-RICO-001,4.77,5.0
+Puerto Rico Energy,"All Other Estonia Ports, Estonia",Estonia,Trafigura,114566.0,PUERTO-RICO-001,4.51,6.0
+Puerto Rico Energy,"Lagos, Nigeria",Nigeria,Dangote Petroleum Refinery And,102160.0,PUERTO-RICO-001,4.02,7.0
+Puerto Rico Energy,"Vancouver, BC, Canada",Canada,Suncor Energy,101267.81,PUERTO-RICO-001,3.98,8.0
+Puerto Rico Energy,"Klaipeda, Lithuania",Lithuania,Public Co. Orlen Lietuva,88675.48,PUERTO-RICO-001,3.49,9.0
+Puerto Rico Energy,"All Other St. Croix Virgin Islands, Virgin Islands (U.S.)",Virgin Islands (U.S.),Shell,80657.7,PUERTO-RICO-001,3.17,10.0
+Puerto Rico Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Dangote Petroleum Refinery And,79006.0,PUERTO-RICO-001,3.11,11.0
+Puerto Rico Energy,"Mamonal, Colombia",Colombia,Shell,77417.18,PUERTO-RICO-001,3.04,12.0
+Puerto Rico Energy,"All Other Bahrain Ports, Bahrain",Bahrain,Bapco Refining Bsc,76170.08,PUERTO-RICO-001,3.0,13.0
+Puerto Rico Energy,"Sarroch Oil Terminal, Italy",Italy,Trafigura,75720.0,PUERTO-RICO-001,2.98,14.0
+Puerto Rico Energy,"Antwerp, Belgium",Belgium,Glencore Uk Ltd.,71936.9,PUERTO-RICO-001,2.83,15.0
+Puerto Rico Energy,"Ash Shuaiba, Kuwait",Kuwait,Kuwait National Petroleum Co.,71526.0,PUERTO-RICO-001,2.81,16.0
+Puerto Rico Energy,"Quebec, Que, Canada",Canada,Valero,71380.0,PUERTO-RICO-001,2.81,17.0
+Puerto Rico Energy,"Levis, Que, Canada",Canada,Valero,66098.0,PUERTO-RICO-001,2.6,18.0
+Puerto Rico Energy,"All Other Nigeria Ports, Nigeria",Nigeria,Dangote Refinery And Petrochemicals,61572.0,PUERTO-RICO-001,2.42,19.0
+Puerto Rico Energy,"Barranquilla, Colombia",Colombia,Ingeniera Servicio,52608.0,PUERTO-RICO-001,2.07,20.0
+Puerto Rico Energy,"Antwerp, Belgium",Belgium,Trafigura,50558.0,PUERTO-RICO-001,1.99,21.0
+Puerto Rico Energy,"Barranquilla, Colombia",Colombia,Odin Petroil S.A.,49721.53,PUERTO-RICO-001,1.96,22.0
+Puerto Rico Energy,"Rotterdam, Netherlands",Netherlands,"Uti Worldwide (Singapore) Pte., Ltd.",44256.08,PUERTO-RICO-001,1.74,23.0
+Puerto Rico Energy,"Lagos, Nigeria",Nigeria,Trafigura,38865.0,PUERTO-RICO-001,1.53,24.0
+Puerto Rico Energy,"Barranquilla, Colombia",Colombia,Ingenieria Servicio Montaje,35535.0,PUERTO-RICO-001,1.4,25.0
+Puerto Rico Energy,"Cartagena, Colombia",Colombia,Trafigura,31002.52,PUERTO-RICO-001,1.22,26.0
+Puerto Rico Energy,"Barranquilla, Colombia",Colombia,Ingenieria Servicio Y Montaje,29694.81,PUERTO-RICO-001,1.17,27.0
+Puerto Rico Energy,"All Other Kuwait Ports, Kuwait",Kuwait,Kuwait Petroleum Corp.,27399.0,PUERTO-RICO-001,1.08,28.0
+Puerto Rico Energy,"Barranquilla, Colombia",Colombia,Odin Petroil Sa En Reestructuracion,24817.94,PUERTO-RICO-001,0.98,29.0
+Puerto Rico Energy,"All Other England West Coast Ports, United Kingdom",United Kingdom,Essar Stanlow Refinery,24035.08,PUERTO-RICO-001,0.95,30.0
+Puerto Rico Energy,"Amsterdam, Netherlands",Netherlands,Gunvor Group,21877.0,PUERTO-RICO-001,0.86,31.0
+Puerto Rico Energy,"Barranquilla, Colombia",Colombia,Trafigura,19038.0,PUERTO-RICO-001,0.75,32.0
+Puerto Rico Energy,"Altamira, Mexico",Mexico,PMI Trading,14651.0,PUERTO-RICO-001,0.58,33.0
+Puerto Rico Energy,"Amsterdam, Netherlands",Netherlands,Clearlake Shipping,12316.0,PUERTO-RICO-001,0.48,34.0
+Puerto Rico Energy,"Lome, Togo",Togo,Trafigura,11620.0,PUERTO-RICO-001,0.46,35.0
+Puerto Rico Energy,"Palermo, Italy",Italy,Ingeniera Servicio,10694.0,PUERTO-RICO-001,0.42,36.0
+Puerto Rico Energy,"Asnaes, Denmark",Denmark,Neste Oil Oyj,9494.0,PUERTO-RICO-001,0.37,37.0
+Puerto Rico Energy,"Skoldvik, Finland",Finland,Neste Oyj,8566.0,PUERTO-RICO-001,0.34,38.0
+Puerto Rico Energy,"Barranquilla, Colombia",Colombia,Elite Logistics Zf S.A.S,8114.0,PUERTO-RICO-001,0.32,39.0
+Puerto Rico Energy,"Amsterdam, Netherlands",Netherlands,Totalenergies Trading Sa,7751.88,PUERTO-RICO-001,0.3,40.0
+Puerto Rico Energy,"Barranquilla, Colombia",Colombia,Odin Petroil S.A. En Reestructuraci,7553.36,PUERTO-RICO-001,0.3,41.0
+Puerto Rico Energy,"Clarkson, Ont, Canada",Canada,Petro Canada Lubricants Inc.,6892.47,PUERTO-RICO-001,0.27,42.0
+Puerto Rico Energy,"All Other Colombian Caribbean Region Ports, Colombia",Colombia,Odin Petroil S.A. En Reestructuraci,6199.93,PUERTO-RICO-001,0.24,43.0
+Puerto Rico Energy,"Puerto Drummond, Colombia",Colombia,Odin Petroil S.A.,5791.07,PUERTO-RICO-001,0.23,44.0
+Puerto Rico Energy,"All Other St. Croix Virgin Islands, Virgin Islands (U.S.)",Virgin Islands (U.S.),Antilles Trading Co.,4756.0,PUERTO-RICO-001,0.19,45.0
+Puerto Rico Energy,"Charlotte Amalie, St. Th, Virgin Islands (U.S.)",Virgin Islands (U.S.),Pc Puerto Rico Usvi Fuel Services,4.0,PUERTO-RICO-001,0.0,46.0
+Ril Usa Inc.,"Bedi, India",India,Reliance Industries,1049523.27,,75.23,1.0
+Ril Usa Inc.,"All Other India West Coast Ports, India",India,Reliance Industries,195523.58,,14.01,2.0
+Ril Usa Inc.,"Mangalore, India",India,Mangalore Refinery And,73179.76,,5.25,3.0
+Ril Usa Inc.,"Antwerp, Belgium",Belgium,Totsa Totalenergies Trading Sa,41602.0,,2.98,4.0
+Ril Usa Inc.,"Le Havre, France",France,Total Energies Raffinage France,13830.0,,0.99,5.0
+Ril Usa Inc.,"All Other Norway Ports, Norway",Norway,Eni Trade And Bio Fuels,8989.5,,0.64,6.0
+Ril Usa Inc.,"Rotterdam, Netherlands",Netherlands,BP,3974.68,,0.28,7.0
+Ril Usa Inc.,"Braefoot Bay, United Kingdom",United Kingdom,Eni Trade And Bio Fuels,3235.38,,0.23,8.0
+Ril Usa Inc.,"Le Havre, France",France,Totsa Totalenergies Trading Sa,2654.0,,0.19,9.0
+Ril Usa Inc.,"Soyo Oil Terminal, Angola",Angola,Angola Lng Ltd. Opco Sociedade,2618.0,,0.19,10.0
+Sesco Cement Corp.,"Ad Dammam, Saudi Arabia",Saudi Arabia,Saudi Cement Co.,943974.0,,48.9,1.0
+Sesco Cement Corp.,"All Other Turkey Black Sea and Sea of Marmara Port, Turkey",Turkey,Nuh Cimento Sanayi A.S.,517618.0,,26.81,2.0
+Sesco Cement Corp.,"Alexandria, Egypt",Egypt,Amreyah Cement Co.,127874.0,,6.62,3.0
+Sesco Cement Corp.,"Alexandria, Egypt",Egypt,Royal El Minya Cement Co.,77894.0,,4.04,4.0
+Sesco Cement Corp.,"Alexandria, Egypt",Egypt,Cleopatra Industries For Building,67198.0,,3.48,5.0
+Sesco Cement Corp.,"Abu Kir Bay, Egypt",Egypt,Amreyah Cement Co.,58844.0,,3.05,6.0
+Sesco Cement Corp.,"Abu Kir Bay, Egypt",Egypt,Cleopatra Industries For Building,45050.0,,2.33,7.0
+Sesco Cement Corp.,"Abu Kir Bay, Egypt",Egypt,Royal El Minya Cement Co.,43686.0,,2.26,8.0
+Sesco Cement Corp.,"Damietta, Egypt",Egypt,Amreyah Cement Co.,35474.2,,1.84,9.0
+Sesco Cement Corp.,"Damietta, Egypt",Egypt,Cleopatra Industries For Building,6764.12,,0.35,10.0
+Sesco Cement Corp.,"Damietta, Egypt",Egypt,Royal El Minya Cement Co.,5997.64,,0.31,11.0
+Shell,"Esmeraldas, Ecuador",Ecuador,Ep Petroecuador,740501.41,SHELL-001,30.34,1.0
+Shell,"Pointe A Pierre, Trinidad and Tobago",Trinidad and Tobago,Heritage Petroleum,311682.54,SHELL-001,12.77,2.0
+Shell,"Sao Paulo, Brazil",Brazil,Shell Brazil Petroleo Ltda,205370.88,SHELL-001,8.42,3.0
+Shell,"Sao Paulo, Brazil",Brazil,Karoon Petroleo & Gas Ltda,168864.67,SHELL-001,6.92,4.0
+Shell,"Sao Paulo, Brazil",Brazil,Shell Brasil Petroleo Ltda,159199.0,SHELL-001,6.52,5.0
+Shell,"All Other Colombian Caribbean Region Ports, Colombia",Colombia,Frontera Energy Colombia Corp.,145873.96,SHELL-001,5.98,6.0
+Shell,"Sao Paulo, Brazil",Brazil,Shell,141477.87,SHELL-001,5.8,7.0
+Shell,"All Other Nigeria Ports, Nigeria",Nigeria,Newcross Exploration,132341.0,SHELL-001,5.42,8.0
+Shell,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Shell,106023.46,SHELL-001,4.34,9.0
+Shell,"Esmeraldas, Ecuador",Ecuador,Ep Petroecuador Alpallana Y Av. 6 D,78207.82,SHELL-001,3.2,10.0
+Shell,"Esmeraldas, Ecuador",Ecuador,Ep Petroecuador Alpallana,72147.26,SHELL-001,2.96,11.0
+Shell,"Balao, Ecuador",Ecuador,Ecopetrol,52430.76,SHELL-001,2.15,12.0
+Shell,"Esmeraldas, Ecuador",Ecuador,Ep Petroecuador Alpallana Y Av 6,48144.52,SHELL-001,1.97,13.0
+Shell,"All Other Argentina Ports, Argentina",Argentina,Vista Energy Argentina Sau,34595.78,SHELL-001,1.42,14.0
+Shell,"All Other Argentina Ports, Argentina",Argentina,Petroleos Sudamericanos Sa,12634.38,SHELL-001,0.52,15.0
+Shell,"All Other Argentina Ports, Argentina",Argentina,Oilstone Energia Sa,9475.78,SHELL-001,0.39,16.0
+Shell,"All Other Argentina Ports, Argentina",Argentina,Shell Argentina Sa,8022.38,SHELL-001,0.33,17.0
+Shell,"Balao, Ecuador",Ecuador,Geopark Colombia S.A.S.,5248.67,SHELL-001,0.22,18.0
+Shell,"Rotterdam, Netherlands",Netherlands,Shell Chemicals Europe Bv,4505.26,SHELL-001,0.18,19.0
+Shell,"Point Tupper, Cbi, Canada",Canada,Ampol Us Trading Llc,2727.12,,0.11,20.0
+Shell,"Esmeraldas, Ecuador",Ecuador,Geopark Colombia S.A.S.,872.7,SHELL-001,0.04,21.0
+Sudati,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Sudati,2950576.51,SUDATI-001,99.94,1.0
+Sudati,"Sao Francisco Do Sul, Brazil",Brazil,Sudati,1327.16,SUDATI-001,0.04,2.0
+Sudati,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Conply Industria De Compensados Ltd.,323.65,SUDATI-001,0.01,3.0
+Sudati,"Sao Paulo, Brazil",Brazil,Sudati,54.6,SUDATI-001,0.0,4.0
+Suncor Energy,"Come By Chance, Nfld, Canada",Canada,Suncor International Energy & Trading,766977.1,SUNCOR-001,25.43,1.0
+Suncor Energy,"Montreal, Que, Canada",Canada,Suncor Energy,693928.74,SUNCOR-001,23.01,2.0
+Suncor Energy,"Vancouver, BC, Canada",Canada,Suncor Energy,399500.35,SUNCOR-001,13.25,3.0
+Suncor Energy,"Whiffen Head, Nfld, Canada",Canada,Suncor International Energy & Trading,212649.0,SUNCOR-001,7.05,4.0
+Suncor Energy,"Arzew, Algeria",Algeria,Suncor Energy,198956.0,SUNCOR-001,6.6,5.0
+Suncor Energy,"Whiffen Head, Nfld, Canada",Canada,Suncor Energy,185106.0,SUNCOR-001,6.14,6.0
+Suncor Energy,"Come By Chance, Nfld, Canada",Canada,Suncor Energy,179202.0,SUNCOR-001,5.94,7.0
+Suncor Energy,"Arzew, Algeria",Algeria,Sonatrach Activite,93920.0,SUNCOR-001,3.11,8.0
+Suncor Energy,"Arzew, Algeria",Algeria,Suncor International Energy & Trading,89833.0,SUNCOR-001,2.98,9.0
+Suncor Energy,"Hound Point, United Kingdom",United Kingdom,Apache North Sea Ltd.,53690.0,SUNCOR-001,1.78,10.0
+Suncor Energy,"Quebec, Que, Canada",Canada,Suncor Energy,23642.82,SUNCOR-001,0.78,11.0
+Suncor Energy,"Come By Chance, Nfld, Canada",Canada,Canada Hibernia Holding Corp.,22175.0,SUNCOR-001,0.74,12.0
+Suncor Energy,"Tracy, Que, Canada",Canada,Suncor Energy,20560.0,SUNCOR-001,0.68,13.0
+Suncor Energy,"Sarnia, Ont, Canada",Canada,Suncor Energy,20293.0,SUNCOR-001,0.67,14.0
+Suncor Energy,"Come By Chance, Nfld, Canada",Canada,Murphy Canada,16957.0,SUNCOR-001,0.56,15.0
+Suncor Energy,"Hound Point, United Kingdom",United Kingdom,Shell Uk Ltd.,12206.0,SUNCOR-001,0.4,16.0
+Suncor Energy,"Hound Point, United Kingdom",United Kingdom,Waldorf Cns (Ii) Ltd.,10450.0,SUNCOR-001,0.35,17.0
+Suncor Energy,"Hound Point, United Kingdom",United Kingdom,Waldorf Operations Ltd.,10393.0,SUNCOR-001,0.34,18.0
+Suncor Energy,"Hound Point, United Kingdom",United Kingdom,Bridge Petroleum 1 Ltd.,2405.0,SUNCOR-001,0.08,19.0
+Suncor Energy,"Hound Point, United Kingdom",United Kingdom,Waldorf Production Ltd.,917.0,SUNCOR-001,0.03,20.0
+Suncor Energy,"Hound Point, United Kingdom",United Kingdom,Eni Ukcs Ltd.,905.0,SUNCOR-001,0.03,21.0
+Suncor Energy,"Hound Point, United Kingdom",United Kingdom,Eni Eglin Franklin Ltd.,774.0,SUNCOR-001,0.03,22.0
+Ternium,"Sepetiba Bay, Brazil",Brazil,Ternium,6199304.0,TERNIUM-001,74.05,1.0
+Ternium,"All Other Viet Nam Ports, Vietnam",Vietnam,Formosa Ha Tinh Steel,756661.0,TERNIUM-001,9.04,2.0
+Ternium,"All Other Indonesia Ports, Indonesia",Indonesia,Pt . Dexin Steel Indonesia,304236.32,TERNIUM-001,3.63,3.0
+Ternium,"Pecem, Brazil",Brazil,ArcelorMittal,194815.14,TERNIUM-001,2.33,4.0
+Ternium,"All Other Indonesia Ports, Indonesia",Indonesia,Pt . Dexin Steel Indonesia Gedung,154965.4,TERNIUM-001,1.85,5.0
+Ternium,"All Other Brazil Ports North Of Recife, Brazil",Brazil,ArcelorMittal,98956.0,TERNIUM-001,1.18,6.0
+Ternium,"All Other Malaysia Ports, Malaysia",Malaysia,Eastern Steel Sdn Bhd,98661.0,TERNIUM-001,1.18,7.0
+Ternium,"Kuantan, Malaysia",Malaysia,Eastern Steel Sdn Bhd,93281.02,TERNIUM-001,1.11,8.0
+Ternium,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Usinas Siderurgicas De Minas Gerais,69972.22,TERNIUM-001,0.84,9.0
+Ternium,"Paradip, India",India,Tata Steel Ltd.,59705.48,TERNIUM-001,0.71,10.0
+Ternium,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Usinas Siderurgicas De Minas Gerais S.A.,55306.61,TERNIUM-001,0.66,11.0
+Ternium,"Taichung, Taiwan",Taiwan,China Steel Corporation,53267.67,TERNIUM-001,0.64,12.0
+Ternium,"Praia Mole, Brazil",Brazil,Gerdau Acominas S.A.,48144.09,TERNIUM-001,0.58,13.0
+Ternium,"All Other Saudi Arabia Ports, Saudi Arabia",Saudi Arabia,Saudi Iron And Steel Co.,46714.14,TERNIUM-001,0.56,14.0
+Ternium,"Sao Paulo, Brazil",Brazil,Usinas Siderurgicas De Minas Gerais,45207.82,TERNIUM-001,0.54,15.0
+Ternium,"All Other Argentina Ports, Argentina",Argentina,Terrium Argentina S.A,42811.7,TERNIUM-001,0.51,16.0
+Ternium,"Praia Mole, Brazil",Brazil,Usinas Siderurgicas De Minas Gerais S.A.,27214.33,TERNIUM-001,0.33,17.0
+Ternium,"Yawata, Japan",Japan,Marubeni Itochu Steel Inc.,5292.66,TERNIUM-001,0.06,18.0
+Ternium,"Kimitsu, Japan",Japan,Marubeni Itochu Steel Inc.,5007.79,TERNIUM-001,0.06,19.0
+Ternium,"All Other Viet Nam Ports, Vietnam",Vietnam,"Posco Vietnam Co., Ltd.",4930.98,TERNIUM-001,0.06,20.0
+Ternium,"Veracruz, Mexico",Mexico,Ternium,3154.0,TERNIUM-001,0.04,21.0
+Ternium,"Jebel Ali, United Arab Emirates",United Arab Emirates,Fabtech International Ltd.,2209.92,TERNIUM-001,0.03,22.0
+Ternium,"Pyongtaek, South Korea",South Korea,"Dongbu Steel Co., Ltd.",1393.56,TERNIUM-001,0.02,23.0
+Ternium,"Bilbao, Spain",Spain,Fagor Arrasate S Coop,479.0,TERNIUM-001,0.01,24.0
+Ternium,"Aliaga, Turkey",Turkey,Kardemir Dis Ticaret As,252.31,TERNIUM-001,0.0,25.0
+Ternium,"All Other South Korea Ports, South Korea",South Korea,"Dongbu Steel Co., Ltd.",154.58,TERNIUM-001,0.0,26.0
+Ternium,"Busan, South Korea",South Korea,"Dongbu Steel Co., Ltd.",123.87,TERNIUM-001,0.0,27.0
+Ternium,"Savona, Italy",Italy,John Cockerill Sa,39.14,TERNIUM-001,0.0,28.0
+Toyota Motor Sales,"Gamagori, Japan",Japan,Toyota Motor Corporation,1665856.61,,79.19,1.0
+Toyota Motor Sales,"Veracruz, Mexico",Mexico,Toyota Motor Mfg. De,170339.09,,8.1,2.0
+Toyota Motor Sales,"Nagoya, Japan",Japan,Toyota Motor Corporation,95028.52,,4.52,3.0
+Toyota Motor Sales,"Lazaro Cardenas, Mexico",Mexico,Toyota Motor Mfg De Guanajuato Sa D,70692.53,,3.36,4.0
+Toyota Motor Sales,"All Other Japan Ports, Japan",Japan,Toyota Motor Corporation,49491.36,,2.35,5.0
+Toyota Motor Sales,"All Other Japan Ports, Japan",Japan,Toyota Motor Corp.,34414.78,,1.64,6.0
+Toyota Motor Sales,"Zeebrugge, Belgium",Belgium,Toyota Motor Europe Nv Sa,10263.42,,0.49,7.0
+Toyota Motor Sales,"Veracruz, Mexico",Mexico,Toyota Motor Mfg De Guanajuato Sa D,4494.82,,0.21,8.0
+Toyota Motor Sales,"Veracruz, Mexico",Mexico,Toyotamotor Mfg De Guanajuato Sa D,3068.16,,0.15,9.0
+Toyota Motor Sales,"Southhampton, United Kingdom",United Kingdom,Toyota Motor Europe Nv Sa,6.14,,0.0,10.0
+Trafigura,"Cartagena, Colombia",Colombia,Trafigura,885896.0,TRAFIGURA-001,18.71,1.0
+Trafigura,"Balboa, Panama",Panama,Trafigura,813629.08,TRAFIGURA-001,17.18,2.0
+Trafigura,"Armuelles, Panama",Panama,Trafigura,416504.0,TRAFIGURA-001,8.8,3.0
+Trafigura,"Pennington, Nigeria",Nigeria,Trafigura,407616.0,TRAFIGURA-001,8.61,4.0
+Trafigura,"Covenas, Colombia",Colombia,Trafigura,287566.0,TRAFIGURA-001,6.07,5.0
+Trafigura,"Madre De Deus, Brazil",Brazil,Refinaria De Mataripe S.A.,237260.0,TRAFIGURA-001,5.01,6.0
+Trafigura,"Bahia Blanca, Argentina",Argentina,Trafigura,215442.77,TRAFIGURA-001,4.55,7.0
+Trafigura,"Al Basrah, Iraq",Iraq,Trafigura,147968.0,TRAFIGURA-001,3.13,8.0
+Trafigura,"All Other Colombian Caribbean Region Ports, Colombia",Colombia,Trafigura,146962.86,TRAFIGURA-001,3.1,9.0
+Trafigura,"Rio De Janeiro, Brazil",Brazil,Trafigura,133898.26,TRAFIGURA-001,2.83,10.0
+Trafigura,"Al Fuhayhil, Kuwait",Kuwait,Trafigura,121722.0,TRAFIGURA-001,2.57,11.0
+Trafigura,"All Other Kuwait Ports, Kuwait",Kuwait,Kuwait Petroleum Corp.,96500.0,TRAFIGURA-001,2.04,12.0
+Trafigura,"All Other Peru Ports, Peru",Peru,Trafigura,80720.0,TRAFIGURA-001,1.7,13.0
+Trafigura,"Fujairah, United Arab Emirates",United Arab Emirates,Trafigura,72078.0,TRAFIGURA-001,1.52,14.0
+Trafigura,"Khor Al Zubair, Iraq",Iraq,Trafigura,70210.0,TRAFIGURA-001,1.48,15.0
+Trafigura,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Trafigura,56072.0,TRAFIGURA-001,1.18,16.0
+Trafigura,"Amuay Bay, Venezuela",Venezuela,Nagano Trading Group Sa,55184.0,TRAFIGURA-001,1.17,17.0
+Trafigura,"All Other Ghana Ports, Ghana",Ghana,Kosmos Energy Ghana Hc,49875.0,TRAFIGURA-001,1.05,18.0
+Trafigura,"Caleta Cordova, Argentina",Argentina,Capex Sau,45548.35,TRAFIGURA-001,0.96,19.0
+Trafigura,"Caleta Cordova, Argentina",Argentina,Compania General De Combustibles,45125.16,TRAFIGURA-001,0.95,20.0
+Trafigura,"Pembroke, United Kingdom",United Kingdom,Valero,43996.0,TRAFIGURA-001,0.93,21.0
+Trafigura,"Barranquilla, Colombia",Colombia,Ecopetrol,43182.0,TRAFIGURA-001,0.91,22.0
+Trafigura,"All Other Argentina Ports, Argentina",Argentina,Trafigura,40586.0,TRAFIGURA-001,0.86,23.0
+Trafigura,"Porto De Sines, Portugal",Portugal,Petrogal S.A.,34621.09,TRAFIGURA-001,0.73,24.0
+Trafigura,"Bahia Blanca, Argentina",Argentina,Transportadora De Gas Del Sur Sa,26820.0,TRAFIGURA-001,0.57,25.0
+Trafigura,"Rio Grande, Brazil",Brazil,Braskem S.A.,15000.0,TRAFIGURA-001,0.32,26.0
+Trafigura,"Sept Iles, QUE, Canada",Canada,Amag Metal Gmb H,12396.06,TRAFIGURA-001,0.26,27.0
+Trafigura,"Onsan, South Korea",South Korea,Gs Caltex Corporation,11696.0,TRAFIGURA-001,0.25,28.0
+Trafigura,"Manzanillo, Mexico",Mexico,Trafigura,10762.0,TRAFIGURA-001,0.23,29.0
+Trafigura,"Bahia Blanca, Argentina",Argentina,Emirates Aluminium (EGA),10666.0,TRAFIGURA-001,0.23,30.0
+Trafigura,"Sao Paulo, Brazil",Brazil,Braskem Qpar Sa,10136.0,TRAFIGURA-001,0.21,31.0
+Trafigura,"Belize, Belize",Belize,Puma Energy,9920.0,TRAFIGURA-001,0.21,32.0
+Trafigura,"Rotterdam, Netherlands",Netherlands,Trafigura,9180.36,TRAFIGURA-001,0.19,33.0
+Trafigura,"Caleta Cordova, Argentina",Argentina,Tecpetrol S.A.,9109.67,TRAFIGURA-001,0.19,34.0
+Trafigura,"Sao Paulo, Brazil",Brazil,Braskem S.A. Cep 09270 901,8000.0,TRAFIGURA-001,0.17,35.0
+Trafigura,"All Other Chile Ports, Chile",Chile,Minera Centinela,6902.16,TRAFIGURA-001,0.15,36.0
+Trafigura,"Barranquilla, Colombia",Colombia,Odin Petroil Sa En Reestructuracion,6619.64,TRAFIGURA-001,0.14,37.0
+Trafigura,"Sao Paulo, Brazil",Brazil,Nexa Recursos Minerais S.A.,6571.55,TRAFIGURA-001,0.14,38.0
+Trafigura,"Rio De Janeiro, Brazil",Brazil,Braskem S.A.,6160.0,TRAFIGURA-001,0.13,39.0
+Trafigura,"Haifa, Israel",Israel,Gadiv Petrochemical Industries Ltd.,5080.84,TRAFIGURA-001,0.11,40.0
+Trafigura,"All Other Chile Ports, Chile",Chile,Corporacion Nacional Del Cobre De Chile,4010.82,TRAFIGURA-001,0.08,41.0
+Trafigura,"All Other Chile Ports, Chile",Chile,Grace S.A.,4005.78,TRAFIGURA-001,0.08,42.0
+Trafigura,"Onsan, South Korea",South Korea,Trafigura,2987.0,TRAFIGURA-001,0.06,43.0
+Trafigura,"Mumbai, India",India,Trafigura,2916.63,TRAFIGURA-001,0.06,44.0
+Trafigura,"Matarani, Peru",Peru,Sociedad Minera Cerro Verde S.A.A.,2801.44,TRAFIGURA-001,0.06,45.0
+Trafigura,"Onsan, South Korea",South Korea,"Total Energies Trading Asia Pte., Ltd.",1921.0,TRAFIGURA-001,0.04,46.0
+Trafigura,"All Other Chile Ports, Chile",Chile,Sociedad Contractual Minera Franke,892.38,TRAFIGURA-001,0.02,47.0
+Trafigura,"Antofagasta, Chile",Chile,Sociedad Contractual Minera Franke,752.96,TRAFIGURA-001,0.02,48.0
+Trafigura,"All Other Chile Ports, Chile",Chile,Santiago Metals Proyecto Dos Ltda,652.8,TRAFIGURA-001,0.01,49.0
+Trafigura,"Belize, Belize",Belize,Liaka Freedom,642.0,TRAFIGURA-001,0.01,50.0
+Valero,"Dos Bocas, Mexico",Mexico,PMI Trading,6511596.9,VALERO-001,18.46,1.0
+Valero,"Orangestad, Aruba",Aruba,Chevron,5335034.52,VALERO-001,15.12,2.0
+Valero,"Pajaritos, Mexico",Mexico,PMI Trading,2768623.54,VALERO-001,7.85,3.0
+Valero,"Coatzacoalcos, Mexico",Mexico,PMI Trading,2212422.66,VALERO-001,6.27,4.0
+Valero,"Quebec, Que, Canada",Canada,Valero,1957730.73,VALERO-001,5.55,5.0
+Valero,"Campeche, Mexico",Mexico,PMI Trading,1670845.61,VALERO-001,4.74,6.0
+Valero,"Pembroke, United Kingdom",United Kingdom,Valero,1605565.82,VALERO-001,4.55,7.0
+Valero,"Salina Cruz, Mexico",Mexico,PMI Trading,947925.08,VALERO-001,2.69,8.0
+Valero,"Altamira, Mexico",Mexico,PMI Trading,913889.19,VALERO-001,2.59,9.0
+Valero,"Khor Al Zubair, Iraq",Iraq,State Oil Marketing Company (SOMO),877550.53,VALERO-001,2.49,10.0
+Valero,"Al Basrah, Iraq",Iraq,State Oil Marketing Company (SOMO),617271.0,VALERO-001,1.75,11.0
+Valero,"Vancouver, BC, Canada",Canada,Suncor Energy,417626.3,VALERO-001,1.18,12.0
+Valero,"Khor Al Zubair, Iraq",Iraq,Gunvor Group,382974.0,VALERO-001,1.09,13.0
+Valero,"Lazaro Cardenas, Mexico",Mexico,PMI Trading,363161.15,VALERO-001,1.03,14.0
+Valero,"Aliaga, Turkey",Turkey,Star Rafineri As,325160.56,VALERO-001,0.92,15.0
+Valero,"Cayo Arcas, Mexico",Mexico,PMI Trading,311232.08,VALERO-001,0.88,16.0
+Valero,"Vancouver, BC, Canada",Canada,Cenovus Energy,263756.68,VALERO-001,0.75,17.0
+Valero,"San Nicolas Bay, Aruba",Aruba,Chevron,262845.46,VALERO-001,0.75,18.0
+Valero,"Khor Al Zubair, Iraq",Iraq,Galaxy Oil Fz Llc,237991.38,VALERO-001,0.67,19.0
+Valero,"Levis, Que, Canada",Canada,Valero,234667.68,VALERO-001,0.67,20.0
+Valero,"Al Fuhayhil, Kuwait",Kuwait,Kuwait Petrolium Corp.,229898.0,VALERO-001,0.65,21.0
+Valero,"All Other Colombian Caribbean Region Ports, Colombia",Colombia,Ecopetrol,221474.61,VALERO-001,0.63,22.0
+Valero,"Izmit, Turkey",Turkey,Turkiye Petrol Rafinerileri A.S,199673.04,VALERO-001,0.57,23.0
+Valero,"All Other Cameroon Ports, Cameroon",Cameroon,Addax Petroleum Cameroon,188164.94,VALERO-001,0.53,24.0
+Valero,"Freeport, Grand Bahama I, Bahamas",Bahamas,Aramco Americas,186900.0,VALERO-001,0.53,25.0
+Valero,"Novorossiysk, Russia",Russia,Tengizchevroil,179303.0,VALERO-001,0.51,26.0
+Valero,"Bedi, India",India,Reliance Industries,178401.76,VALERO-001,0.51,27.0
+Valero,"All Other Iraq Ports, Iraq",Iraq,State Oil Marketing Company (SOMO),176390.08,VALERO-001,0.5,28.0
+Valero,"Khor Fakkan, United Arab Emirates",United Arab Emirates,Galtrade Ltd.,174257.46,VALERO-001,0.49,29.0
+Valero,"All Other Argentina Ports, Argentina",Argentina,Valero,167792.96,VALERO-001,0.48,30.0
+Valero,"Vancouver, BC, Canada",Canada,Cenovus,161568.96,VALERO-001,0.46,31.0
+Valero,"All Other Colombian Caribbean Region Ports, Colombia",Colombia,Trafigura,159148.0,VALERO-001,0.45,32.0
+Valero,"Armuelles, Panama",Panama,Nnpc Trading Sa,153730.0,VALERO-001,0.44,33.0
+Valero,"All Other Venezuela Ports, Venezuela",Venezuela,Petropiar,151906.0,VALERO-001,0.43,34.0
+Valero,"All Other Colombian Caribbean Region Ports, Colombia",Colombia,Perenco Guatemala Ltd. Crd,151492.6,VALERO-001,0.43,35.0
+Valero,"Vancouver, BC, Canada",Canada,Parkland Corp.,148445.94,VALERO-001,0.42,36.0
+Valero,"All Other Mexico East Coast Region Ports, Mexico",Mexico,PMI Trading,148126.45,VALERO-001,0.42,37.0
+Valero,"Vancouver, BC, Canada",Canada,Valero,145123.36,VALERO-001,0.41,38.0
+Valero,"Veracruz, Mexico",Mexico,PMI Trading,133422.38,VALERO-001,0.38,39.0
+Valero,"Coatzacoalcos, Mexico",Mexico,Pmi Commercio International S.A. De,132142.0,VALERO-001,0.37,40.0
+Valero,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Shell Brasil Petroleo Ltda,129071.37,VALERO-001,0.37,41.0
+Valero,"Cristobal, Panama",Panama,Valero,125631.0,VALERO-001,0.36,42.0
+Valero,"Ras At Tannurah, Saudi Arabia",Saudi Arabia,Aramco Trading Fujairah,124803.1,VALERO-001,0.35,43.0
+Valero,"Milford Haven, United Kingdom",United Kingdom,Valero,116834.0,VALERO-001,0.33,44.0
+Valero,"Khor Al Zubair, Iraq",Iraq,Vs Petroleum Dmcc,110242.9,VALERO-001,0.31,45.0
+Valero,"All Other Iraq Ports, Iraq",Iraq,Gunvor Group,108903.0,VALERO-001,0.31,46.0
+Valero,"Esmeraldas, Ecuador",Ecuador,Trafigura,108213.14,VALERO-001,0.31,47.0
+Valero,"Freeport, Grand Bahama I, Bahamas",Bahamas,Valero,107275.69,VALERO-001,0.3,48.0
+Valero,"Aigion, Greece",Greece,Galtrade Ltd.,100372.76,VALERO-001,0.28,49.0
+Valero,"All Other Argentina Ports, Argentina",Argentina,Shell,96213.54,VALERO-001,0.27,50.0
+Valero,"Manzanillo, Mexico",Mexico,PMI Trading,94167.94,VALERO-001,0.27,51.0
+Valero,"Onsan, South Korea",South Korea,Sk Energy Co Internati,91357.0,VALERO-001,0.26,52.0
+Valero,"Rotterdam, Netherlands",Netherlands,Bp Oil International Ltd.,90588.0,VALERO-001,0.26,53.0
+Valero,"Calamata, Greece",Greece,Tupras Trading Ltd.,86713.0,VALERO-001,0.25,54.0
+Valero,"Fujairah, United Arab Emirates",United Arab Emirates,State Oil Marketing Company (SOMO),80485.32,VALERO-001,0.23,55.0
+Valero,"Skikda, Algeria",Algeria,Sonatrach,79556.0,VALERO-001,0.23,56.0
+Valero,"Quebec, Que, Canada",Canada,PMI Trading,78014.37,VALERO-001,0.22,57.0
+Valero,"All Other Netherlands Antilles Ports, Netherlands Antilles",Netherlands Antilles,Chevron,77343.0,VALERO-001,0.22,58.0
+Valero,"Dos Bocas, Mexico",Mexico,Pmi Commercio International S.A. De,76689.0,VALERO-001,0.22,59.0
+Valero,"All Other Oman Ports, Oman",Oman,Oq Trading Ltd.,73553.75,VALERO-001,0.21,60.0
+Valero,"Pajaritos, Mexico",Mexico,Pmi Commercio International S.A. De,69578.0,VALERO-001,0.2,61.0
+Valero,"Freeport, Grand Bahama I, Bahamas",Bahamas,BP,68950.0,VALERO-001,0.2,62.0
+Valero,"Pajaritos, Mexico",Mexico,Valero,66550.99,VALERO-001,0.19,63.0
+Valero,"Al Fuhayhil, Kuwait",Kuwait,Kuwait Petroleum Corp.,65743.0,VALERO-001,0.19,64.0
+Valero,"All Other Brazil Ports South Of Recife, Brazil",Brazil,Equinor Marketing And Trading Us,63281.0,VALERO-001,0.18,65.0
+Valero,"Amsterdam, Netherlands",Netherlands,Totsa Totalenergies Trading Sa,62693.45,VALERO-001,0.18,66.0
+Valero,"Rio De Janeiro, Brazil",Brazil,Statoil Brasil Oleo E Gas Ltda,61981.0,VALERO-001,0.18,67.0
+Valero,"All Other Scotland East Coast Ports, United Kingdom",United Kingdom,Bp Oil International Ltd.,61624.08,VALERO-001,0.17,68.0
+Valero,"Esmeraldas, Ecuador",Ecuador,Ecopetrol,54225.44,VALERO-001,0.15,69.0
+Valero,"Rotterdam, Netherlands",Netherlands,"Uti Worldwide (Singapore) Pte., Ltd.",52000.8,VALERO-001,0.15,70.0
+Valero,"Vancouver, BC, Canada",Canada,Unipec Canada Ltd.,51911.0,VALERO-001,0.15,71.0
+Valero,"All Other India East Coast Ports, India",India,Valero,51508.0,VALERO-001,0.15,72.0
+Valero,"Esmeraldas, Ecuador",Ecuador,Ep Petroecuador,50958.27,VALERO-001,0.14,73.0
+Valero,"Mamonal, Colombia",Colombia,Refineria De Cartagena S.A.,49552.8,VALERO-001,0.14,74.0
+Valero,"Santa Cruz De Tenerife, Spain",Spain,Aramco Trading Fujairah Fze,47500.0,VALERO-001,0.13,75.0
+Valero,"Al Fuhayhil, Kuwait",Kuwait,Glencore Energy Uk,45179.0,VALERO-001,0.13,76.0
+Valero,"Khor Al Zubair, Iraq",Iraq,Glencore Energy Uk,44878.0,VALERO-001,0.13,77.0
+Valero,"Fujairah, United Arab Emirates",United Arab Emirates,Glencore Energy Uk Ltd.,43128.0,VALERO-001,0.12,78.0
+Valero,"Milford Haven, United Kingdom",United Kingdom,Pembroke Energy Ltd.,42850.0,VALERO-001,0.12,79.0
+Valero,"Al Fuhayhil, Kuwait",Kuwait,Kuwait Petroleum Corp. (Kpc),41152.0,VALERO-001,0.12,80.0
+Valero,"Puerto Matias De Galves, Guatemala",Guatemala,Perenco Guatemala Ltd.,40989.38,VALERO-001,0.12,81.0
+Valero,"Fujairah, United Arab Emirates",United Arab Emirates,Oq Trading Ltd.,38267.34,VALERO-001,0.11,82.0
+Valero,"Mongstad, Norway",Norway,Equinor Mongstad,37641.0,VALERO-001,0.11,83.0
+Valero,"Mongstad, Norway",Norway,Equinor,37446.0,VALERO-001,0.11,84.0
+Valero,"Mongstad, Norway",Norway,Equinor Marketing & Trading (Us) In,37000.0,VALERO-001,0.1,85.0
+Valero,"Sao Paulo, Brazil",Brazil,Shell Brasil Petroleo Ltda,36468.0,VALERO-001,0.1,86.0
+Valero,"Amsterdam, Netherlands",Netherlands,Totsa Total Oil Trading S.A.,32092.0,VALERO-001,0.09,87.0
+Valero,"All Other Iraq Ports, Iraq",Iraq,Galaxy Oil Fz Llc,29726.0,VALERO-001,0.08,88.0
+Valero,"Cartagena, Colombia",Colombia,Grey Rock Gathering & Marketing Ll,29520.0,VALERO-001,0.08,89.0
+Valero,"Esmeraldas, Ecuador",Ecuador,Ep Petroecuador Alpallana,29210.0,VALERO-001,0.08,90.0
+Valero,"All Other Nigeria Ports, Nigeria",Nigeria,Dangote Petroleum Refinery And,28570.0,VALERO-001,0.08,91.0
+Valero,"Point Tupper, Cbi, Canada",Canada,Tartan Oil Llc,23385.0,VALERO-001,0.07,92.0
+Valero,"Samil, South Korea",South Korea,Gs Caltex Corporation,22302.0,VALERO-001,0.06,93.0
+Valero,"Khor Al Zubair, Iraq",Iraq,Oq Trading Ltd.,22000.0,VALERO-001,0.06,94.0
+Valero,"Al Fuhayhil, Kuwait",Kuwait,Glencore Energy Uk Ltd.,21683.0,VALERO-001,0.06,95.0
+Valero,"Al Jubail, Saudi Arabia",Saudi Arabia,Aramco Trading Co.,21271.44,VALERO-001,0.06,96.0
+Valero,"All Other United Arab Emirates Ports, United Arab Emirates",United Arab Emirates,Galtrade Ltd. Omc Chambers,19921.72,VALERO-001,0.06,97.0
+Valero,"Fujairah, United Arab Emirates",United Arab Emirates,Aramco Trading Fujairah Fze,19454.0,VALERO-001,0.06,98.0
+Valero,"Mongstad, Norway",Norway,Citgo,18121.0,VALERO-001,0.05,99.0
+Valero,"Saint John, Nb, Canada",Canada,Irving Oil,16940.0,VALERO-001,0.05,100.0
+Valero,"Montreal, Que, Canada",Canada,Valero,13548.0,VALERO-001,0.04,101.0
+Valero,"Mongstad, Norway",Norway,Equinor Marketing & Trading Us Inc.,13451.22,VALERO-001,0.04,102.0
+Valero,"Amsterdam, Netherlands",Netherlands,Valero,11277.0,VALERO-001,0.03,103.0
+Valero,"Halifax, Ns, Canada",Canada,Valero,8580.0,VALERO-001,0.02,104.0
+Valero,"Al Jubail, Saudi Arabia",Saudi Arabia,Saudi Aramco Toatl Refining And,8197.0,VALERO-001,0.02,105.0
+Valero,"All Other India West Coast Ports, India",India,Reliance Industries,5081.68,VALERO-001,0.01,106.0
+Valero,"Dos Bocas, Mexico",Mexico,Valero,500.0,VALERO-001,0.0,107.0
+Valero,"Rotterdam, Netherlands",Netherlands,Master Mt Hafnia Daisy,500.0,VALERO-001,0.0,107.0
+Valero,"Veracruz, Mexico",Mexico,Master Quartz,125.0,VALERO-001,0.0,108.0
+Valero,"Veracruz, Mexico",Mexico,Master Turquoise,106.0,VALERO-001,0.0,109.0
+Valero,"Pajaritos, Mexico",Mexico,Trafigura,84.0,VALERO-001,0.0,110.0
+Valero,"Pembroke, United Kingdom",United Kingdom,Damico Tankers Dac,73.0,VALERO-001,0.0,111.0
+Valero,"Pembroke, United Kingdom",United Kingdom,High Wind,73.0,VALERO-001,0.0,111.0
+Valero,"Veracruz, Mexico",Mexico,Mt Nord Mirai,43.2,VALERO-001,0.0,112.0
+Valero,"Antwerp, Belgium",Belgium,Monterey Services Inc.,32.0,VALERO-001,0.0,113.0
+Vitol,"Sint Eustatius, Netherlands Antilles",Netherlands Antilles,Vitol,317635.4,VITOL-001,8.99,1.0
+Vitol,"All Other Nigeria Ports, Nigeria",Nigeria,Sterling Oil Exploration Energy,317176.0,VITOL-001,8.98,2.0
+Vitol,"Al Fuhayhil, Kuwait",Kuwait,Kuwait Petroleum Corp.,203618.0,VITOL-001,5.76,3.0
+Vitol,"All Other Guyana Ports, Guyana",Guyana,ExxonMobil,137686.0,VITOL-001,3.9,4.0
+Vitol,"All Other India West Coast Ports, India",India,Nayara Energy Ltd. Refinery Division,125826.0,VITOL-001,3.56,5.0
+Vitol,"Freeport, Grand Bahama I, Bahamas",Bahamas,Vitol,116287.78,VITOL-001,3.29,6.0
+Vitol,"Altamira, Mexico",Mexico,PMI Trading,115455.19,VITOL-001,3.27,7.0
+Vitol,"Tianjin, China",China,"Tianjin Honor Green Energy Co., Ltd.",112816.86,VITOL-001,3.19,8.0
+Vitol,"Antwerp, Belgium",Belgium,Totsa Total Oil Trading S.A.,111682.0,VITOL-001,3.16,9.0
+Vitol,"All Other St. Croix Virgin Islands, Virgin Islands (U.S.)",Virgin Islands (U.S.),Vitol,106466.36,VITOL-001,3.01,10.0
+Vitol,"Barranquilla, Colombia",Colombia,Ecopetrol,97840.54,VITOL-001,2.77,11.0
+Vitol,"All Other Nigeria Ports, Nigeria",Nigeria,Dangote Petroleum Refinery And,89585.42,VITOL-001,2.54,12.0
+Vitol,"Salina Cruz, Mexico",Mexico,PMI Trading,78020.0,VITOL-001,2.21,13.0
+Vitol,"Christiansted, St. Croix, Virgin Islands (U.S.)",Virgin Islands (U.S.),Ecofuel Trading Sa,75348.0,VITOL-001,2.13,14.0
+Vitol,"Samil, South Korea",South Korea,Vitol,72365.0,VITOL-001,2.05,15.0
+Vitol,"All Other Nigeria Ports, Nigeria",Nigeria,First Exploration & Petroleum Development,65205.92,VITOL-001,1.85,16.0
+Vitol,"Coatzacoalcos, Mexico",Mexico,PMI Trading,61186.33,VITOL-001,1.73,17.0
+Vitol,"Amsterdam, Netherlands",Netherlands,Scl Rotterdam,58086.1,VITOL-001,1.64,18.0
+Vitol,"Quebec, Que, Canada",Canada,Vitol,57976.0,VITOL-001,1.64,19.0
+Vitol,"Tarragona, Spain",Spain,Repsol Petroleo,43544.0,VITOL-001,1.23,20.0
+Vitol,"Ashdod, Israel",Israel,Ashdod Refinery Ltd.,43492.96,VITOL-001,1.23,21.0
+Vitol,"Nansha, China",China,Sumec Technology And Equipment Co.,43388.09,VITOL-001,1.23,22.0
+Vitol,"Novorossiysk, Russia",Russia,Karachaganak Petroleum Operating,42883.8,VITOL-001,1.21,23.0
+Vitol,"Tianjin, China",China,"China Base Ningbo Foreign Trade Co., Ltd.",42209.34,VITOL-001,1.19,24.0
+Vitol,"Bilbao, Spain",Spain,Biodiesel Bilbao S.L.,40496.34,VITOL-001,1.15,25.0
+Vitol,"Aliaga, Turkey",Turkey,Tupras Turkey Petroleum Refineries,39360.18,VITOL-001,1.11,26.0
+Vitol,"Milford Haven, United Kingdom",United Kingdom,Valero,37840.0,VITOL-001,1.07,27.0
+Vitol,"Sao Paulo, Brazil",Brazil,Vitol,37616.0,VITOL-001,1.06,28.0
+Vitol,"Sao Sebastio, Brazil",Brazil,Petrobras,37058.4,VITOL-001,1.05,29.0
+Vitol,"Sarroch Oil Terminal, Italy",Italy,Saras Sp A,37022.0,VITOL-001,1.05,30.0
+Vitol,"All Other Sweden Ports, Sweden",Sweden,Preem Ab,36998.94,VITOL-001,1.05,31.0
+Vitol,"Dhuba, Saudi Arabia",Saudi Arabia,Saudi Arabian Oil Company,36393.0,VITOL-001,1.03,32.0
+Vitol,"Sao Sebastio, Brazil",Brazil,Vitol,36216.0,VITOL-001,1.03,33.0
+Vitol,"Onsan, South Korea",South Korea,Vitol,35731.0,VITOL-001,1.01,34.0
+Vitol,"Ashdod, Israel",Israel,Ashdod Refinery Std,35393.67,VITOL-001,1.0,35.0
+Vitol,"Lianyungang, China",China,Xiaoxian Kangdeli Grease Tech,34612.6,VITOL-001,0.98,36.0
+Vitol,"Rotterdam, Netherlands",Netherlands,Vitol,33489.0,VITOL-001,0.95,37.0
+Vitol,"Aigion, Greece",Greece,Vitol,32984.0,VITOL-001,0.93,38.0
+Vitol,"Tianjin, China",China,Vitol,28806.0,VITOL-001,0.82,39.0
+Vitol,"San Vicente, Chile",Chile,Enap Refinerias S.A. (Ersa),27874.0,VITOL-001,0.79,40.0
+Vitol,"Johore, Malaysia",Malaysia,Vance Bioenergy Sdn. Bhd.,26101.26,VITOL-001,0.74,41.0
+Vitol,"Lianyungang, China",China,"Hebei Duancheng Trading Co., Ltd.",25106.0,VITOL-001,0.71,42.0
+Vitol,"Talcahuano, Chile",Chile,Enap Refinerias S.A. (Ersa),24878.0,VITOL-001,0.7,43.0
+Vitol,"All Other Nigeria Ports, Nigeria",Nigeria,General Hydrocarbons Ltd.,23668.64,VITOL-001,0.67,44.0
+Vitol,"Pajaritos, Mexico",Mexico,PMI Trading,23629.9,VITOL-001,0.67,45.0
+Vitol,"Lazaro Cardenas, Mexico",Mexico,PMI Trading,23486.66,VITOL-001,0.66,46.0
+Vitol,"Nantong, China",China,Xiaoxian Kangdeli Grease Tech,22998.46,VITOL-001,0.65,47.0
+Vitol,"Saint John, Nb, Canada",Canada,Irving Oil,21236.0,VITOL-001,0.6,48.0
+Vitol,"All Other Nigeria Ports, Nigeria",Nigeria,Sterling Global Oil Resources Ltd.,19744.0,VITOL-001,0.56,49.0
+Vitol,"Lianyungang, China",China,"Qingdao Jingyun Unite Trade Co., Ltd.",17866.78,VITOL-001,0.51,50.0
+Vitol,"Izmit, Turkey",Turkey,Tupras Turkey Petroleum Refineries,16596.0,VITOL-001,0.47,51.0
+Vitol,"Nansha, China",China,Vitol,16508.0,VITOL-001,0.47,52.0
+Vitol,"Bullen Baai, Netherlands Antilles",Netherlands Antilles,Vitol,16208.0,VITOL-001,0.46,53.0
+Vitol,"Nansha, China",China,"Luzhou C & D Commodity Co., Ltd.",15998.99,VITOL-001,0.45,54.0
+Vitol,"Nansha, China",China,Sumec Technology & Eq Co Td,15883.57,VITOL-001,0.45,55.0
+Vitol,"Tianjin, China",China,Sumec Technology And Equipment Co.,14942.0,VITOL-001,0.42,56.0
+Vitol,"Quintero, Chile",Chile,Enap Refinerias S.A. (Ersa),13732.0,VITOL-001,0.39,57.0
+Vitol,"Nantong, China",China,Vitol,12991.0,VITOL-001,0.37,58.0
+Vitol,"Nantong, China",China,Xiamen C And D Commodity Trading,12017.0,VITOL-001,0.34,59.0
+Vitol,"Lianyungang, China",China,Vitol,11121.0,VITOL-001,0.31,60.0
+Vitol,"Aigion, Greece",Greece,Motor Oil (Hellas) Corinth Refineries S.A.,11099.6,VITOL-001,0.31,61.0
+Vitol,"Barranquilla, Colombia",Colombia,Ecopeteol Sa,10740.0,VITOL-001,0.3,62.0
+Vitol,"Sarroch Oil Terminal, Italy",Italy,Sarlux Refinery Sarroch (Italy),9954.0,VITOL-001,0.28,63.0
+Vitol,"Lianyungang, China",China,Lianyungang Weites New Energy Tech,5683.36,VITOL-001,0.16,64.0
+Vitol,"Tianjin, China",China,"Qingdao Jingyun Unite Trade Co., Ltd.",5151.0,VITOL-001,0.15,65.0
+Vitol,"Aratu, Brazil",Brazil,Braskem S.A.,2919.0,VITOL-001,0.08,66.0
+Vitol,"Lianyungang, China",China,Hunan Machinery And Equipment Imp.,2626.73,VITOL-001,0.07,67.0
+Vitol,"Tianjin, China",China,Qingdao Baditu New Energy Technolog,2470.0,VITOL-001,0.07,68.0
+Vitol,"Charlotte Amalie, St. Th, Virgin Islands (U.S.)",Virgin Islands (U.S.),Vitol,2090.0,VITOL-001,0.06,69.0
+Vitol,"Tianjin, China",China,"Hebei Duancheng Trading Co., Ltd.",1044.0,VITOL-001,0.03,70.0
+Vitol,"Lianyungang, China",China,Qingdao Baditu New Energy Technolog,1023.46,VITOL-001,0.03,71.0
+Vulcan Materials,"Puerto Cortes, Honduras",Honduras,Emirates Aluminium (EGA),2889135.51,VULCAN-001,87.27,1.0
+Vulcan Materials,"All Other Newfoundland Ports, Canada",Canada,Cemex,216259.84,VULCAN-001,6.53,2.0
+Vulcan Materials,"Ocho Rios, Jamaica",Jamaica,"Lydford Mining Co., Ltd.",187193.35,VULCAN-001,5.65,3.0
+Vulcan Materials,"All Other Canada Pacific Region Ports, Canada",Canada,Orca Sand and Gravel,18000.0,VULCAN-001,0.54,4.0
+Vulcan Materials,"Puerto Cortes, Honduras",Honduras,Mv H A Sklenar,0.13,VULCAN-001,0.0,5.0

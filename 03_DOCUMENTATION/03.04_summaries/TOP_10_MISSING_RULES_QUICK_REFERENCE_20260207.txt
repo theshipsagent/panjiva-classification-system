@@ -1,0 +1,220 @@
+================================================================================
+TOP 10 MISSING CLASSIFICATION RULES - QUICK REFERENCE
+================================================================================
+
+Date: 2026-02-07
+Source: Keyword Gap Analysis of 110,838 unclassified records (134.5M tons)
+
+ESTIMATED TOTAL IMPACT: 66.3M+ TONS (49.3% OF UNCLASSIFIED)
+
+================================================================================
+
+PRIORITY 1: PETROLEUM PRODUCTS (31.3M TONS TOTAL)
+================================================================================
+
+1. RENEWABLE DIESEL (3.7M tons, 641 records)
+   ----------------------------------------
+   Rule_ID: PETRO-RENEWABLE-DIESEL
+   Phase: 4
+   Keywords: RENEWABLE DIESEL, NESTE RENEWABLE
+   HS4: 2710
+   Package: LBK
+   Group: Liquid Bulk
+   Commodity: Petroleum
+   Cargo: Refined Products
+   Cargo_Detail: Renewable Diesel
+
+   Example: "NESTE RENEWABLE DIESEL 62519 BBLS" (HS 271019, LBK)
+
+2. NAPHTHA (4.9M tons, 470 records) **CRITICAL FIX**
+   ----------------------------------------
+   Rule_ID: PETRO-NAPHTHA-FIX
+   Phase: 4
+   Keywords: NAPHTHA, HVN, VIRGIN NAPHTHA
+   HS2: 27
+   HS4: 2707
+   Package: LBK
+   Group: Liquid Bulk (CURRENTLY MISCLASSIFIED AS DRY BULK)
+   Commodity: Petroleum
+   Cargo: Refined Products
+   Cargo_Detail: Naphtha
+   Note: Fix existing misclassification - naphtha is liquid, not dry bulk
+
+   Example: "VIRGIN NAPHTHA (35,000 NET BARRELS AT 60 DEG F)" (HS 270740, LBK)
+
+3. GASOLINE VARIANTS (139K tons, 120 records)
+   ----------------------------------------
+   Rule_ID: PETRO-GASOLINE-VARIANTS
+   Phase: 4
+   Keywords: GASOLINE, UNLEADED, PREMIUM GASOLINE
+   HS4: 2710
+   Package: LBK
+   Group: Liquid Bulk
+   Commodity: Petroleum
+   Cargo: Refined Products
+   Cargo_Detail: Gasoline
+
+   Example: "BULK REGULAR UNLEADED GASOLINE, 8333 BBLS" (HS 271012, LBK)
+
+================================================================================
+
+PRIORITY 2: STEEL PRODUCTS (25.1M TONS TOTAL)
+================================================================================
+
+4. STEEL COILS (5-10M tons estimated)
+   ----------------------------------------
+   Rule_ID: STEEL-COIL-GENERAL
+   Phase: 4
+   Keywords: STEEL COIL, COIL, HOT ROLLED COIL, COLD ROLLED COIL
+   HS2: 72
+   Group: Dry Bulk
+   Commodity: Steel
+   Cargo: Steel Products
+   Cargo_Detail: Steel Coil
+   Note: 5,061 keyword occurrences across unclassified records
+
+   Example: "COLOR COIL PRE-PAINTED HOT DIP GALVANIZED STEEL COIL" (HS 721070)
+
+5. HOT ROLLED STEEL (5-8M tons estimated)
+   ----------------------------------------
+   Rule_ID: STEEL-HOT-ROLLED
+   Phase: 4
+   Keywords: HOT ROLLED, HOT-ROLLED
+   HS2: 72
+   Group: Dry Bulk
+   Commodity: Steel
+   Cargo: Steel Products
+   Cargo_Detail: Hot Rolled Steel
+   Note: 2,118 keyword occurrences
+
+   Example: "HOT ROLLED STEEL PLATES IN BUNDLES" (HS 722540)
+
+6. STEEL PLATE (3-5M tons estimated)
+   ----------------------------------------
+   Rule_ID: STEEL-PLATE-GENERAL
+   Phase: 4
+   Keywords: STEEL PLATE, PLATE
+   HS2: 72
+   Group: Dry Bulk
+   Commodity: Steel
+   Cargo: Steel Products
+   Cargo_Detail: Steel Plate
+   Note: 1,628 keyword occurrences
+
+================================================================================
+
+PRIORITY 3: FOOD & AGRICULTURE (23.7M TONS TOTAL)
+================================================================================
+
+7. SOYBEAN MEAL (5-8M tons estimated)
+   ----------------------------------------
+   Rule_ID: FOOD-SOYBEAN-MEAL
+   Phase: 4
+   Keywords: SOYBEAN MEAL, SOY MEAL, MEAL
+   HS2: 23
+   Group: Dry Bulk
+   Commodity: Agricultural
+   Cargo: Grain & Oilseeds
+   Cargo_Detail: Soybean Meal
+   Note: 1,706 occurrences of "MEAL", 955 of "SOYBEAN"
+
+8. CORN (4-6M tons estimated)
+   ----------------------------------------
+   Rule_ID: FOOD-CORN-GENERAL
+   Phase: 4
+   Keywords: CORN, MAIZE
+   HS2: 10
+   Group: Dry Bulk
+   Commodity: Agricultural
+   Cargo: Grain & Oilseeds
+   Cargo_Detail: Corn
+   Note: 659 occurrences of "CORN"
+
+================================================================================
+
+PRIORITY 4: MINERALS & ORES (20.6M TONS TOTAL)
+================================================================================
+
+9. ALUMINUM (6-10M tons estimated)
+   ----------------------------------------
+   Rule_ID: METAL-ALUMINUM-GENERAL
+   Phase: 4
+   Keywords: ALUMINUM, ALUMINIUM, INGOT, BILLET
+   HS2: 76
+   Group: Dry Bulk
+   Commodity: Metals
+   Cargo: Non-Ferrous Metals
+   Cargo_Detail: Aluminum
+   Note: 1,867 occurrences of "ALUMINUM"
+
+10. NICKEL (3-5M tons estimated)
+    ----------------------------------------
+    Rule_ID: METAL-NICKEL-GENERAL
+    Phase: 4
+    Keywords: NICKEL
+    HS2: 75
+    Group: Dry Bulk
+    Commodity: Metals
+    Cargo: Non-Ferrous Metals
+    Cargo_Detail: Nickel
+    Note: 362 occurrences of "NICKEL"
+
+================================================================================
+
+IMPLEMENTATION CHECKLIST
+================================================================================
+
+[ ] 1. Add Rule: PETRO-RENEWABLE-DIESEL (3.7M tons)
+[ ] 2. Add Rule: PETRO-NAPHTHA-FIX (4.9M tons) **CRITICAL**
+[ ] 3. Add Rule: PETRO-GASOLINE-VARIANTS (139K tons)
+[ ] 4. Add Rule: STEEL-COIL-GENERAL (5-10M tons)
+[ ] 5. Add Rule: STEEL-HOT-ROLLED (5-8M tons)
+[ ] 6. Add Rule: STEEL-PLATE-GENERAL (3-5M tons)
+[ ] 7. Add Rule: FOOD-SOYBEAN-MEAL (5-8M tons)
+[ ] 8. Add Rule: FOOD-CORN-GENERAL (4-6M tons)
+[ ] 9. Add Rule: METAL-ALUMINUM-GENERAL (6-10M tons)
+[ ] 10. Add Rule: METAL-NICKEL-GENERAL (3-5M tons)
+
+ESTIMATED TOTAL GAIN: 40-66M TONS
+
+================================================================================
+
+CRITICAL FINDING: NAPHTHA MISCLASSIFICATION
+================================================================================
+
+ISSUE: HS code 270740 (Naphtha) is currently being classified as "Dry Bulk"
+       in some existing rules, but naphtha is a LIQUID petroleum product.
+
+EVIDENCE:
+- Package type: LBK (Liquid Bulk)
+- Goods descriptions: "VIRGIN NAPHTHA", "NAPHTHA (HVN)"
+- HS code: 2707.40 (Aromatic hydrocarbon mixtures - liquids)
+- Tonnage: 4.9M tons affected
+
+ACTION REQUIRED:
+1. Search existing dictionary for rules with HS 2707 or "NAPHTHA" keywords
+2. Update Group from "Dry Bulk" to "Liquid Bulk"
+3. Update Commodity to "Petroleum"
+4. Update Cargo to "Refined Products"
+5. Update Cargo_Detail to "Naphtha"
+
+This is a data quality issue, not just a missing rule.
+
+================================================================================
+
+NEXT STEPS
+================================================================================
+
+1. Review existing dictionary for naphtha misclassification
+2. Add top 10 rules to dictionary v3.7.0
+3. Test on 15K sample
+4. Validate tonnage gains
+5. Deploy to full 2023 dataset
+
+================================================================================
+
+For detailed analysis, see:
+- KEYWORD_GAP_ANALYSIS_RECOMMENDATIONS_20260207.md
+- unclassified_keyword_gap_analysis_20260207_114002.txt
+- unclassified_keyword_groups_20260207_114002.csv
+- unclassified_samples_by_keyword_20260207.txt

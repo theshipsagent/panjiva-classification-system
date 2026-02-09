@@ -1,0 +1,24 @@
+Order,Group,Commodity,Cargo,Cargo_Detail,Min_Tons,Max_Tons,Keywords,Exceptions,Note
+1,Break Bulk,Steel & Metals,Steel,Flat Rolled Steel,2,NONE,STEEL COILS|STEEL SHEETS|STEEL PLATES|HOT ROLLED|COLD ROLLED|STAINLESS STEEL|GALVANIZED STEEL|TIN PLATES,SCRAP|ACCESSORY|MACHINE,Flat rolled steel products
+2,Break Bulk,Steel & Metals,Steel,Long Steel,2,NONE,WIRE RODS|STEEL BEAMS|STEEL BARS|REBAR|STEEL BILLETS,SCRAP|ACCESSORY|MACHINE,Long steel products
+3,Break Bulk,Steel & Metals,Steel,Tubular Steel,2,NONE,TUBULAR|TUBES|PIPES|SEAMLESS|ERW|CASING|OCTG,,Tubular steel products
+4,Break Bulk,Steel & Metals,Ferrous Raw Materials,Steel Slabs,2,NONE,STEEL SLABS|CONTINUOUS CASTING,,Unfinished steel
+5,Break Bulk,Steel & Metals,Ferrous Raw Materials,Pig Iron,2,NONE,PIG IRON,,Raw iron
+6,Break Bulk,Steel & Metals,Ferrous Raw Materials,Ferro Alloys,2,NONE,FERROCHROME|FERROSILICON|FERROMANGANESE|SILICOMANGANESE,,Ferro alloys
+7,Break Bulk,Steel & Metals,Ferrous Raw Materials,Scrap Steel,100,NONE,SCRAP STEEL|STEEL SCRAP|SCRAP METAL|BUSHELING|SHREDDED SCRAP,WASTE|GARBAGE|FOOD|PLASTIC|DRUMS|CATALYTIC|MATTRESS,Scrap steel - min 100 tons
+8,Break Bulk,Steel & Metals,Aluminum,Aluminum,2,NONE,ALUMINUM INGOTS|ALUMINIUM BILLETS|PRIMARY ALUMINUM|ALUMINUM SCRAP,,Aluminum products
+9,Break Bulk,Steel & Metals,Copper,Copper,2,NONE,CATHODES|COPPER BARS|SX-EW COPPER|COPPER SCRAP,,Copper products
+10,Break Bulk,Steel & Metals,Zinc,Zinc,2,NONE,ZINC INGOTS|ZINC JUMBOS|ZINC SULPHATE,,Zinc products
+11,Break Bulk,Steel & Metals,Lead,Lead,2,NONE,LEAD INGOTS|LEAD JUMBOS|LEAD METAL,,Lead products
+12,Break Bulk,Steel & Metals,Nickel,Nickel,2,NONE,NICKEL CATHODES|NICKEL BRIQUETTES,,Nickel products
+13,Break Bulk,Steel & Metals,Tin,Tin,2,NONE,TIN INGOTS|TIN METAL,,Tin products
+14,Break Bulk,Forestry,Pulp,Pulp,2,NONE,PULP|SUZANO|WOODPULP|WOOD PULP,,Wood pulp
+15,Break Bulk,Forestry,Paper,Paper,2,NONE,PAPER|REELS|KLB|OSB|UPM|PAPERBOARD|KRAFT|LINER BOARD,,Paper products
+16,Break Bulk,Forestry,Lumber,Lumber,2,NONE,PLYWOOD|LUMBER|LOGS|VENEER|PINE|BIRCH|WHITEWOOD|MDF|FIBRE BOARD,,Lumber and wood products
+17,Dry Bulk,Construction Materials,Aggregates,Aggregates,500,NONE,SAND|GRAVEL|STONE|ROCK|CRUSHED STONE|LIMESTONE|GRANITE|AGGREGATES|PEBBLES|BALLAST,,Construction aggregates
+18,Dry Bulk,Construction Materials,Cement,Cement,500,NONE,CEMENT|PORTLAND CEMENT|CLINKER,,Cement and clinker
+19,Dry Bulk,Construction Materials,Gypsum,Gypsum,500,NONE,GYPSUM|PLASTER,,Gypsum products
+20,Dry Bulk,Ferrous Raw Materials,Iron Ore,Iron Ore,500,NONE,IRON ORE|IRON PELLETS|TALCONITE|LKAB|DRI|DIRECT REDUCTION|HEMATITE|MAGNETITE,,Iron ore and pellets
+21,Dry Bulk,NonFerrous Raw Materials,Bauxite,Bauxite,500,NONE,BAUXITE,,Bauxite ore
+22,Dry Bulk,NonFerrous Raw Materials,Alumina,Alumina,500,NONE,ALUMINA,,Processed bauxite
+23,Dry Bulk,NonFerrous Raw Materials,TiO2,TiO2,500,NONE,TIO2|TITANIUM SLAG|ILMENITE|RUTILE,,Titanium ores

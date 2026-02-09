@@ -1,0 +1,28 @@
+Entity_ID,Canonical_Name,Entity_Type,Parent_Company,Match_Keywords,Match_Strategy,Category,Active,Notes,Estimated_Tons
+PMI-001,PMI Trading,Trading Company,Philip Morris International,PMI TRADING;PMI TRAD;PMI COME,Contains,All,TRUE,Tobacco products trading - multiple legal entities,40000000
+VALERO-001,Valero,Oil Refining,Valero Energy Corporation,VALERO,Contains,All,TRUE,Major US refiner - clean up HTML entities &AMP;,60000000
+CHEVRON-001,Chevron,Oil & Gas,Chevron Corporation,CHEVRON,Contains,All,TRUE,Multiple business units - combine all Chevron entities,40000000
+EXXONMOBIL-001,ExxonMobil,Oil & Gas,Exxon Mobil Corporation,EXXONMOBIL;EXXON MOBIL,Contains,All,TRUE,Chemicals and petroleum - many variants,20000000
+IRVING-001,Irving Oil,Oil Refining,Irving Oil,IRVING OIL,Contains,All,TRUE,Canadian refiner - Irving Oil Ltd/Refining/Terminals,40000000
+BOLANTER-001,Bolanter Corporation,Trading Company,,BOLANTER,Contains,All,TRUE,Saudi Aramco affiliate,15000000
+SOMO-001,State Oil Marketing Company (SOMO),Oil Marketing,Iraqi Government,SOMO;STATE OIL MARKETING,Contains,All,TRUE,Iraqi state oil marketer,13000000
+ECOPETROL-001,Ecopetrol,Oil & Gas,Ecopetrol,ECOPETROL,Contains,All,TRUE,Colombian state oil company,22000000
+TRAFIGURA-001,Trafigura,Trading Company,Trafigura Group,TRAFIGURA,Contains,All,TRUE,Major commodity trader,14000000
+PBF-001,PBF Energy,Oil Refining,PBF Energy,PBF HOLDING,Contains,All,TRUE,US independent refiner,26000000
+PDVSA-001,PDVSA,Oil & Gas,Venezuelan Government,PDVSA,Contains,All,TRUE,Venezuelan state oil company,8000000
+TERNIUM-001,Ternium,Steel,Ternium,TERNIUM,Contains,All,TRUE,Steel producer - Brazil and Mexico entities,14000000
+PETROPIAR-001,Petropiar,Oil & Gas,PDVSA/Chevron JV,PETROPIAR,Contains,All,TRUE,Venezuela heavy oil JV - multiple address variants,6000000
+MARTIN-001,Martin Marietta,Construction Materials,Martin Marietta,MARTIN MARIETTA,Contains_All,All,TRUE,Requires BOTH tokens - not Martin Gas or Martin Wine,13000000
+COMPANIA-MINERA-001,Compania Minera,Mining,,COMPANIA MINERA,Contains,Shipper,TRUE,Mining companies - may need sub-entities,8000000
+EMIRATES-001,Emirates Aluminium (EGA),Aluminum,Emirates Global Aluminium,EMIRATES ALUMINIUM;EGA,Contains,All,TRUE,UAE aluminum producer,12000000
+DUBAI-001,Dubai Aluminium,Aluminum,Emirates Global Aluminium,DUBAI ALUMINIUM,Contains,All,TRUE,UAE aluminum producer - may be same as EGA,4000000
+PETROBRAS-001,Petrobras,Oil & Gas,Petroleo Brasileiro,PETROBRAS;PETROLEO BRASILEIRO,Contains,All,TRUE,Brazilian state oil company,4000000
+MARATHON-001,Marathon Petroleum,Oil Refining,Marathon Petroleum Corporation,MARATHON PETROLEUM,Contains,All,TRUE,US refiner,17000000
+SAUDI-REFINING-001,Saudi Refining Inc,Oil Refining,Saudi Aramco/Shell JV,SAUDI REFINING,Contains,All,TRUE,Port Arthur refinery JV,15000000
+MOSAIC-001,Mosaic,Fertilizer,The Mosaic Company,MOSAIC FERTILIZER,Contains,All,TRUE,Phosphate fertilizer producer,5000000
+CITGO-001,Citgo,Oil Refining,PDVSA (Venezuelan state),CITGO,Contains,All,TRUE,US refiner owned by Venezuela,5000000
+BP-001,BP,Oil & Gas,BP plc,BP PRODUCTS,Contains,All,TRUE,British petroleum major,5000000
+MOTIVA-001,Motiva Enterprises,Oil Refining,Saudi Aramco,MOTIVA ENTERPRISES,Contains,All,TRUE,Saudi Aramco US refining subsidiary,14000000
+CELANESE-001,Celanese,Chemicals,Celanese Corporation,CELANESE,Contains,All,TRUE,Chemical manufacturer - Mexico and Europe entities,9000000
+MORTON-001,Morton Salt,Salt,K+S Group,MORTON SALT,Contains,All,TRUE,Major US salt producer,3000000
+VULCAN-001,Vulcan Materials,Construction Materials,Vulcan Materials Company,VULCAN,Contains,All,TRUE,Largest US aggregates producer,3000000

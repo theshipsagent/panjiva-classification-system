@@ -1,0 +1,13 @@
+Metric,Value,Description
+Total Unique Entities,52179.0,All entities across all roles
+Unique Shippers,12676.0,Entities appearing as shippers
+Unique Consignees,17009.0,Entities appearing as consignees
+Unique Notify Parties,23815.0,Entities appearing as notify parties
+Multi-Role Entities,1290.0,Entities appearing in 2+ roles
+Shipper-Consignee Relationships,28845.0,Unique shipper→consignee pairs
+Avg Customers per Shipper,2.275560113600505,Average consignees per shipper
+Avg Suppliers per Consignee,1.6958668939972956,Average shippers per consignee
+Top 10 Shipper Concentration,30.642663932197934,% of tonnage from top 10 shippers
+Top 10 Consignee Concentration,38.97574626933441,% of tonnage to top 10 consignees
+Exclusive Shippers (1 customer),8885.0,Shippers supplying single consignee
+Exclusive Shipper %,70.09308930261912,% of shippers with single customer

@@ -1,0 +1,24 @@
+Order,Group,Commodity,Cargo,Cargo_Detail,Min_Tons,Max_Tons,Keywords,Exceptions,Regex_Notes
+1,Break Bulk,Steel & Metals,Steel,Flat Rolled Steel,2,NONE,STEEL\s*COILS?|STEEL\s*SHEETS?|STEEL\s*PLATES?|HOT\s*ROLLED|COLD\s*ROLLED,SCRAP|ACCESSORY|MACHINE,"\s* allows optional spaces, s? handles plurals"
+2,Break Bulk,Steel & Metals,Steel,Long Steel,2,NONE,WIRE\s*RODS?|STEEL\s*BEAMS?|STEEL\s*BARS?|\bREBAR\b|STEEL\s*BILLETS?,SCRAP|ACCESSORY|MACHINE,"\b ensures word boundary for REBAR"
+3,Break Bulk,Steel & Metals,Steel,Tubular Steel,2,NONE,\bTUBULAR\b|\bTUBES?\b|\bPIPES?\b|\bSEAMLESS\b|\bERW\b,,"\b prevents matching inside other words"
+4,Break Bulk,Steel & Metals,Ferrous Raw Materials,Steel Slabs,2,NONE,STEEL\s*SLABS?|CONTINU[OI]US\s*CASTING,,"[OI] handles spelling variants CONTINUOUS/CONTINIOUS"
+5,Break Bulk,Steel & Metals,Ferrous Raw Materials,Pig Iron,2,NONE,PIG\s*IRON,,\s* handles optional space
+6,Break Bulk,Steel & Metals,Ferrous Raw Materials,Ferro Alloys,2,NONE,FERRO\s*CHROME|FERRO\s*SILICON|FERRO\s*MANGANESE,,Handles FERROCHROME or FERRO CHROME
+7,Break Bulk,Steel & Metals,Ferrous Raw Materials,Scrap Steel,100,NONE,SCRAP\s*STEEL|STEEL\s*SCRAP|SCRAP\s*METAL|\bBUSHELING\b,WASTE|GARBAGE|FOOD|PLASTIC,Excludes non-cargo waste
+8,Break Bulk,Steel & Metals,Aluminum,Aluminum,2,NONE,ALUMINUM\s*INGOTS?|ALUMINIUM\s*BILLETS?|PRIMARY\s*ALUMIN[IU]M,,Handles US/UK spelling ALUMINUM/ALUMINIUM
+9,Break Bulk,Steel & Metals,Copper,Copper,2,NONE,\bCATHODES?\b|COPPER\s*BARS?|SX\s*-\s*EW\s*COPPER,,\s*-\s* handles optional hyphen and spaces
+10,Break Bulk,Steel & Metals,Zinc,Zinc,2,NONE,ZINC\s*INGOTS?|ZINC\s*JUMBOS?|ZINC\s*SUL[FP]HATE,,SUL[FP]HATE handles SULFATE/SULPHATE
+11,Break Bulk,Steel & Metals,Lead,Lead,2,NONE,LEAD\s*INGOTS?|LEAD\s*JUMBOS?|LEAD\s*METAL,,s? handles singular/plural
+12,Break Bulk,Steel & Metals,Nickel,Nickel,2,NONE,NICKEL\s*CATHODES?|NICKEL\s*BRIQUETTES?,,s? handles singular/plural
+13,Break Bulk,Steel & Metals,Tin,Tin,2,NONE,TIN\s*INGOTS?|\bTIN\s*METAL\b,,\b ensures TIN doesn't match LATIN
+14,Break Bulk,Forestry,Pulp,Pulp,2,NONE,\bPULP\b|\bSUZANO\b|WOODPULP|WOOD\s*PULP,,\b prevents PULPY or PULPED
+15,Break Bulk,Forestry,Paper,Paper,2,NONE,\bPAPER\b|\bREELS\b|\bKRAFT\b|LINER\s*BOARD,,\s* handles optional space in LINER BOARD
+16,Break Bulk,Forestry,Lumber,Lumber,2,NONE,\bPLYWOOD\b|\bLUMBER\b|\bLOGS?\b|PLY\s*WOOD|FIBRE\s*BOARD,,Handles PLYWOOD or PLY WOOD
+17,Dry Bulk,Construction Materials,Aggregates,Aggregates,500,NONE,\bSAND\b|\bGRAVEL\b|\bSTONE\b|CRUSHED\s*STONE|AGGREGATES?,,Word boundaries prevent SANDAL
+18,Dry Bulk,Construction Materials,Cement,Cement,500,NONE,\bCEMENT\b|PORTLAND\s*CEMENT|\bCLINKER\b,,\s* handles optional space
+19,Dry Bulk,Construction Materials,Gypsum,Gypsum,500,NONE,\bGYPSUM\b|\bPLASTER\b,,Word boundaries only
+20,Dry Bulk,Ferrous Raw Materials,Iron Ore,Iron Ore,500,NONE,IRON\s*ORE|IRON\s*PELLETS?|\bTALCONITE\b|\bDRI\b,,\s* handles optional space
+21,Dry Bulk,NonFerrous Raw Materials,Bauxite,Bauxite,500,NONE,\bBAUXITE\b,,Word boundary only
+22,Dry Bulk,NonFerrous Raw Materials,Alumina,Alumina,500,NONE,\bALUMINA\b,,Word boundary only
+23,Dry Bulk,NonFerrous Raw Materials,TiO2,TiO2,500,NONE,\bTIO2\b|TITANIUM\s*SLAG|\bILMENITE\b,,\s* handles optional space

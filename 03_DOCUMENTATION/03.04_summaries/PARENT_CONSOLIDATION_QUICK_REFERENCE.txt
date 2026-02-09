@@ -1,0 +1,212 @@
+================================================================================
+PARENT COMPANY CONSOLIDATION - QUICK REFERENCE
+Generated: 2026-02-05
+================================================================================
+
+CORPORATE FAMILIES (Multi-Subsidiary)
+--------------------------------------------------------------------------------
+
+1. PBF Energy (3 subsidiaries)
+   └─ PBF Energy (26.0M est. tons)
+   └─ Paulsboro Refining (2.4M est. tons)
+   └─ Delaware City Refining (1.4M est. tons)
+   TOTAL: 29.8M estimated tons
+   ACTUAL (2024): 8.2M shipper, 18.3M consignee
+
+2. Emirates Global Aluminium (2 subsidiaries)
+   └─ Emirates Aluminium (EGA) (12.0M est. tons)
+   └─ Dubai Aluminium (4.0M est. tons)
+   TOTAL: 16.0M estimated tons
+   ACTUAL (2024): 13.4M shipper, 15.3M consignee
+   BIGGEST IMPACT: Dubai Aluminium rank #19 → #6 (+13 positions)
+
+3. Saudi Aramco (2 subsidiaries)
+   └─ Motiva Enterprises (14.0M est. tons)
+   └─ Aramco Americas (6.0M est. tons)
+   TOTAL: 20.0M estimated tons
+
+================================================================================
+MARKET CONCENTRATION METRICS
+================================================================================
+
+SHIPPER SIDE (Who's Sending Cargo to US)
+--------------------------------------------------------------------------------
+Total Tonnage:     227.6M tons (31.5% of total imports)
+Parent Companies:  21
+HHI:               817 (Competitive market)
+CR4:               45.3% (top 4 control)
+CR8:               68.0% (top 8 control)
+
+Top 3:
+  #1 Philip Morris International  40.6M tons  17.8%
+  #2 Chevron Corporation           28.0M tons  12.3%
+  #3 Irving Oil                    18.9M tons   8.3%
+
+CONSIGNEE SIDE (Who's Receiving Cargo in US)
+--------------------------------------------------------------------------------
+Total Tonnage:     267.7M tons (37.0% of total imports)
+Parent Companies:  21
+HHI:               1,052 (Competitive market, but more concentrated than shipper)
+CR4:               52.2% (top 4 control)
+CR8:               76.8% (top 8 control)
+
+Top 3:
+  #1 Chevron Corporation           58.7M tons  21.9%
+  #2 Valero Energy Corporation     43.5M tons  16.3%
+  #3 Exxon Mobil Corporation       19.0M tons   7.1%
+
+================================================================================
+COMMODITY-SPECIFIC CONCENTRATION
+================================================================================
+
+CRUDE OIL (73.7M tons)
+--------------------------------------------------------------------------------
+  #1 Chevron Corporation           17.5M tons  23.8%
+  #2 Bolanter Corporation          14.8M tons  20.1% (Saudi Aramco affiliate)
+  #3 Philip Morris International    9.0M tons  12.2%
+  #4 Iraqi Government (SOMO)        8.1M tons  11.1%
+  #5 Valero Energy Corporation      5.7M tons   7.7%
+
+  TOP 5 CONTROL: 74.8% (Highly concentrated)
+
+PETROLEUM PRODUCTS (23.8M tons)
+--------------------------------------------------------------------------------
+  #1 Chevron Corporation            5.6M tons  23.4%
+  #2 Philip Morris International    4.1M tons  17.2%
+  #3 Iraqi Government (SOMO)        2.9M tons  12.0%
+  #4 Valero Energy Corporation      2.2M tons   9.2%
+  #5 Trafigura Group                1.6M tons   6.6%
+
+  TOP 5 CONTROL: 68.4% (Moderate concentration)
+
+CHEMICALS (9.8M tons)
+--------------------------------------------------------------------------------
+  #1 Exxon Mobil Corporation        5.1M tons  51.7%
+  #2 Celanese Corporation           4.5M tons  46.3%
+
+  TOP 2 CONTROL: 98.0% (EXTREME concentration - near duopoly)
+
+GENERAL CARGO / ALUMINUM (22.4M tons)
+--------------------------------------------------------------------------------
+  #1 Emirates Global Aluminium      8.2M tons  36.7%
+  #2 Compania Minera                6.2M tons  27.5%
+  #3 Philip Morris International    1.9M tons   8.4%
+
+  EMIRATES DOMINANCE: 36.7% market share (oligopoly)
+
+CONSTRUCTION MATERIALS (8.3M tons)
+--------------------------------------------------------------------------------
+  #1 Martin Marietta                5.3M tons  64.3%
+  #2 Emirates Global Aluminium      2.9M tons  35.7%
+
+  TOP 2 CONTROL: 100% (Duopoly)
+
+================================================================================
+KEY INSIGHTS
+================================================================================
+
+1. CONSOLIDATION IMPACT
+   - Dubai Aluminium (#19) + Emirates Aluminium (#10) = Emirates Global (#6)
+   - Rank jump: +13 positions for Dubai, +4 for Emirates
+   - Combined market share: 5.9% (shipper), 5.7% (consignee)
+
+2. US REFINING OLIGOPOLY
+   - Top 6 refiners control 65.4% of consignee tonnage
+   - Chevron, Valero, ExxonMobil dominate with 84.2M tons (31.5%)
+   - PBF Energy (3 refineries) ranks #5 with 18.3M tons (6.8%)
+
+3. SECTOR MONOPOLIES REVEALED
+   - Chemicals: ExxonMobil + Celanese duopoly (98%)
+   - Construction Materials: Martin Marietta + Emirates duopoly (100%)
+   - Crude Oil: Top 5 control 74.8%
+
+4. STATE-OWNED ENTERPRISES DOMINATE SUPPLY
+   - Iraqi Government (SOMO): 15.7M tons (6.9%)
+   - Venezuelan Government (PDVSA): 8.1M tons (3.6%)
+   - Ecopetrol (Colombia): 12.0M tons (5.3%)
+   - Saudi Aramco (via subsidiaries): ~35M tons estimated
+
+5. MARKET POWER CONCENTRATION
+   - Consignee side MORE concentrated than shipper side
+   - US domestic processing controlled by fewer players
+   - Global supply more fragmented across state/private entities
+
+================================================================================
+DATA COVERAGE
+================================================================================
+
+Entity Harmonization:
+  - 8,802 shipper records (2.0% of total records, 31.5% of tonnage)
+  - 10,766 consignee records (2.4% of total records, 37.0% of tonnage)
+
+Commodity Classification:
+  - 433,932 records classified (96.6% coverage)
+  - 724M tons total, 496M tons classified (68.5% coverage)
+
+Parent Company Dictionary:
+  - 69 entities in dictionary
+  - 50 entities with parent companies (72.5%)
+  - 46 unique parent companies
+  - 3 corporate families with multiple subsidiaries
+
+================================================================================
+RANKING COMPARISON: ENTITY vs PARENT (SHIPPER SIDE)
+================================================================================
+
+                                    ENTITY    PARENT
+                                    RANK      RANK      CHANGE
+--------------------------------------------------------------------------------
+PMI Trading                         #1        #1         0
+Chevron                             #2        #2         0
+Irving Oil                          #3        #3         0
+SOMO (Iraq)                         #4        #4         0
+Bolanter                            #5        #5         0
+Emirates Aluminium (EGA)            #10       #6        +4  ← CONSOLIDATED
+Ecopetrol                           #6        #7        -1
+Valero                              #7        #8        -1
+Trafigura                           #8        #9        -1
+ExxonMobil                          #9        #10       -1
+PBF Energy                          #11       #11        0
+PDVSA                               #12       #12        0
+Petropiar                           #13       #13        0
+Compania Minera                     #14       #14        0
+Ternium                             #15       #15        0
+Martin Marietta                     #16       #16        0
+Petrobras                           #17       #17        0
+Celanese                            #18       #18        0
+Dubai Aluminium                     #19       #6       +13  ← CONSOLIDATED
+BP                                  #20       #19       +1
+Marathon Petroleum                  #21       #20       +1
+Citgo                               #22       #21       +1
+
+MAJOR CONSOLIDATION: Dubai Aluminium + Emirates Aluminium = Emirates Global
+
+================================================================================
+FILES GENERATED
+================================================================================
+
+1. parent_company_market_share_v1.0.0_20260205_2313.csv
+   → Complete parent rankings (shipper + consignee roles)
+
+2. corporate_family_structures_v1.0.0_20260205_2313.csv
+   → Multi-subsidiary corporate families (3 families identified)
+
+3. entity_vs_parent_comparison_v1.0.0_20260205_2313.csv
+   → Entity-level vs parent-level rank changes
+
+4. parent_rollup_summary_v1.0.0_20260205_2313.txt
+   → Detailed text summary with top 20 rankings
+
+5. parent_company_by_commodity_v1.0.0.csv
+   → Commodity-specific parent market share breakdowns
+
+6. PARENT_COMPANY_CONSOLIDATION_INSIGHTS_v1.0.0.md
+   → Complete analysis with strategic implications
+
+7. PARENT_CONSOLIDATION_QUICK_REFERENCE.txt
+   → This quick reference document
+
+================================================================================
+SCRIPT: analyze_parent_company_rollups_v1.0.0.py
+LOCATION: G:\My Drive\LLM\project_manifest\02_SCRIPTS\02.04_analysis\
+================================================================================

@@ -1,0 +1,210 @@
+================================================================================
+PARENT COMPANY ROLLUP ANALYSIS - SUMMARY REPORT
+Generated: 2026-02-05 23:10:08
+================================================================================
+
+OVERVIEW
+--------------------------------------------------------------------------------
+Total entities in dictionary: 69
+Entities with parent companies: 50
+Unique parent companies: 46
+Corporate families (multi-subsidiary): 3
+
+TOP CORPORATE FAMILIES (by subsidiary count)
+--------------------------------------------------------------------------------
+2. PBF Energy: 3 subsidiaries
+   PBF Energy; Paulsboro Refining; Delaware City Refining
+
+1. Emirates Global Aluminium: 2 subsidiaries
+   Emirates Aluminium (EGA); Dubai Aluminium
+
+3. Saudi Aramco: 2 subsidiaries
+   Motiva Enterprises; Aramco Americas
+
+
+SHIPPER ANALYSIS
+--------------------------------------------------------------------------------
+Total records with shipper entity: 8,802
+Unique parent companies: 21
+Total tonnage: 227,625,885 tons
+HHI: 817
+CR4: 45.3%
+CR8: 68.0%
+
+TOP 20 PARENT COMPANIES (Shipper)
+--------------------------------------------------------------------------------
+1. Philip Morris International
+   Tonnage: 40,577,035 tons (17.83%)
+   Records: 849
+
+2. Chevron Corporation
+   Tonnage: 28,006,106 tons (12.30%)
+   Records: 878
+
+3. Irving Oil
+   Tonnage: 18,945,929 tons (8.32%)
+   Records: 2,773
+
+4. Iraqi Government
+   Tonnage: 15,692,342 tons (6.89%)
+   Records: 254
+
+5. Bolanter Corporation
+   Tonnage: 14,980,446 tons (6.58%)
+   Records: 216
+
+6. Emirates Global Aluminium
+   Tonnage: 13,409,605 tons (5.89%)
+   Records: 1,160
+
+7. Ecopetrol
+   Tonnage: 11,950,544 tons (5.25%)
+   Records: 236
+
+8. Valero Energy Corporation
+   Tonnage: 11,177,163 tons (4.91%)
+   Records: 448
+
+9. Trafigura Group
+   Tonnage: 10,188,834 tons (4.48%)
+   Records: 405
+
+10. Exxon Mobil Corporation
+   Tonnage: 9,563,714 tons (4.20%)
+   Records: 311
+
+11. PBF Energy
+   Tonnage: 8,153,373 tons (3.58%)
+   Records: 146
+
+12. Venezuelan Government
+   Tonnage: 8,090,093 tons (3.55%)
+   Records: 131
+
+13. PDVSA/Chevron JV
+   Tonnage: 6,613,399 tons (2.91%)
+   Records: 95
+
+14. Compania Minera
+   Tonnage: 6,526,941 tons (2.87%)
+   Records: 266
+
+15. Ternium
+   Tonnage: 6,259,517 tons (2.75%)
+   Records: 132
+
+16. Martin Marietta
+   Tonnage: 5,310,170 tons (2.33%)
+   Records: 105
+
+17. Petroleo Brasileiro
+   Tonnage: 4,629,424 tons (2.03%)
+   Records: 92
+
+18. Celanese Corporation
+   Tonnage: 4,588,391 tons (2.02%)
+   Records: 205
+
+19. BP plc
+   Tonnage: 1,309,203 tons (0.58%)
+   Records: 55
+
+20. Marathon Petroleum Corporation
+   Tonnage: 1,149,798 tons (0.51%)
+   Records: 23
+
+
+CONSIGNEE ANALYSIS
+--------------------------------------------------------------------------------
+Total records with consignee entity: 10,766
+Unique parent companies: 21
+Total tonnage: 267,682,797 tons
+HHI: 1,052
+CR4: 52.2%
+CR8: 76.8%
+
+TOP 20 PARENT COMPANIES (Consignee)
+--------------------------------------------------------------------------------
+1. Chevron Corporation
+   Tonnage: 58,716,616 tons (21.94%)
+   Records: 1,457
+
+2. Valero Energy Corporation
+   Tonnage: 43,527,418 tons (16.26%)
+   Records: 1,245
+
+3. Exxon Mobil Corporation
+   Tonnage: 19,038,868 tons (7.11%)
+   Records: 692
+
+4. Irving Oil
+   Tonnage: 18,336,049 tons (6.85%)
+   Records: 2,706
+
+5. PBF Energy
+   Tonnage: 18,298,929 tons (6.84%)
+   Records: 391
+
+6. Marathon Petroleum Corporation
+   Tonnage: 17,365,076 tons (6.49%)
+   Records: 431
+
+7. Emirates Global Aluminium
+   Tonnage: 15,338,585 tons (5.73%)
+   Records: 1,368
+
+8. Saudi Aramco/Shell JV
+   Tonnage: 14,980,446 tons (5.60%)
+   Records: 216
+
+9. Ecopetrol
+   Tonnage: 10,163,123 tons (3.80%)
+   Records: 158
+
+10. Martin Marietta
+   Tonnage: 8,481,079 tons (3.17%)
+   Records: 192
+
+11. Ternium
+   Tonnage: 8,418,588 tons (3.14%)
+   Records: 629
+
+12. The Mosaic Company
+   Tonnage: 5,144,476 tons (1.92%)
+   Records: 96
+
+13. PDVSA (Venezuelan state)
+   Tonnage: 5,094,433 tons (1.90%)
+   Records: 116
+
+14. Trafigura Group
+   Tonnage: 5,005,001 tons (1.87%)
+   Records: 236
+
+15. BP plc
+   Tonnage: 4,848,269 tons (1.81%)
+   Records: 209
+
+16. Celanese Corporation
+   Tonnage: 4,596,384 tons (1.72%)
+   Records: 203
+
+17. K+S Group
+   Tonnage: 4,589,922 tons (1.71%)
+   Records: 149
+
+18. Vulcan Materials Company
+   Tonnage: 3,310,608 tons (1.24%)
+   Records: 92
+
+19. Petroleo Brasileiro
+   Tonnage: 1,248,937 tons (0.47%)
+   Records: 35
+
+20. Philip Morris International
+   Tonnage: 705,250 tons (0.26%)
+   Records: 27
+
+
+KEY INSIGHTS - ENTITY VS PARENT CONSOLIDATION
+--------------------------------------------------------------------------------

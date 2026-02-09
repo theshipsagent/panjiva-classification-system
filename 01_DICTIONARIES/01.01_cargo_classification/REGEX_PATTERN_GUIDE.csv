@@ -1,0 +1,8 @@
+Pattern,Explanation,Example,Matches
+s?,Optional 's' for plural,pipes?,pipe OR pipes
+['']?s?,Optional possessive + plural,pipe['']?s?,"pipe, pipe's, pipes"
+\s*,Optional spaces (zero or more),hot\s*rolled,"hotrolled, hot rolled, hot  rolled"
+[\s-]*,Optional spaces or hyphens,hot[\s-]*rolled,"hotrolled, hot rolled, hot-rolled"
+\b,Word boundary,\bpipe\b,Matches 'pipe' but not 'pipeline'
+|,OR operator,pipe|tube,pipe OR tube
+(...),Group patterns,steel\s*(coils?|sheets?),steel coil OR steel coils OR steel sheet OR steel sheets

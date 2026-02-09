@@ -1,0 +1,624 @@
+================================================================================
+UNCLASSIFIED RECORDS ANALYSIS - DETAILED REPORT
+================================================================================
+Analysis Date: 2026-02-07 13:37:24
+Input File: panjiva_2023_with_roro_update_20260207_133309.csv
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Total Records: 394,600
+Unclassified Records: 57,979 (14.7%)
+Total Tonnage: 728,057,360 tons
+Unclassified Tonnage: 130,552,647 tons (17.9%)
+
+================================================================================
+TOP 20 HS2 CODES BY TONNAGE (UNCLASSIFIED RECORDS)
+================================================================================
+
+################################################################################
+HS2 CODE: 27
+Description: Classified: 2710.99
+Records: 5,661.0
+Tonnage: 45,894,836 tons (35.2% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  BBLS                           (2,858 occurrences)
+  TRLRS                          (1,974 occurrences)
+  000                            (1,144 occurrences)
+  TON                            (1,079 occurrences)
+  SPEC                           (1,038 occurrences)
+  SEMI                           (1,028 occurrences)
+  CAP                            (1,023 occurrences)
+  OIL                            (984 occurrences)
+  CBP                            (848 occurrences)
+  FORM                           (848 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. DE-SLOPPING 1070 BBLS OTAL QTY. OF SLOPS = 149 MT OIL=42 MT WATER =107 MT OIL=28 % WATER =72 %
+2. 40, 000 BBLS ULTRA LOW SULFUR HEATING OIL
+3. 314, 656. 650 BBLS GSV@60F GASOLINA BOOSTER
+4. ALKYLATE IN BULK
+5. ALKYLATE IN BULK
+
+
+################################################################################
+HS2 CODE: 72
+Description: Classified: 7225.40
+Records: 5,886.0
+Tonnage: 21,352,471 tons (16.4% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  COIL                           (4,058 occurrences)
+  STEEL                          (2,741 occurrences)
+  HOT                            (2,611 occurrences)
+  WEIGHT                         (2,170 occurrences)
+  TOTAL                          (1,886 occurrences)
+  COILS                          (1,763 occurrences)
+  DIP                            (1,574 occurrences)
+  ALLOY                          (1,519 occurrences)
+  BULK                           (1,104 occurrences)
+  NET                            (1,074 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. STEEL PLATE
+2. STEEL PLATE
+3. STEEL PLATE
+4. STEEL BILLET
+5. STC HOT DIP GALVANIZED GI COIL CHEMICALLY TREATED
+
+
+################################################################################
+HS2 CODE: 29
+Description: Classified: 2922.49
+Records: 2,130.0
+Tonnage: 15,477,265 tons (11.9% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  BULK                           (991 occurrences)
+  DEG                            (794 occurrences)
+  POINT                          (640 occurrences)
+  NAME                           (489 occurrences)
+  TONS                           (424 occurrences)
+  METRIC                         (422 occurrences)
+  ALCOHOL                        (385 occurrences)
+  FLASH                          (327 occurrences)
+  METHYL                         (308 occurrences)
+  IMO                            (292 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. TOTE TANKS CONTAINER W/ TOOLS, TRASH BASKET W/ WASTE
+2. 1, 297. 882 METRIC TONS CHLOROBENZENE PURE PROPER SHIPPING NAME: CHLOROBENZENE
+3. 40154. 833 BBLS METHYL TERTIARY BUTYL ETHER (MTBE)
+4. BULK LOADED INTO 1 20FT ISOT ANK - DANGEROUS LIQUIDS TEOS PURE SF UN1292 TETRAETHYL SILICATE, CLASS 3, PG III, FLASHPOINT 54 C, EMS F-E, S-D. SECON...
+5. Y-7611A-DRUM
+
+
+################################################################################
+HS2 CODE: 84
+Description: Classified: 8428.90
+Records: 9,560.0
+Tonnage: 6,219,501 tons (4.8% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  MACHINE                        (1,540 occurrences)
+  NUMBER                         (1,332 occurrences)
+  SERIAL                         (1,281 occurrences)
+  PARTS                          (1,144 occurrences)
+  UNIT                           (1,053 occurrences)
+  EXCAVATOR                      (1,043 occurrences)
+  BOX                            (977 occurrences)
+  CATERPILLAR                    (859 occurrences)
+  MSO                            (849 occurrences)
+  CARGO                          (773 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. Cargo Handling Equipment
+2. TURBOCHARGER UNIT ABB
+3. SHIP EQUIPTMENT FOR RETURN/REPAIR 1X CRATE CONTAINING: 1X SCAN FISH C/W MUX AND SPARES (WITOUT POLES) CRATE CONTAINING: 1X SCANFISH C/W MUX AND SPA...
+4. TABARELLI MATERIAL HANDLER MODEL T308 N. 3 COMPLETE OF ALL ITS PARTS, WITHOUT GRAB AND ROTATOR SERIAL NR.: 046123T308 HTS CODE NUMBER: 8428. 90. 0390
+5. TABARELLI MATERIAL HANDLER MODEL T510 N. 4 COMPLETE OF ALL ITS PARTS, WITHOUT GRAB AND ROTATOR SERIAL NR.: 059723T510 HTS CODE NUMBER: 8428. 90. 0390
+
+
+################################################################################
+HS2 CODE: 26
+Description: Classified: 2619.00
+Records: 283.0
+Tonnage: 3,945,495 tons (3.0% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  BULK                           (185 occurrences)
+  SLAG                           (164 occurrences)
+  WEIGHT                         (139 occurrences)
+  1013                           (114 occurrences)
+  065                            (114 occurrences)
+  CONTAINERS                     (70 occurrences)
+  GROSS                          (69 occurrences)
+  ORE                            (66 occurrences)
+  CHROMITE                       (63 occurrences)
+  COMMODITY                      (62 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. GROUND GRANULATED BLAST FURANCE SLAG
+2. 30076. 72 M/TONS CHLORIDE SLAG
+3. BAUXITE
+4. BAUXITE
+5. BAUXITE
+
+
+################################################################################
+HS2 CODE: 44
+Description: Classified: 4412.39
+Records: 596.0
+Tonnage: 2,645,109 tons (2.0% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  KGS                            (130 occurrences)
+  BOX                            (119 occurrences)
+  DOLE                           (114 occurrences)
+  PUERTO                         (114 occurrences)
+  MOIN                           (114 occurrences)
+  TIMBER                         (107 occurrences)
+  LAMINATED                      (69 occurrences)
+  WOOD                           (68 occurrences)
+  SPRUCE                         (63 occurrences)
+  BARRELS                        (56 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. 802 BDLS GALVANISED STEEL STRUCTURE I BEAM POST TRACKER DAMBER, I BEAM CENTER POST
+2. EUROPEAN SPRUCE
+3. BILGE
+4. PLANED TIMBER
+5. COAL IN BULK
+
+
+################################################################################
+HS2 CODE: 23
+Description: Classified: 2304.00
+Records: 595.0
+Tonnage: 2,594,772 tons (2.0% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  BAG                            (2,846 occurrences)
+  WEIGHT                         (2,755 occurrences)
+  ACSM                           (2,399 occurrences)
+  2023                           (2,283 occurrences)
+  BULK                           (1,945 occurrences)
+  MTS                            (1,900 occurrences)
+  FDA                            (1,842 occurrences)
+  MEAL                           (1,695 occurrences)
+  TOTAL                          (1,527 occurrences)
+  LOT                            (1,501 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. CERTIFIED ORGANIC SOYBEAN MEAL IN BULK
+2. CERTIFIED ORGANIC SOYBEAN MEAL IN BULK
+3. CERTIFIED ORGANIC SOYBEAN
+4. CERTIFIED ORGANIC SUNFLOWER MEAL PELLET
+5. CERTIFIED ORGANIC SOYBEAN MEAL
+
+
+################################################################################
+HS2 CODE: 31
+Description: Classified: 3105.20
+Records: 346.0
+Tonnage: 2,479,603 tons (1.9% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  NITRATE                        (282 occurrences)
+  THAN                           (194 occurrences)
+  BULK                           (193 occurrences)
+  GRANULAR                       (182 occurrences)
+  LESS                           (127 occurrences)
+  TOTAL                          (127 occurrences)
+  CALCIUM                        (112 occurrences)
+  CAT                            (108 occurrences)
+  TRIPLE                         (105 occurrences)
+  GTSP                           (104 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. 4, 600. 000 METRIC TONS NOXIOUS LIQUID (11) N. O. S. (CN9 CONTAINS LESS THAN 50% CALCIUM NITRATE, LESS THAN 10% AMMO NIUM NITRATE) ST NA, CAT Z
+2. KALISOP GRAN PFC 1(C)(I)(A)(I) MINERAL FERTILISER K2O (SO3) 50 (44) DECLARED NUTRIENT CONTENTS BY MASS 50 % K2O, WATER SOLUBLE POTASSIUM OXIDE, (= ...
+3. KALISOP TURF MAX. 1, 5 % CL PFC 1(C)(I)(A)(I) INORGANIC MACRONUTRIENT FERTILISER K2O (SO3) 50 (44) DECLARED NUTRIENT CONTENTS BY MASS 50 % K2O, WAT...
+4. 60ER KALI GRAN B PFC 1(C)(L)(A)(I) MINERAL FERTILISER K2O 60 DECLARED NUTRIENT CONTENTS BY MASS 60 % K20, WATER SOLUBLE POTASSIUM OXIDE, (= 4 9. 8 ...
+5. KALISOP GRAN PFC 1(C)(L)(A)(I) MINERAL FERTILISER K2O (SO3) 50 (44) DECLARED NUTRIENT CONTENTS BY MASS 50 % K2O, WATER SOLUBLE POTASSIUM OXIDE, (= ...
+
+
+################################################################################
+HS2 CODE: 38
+Description: Classified: 3823.11
+Records: 859.0
+Tonnage: 2,015,517 tons (1.5% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  BULK                           (216 occurrences)
+  ACID                           (215 occurrences)
+  DEG                            (174 occurrences)
+  GRAPHITE                       (129 occurrences)
+  POINT                          (128 occurrences)
+  ARTIFICIAL                     (116 occurrences)
+  MARKS                          (105 occurrences)
+  FATTY                          (102 occurrences)
+  NAME                           (93 occurrences)
+  METRIC                         (85 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. MASCID 1850 STEARIC ACID 50% IN BULK
+2. HARDENED DISTILLED 08-18 FATTY ACID IN BULK
+3. DISTILLED TOPPED HARDENED COCONUT FATTY ACID IN BULK
+4. STEARIC ACID 43% IN BULK
+5. STEARIC ACID 65% IN BULK
+
+
+################################################################################
+HS2 CODE: 28
+Description: Classified: 2833.29
+Records: 765.0
+Tonnage: 2,012,588 tons (1.5% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  SILICON                        (182 occurrences)
+  BAGS                           (180 occurrences)
+  CARBIDE                        (178 occurrences)
+  METRIC                         (142 occurrences)
+  TONS                           (126 occurrences)
+  SODIUM                         (113 occurrences)
+  MARKS                          (108 occurrences)
+  SULPHATE                       (104 occurrences)
+  BULK                           (102 occurrences)
+  BIG                            (98 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. MANGANESE SULPHATE MONOHYDRATE
+2. ZINC SULPHATE MONOHYDRATE
+3. FERROUS SULFATE MONOHYDRATE
+4. ZINC SULFATE MONIHYDRATE
+5. CRUDE SILICON CARBIDE
+
+
+################################################################################
+HS2 CODE: 12
+Description: Classified: 1204.00
+Records: 334.0
+Tonnage: 1,921,852 tons (1.5% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  BULK                           (676 occurrences)
+  SOYBEANS                       (368 occurrences)
+  ORGANIC                        (315 occurrences)
+  LOT                            (253 occurrences)
+  120190000000                   (181 occurrences)
+  2023                           (176 occurrences)
+  NUMBER                         (145 occurrences)
+  CONTAINER                      (145 occurrences)
+  2022                           (140 occurrences)
+  TOTAL                          (139 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. CERTIFIED ORGANIC FLAXSEED IN 229 BIGBAG
+2. CERTIFIED ORGANIC FLAXSEED IN 123 BIGBAG
+3. CERTIFIED ORGANIC FLAXSEED IN 296 BIGBAG
+4. CANADIAN #1 ORIENTALMUSTARD SEED - CANADIAN # 1 ORIENTAL MUSTARD SEED, PACKED IN BULK TOTAL WT: 21. 230 MT CERS FC6130202311223070763 H S CODE 1207...
+5. BOARD BOARD
+
+
+################################################################################
+HS2 CODE: 68
+Description: Classified: 6802.91
+Records: 218.0
+Tonnage: 1,900,872 tons (1.5% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  WEIGHT                         (119 occurrences)
+  TOTAL                          (115 occurrences)
+  WOOL                           (74 occurrences)
+  KGS                            (66 occurrences)
+  BULK                           (58 occurrences)
+  VALUE                          (54 occurrences)
+  USD                            (49 occurrences)
+  NET                            (48 occurrences)
+  OUR                            (44 occurrences)
+  SALVINI                        (40 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. PLIBRICO CEMENT ROCKWOOL INSULATION CBP FORM 3461
+2. MARBLE
+3. BUNDLES WITH 2833 PIECES SX-EW COPPER
+4. STC X EXUMA MAIORA 35 LADY NINA -
+5. BUNDLES WITH: 13124 PIECES
+
+
+################################################################################
+HS2 CODE: 73
+Description: Classified: 7306.30
+Records: 4,368.0
+Tonnage: 1,877,050 tons (1.4% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  STEEL                          (3,096 occurrences)
+  PIPES                          (1,033 occurrences)
+  SEAMLESS                       (872 occurrences)
+  TUBES                          (756 occurrences)
+  BUNDLES                        (627 occurrences)
+  PIPE                           (612 occurrences)
+  MARKS                          (610 occurrences)
+  DESCRIPTION                    (532 occurrences)
+  SG145                          (494 occurrences)
+  PCS                            (459 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. STEEL PIPE
+2. STEEL TUBING
+3. I-BEAM POST, TRACKER
+4. 2822 BDLS GALVANISED STEEL STRUCTURE
+5. 149 BDLS GALVANISED STEEL STRUCTURE
+
+
+################################################################################
+HS2 CODE: 39
+Description: Classified: 3926.90
+Records: 1,841.0
+Tonnage: 1,850,431 tons (1.4% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  BULK                           (562 occurrences)
+  DEG                            (323 occurrences)
+  WEIGHT                         (291 occurrences)
+  POINT                          (276 occurrences)
+  NET                            (272 occurrences)
+  TOTAL                          (258 occurrences)
+  0FWD                           (241 occurrences)
+  PLASTIC                        (233 occurrences)
+  VALUE                          (213 occurrences)
+  ORIGIN                         (198 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. Various goods 2X LIFTING BEAM - UNIT WEIGHT 1 318, 00KG 1X BOX FOR JACKING EQUIPMENT (CONTAINING 1X BASE FOR JACK 31, 00KG - 1X JACKING SUPPORT 78,...
+2. PRECOM AIR COMPRESSOR, TRITECH SEAKING BATHY, A
+3. WASTE TOTE, TRANSAQUA TOTE, METER, COUPLER CLEAN
+4. 1-HEXENE - BULK IMO NAME: HEXENE (ALL ISOMERS) FLASH POINT: -26. 00 DEG C, VISCOSITY: 0. 39 MM 2/S AT 20 DEG C, MELTING POINT: -139. 90 DEG C
+5. CELANEX FK PBT950076 BLACK FS
+
+
+################################################################################
+HS2 CODE: 25
+Description: Classified: 2523.21
+Records: 554.0
+Tonnage: 1,845,958 tons (1.4% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  BLOCKS                         (290 occurrences)
+  MUST                           (221 occurrences)
+  MIN                            (217 occurrences)
+  LONG                           (165 occurrences)
+  BULK                           (143 occurrences)
+  NOT                            (126 occurrences)
+  GRANITE                        (118 occurrences)
+  60CM                           (117 occurrences)
+  70CM                           (115 occurrences)
+  75CM                           (115 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. ONE SAMPLE OF GREY PORTLAND CEMENT TYPE I/II ASTM C-150
+2. GRANITE BLOCKS HS CODE: 2516, 11 SHIPPED ON BOARD FREIGHT PREPAID SAID TO WEIGH SAID TO BE FLT IF NOT PORTMARKED VESSEL NOT RESPONSIBLE FOR INCORRE...
+3. 4 GRANITE BLOCKS HS CODE: 2516, 11 SHIPPED ON BOARD FREIGHTPREPAID SAID TO WEIGH SAID TO BE FLT IF NOT PORTMARKED VESSEL NOT RESPONSIBLE FOR INCORR...
+4. 7 GRANITE BLOCKS HS CODE: 2516, 11 SHIPPED ON BOARD FREIGHT PREPAID SAID TO WEIGH SAID TO BE FLT IF NOT PORTMARKED VESSEL NOT RESPONSIBLE FOR INCOR...
+5. 65 ROUGH GRANITE BLOCKS -SHIPPED ON BOARD- -FREIGHT PREPAID- CUSTOMS TARIFF CODE: 2516. 11. 001 SEA WAYBILL SAID TO WEIGH SAID TO BE FLT IF NOT POR...
+
+
+################################################################################
+HS2 CODE: 15
+Description: Classified: 1518.00
+Records: 2,112.0
+Tonnage: 1,783,281 tons (1.4% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  BULK                           (2,115 occurrences)
+  OIL                            (2,008 occurrences)
+  TOTAL                          (1,215 occurrences)
+  WEIGHT                         (1,002 occurrences)
+  PALM                           (962 occurrences)
+  REFINED                        (823 occurrences)
+  RBD                            (805 occurrences)
+  NET                            (747 occurrences)
+  FLEXITANKS                     (681 occurrences)
+  SUNFLOWER                      (655 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. CAT D COOKING OIL RECYCLING
+2. REFINED BLEACHED DEODORIZED WI NTERIZED HIGH OLEIC SUNFLOWER OIL, IN BULK, IN FLEXITANKS, T U U 10. 4-00687267-001: 2021
+3. RBD PALM STEARIN IN BULK BWC DOCK #50
+4. REFINED DEODORIZED WINTERIZED HIGH OLEIC SUNFLOWER OIL, IN BULK, IN FLEXITANKS, TU U 10. 4-00687267-001: 2021 TOTAL NET WEIGHT - 150 340, 00 KG TOT...
+5. RBD PALM OIL IN BULK COLONIAL SAV 20
+
+
+################################################################################
+HS2 CODE: 40
+Description: Classified: 4009.32
+Records: 3,453.0
+Tonnage: 1,310,554 tons (1.0% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  RUBBER                         (3,005 occurrences)
+  NATURAL                        (2,966 occurrences)
+  4001220050                     (2,936 occurrences)
+  000                            (140 occurrences)
+  BULK                           (120 occurrences)
+  WEIGHT                         (109 occurrences)
+  KGS                            (81 occurrences)
+  ISOPRENE                       (66 occurrences)
+  BUTADIENE                      (54 occurrences)
+  LIPATON                        (46 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. 25 PERSONS SURVITEC TO 25 PERSONS SURVITEC TO
+2. CONVEYOR OR TRANSMISSION BELTS OR BELTING, OF VULCANISED RUBBER.
+3. TRADE NAME: LIPATON SB 5925 IN BULK CHEMICAL NAME: AQUEOUS DISPERSION OF A CARBOXYLATED STYRENE-BUTADIENE COPOLYMER NET WEIGHT: 19 120. 000 TARE WE...
+4. TRADE NAME: LIPATON SB 5925 IN BULK CHEMICAL NAME: AQUEOUS DISPERSION OF A CARBOXYLATED STYRENE-BUTADIENE COPOLYMER NET WEIGHT: 19 040. 000 TARE WE...
+5. STEELWIRE BASKETS
+
+
+################################################################################
+HS2 CODE: 76
+Description: Classified: 7616.99
+Records: 1,536.0
+Tonnage: 1,091,363 tons (0.8% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  ALUMINIUM                      (1,227 occurrences)
+  WEIGHT                         (1,188 occurrences)
+  MARKS                          (1,088 occurrences)
+  BUNDLES                        (955 occurrences)
+  PRIMARY                        (829 occurrences)
+  PIECES                         (814 occurrences)
+  BILLETS                        (708 occurrences)
+  7601                           (557 occurrences)
+  PLATE                          (522 occurrences)
+  BOARD                          (509 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. PISTON ROD- FORGED STEEL/CARBO N SHELL 411X80 DIAM, 3502 KG SCRAP DRUMS- VARIOUS METAL S 90X100, 100 KG LASHING GEAR, SPOOL PIECES STEEL 120 X90X60...
+2. ALUMINIUM BILLETS Description: 174 174 BUNDLES - PRIMARY ALUMINIUM BILLETS AA60 DIAM. 203X6000 BUNDLES 174 - PIECES 870 G. WEIGHT 460. 574 MT - N. ...
+3. ALUMINIUM BILLETS Description: 82 59 BUNDLES - PRIMARY ALUMINIUM BILLETS AA606 DIAM. 178X6000/MARKS BLUE - YELLOW BUNDLES 59 - PIECES 354 N. WEIGHT...
+4. ALUMINIUM BILLETS Description: 120 82 BUNDLES - PRIMARY ALUMINIUM BILLETS AA606 DIAM. 178X6000/MARKS BLUE - RED BUNDLES 82 - PIECES 492 N. WEIGHT 1...
+5. COIL GALVALUME, ASTM A 792, GRADE 80, AZ55, ACRYLI TENSION LEVELED, REGULAR SPANGLE, FLATNESS CRITICAL, NO SKINP NO CHROMATE, 20-ID, 9, 500 LBS MAX...
+
+
+################################################################################
+HS2 CODE: 47
+Description: Classified: 4703.21
+Records: 327.0
+Tonnage: 1,002,314 tons (0.8% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  COIL                           (390 occurrences)
+  COILS                          (198 occurrences)
+  HOT                            (168 occurrences)
+  TOTAL                          (161 occurrences)
+  DIP                            (159 occurrences)
+  AML                            (146 occurrences)
+  165                            (146 occurrences)
+  MIN                            (136 occurrences)
+  150                            (121 occurrences)
+  0100001                        (117 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. US & FOREIGN CURRENCIES TOTAL VALUE: $200617. 28 USD
+2. SKID COIL-EYE-UP COIL PREPAINTED 55% ALUMINU M-ZINC ALLOY COATED STE ASTM A792-A792M, AZ55, GR50 EYE TO SKY IPPC NO. KR-025 L- C NO.: T-TREF NO.: E...
+3. HOT DIP GALVANIZED SHEET IN COIL HOT DIP 55% ALUMINUM-ZINC ALLOY-COATED STEEL ASTM A792, GR-80, AZ50 L-C NO.: T-T REF NO. E221118 027 FREIGHT PREPA...
+4. HOT DIPGALVANIZED SHEET IN COIL PREPAINTED 55% ALUMINUM-ZINC ALLOY COATED STE ASTM A755-A755M-16, GRADE 33, AZ50 L-C NO.: T-T REF NO. E221005057 FR...
+5. HOT DIP GALVANIZED SHEET IN COIL PREPAINTED 55% ALUMINUM-ZINC ALLOY COATED STE ASTM A755-A755M-16, GRADE 33, AZ50 L-C NO.: T-T REF NO. E221005059 F...
+
+
+################################################################################
+HS2 CODE: 17
+Description: Classified: 1701.99
+Records: 241.0
+Tonnage: 935,060 tons (0.7% of unclassified)
+################################################################################
+
+TOP 10 KEYWORDS:
+--------------------------------------------------------------------------------
+  METRIC                         (138 occurrences)
+  TONS                           (108 occurrences)
+  CANE                           (99 occurrences)
+  WEIGHT                         (88 occurrences)
+  SUGAR                          (87 occurrences)
+  BAGS                           (85 occurrences)
+  BIG                            (62 occurrences)
+  RAW                            (56 occurrences)
+  BULK                           (52 occurrences)
+  CANDIES                        (49 occurrences)
+
+5 SAMPLE GOODS DESCRIPTIONS:
+--------------------------------------------------------------------------------
+1. WHITE SUGAR
+2. 500 M/TONS 1 GRADE BLACKSTRAP MOLASSES
+3. A QUANTITY OF MEXICAN RAW CANE SUGAR
+4. ANTHRACITE MIDDLINGS IN BULK
+5. 119. 705 METRIC TONS OF COLOMBIAN REFINED CANE SUGAR IN SMALL BAGS OF 22. 68KG BAGS IN BIG B AGS OF 1MT EACH. TOTAL SMALL BAGS: 5, 278 MARK: LA CAB...
+
+
+================================================================================
+SUMMARY TABLE - TOP 20 HS2 CODES
+================================================================================
+HS2       Records            Tons % of Unclass
+--------------------------------------------------------------------------------
+27        5,661.0      45,894,836        35.2%
+72        5,886.0      21,352,471        16.4%
+29        2,130.0      15,477,265        11.9%
+84        9,560.0       6,219,501         4.8%
+26          283.0       3,945,495         3.0%
+44          596.0       2,645,109         2.0%
+23          595.0       2,594,772         2.0%
+31          346.0       2,479,603         1.9%
+38          859.0       2,015,517         1.5%
+28          765.0       2,012,588         1.5%
+12          334.0       1,921,852         1.5%
+68          218.0       1,900,872         1.5%
+73        4,368.0       1,877,050         1.4%
+39        1,841.0       1,850,431         1.4%
+25          554.0       1,845,958         1.4%
+15        2,112.0       1,783,281         1.4%
+40        3,453.0       1,310,554         1.0%
+76        1,536.0       1,091,363         0.8%
+47          327.0       1,002,314         0.8%
+17          241.0         935,060         0.7%
+--------------------------------------------------------------------------------
+TOTAL      41,665     120,155,892        92.0%

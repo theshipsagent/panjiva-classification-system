@@ -1,0 +1,162 @@
+Column_ID,Raw_Column_Name,Stage01_Preprocess,Stage02_Vessel_Enrich,Stage03_Classification,Final_Column_Name,Transformation_Type,Notes
+1,Bill of Lading Number,Bill of Lading Number,Bill of Lading Number,Bill of Lading Number,Bill of Lading Number,KEPT,Unique shipment identifier
+2,Bill of Lading Type,DROPPED,,,,[DROPPED at Stage01],Not needed for analysis
+3,Master Bill of Lading Number,DROPPED,,,,[DROPPED at Stage01],Not needed for analysis
+4,Arrival Date,Arrival Date,Arrival Date,Arrival Date,Arrival Date,KEPT,Formatted as dd-MMM-yy
+5,Matching Fields,DROPPED,,,,[DROPPED at Stage01],Internal metadata
+6,Consignee,Consignee,Consignee,Consignee,Consignee,KEPT,Buyer/receiver
+7,Consignee Address,DROPPED,,,,[DROPPED at Stage01],Not needed
+8,Consignee City,DROPPED,,,,[DROPPED at Stage01],Not needed
+9,Consignee State/Region,DROPPED,,,,[DROPPED at Stage01],Not needed
+10,Consignee Postal Code,DROPPED,,,,[DROPPED at Stage01],Not needed
+11,Consignee Country,DROPPED,,,,[DROPPED at Stage01],Not needed
+12,Consignee Full Address,DROPPED,,,,[DROPPED at Stage01],Not needed
+13,Consignee Email 1,DROPPED,,,,[DROPPED at Stage01],Not needed
+14,Consignee Email 2,DROPPED,,,,[DROPPED at Stage01],Not needed
+15,Consignee Email 3,DROPPED,,,,[DROPPED at Stage01],Not needed
+16,Consignee Phone 1,DROPPED,,,,[DROPPED at Stage01],Not needed
+17,Consignee Phone 2,DROPPED,,,,[DROPPED at Stage01],Not needed
+18,Consignee Phone 3,DROPPED,,,,[DROPPED at Stage01],Not needed
+19,Consignee Fax,DROPPED,,,,[DROPPED at Stage01],Not needed
+20,Consignee Website 1,DROPPED,,,,[DROPPED at Stage01],Not needed
+21,Consignee Website 2,DROPPED,,,,[DROPPED at Stage01],Not needed
+22,Consignee Profile,DROPPED,,,,[DROPPED at Stage01],Not needed
+23,Consignee SPCIQ ID,DROPPED,,,,[DROPPED at Stage01],Not needed
+24,Consignee MI Key,DROPPED,,,,[DROPPED at Stage01],Not needed
+25,Consignee D-U-N-S®,DROPPED,,,,[DROPPED at Stage01],Not needed
+26,Consignee Industry,DROPPED,,,,[DROPPED at Stage01],Not needed
+27,Consignee Revenue,DROPPED,,,,[DROPPED at Stage01],Not needed
+28,Consignee Employees,DROPPED,,,,[DROPPED at Stage01],Not needed
+29,Consignee Market Capitalization,DROPPED,,,,[DROPPED at Stage01],Not needed
+30,Consignee Incorporation Year,DROPPED,,,,[DROPPED at Stage01],Not needed
+31,Consignee Trade Roles,DROPPED,,,,[DROPPED at Stage01],Not needed
+32,Consignee SIC Codes,Consignee SIC Codes,Consignee SIC Codes,Consignee SIC Codes,Consignee SIC Codes,KEPT,Industry classification
+33,Consignee Stock Tickers,DROPPED,,,,[DROPPED at Stage01],Not needed
+34,Consignee (Original Format),Consignee (Original Format),Consignee (Original Format),Consignee (Original Format),Consignee (Original Format),KEPT,Original name format
+35,Consignee Global HQ,DROPPED,,,,[DROPPED at Stage01],Not needed
+36,Consignee Global HQ Address,DROPPED,,,,[DROPPED at Stage01],Not needed
+37,Consignee Global HQ D-U-N-S®,DROPPED,,,,[DROPPED at Stage01],Not needed
+38,Consignee Domestic HQ,DROPPED,,,,[DROPPED at Stage01],Not needed
+39,Consignee Domestic HQ Address,DROPPED,,,,[DROPPED at Stage01],Not needed
+40,Consignee Domestic HQ D-U-N-S®,DROPPED,,,,[DROPPED at Stage01],Not needed
+41,Consignee Ultimate Parent,DROPPED,,,,[DROPPED at Stage01],Not needed
+42,Consignee Ultimate Parent Website,DROPPED,,,,[DROPPED at Stage01],Not needed
+43,Consignee Ultimate Parent Headquarters Address,DROPPED,,,,[DROPPED at Stage01],Not needed
+44,Consignee Ultimate Parent Profile,DROPPED,,,,[DROPPED at Stage01],Not needed
+45,Consignee Ultimate Parent SPCIQ ID,DROPPED,,,,[DROPPED at Stage01],Not needed
+46,Consignee Ultimate Parent MI Key,DROPPED,,,,[DROPPED at Stage01],Not needed
+47,Consignee Ultimate Parent Stock Tickers,DROPPED,,,,[DROPPED at Stage01],Not needed
+48,Shipper,Shipper,Shipper,Shipper,Shipper,KEPT,Seller/sender
+49,Shipper Address,DROPPED,,,,[DROPPED at Stage01],Not needed
+50,Shipper City,DROPPED,,,,[DROPPED at Stage01],Not needed
+51,Shipper State/Region,DROPPED,,,,[DROPPED at Stage01],Not needed
+52,Shipper Postal Code,DROPPED,,,,[DROPPED at Stage01],Not needed
+53,Shipper Country,DROPPED,,,,[DROPPED at Stage01],Not needed
+54,Shipper Full Address,DROPPED,,,,[DROPPED at Stage01],Not needed
+55,Shipper Email 1,DROPPED,,,,[DROPPED at Stage01],Not needed
+56,Shipper Email 2,DROPPED,,,,[DROPPED at Stage01],Not needed
+57,Shipper Email 3,DROPPED,,,,[DROPPED at Stage01],Not needed
+58,Shipper Phone 1,DROPPED,,,,[DROPPED at Stage01],Not needed
+59,Shipper Phone 2,DROPPED,,,,[DROPPED at Stage01],Not needed
+60,Shipper Phone 3,DROPPED,,,,[DROPPED at Stage01],Not needed
+61,Shipper Fax,DROPPED,,,,[DROPPED at Stage01],Not needed
+62,Shipper Website 1,DROPPED,,,,[DROPPED at Stage01],Not needed
+63,Shipper Website 2,DROPPED,,,,[DROPPED at Stage01],Not needed
+64,Shipper Profile,DROPPED,,,,[DROPPED at Stage01],Not needed
+65,Shipper SPCIQ ID,DROPPED,,,,[DROPPED at Stage01],Not needed
+66,Shipper MI Key,DROPPED,,,,[DROPPED at Stage01],Not needed
+67,Shipper D-U-N-S®,DROPPED,,,,[DROPPED at Stage01],Not needed
+68,Shipper Industry,DROPPED,,,,[DROPPED at Stage01],Not needed
+69,Shipper Revenue,DROPPED,,,,[DROPPED at Stage01],Not needed
+70,Shipper Employees,DROPPED,,,,[DROPPED at Stage01],Not needed
+71,Shipper Market Capitalization,DROPPED,,,,[DROPPED at Stage01],Not needed
+72,Shipper Incorporation Year,DROPPED,,,,[DROPPED at Stage01],Not needed
+73,Shipper Trade Roles,DROPPED,,,,[DROPPED at Stage01],Not needed
+74,Shipper SIC Codes,Shipper SIC Codes,Shipper SIC Codes,Shipper SIC Codes,Shipper SIC Codes,KEPT,Industry classification
+75,Shipper Stock Tickers,DROPPED,,,,[DROPPED at Stage01],Not needed
+76,Shipper (Original Format),Shipper (Original Format),Shipper (Original Format),Shipper (Original Format),Shipper (Original Format),KEPT,Original name format
+77,Shipper Global HQ,DROPPED,,,,[DROPPED at Stage01],Not needed
+78,Shipper Global HQ Address,DROPPED,,,,[DROPPED at Stage01],Not needed
+79,Shipper Global HQ D-U-N-S®,DROPPED,,,,[DROPPED at Stage01],Not needed
+80,Shipper Domestic HQ,DROPPED,,,,[DROPPED at Stage01],Not needed
+81,Shipper Domestic HQ Address,DROPPED,,,,[DROPPED at Stage01],Not needed
+82,Shipper Domestic HQ D-U-N-S®,DROPPED,,,,[DROPPED at Stage01],Not needed
+83,Shipper Ultimate Parent,DROPPED,,,,[DROPPED at Stage01],Not needed
+84,Shipper Ultimate Parent Website,DROPPED,,,,[DROPPED at Stage01],Not needed
+85,Shipper Ultimate Parent Headquarters Address,DROPPED,,,,[DROPPED at Stage01],Not needed
+86,Shipper Ultimate Parent Profile,DROPPED,,,,[DROPPED at Stage01],Not needed
+87,Shipper Ultimate Parent SPCIQ ID,DROPPED,,,,[DROPPED at Stage01],Not needed
+88,Shipper Ultimate Parent MI Key,DROPPED,,,,[DROPPED at Stage01],Not needed
+89,Shipper Ultimate Parent Stock Tickers,DROPPED,,,,[DROPPED at Stage01],Not needed
+90,Carrier,Carrier,Carrier,Carrier,Carrier,KEPT,Shipping line
+91,Notify Party,Notify Party,Notify Party,Notify Party,Notify Party,KEPT,Notification party
+92,Notify Party SCAC,DROPPED,,,,[DROPPED at Stage01],Not needed
+93,Shipment Origin,Origin (F),Origin (F),Origin (F),Origin (F),RENAMED,Country of origin
+94,Shipment Destination,Destination (D),Destination (D),Destination (D),Destination (D),RENAMED,Destination region
+95,Shipment Destination Region,DROPPED,,,,[DROPPED at Stage01],Redundant
+96,Port of Unlading,Port of Discharge (D),Port of Discharge (D),Port of Discharge (D),Port of Discharge (D),RENAMED,Arrival port
+97,Port of Unlading Region,DROPPED,,,,[DROPPED at Stage01],Redundant
+98,Port of Lading,Port of Loading (F),Port of Loading (F),Port of Loading (F),Port of Loading (F),RENAMED,Departure port
+99,Port of Lading Region,DROPPED,,,,[DROPPED at Stage01],Redundant
+100,Port of Lading Country,Country of Origin (F),Country of Origin (F),Country of Origin (F),Country of Origin (F),RENAMED,Origin country
+101,Place of Receipt,Place of Receipt (F),Place of Receipt (F),Place of Receipt (F),Place of Receipt (F),RENAMED,Receipt location
+102,Transport Method,DROPPED,,,,[DROPPED at Stage01],Not needed
+103,Vessel,Vessel,Vessel,Vessel,Vessel,KEPT,Vessel name
+104,Vessel Voyage ID,Voyage,Voyage,Voyage,Voyage,RENAMED,Voyage number
+105,Vessel IMO,IMO,IMO,IMO,IMO,RENAMED,IMO vessel ID
+106,Is Containerized,Is Containerized,Is Containerized,Is Containerized,Is Containerized,KEPT,Container flag
+107,Volume (TEU),DROPPED,,,,[DROPPED at Stage01],Not needed
+108,Quantity,Qty + Pckg,Qty + Pckg,Qty + Pckg,Qty + Pckg,SPLIT,"Split into Qty (number) and Pckg (text, e.g., PCS)"
+109,Measurement,Measurement,Measurement,Measurement,Measurement,KEPT,Unit of measure
+110,Weight (kg),Kilos,Kilos,Kilos,Kilos,RENAMED,Weight in kilograms
+111,Weight (t),Tons,Tons,Tons,Tons,RENAMED,Weight in metric tons
+112,Weight (Original Format),Weight (Original Format),Weight (Original Format),Weight (Original Format),Weight (Original Format),KEPT,Original weight format
+113,Value of Goods (USD),Value,Value,Value,Value,RENAMED,Shipment value USD
+114,FROB,DROPPED,,,,[DROPPED at Stage01],Not needed
+115,Manifest Number,DROPPED,,,,[DROPPED at Stage01],Not needed
+116,Inbond Code,DROPPED,,,,[DROPPED at Stage01],Not needed
+117,Industry - GICS,DROPPED,,,,[DROPPED at Stage01],Not needed
+118,Industry - GICS Description,DROPPED,,,,[DROPPED at Stage01],Not needed
+119,Number of Containers,DROPPED,,,,[DROPPED at Stage01],Not needed
+120,Has LCL,DROPPED,,,,[DROPPED at Stage01],Not needed
+121,Container Numbers,DROPPED,,,,[DROPPED at Stage01],Not needed
+122,HS Code,HS Code Desc.,HS Code Desc.,HS Code Desc.,HS Code Desc.,RENAMED,HS code with description
+123,Goods Shipped,Goods Shipped,Goods Shipped,Goods Shipped,Goods Shipped,KEPT,Cargo description
+124,Volume (Container TEU),DROPPED,,,,[DROPPED at Stage01],Not needed
+125,Container Marks,DROPPED,,,,[DROPPED at Stage01],Not needed
+126,Divided/LCL,DROPPED,,,,[DROPPED at Stage01],Not needed
+127,Container Type of Service,DROPPED,,,,[DROPPED at Stage01],Not needed
+128,Container Types,DROPPED,,,,[DROPPED at Stage01],Not needed
+129,Dangerous Goods,DROPPED,,,,[DROPPED at Stage01],Not needed
+130,[NEW],Carrier Name,Carrier Name,Carrier Name,Carrier Name,ADDED,Extracted from Carrier field
+131,[NEW],Qty,Qty,Qty,Qty,ADDED,Numeric part of Quantity
+132,[NEW],Pckg,Pckg,Pckg,Pckg,ADDED,Package type from Quantity
+133,[NEW],HS2,HS2,HS2,HS2,ADDED,2-digit HS code
+134,[NEW],HS4,HS4,HS4,HS4,ADDED,4-digit HS code
+135,[NEW],HS6,HS6,HS6,HS6,ADDED,6-digit HS code
+136,[NEW],RAW_REC_ID,RAW_REC_ID,RAW_REC_ID,RAW_REC_ID,ADDED,Unique record ID (PANV-YYYYMMDD-XXXXXXXX)
+137,[NEW],Count,Count,Count,Count,ADDED,Always = 1 for aggregation
+138,[NEW],Port_Consolidated,Port_Consolidated,Port_Consolidated,Port_Consolidated,ADDED,Consolidated port name
+139,[NEW],Port_Coast,Port_Coast,Port_Coast,Port_Coast,ADDED,East/West/Gulf coast
+140,[NEW],Port_Region,Port_Region,Port_Region,Port_Region,ADDED,Regional grouping
+141,[NEW],Port_Code,Port_Code,Port_Code,Port_Code,ADDED,Census Sked D code
+142,[NEW],Group,,Group,Group,ADDED,"Classification Level 1 (MOVE to Stage01, initialize empty)"
+143,[NEW],Commodity,,Commodity,Commodity,ADDED,"Classification Level 2 (MOVE to Stage01, initialize empty)"
+144,[NEW],Cargo,,Cargo,Cargo,ADDED,"Classification Level 3 (MOVE to Stage01, initialize empty)"
+145,[NEW],Cargo Detail,,Cargo Detail,Cargo Detail,ADDED,"Classification Level 4 (MOVE to Stage01, initialize empty)"
+146,[NEW],Report_One,Report_One,Report_One,Report_One,ADDED,User reporting field 1
+147,[NEW],Report_Two,Report_Two,Report_Two,Report_Two,ADDED,User reporting field 2
+148,[NEW],Report_Three,Report_Three,Report_Three,Report_Three,ADDED,User reporting field 3
+149,[NEW],Report_Four,Report_Four,Report_Four,Report_Four,ADDED,User reporting field 4
+150,[NEW],Filter,Filter,Filter,Filter,ADDED,Filter flag
+151,[NEW],Note,Note,Note,Note,ADDED,Notes field
+152,[NEW],,Type,Type,Type,ADDED,"Vessel type from registry (MOVE to Stage01, enrich during preprocessing)"
+153,[NEW],,DWT,DWT,DWT,ADDED,"Vessel deadweight tonnage (MOVE to Stage01, enrich during preprocessing)"
+154,[NEW],,Vessel_Type_Simple,Vessel_Type_Simple,Vessel_Type_Simple,ADDED,"Simplified vessel category (MOVE to Stage01, map from Type)"
+155,[NEW],,,Group_Locked,Group_Locked,ADDED,"Lock flag for Group (MOVE to Stage01, initialize FALSE)"
+156,[NEW],,,Commodity_Locked,Commodity_Locked,ADDED,"Lock flag for Commodity (MOVE to Stage01, initialize FALSE)"
+157,[NEW],,,Cargo_Locked,Cargo_Locked,ADDED,"Lock flag for Cargo (MOVE to Stage01, initialize FALSE)"
+158,[NEW],,,Cargo_Detail_Locked,Cargo_Detail_Locked,ADDED,"Lock flag for Cargo Detail (MOVE to Stage01, initialize FALSE)"
+159,[NEW],,,Classified_Phase,Classified_Phase,ADDED,"Phase number that classified record (MOVE to Stage01, initialize empty)"
+160,[NEW],,,Last_Rule_ID,Last_Rule_ID,ADDED,"Rule ID that classified record (MOVE to Stage01, initialize empty)"
+161,[NEW],REC_ID,REC_ID,REC_ID,REC_ID,ADDED,"⭐ UNIQUE PERMANENT IDENTIFIER - Format: {SOURCE}_{FILENAME}_{ROWNUMBER} (e.g., PANV_IMP_FILE001_R000123) - Assigned at raw data import, NEVER changes, used for complete audit trail back to original raw data"

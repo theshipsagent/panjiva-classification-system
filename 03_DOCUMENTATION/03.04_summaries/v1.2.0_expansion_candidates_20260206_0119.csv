@@ -1,0 +1,52 @@
+Rank,Party_Name,Field,Field_Count,Total_Tons,Record_Count,Industry,Primary_Group,Primary_Commodity,Primary_Cargo,Priority_Score
+1,"JEREMY TROTTER C/O
+ALEXANDER & CO., 22 CENTURY BLVD SUITE 510, NASHVILLE, TN 37214 USA",Notify Party,1,7905156.22,42,Other,Unknown,Unknown,Unknown,7905156.22
+2,Totsa Totalenergies Trading Sa,"Consignee, Shipper",2,2923777.65,196,Oil/Gas,Unknown,Unknown,Unknown,3923777.65
+3,Lafarge North America,"Consignee, Shipper",2,2647299.34,237,Cement/Aggregates,Unknown,Unknown,Unknown,3647299.34
+4,Carib Lpg Trading Ltd.,"Consignee, Shipper",2,2600772.15,49,Oil/Gas,Unknown,Unknown,Unknown,3600772.15
+5,Aes Puerto Rico Lp,"Consignee, Shipper",2,2545800.0,66,Other,Unknown,Unknown,Unknown,3545800.0
+6,Novum Energy Trading Corp.,"Consignee, Shipper",2,2453763.46,108,Oil/Gas,Unknown,Unknown,Unknown,3453763.46
+7,Gunvor Group,"Consignee, Shipper",2,2176307.54,98,Logistics/Trading,Unknown,Unknown,Unknown,3176307.54
+8,Toyota Motor Corporation,"Consignee, Shipper",2,2126212.91,1555,Other,Unknown,Unknown,Unknown,3126212.91
+9,St. Mary's Cement Corp.,"Consignee, Shipper",2,2091917.31,163,Cement/Aggregates,Unknown,Unknown,Unknown,3091917.31
+10,Diamond Green Diesel Llc,"Consignee, Shipper",2,1983237.05,578,Oil/Gas,Unknown,Unknown,Unknown,2983237.05
+11,Nuh Cimento Sanayi A.S.,"Consignee, Shipper",2,1828269.38,50,Other,Unknown,Unknown,Unknown,2828269.38
+12,Ergon Oil Purchasing Inc.,"Consignee, Shipper",2,1799166.97,26,Other,Unknown,Unknown,Unknown,2799166.9699999997
+13,Equinor Marketing And Trading Us,"Consignee, Shipper",2,1655225.5699999998,27,Logistics/Trading,Unknown,Unknown,Unknown,2655225.57
+14,Equinor Asa,"Consignee, Shipper",2,1637627.99,58,Other,Unknown,Unknown,Unknown,2637627.99
+15,Posco,"Consignee, Shipper",2,1614468.16,3239,Steel,Unknown,Unknown,Unknown,2614468.16
+16,Freepoint Commodities,"Consignee, Shipper",2,1586455.3,100,Other,Unknown,Unknown,Unknown,2586455.3
+17,Ontario Trap Rock,"Consignee, Shipper",2,1453578.9,80,Other,Unknown,Unknown,Unknown,2453578.9
+18,Unipec America,"Consignee, Shipper",2,1416139.85,24,Other,Unknown,Unknown,Unknown,2416139.85
+19,Aramco Trading Fujairah,"Consignee, Shipper",2,1408343.54,48,Oil/Gas,Unknown,Unknown,Unknown,2408343.54
+20,Bp Oil International Ltd.,"Consignee, Shipper",2,1355240.21,33,Oil/Gas,Unknown,Unknown,Unknown,2355240.21
+21,Scl Rotterdam,"Consignee, Shipper",2,1348588.25,115,Other,Unknown,Unknown,Unknown,2348588.25
+22,Marathon International Product,"Consignee, Shipper",2,1323629.99,57,Other,Unknown,Unknown,Unknown,2323629.99
+23,Sonatrach,"Consignee, Shipper",2,1316130.7799999998,23,Other,Unknown,Unknown,Unknown,2316130.78
+24,Houston Cement Co.,Consignee,1,2300928.0,49,Cement/Aggregates,Unknown,Unknown,Unknown,2300928.0
+25,Gunvor Usa,"Consignee, Shipper",2,1293985.06,83,Logistics/Trading,Unknown,Unknown,Unknown,2293985.06
+26,Eastern Salt Co. Inc.,Consignee,1,2270905.26,56,Other,Unknown,Unknown,Unknown,2270905.26
+27,"Sk Energy Co., Ltd.","Consignee, Shipper",2,1229023.31,45,Oil/Gas,Unknown,Unknown,Unknown,2229023.31
+28,Petrochina International America,"Consignee, Shipper",2,1197445.78,31,Other,Unknown,Unknown,Unknown,2197445.7800000003
+29,Hollingshead Cement Llc,Consignee,1,2192906.4,53,Cement/Aggregates,Unknown,Unknown,Unknown,2192906.4
+30,General Motors Corp.,"Consignee, Shipper",2,1175733.87,2337,Other,Unknown,Unknown,Unknown,2175733.87
+31,Mazda Motor Corporation,"Consignee, Shipper",2,1153386.6800000002,1452,Other,Unknown,Unknown,Unknown,2153386.68
+32,Grupo Minero Del Mar De Cortes,Shipper,1,2147600.0,79,Other,Unknown,Unknown,Unknown,2147600.0
+33,Sunoco Llc,"Consignee, Shipper",2,1145178.28,77,Other,Unknown,Unknown,Unknown,2145178.2800000003
+34,The Dow Chemical Co.,"Consignee, Shipper",2,1118881.24,142,Chemicals,Unknown,Unknown,Unknown,2118881.24
+35,Galtrade Ltd.,"Consignee, Shipper",2,1116761.3,39,Other,Unknown,Unknown,Unknown,2116761.3
+36,Equinor Marketing & Trading,"Consignee, Shipper",2,1114646.06,28,Logistics/Trading,Unknown,Unknown,Unknown,2114646.06
+37,Toyota Motor Sales,Consignee,1,2103655.43,1421,Other,Unknown,Unknown,Unknown,2103655.43
+38,Ep Petroecuador,Shipper,1,2097806.77,48,Other,Unknown,Unknown,Unknown,2097806.77
+39,Archer Daniels Midland Co.,"Consignee, Shipper",2,1088661.1300000001,237,Other,Unknown,Unknown,Unknown,2088661.1300000001
+40,Eni Trade & Biofuels Sp A,"Consignee, Shipper",2,1085397.73,28,Oil/Gas,Unknown,Unknown,Unknown,2085397.73
+41,Geogas Trading Sa,"Consignee, Shipper",2,1078692.0,262,Logistics/Trading,Unknown,Unknown,Unknown,2078692.0
+42,Ups Supply Chain Solutions,"Consignee, Shipper",2,1042053.53,193,Other,Unknown,Unknown,Unknown,2042053.53
+43,Argos Usa,Consignee,1,2031040.08,140,Other,Unknown,Unknown,Unknown,2031040.08
+44,Samarco Mineracao Sa,Shipper,1,2022059.0,26,Other,Unknown,Unknown,Unknown,2022059.0
+45,Gs Caltex Corporation,Shipper,1,2021306.74,102,Other,Unknown,Unknown,Unknown,2021306.74
+46,Vissai Ninh Binh Jsc,Shipper,1,1999956.44,89,Other,Unknown,Unknown,Unknown,1999956.44
+47,Hartree Partners Lp,"Consignee, Shipper",2,984655.02,72,Other,Unknown,Unknown,Unknown,1984655.02
+48,Asociacion De Azucareros De,"Consignee, Shipper",2,977866.1,34,Other,Unknown,Unknown,Unknown,1977866.1
+49,"Total Energies Trading Asia Pte., Ltd.","Consignee, Shipper",2,974345.6200000001,69,Oil/Gas,Unknown,Unknown,Unknown,1974345.62
+50,Cepsa Trading Sau,"Consignee, Shipper",2,964227.19,57,Logistics/Trading,Unknown,Unknown,Unknown,1964227.19

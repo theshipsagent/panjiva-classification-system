@@ -1,0 +1,164 @@
+Entity_ID,Canonical_Name,Entity_Type,Parent_Company,Match_Keywords,Match_Strategy,Category,Active,Notes,Estimated_Tons
+ABU-DHABI-001,Abu Dhabi National Oil Company,Oil & Gas,ADNOC,ABU DHABI NATIONAL,Contains,All,True,UAE state oil company,2300000
+ADM-001,Archer Daniels Midland,Grain,ADM,ARCHER DANIELS MIDLAND,Contains,All,True,Major grain trader and processor,1088661
+AES-PR-001,AES Puerto Rico,Power Generation,AES Corporation,AES PUERTO RICO,Contains,All,True,AES power generation in Puerto Rico,2545800
+AKCANSA-001,Akcansa Cimento,Cement,Sabanci Holding,AKCANSA CIMENTO,Contains_All,Shipper,True,Turkish cement producer,1130494
+ARAMCO-001,Aramco Americas,Oil & Gas,Saudi Aramco,ARAMCO AMERICAS,Contains,All,True,Saudi Aramco US marketing entity,6000000
+ARAMCO-FUJAIRAH-001,Aramco Trading Fujairah,Oil/Gas,Saudi Aramco,ARAMCO TRADING FUJAIRAH,Contains,All,True,Saudi Aramco UAE trading operations,1408343
+ARCELORMITTAL-001,ArcelorMittal,Steel,ArcelorMittal,ARCELORMITTAL,Contains,All,True,World's largest steel producer - multiple US entities,8000000
+ARGOS-001,Argos USA,Cement/Aggregates,Grupo Argos,ARGOS USA;ARGOS CEMENT,Contains,Consignee,True,Colombian cement producer - US operations,2031040
+ASH-GROVE-001,Ash Grove Cement,Cement/Aggregates,CRH,ASH GROVE,Contains_All,Consignee,True,Major US cement producer - now CRH subsidiary,1561861
+ATALCO-001,Atalco Gramercy,Aluminum,Rusal,ATALCO GRAMERCY,Contains,All,True,Rusal US aluminum operations,4000000
+BAHAMA-ROCK-001,Bahama Rock,Aggregates,,BAHAMA ROCK,Contains,All,True,Bahamas aggregates producer,3600000
+BIEHL-001,Biehl & Co,Logistics,,BIEHL,Contains,All,True,Customs brokerage and freight forwarding,1600000
+BLUE-WATER-001,Blue Water Industries,Logistics,,BLUE WATER INDUSTRIES,Contains,All,True,Freight forwarding and logistics,1800000
+BOLANTER-001,Bolanter Corporation,Trading Company,,BOLANTER,Contains,All,True,Saudi Aramco affiliate,15000000
+BP-001,BP,Oil & Gas,BP plc,BP PRODUCTS,Contains,All,True,British petroleum major,5000000
+BP-INTL-001,BP Oil International,Oil/Gas,BP plc,BP OIL INTERNATIONAL,Contains,All,True,BP international trading operations,1355240
+BR-ANDERSON-001,B.R. Anderson & Co,Logistics,,B.R. ANDERSON;BR ANDERSON,Contains,All,True,Customs brokerage services,1400000
+CARIB-LPG-001,Carib LPG Trading,Oil/Gas,,CARIB LPG,Contains_All,All,True,LPG trading company - Caribbean operations,2600772
+CARVER-001,Carver Sand & Gravel,Corporate,,CARVER SAND;CARVER MATERIALS,Contains,All,True,Aggregates producer - Canada/US operations,1602948
+CELANESE-001,Celanese,Chemicals,Celanese Corporation,CELANESE,Contains,All,True,Chemical manufacturer - Mexico and Europe entities,9000000
+CEMEX-001,Cemex,Cement/Aggregates,Cemex,CEMEX,Contains,All,True,Mexican cement/aggregates giant,3300000
+CEMTECH-001,Cemtech Global,Cement,,CEMTECH GLOBAL,Contains_All,Shipper,True,Turkish cement company,1419924
+CENOVUS-001,Cenovus Energy,Oil & Gas,,CENOVUS ENERGY,Contains_All,Shipper,True,Canadian oil sands producer,1238624
+CEPSA-001,Cepsa Trading,Oil/Gas,Cepsa,CEPSA TRADING,Contains,All,True,Spanish oil company trading arm,964227
+CHEVRON-001,Chevron,Oil & Gas,Chevron Corporation,CHEVRON,Contains,All,True,Multiple business units - combine all Chevron entities,40000000
+CITGO-001,Citgo,Oil Refining,PDVSA (Venezuelan state),CITGO,Contains,All,True,US refiner owned by Venezuela,5000000
+COMPANIA-MINERA-001,Compania Minera,Mining,,COMPANIA MINERA,Contains,Shipper,True,Mining companies - may need sub-entities,8000000
+COMPASS-001,Compass Minerals,Salt/Minerals,Compass Minerals,COMPASS MINERALS,Contains,All,True,Salt and sulfate of potash producer,7000000
+COPPERSMITH-001,Coppersmith Global Logistics,Logistics,,COPPERSMITH,Contains,All,True,Freight forwarding and logistics,4500000
+CSC-SUGAR-001,CSC Sugar,Trader,,CSC SUGAR,Contains_All,Consignee,True,Sugar trading company,2329172
+CSI-001,California Steel Industries,Steel,CVRD/JFE JV,CALIFORNIA STEEL INDUSTRIES,Contains,Consignee,True,Steel producer - Fontana CA,1623869
+DAVID-JOSEPH-001,David J. Joseph Company,Steel,Nucor,DAVID J. JOSEPH;DAVID J JOSEPH,Contains,Consignee,True,Scrap metal processor - Nucor subsidiary,1682715
+DELAWARE-CITY-001,Delaware City Refining,Oil Refining,PBF Energy,DELAWARE CITY REFINING,Contains,All,True,PBF subsidiary - Delaware City refinery,1400000
+DIAMOND-GREEN-001,Diamond Green Diesel,Oil/Gas,Valero/Darling JV,DIAMOND GREEN DIESEL,Contains,All,True,Renewable diesel producer - Valero/Darling JV,1983237
+DISCOVERY-001,Discovery Bauxite,Mining,,DISCOVERY BAUXITE,Contains,All,True,Bauxite mining operations,4000000
+DOW-001,Dow Chemical,Chemicals,Dow Inc.,DOW CHEMICAL,Contains_All,All,True,Major chemical manufacturer,1118881
+DOW-EUROPE-001,Dow Europe,Chemicals,Dow Inc.,DOW EUROPE,Contains_All,Consignee,True,Dow Chemical European operations - imports to US,925952
+DRUMMOND-001,Drummond,Coal Mining,Drummond Company,DRUMMOND,Contains,All,True,Major US coal producer/exporter,2500000
+DUBAI-001,Dubai Aluminium,Aluminum,Emirates Global Aluminium,DUBAI ALUMINIUM,Contains,All,True,UAE aluminum producer - may be same as EGA,4000000
+EASTERN-SALT-001,Eastern Salt,Salt,,EASTERN SALT,Contains_All,Consignee,True,Salt producer/distributor,2270905
+EBROKERAGE-001,eBrokerage Service,Logistics,,EBROKERAGE,Contains,All,True,Customs brokerage services,2700000
+ECO-FERT-001,ECO Fertilizers,Fertilizer,,ECO FERTILIZERS;E.C.O. FERTILIZERS,Contains,Consignee,True,Fertilizer distributor,1514232
+ECOPETROL-001,Ecopetrol,Oil & Gas,Ecopetrol,ECOPETROL,Contains,All,True,Colombian state oil company,22000000
+EMIRATES-001,Emirates Aluminium (EGA),Aluminum,Emirates Global Aluminium,EMIRATES ALUMINIUM;EGA,Contains,All,True,UAE aluminum producer,12000000
+ENI-TRADE-001,Eni Trade & Biofuels,Oil/Gas,Eni,ENI TRADE,Contains_All,All,True,Italian oil major trading arm,1085397
+EP-PETROECUADOR-001,EP Petroecuador,Oil & Gas,Ecuadorian Government,EP PETROECUADOR;PETROECUADOR,Contains,Shipper,True,Ecuadorian state oil company,2097807
+EQUINOR-001,Equinor,Oil/Gas,Equinor ASA,EQUINOR,Contains,All,True,"Norwegian oil major - combines all Equinor entities (Marketing & Trading, ASA)",4407778
+EUCATEX-001,Eucatex,Pulp/Paper,Eucatex,EUCATEX,Contains,All,True,Brazilian pulp and paper producer,7200000
+EUROCHEM-001,EuroChem North America,Corporate,EuroChem Group,EUROCHEM NORTH AMERICA,Contains,Consignee,True,Russian fertilizer producer - US operations,1537831
+EXXONMOBIL-001,ExxonMobil,Oil & Gas,Exxon Mobil Corporation,EXXONMOBIL;EXXON MOBIL,Contains,All,True,Chemicals and petroleum - many variants,20000000
+FIBRIA-001,Fibria Celulose,Pulp/Paper,Suzano,FIBRIA CELULOSE,Contains,All,True,Brazilian pulp producer (now Suzano),3500000
+FREEPOINT-001,Freepoint Commodities,Trader,,FREEPOINT COMMODITIES,Contains_All,All,True,Physical commodity trader,2718871
+GALAXY-OIL-001,Galaxy Oil,Oil & Gas,,GALAXY OIL FZ,Contains_All,Shipper,True,UAE oil trading company,1114642
+GEOGAS-001,Geogas Trading,Oil/Gas,,GEOGAS,Contains,All,True,LNG/LPG trader,1078692
+GLACIER-001,Glacier Northwest,Aggregates,CalPortland,GLACIER NORTHWEST,Contains,All,True,CalPortland subsidiary - aggregates,3200000
+GLENCORE-ENERGY-001,Glencore Energy,Oil/Gas,Glencore,GLENCORE ENERGY,Contains,All,True,Glencore energy trading division,778074
+GM-001,General Motors,Automotive,,GENERAL MOTORS,Contains_All,All,True,US automaker,1175733
+GMB-KOREA-001,GMB Korea Industries,Mining,,GMB KOREA,Contains_All,All,True,Korean mineral products company,828838
+GREEN-WORLDWIDE-001,Green Worldwide Shipping,Logistics,,GREEN WORLDWIDE SHIPPING,Contains,All,True,Freight forwarding and customs brokerage,3300000
+GRUPO-MEDINA-001,Grupo Medina,Cement,,GRUPO MEDINA,Contains,All,True,Mexican cement producer,1800000
+GRUPO-MINERO-001,Grupo Minero Del Mar De Cortes,Mining,,GRUPO MINERO DEL MAR,Contains,Shipper,True,Mexican mining company,2147600
+GS-CALTEX-001,GS Caltex,Oil/Gas,GS Group/Chevron JV,GS CALTEX,Contains_All,Shipper,True,South Korean refiner - GS/Chevron JV,2021306
+GUNVOR-001,Gunvor Group,Oil/Gas,Gunvor Group,GUNVOR,Contains,All,True,Major commodity trader - combines Gunvor Group and Gunvor USA,3470292
+HEIDELBERG-001,Heidelberg Materials,Cement/Aggregates,Heidelberg Materials,HEIDELBERG,Contains,All,True,German cement/aggregates giant,912400
+HERITAGE-001,Heritage Petroleum,Oil & Gas,Heritage Petroleum,HERITAGE PETROLEUM,Contains,All,True,Trinidad and Tobago state oil company,2400000
+HM-SOUTHEAST-001,Heidelberg Materials Southeast,Cement/Aggregates,Heidelberg Materials,HM SOUTHEAST CEMENT,Contains,Consignee,True,Heidelberg Materials southeast US operations,1707718
+HOLLINGSHEAD-001,Hollingshead Cement,Cement/Aggregates,,HOLLINGSHEAD,Contains,Consignee,True,Cement operations,2192906
+HOUSTON-CEMENT-001,Houston Cement,Cement/Aggregates,,HOUSTON CEMENT,Contains_All,Consignee,True,Houston area cement operations,2300928
+HOUSTON-REFINING-001,Houston Refining,Oil Refining,,HOUSTON REFINING,Contains,All,True,Houston area refining operations,6000000
+HUNT-CRUDE-001,Hunt Crude Oil Supply,Oil & Gas,Hunt Consolidated,HUNT CRUDE OIL SUPPLY,Contains,Consignee,True,Hunt family crude oil trading arm,1878318
+HYUNDAI-MOBIS-001,Hyundai Mobis,Automotive,Hyundai Motor Group,HYUNDAI MOBIS,Contains_All,Shipper,True,Hyundai auto parts supplier,1155437
+HYUNDAI-MOTOR-001,Hyundai Motor America,Automotive,Hyundai Motor Group,HYUNDAI MOTOR AMERICA,Contains,All,True,Korean automaker US operations - distinct from Kia,1915205
+HYUNDAI-STEEL-001,Hyundai Steel,Steel,Hyundai Motor Group,HYUNDAI STEEL,Contains_All,All,True,Korean steel producer - Hyundai affiliate,653333
+IDEMITSU-001,Idemitsu Apollo,Oil Refining,Idemitsu Kosan,IDEMITSU APOLLO,Contains,All,True,Japanese refiner US operations,3200000
+IIG-CAPITAL-001,IIG Capital,Finance,,IIG CAPITAL,Contains_All,Consignee,True,Financial services company,1338871
+ING-001,ING Bank,Finance,ING Group,ING BANK,Contains_All,Consignee,True,Dutch bank - commodity financing,978278
+INTERPIPE-001,Interpipe,Steel Pipes,Interpipe,INTERPIPE,Contains,All,True,Ukrainian steel pipe manufacturer,3300000
+IRON-ORE-001,Iron Ore Company of Canada,Mining,Rio Tinto,IRON ORE CO;IRON ORE COMPANY,Contains,All,True,Rio Tinto subsidiary - iron ore Quebec,2200000
+IRVING-001,Irving Oil,Oil Refining,Irving Oil,IRVING OIL,Contains,All,True,Canadian refiner - Irving Oil Ltd/Refining/Terminals,40000000
+KIA-001,Kia Motors America,Automotive,Hyundai Motor Group,KIA MOTORS,Contains_All,All,True,Korean automaker - use Contains_All to avoid matching KIA alone,763376
+LAFARGE-001,Lafarge North America,Cement/Aggregates,Holcim,LAFARGE,Contains,All,True,Major cement/aggregates producer - now part of Holcim,2647299
+LAFARGE-EMIRATES-001,Lafarge Emirates Cement,Cement,Holcim,LAFARGE EMIRATES;LAFRAGE EMIRATES,Contains,Shipper,True,Lafarge UAE operations - now Holcim,1263341
+MARATHON-001,Marathon Petroleum,Oil Refining,Marathon Petroleum Corporation,MARATHON PETROLEUM;MARATHON CARSON,Contains,All,True,US refiner - includes Carson refinery,19000000
+MARATHON-INTL-001,Marathon International Products,Oil/Gas,Marathon Petroleum,MARATHON INTERNATIONAL PRODUCT,Contains,All,True,Marathon trading arm - distinct from Marathon Petroleum refining,1323629
+MARTIN-001,Martin Marietta,Construction Materials,Martin Marietta,MARTIN MARIETTA,Contains_All,All,True,Requires BOTH tokens - not Martin Gas or Martin Wine,13000000
+MAZDA-001,Mazda Motor,Automotive,Mazda Motor Corporation,MAZDA MOTOR,Contains,All,True,Japanese automaker,1153386
+MCINNIS-001,McInnis USA,Cement,,MCINNIS USA,Contains_All,Consignee,True,Canadian cement producer - US distribution,1797106
+MEDCEM-001,Medcem Global,Cement,,MEDCEM,Contains,All,True,Turkish cement producer,3100000
+MERCEDES-001,Mercedes-Benz USA,Automotive,Mercedes-Benz Group,MERCEDES BENZ;MERCEDES-BENZ,Contains,All,True,German automaker US operations,951053
+MITSUI-USA-001,Mitsui & Co USA,Trading Company,Mitsui & Co,MITSUI & CO USA;MITSUI AND CO USA,Contains,All,True,Japanese trading house - US operations,2217247
+MONROE-001,Monroe Energy,Oil Refining,Delta Air Lines,MONROE ENERGY,Contains,All,True,Delta subsidiary - Trainer refinery PA,6000000
+MORTON-001,Morton Salt,Salt,K+S Group,MORTON SALT,Contains,All,True,Major US salt producer,3000000
+MORTON-BAHAMAS-001,Morton Bahamas,Salt,K+S Group,MORTON BAHAMAS,Contains_All,Shipper,True,Morton Salt Bahamas operations,1173631
+MOSAIC-001,Mosaic,Fertilizer,The Mosaic Company,MOSAIC FERTILIZER,Contains,All,True,Phosphate fertilizer producer,5000000
+MOTIVA-001,Motiva Enterprises,Oil Refining,Saudi Aramco,MOTIVA ENTERPRISES,Contains,All,True,Saudi Aramco US refining subsidiary,14000000
+NAF-CORP-001,North American Fuel,Oil & Gas,,NORTH AMERICAN FUEL CORP,Contains,Consignee,True,Fuel distributor,936636
+NATIONAL-OIL-LIBYA-001,National Oil Corp,Oil & Gas,Libyan Government,NATIONAL OIL CORP,Contains,Shipper,True,Libyan state oil company,1045725
+NATURAL-OLEO-001,Natural Oleochemicals,Chemicals,,NATURAL OLEOCHEMICALS,Contains_All,Shipper,True,Malaysian oleochemicals producer,1760616
+NATURGY-001,Naturgy Aprovisionamientos,Utility,Naturgy Energy Group,NATURGY APROVISIONAMIENTOS,Contains_All,Consignee,True,Spanish energy company - supply operations,1789162
+NESTE-001,Neste,Oil Refining,Neste Oyj,NESTE OIL;NESTE US,Contains,All,True,Finnish refiner - renewable diesel focus,2264650
+NFE-001,New Fortress Energy,Oil/Gas,,NEW FORTRESS ENERGY;NFE TRANSPORT,Contains,All,True,LNG infrastructure and trading,1797643
+NIPPON-STEEL-TRADING-001,Nippon Steel Trading,Steel,Nippon Steel Corporation,NIPPON STEEL TRADING,Contains,Shipper,True,Nippon Steel trading arm,1550471
+NORTH-AMERICAN-MARINE-001,North American Marine,Steel,,NORTH AMERICAN MARINE,Contains,All,True,Steel products marine transport,3300000
+NOVUM-001,Novum Energy Trading,Oil/Gas,,NOVUM ENERGY,Contains_All,All,True,Energy trading company,2453763
+NU-IRON-001,Nu-Iron Unlimited,Steel,,NU IRON;NU-IRON,Contains,Shipper,True,Steel products trader,1612511
+NUCOR-001,Nucor Steel,Steel,Nucor Corporation,NUCOR STEEL,Contains,All,True,Largest US steel producer,2100000
+NUH-CIMENTO-001,Nuh Cimento,Cement,,NUH CIMENTO,Contains_All,Shipper,True,Turkish cement producer,2561518
+ONSITE-CONCRETE-001,On Site Concrete Solutions,Construction Materials,,ON SITE CONCRETE;ON-SITE CONCRETE,Contains,Consignee,True,Cement operations - Texas,1739832
+ONTARIO-TRAP-001,Ontario Trap Rock,Aggregates,,ONTARIO TRAP ROCK,Contains,All,True,Aggregates producer,1453578
+OQ-TRADING-001,OQ Trading,Oil/Gas,OQ (Oman Oil),OQ TRADING,Contains_All,All,True,Omani state oil company trading arm,645850
+ORCA-001,Orca Sand and Gravel,Aggregates,,ORCA SAND,Contains,All,True,Canadian aggregates producer,5600000
+PAR-HAWAII-001,PAR Hawaii Refining,Oil Refining,Par Pacific,PAR HAWAII,Contains,All,True,Hawaii refinery,3400000
+PAULSBORO-001,Paulsboro Refining,Oil Refining,PBF Energy,PAULSBORO REFINING,Contains,All,True,PBF subsidiary - Paulsboro NJ refinery,2400000
+PBF-001,PBF Energy,Oil Refining,PBF Energy,PBF HOLDING,Contains,All,True,US independent refiner,26000000
+PDVSA-001,PDVSA,Oil & Gas,Venezuelan Government,PDVSA,Contains,All,True,Venezuelan state oil company,8000000
+PERIN-001,Perin Trading,Trading Company,,PERIN TRADING,Contains,All,True,Commodity trading company,3000000
+PETROBRAS-001,Petrobras,Oil & Gas,Petroleo Brasileiro,PETROBRAS;PETROLEO BRASILEIRO,Contains,All,True,Brazilian state oil company,4000000
+PETROCHINA-001,PetroChina International,Oil/Gas,PetroChina,PETROCHINA,Contains,All,True,Chinese state oil company - combines all PetroChina entities,1969588
+PETROPIAR-001,Petropiar,Oil & Gas,PDVSA/Chevron JV,PETROPIAR,Contains,All,True,Venezuela heavy oil JV - multiple address variants,6000000
+PMI-001,PMI Trading,Trading Company,Philip Morris International,PMI TRADING;PMI TRAD;PMI COME;PMI NORTEAMERICA,Contains,All,True,Tobacco products trading - multiple legal entities including PMI Norteamerica,47000000
+POSCO-001,POSCO,Steel,POSCO Holdings,POSCO,Contains,All,True,Korean steel giant - includes POSCO Mexico,2209492
+PREPA-001,Puerto Rico Electric Power Authority,Utility,PR Government,PUERTO RICO ELECTRIC POWER AUTHORIT;PREPA,Contains,Consignee,True,Puerto Rico power utility,1349536
+PUERTO-RICO-001,Puerto Rico Energy,Oil & Gas,,PUERTO RICO ENERGY,Contains,All,True,Puerto Rico energy company,2900000
+RELIANCE-001,Reliance Industries,Chemicals/Refining,Reliance Industries,RELIANCE INDUSTRIES,Contains,All,True,Indian conglomerate - petrochemicals,3200000
+REPSOL-001,Repsol Trading,Oil/Gas,Repsol,REPSOL TRADING,Contains,All,True,Spanish oil major trading arm,660248
+RIL-USA-001,RIL USA Inc,Corporate,Reliance Industries,RIL USA,Contains_All,Consignee,True,Reliance Industries Limited US subsidiary - chemicals/petrochemicals,1805557
+S-OIL-001,S-Oil,Oil Refining,S-Oil Corporation,S OIL CORP,Contains,All,True,South Korean refiner,2500000
+SABIC-001,SABIC Americas,Chemicals,SABIC,SABIC,Contains,All,True,Saudi petrochemicals giant,919123
+SAINT-GOBAIN-001,Saint Gobain,Construction Materials,Saint-Gobain,SAINT GOBAIN,Contains_All,Shipper,True,French building materials giant,1085841
+SAMARCO-001,Samarco Mineracao,Mining,Vale/BHP JV,SAMARCO,Contains,Shipper,True,Brazilian iron ore miner - Vale/BHP JV,2022059
+SAUDI-CEMENT-001,Saudi Cement,Cement,,SAUDI CEMENT CO,Contains,Shipper,True,Saudi Arabian cement producer,1245848
+SAUDI-REFINING-001,Saudi Refining Inc,Oil Refining,Saudi Aramco/Shell JV,SAUDI REFINING,Contains,All,True,Port Arthur refinery JV,15000000
+SESCO-001,Sesco Cement,Cement/Aggregates,,SESCO CEMENT,Contains_All,Consignee,True,Cement operations,1930373
+SHELL-001,Shell,Oil & Gas,Shell plc,SHELL WESTERN;SHELL TRADING,Contains,All,True,Shell trading and supply entities,3500000
+SHELL-BRASIL-001,Shell Brasil Petroleo,Oil & Gas,Shell plc,SHELL BRASIL PETROLEO,Contains,Shipper,True,Shell Brazil petroleum operations,1136629
+SHELL-INTL-001,Shell International Trading,Oil/Gas,Shell plc,SHELL INTERNATIONAL TRADING,Contains,All,True,Shell Middle East trading operations,702303
+SK-ENERGY-001,SK Energy,Oil/Gas,SK Group,SK ENERGY,Contains_All,All,True,South Korean refiner - use Contains_All to avoid matching SK alone,1229023
+SOCIEDAD-LOBOS-001,Sociedad Punta de Lobos,Mining,,PUNTA DE LOBOS,Contains,All,True,Chilean mining company,2500000
+SOMO-001,State Oil Marketing Company (SOMO),Oil Marketing,Iraqi Government,SOMO;STATE OIL MARKETING,Contains,All,True,Iraqi state oil marketer,13000000
+SONATRACH-001,Sonatrach,Oil/Gas,Algerian Government,SONATRACH,Contains,All,True,Algerian state oil company,1316130
+ST-MARYS-001,St. Marys Cement,Cement/Aggregates,Votorantim,ST. MARY;ST MARY;SAINT MARY,Contains,All,True,Canadian cement producer - Votorantim subsidiary,2091917
+SUBARU-001,Subaru of America,Automotive,Subaru Corporation,SUBARU OF AMERICA;SUBARU OFAMERICA,Contains,All,True,Japanese automaker US operations,2016005
+SUDATI-001,Sudati,Wood Products,,SUDATI,Contains,All,True,Wood products manufacturer,5200000
+SUNCOR-001,Suncor Energy,Oil & Gas,Suncor Energy,SUNCOR ENERGY,Contains,All,True,Canadian oil sands producer,3000000
+SUNOCO-001,Sunoco,Oil/Gas,Energy Transfer,SUNOCO,Contains,All,True,Fuel distributor - Energy Transfer subsidiary,1145178
+TAIHEIYO-001,Taiheiyo Cement,Cement/Aggregates,,TAIHEIYO CEMENT,Contains,Shipper,True,Japanese cement producer,1889043
+TERNIUM-001,Ternium,Steel,Ternium,TERNIUM,Contains,All,True,Steel producer - Brazil and Mexico entities,14000000
+TITAN-001,Titan Cement,Cement/Aggregates,Titan Cement Group,TITAN CEMENT,Contains_All,Shipper,True,Greek cement producer - use Contains_All to avoid Titan America matches,1877782
+TOTAL-SPEC-001,Total Specialties USA,Chemicals,TotalEnergies,TOTAL SPECIALTIES USA,Contains,Consignee,True,TotalEnergies specialty chemicals US operations,1828447
+TOTALENERGIES-PETRO-001,TotalEnergies Petrochemicals,Chemicals,TotalEnergies,TOTALENERGIES PETRO CHEMICALS,Contains,Consignee,True,TotalEnergies petrochemicals division,911985
+TOTSA-001,TotalEnergies Trading,Oil/Gas,TotalEnergies,TOTSA TOTALENERGIES;TOTAL ENERGIES TRADING,Contains,All,True,TotalEnergies trading arm - major crude/products trader,2923777
+TOYOTA-001,Toyota Motor,Automotive,Toyota Motor Corporation,TOYOTA MOTOR,Contains,All,True,Japanese automaker - includes Toyota Motor Corp and Toyota Motor Sales,4229868
+TRAFIGURA-001,Trafigura,Trading Company,Trafigura Group,TRAFIGURA,Contains,All,True,Major commodity trader,14000000
+UBS-001,UBS Switzerland,Finance,UBS Group,UBS SWITZERLAND,Contains_All,Consignee,True,Swiss bank - commodity financing,1295481
+VALE-001,Vale,Mining,Vale S.A.,VALE,Contains,All,True,Brazilian mining giant - iron ore,2200000
+VALERO-001,Valero,Oil Refining,Valero Energy Corporation,VALERO,Contains,All,True,Major US refiner - clean up HTML entities &AMP;,60000000
+VISSAI-001,Vissai Ninh Binh,Cement,,VISSAI NINH BINH,Contains,Shipper,True,Vietnamese cement producer,2607182
+VITOL-001,Vitol,Trading Company,Vitol Group,VITOL,Contains,All,True,World's largest independent oil trader,3300000
+VULCAN-001,Vulcan Materials,Construction Materials,Vulcan Materials Company,VULCAN,Contains,All,True,Largest US aggregates producer,3000000
+VW-001,Volkswagen Group of America,Automotive,Volkswagen AG,VOLKSWAGEN GROUP OF AMERICA;VOLKSWAGEN GRP OF AMERICA,Contains,Consignee,True,"German automaker US operations - includes VW, Audi, Porsche brands",1504035
+WILMAR-001,Wilmar Oleo Quimico,Corporate,Wilmar International,WILMAR OLEO,Contains_All,All,True,Wilmar oleochemicals - Mexico operations,1770294
+YARA-001,Yara North America,Fertilizer,Yara International,YARA,Contains,Consignee,True,Norwegian fertilizer producer,1680780
+ZONA-FRANCA-ARGOS-001,Zona Franca Argos,Cement,Grupo Argos,ZONA FRANCA ARGOS,Contains,Shipper,True,Argos cement free trade zone operations,1211226
