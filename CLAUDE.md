@@ -573,19 +573,19 @@ dir "G:\My Drive\LLM\project_manifest\01_DICTIONARIES\01.03_vessels\01_ships_reg
 
 ---
 
-## Current System Status (as of 2026-01-30)
+## Current System Status (as of 2026-02-09)
 
-- **Pipeline Version**: v2.0.0 (PRODUCTION READY - consolidated preprocessing + vessel enrichment)
+- **Pipeline Version**: v2.1.0 (PRODUCTION READY - added automatic BOL deduplication)
 - **Dictionary Version**: v3.6.0 (668 active rules)
-- **Vessel Enrichment**: 74% average match rate (vs 0% in v1.0.0)
-- **Classification Status**: ✅ **ALL COMPLETE**
-  - 2023: ✅ COMPLETE (100% coverage, 15K records, 14 MB)
-  - 2024: ✅ COMPLETE (100% coverage, 449K records, 398 MB)
-  - 2025: ✅ COMPLETE (100% coverage, 398K records, 354 MB)
-  - **TOTAL**: 862,980 records classified (100% coverage)
-- **Schema**: 59 columns (up from 51 in v1.0.0)
-- **Production Status**: ✅ v2.0.0 pipeline VALIDATED and PRODUCTION READY
-- **Phase 1 Success**: 64.8% average via carrier locks (proves vessel enrichment works)
+- **Dataset**: 854,870 records, 1.35 billion tons (deduplicated from 1,302,246 raw records)
+- **Classification Status**: ✅ **100% COMPLETE**
+  - **Classified**: 560,091 records (65.5%), 1.34B tons (99.3%)
+  - **Excluded**: 294,779 records (34.5%), 9.0M tons (0.7%)
+  - **Unclassified**: 0 records (0%)
+- **Port Enrichment**: 100% match rate (all records enriched)
+- **Schema**: 69 columns in final output (includes vessel & port data)
+- **Production Status**: ✅ v2.1.0 pipeline VALIDATED and PRODUCTION READY
+- **Major Fix**: Deduplication removes 447,376 duplicate BOLs (34.4% of raw data)
 
 ---
 

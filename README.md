@@ -50,8 +50,9 @@ Cargo_Detail:  Crude Oil - Basrah Heavy
 
 - **Source**: Panjiva U.S. Import Data
 - **Coverage**: 2023-2025 (3 years)
-- **Records**: 1,302,246 shipments
-- **Total Tonnage**: 2.07 billion metric tons
+- **Records**: 854,870 shipments (deduplicated)
+- **Total Tonnage**: 1.35 billion metric tons
+- **Note**: v2.1.0 preprocessing includes automatic deduplication (447,376 duplicates removed)
 
 ---
 
@@ -59,9 +60,11 @@ Cargo_Detail:  Crude Oil - Basrah Heavy
 
 ### 🎯 High-Performance Classification
 
-- **786,674 records classified** (62.9% of total)
-- **1.47 billion tons captured** (71.3% of total tonnage)
-- **40+ classification rules** across 10 processing phases
+- **560,091 records classified** (65.5% of total)
+- **1.34 billion tons captured** (99.3% of total tonnage)
+- **294,779 records excluded** (34.5% - cruise lines, freight forwarders, white noise)
+- **100% classification achieved** on clean deduplicated data
+- **133+ classification rules** across 7 processing stages
 - **5-tier rule hierarchy** (carrier locks → package types → HS codes → tonnage → keywords)
 
 ### 📊 Interactive Dashboards
