@@ -592,6 +592,36 @@ for idx, visit in visits_df.iterrows():
         predicted = True
         confidence_counts['MEDIUM'] += 1
 
+    # RULE 7: Grain terminals (Non-Elevator types) - Zone metadata based
+    elif 'grain' in zone_cargoes and operation_type == 'LOADING' and zone_type != 'Elevator':
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Dry Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Agricultural'
+        visits_df.at[idx, 'PredictedCargo'] = 'Grain'
+        visits_df.at[idx, 'PredictedCargoSource'] = 'ZoneCargoes=Grain+LOADING'
+        visits_df.at[idx, 'PredictionConfidence'] = 'MEDIUM'
+        predicted = True
+        confidence_counts['MEDIUM'] += 1
+
+    # RULE 8: Wood Pellets - Zone metadata based
+    elif 'wood pellets' in zone_cargoes and operation_type == 'LOADING':
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Dry Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Forestry'
+        visits_df.at[idx, 'PredictedCargo'] = 'Wood Pellets'
+        visits_df.at[idx, 'PredictedCargoSource'] = 'ZoneCargoes=Wood Pellets+LOADING'
+        visits_df.at[idx, 'PredictionConfidence'] = 'MEDIUM'
+        predicted = True
+        confidence_counts['MEDIUM'] += 1
+
+    # RULE 9: Copper facilities (AST Chalmette, Copper named facilities)
+    elif (facility == 'AST Chalmette Slip' or 'copper' in facility.lower()) and operation_type == 'DISCHARGE':
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Break Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Metals'
+        visits_df.at[idx, 'PredictedCargo'] = 'Copper'
+        visits_df.at[idx, 'PredictedCargoSource'] = f'Facility={facility}+DISCHARGE'
+        visits_df.at[idx, 'PredictionConfidence'] = 'MEDIUM'
+        predicted = True
+        confidence_counts['MEDIUM'] += 1
+
     # ═══════════════════════════════════════════════════════════════════════
     # LOW CONFIDENCE RULES (Generic zone/vessel type fallbacks)
     # ═══════════════════════════════════════════════════════════════════════
@@ -622,6 +652,38 @@ for idx, visit in visits_df.iterrows():
         visits_df.at[idx, 'PredictedCargoCommodity'] = 'Petroleum'
         visits_df.at[idx, 'PredictedCargo'] = 'Crude Oil'
         visits_df.at[idx, 'PredictedCargoSource'] = 'ZoneType=Crude Storage+DISCHARGE'
+        visits_df.at[idx, 'PredictionConfidence'] = 'LOW'
+        predicted = True
+        confidence_counts['LOW'] += 1
+
+    # RULE 10: Steel at general cargo terminals - DISCHARGE operations
+    elif (zone_type == 'General Cargo' and operation_type == 'DISCHARGE' and
+          vessel_type == 'Gen' and 'steel' not in zone_cargoes.lower()):
+        # Generic steel prediction for general cargo terminals with Gen vessels
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Break Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Steel'
+        visits_df.at[idx, 'PredictedCargo'] = 'Steel'
+        visits_df.at[idx, 'PredictedCargoSource'] = 'ZoneType=General Cargo+Gen vessel+DISCHARGE'
+        visits_df.at[idx, 'PredictionConfidence'] = 'LOW'
+        predicted = True
+        confidence_counts['LOW'] += 1
+
+    # RULE 11: Pig Iron - Zone metadata based or copper facilities LOADING
+    elif 'pig iron' in zone_cargoes or (('copper' in facility.lower() or facility == 'AST Chalmette Slip') and operation_type == 'LOADING'):
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Break Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Ferrous Raw Materials'
+        visits_df.at[idx, 'PredictedCargo'] = 'Pig Iron'
+        visits_df.at[idx, 'PredictedCargoSource'] = f'ZoneCargoes=Pig Iron or Facility={facility}+LOADING'
+        visits_df.at[idx, 'PredictionConfidence'] = 'LOW'
+        predicted = True
+        confidence_counts['LOW'] += 1
+
+    # RULE 12: Manganese - Zone metadata or specific facilities
+    elif 'manganese' in zone_cargoes or (facility in ['1st Street', '7th Street', 'AST Chalmette Slip'] and operation_type == 'DISCHARGE' and vessel_type == 'Gen'):
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Dry Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Ferro Alloys'
+        visits_df.at[idx, 'PredictedCargo'] = 'Manganese'
+        visits_df.at[idx, 'PredictedCargoSource'] = f'ZoneCargoes=Manganese or Facility={facility}'
         visits_df.at[idx, 'PredictionConfidence'] = 'LOW'
         predicted = True
         confidence_counts['LOW'] += 1
