@@ -1,26 +1,18 @@
-# Data files (too large for git - stay on Google Drive)
-00_DATA/
-00_raw_data/
-
-# Archive folder (complete historical snapshot)
+# Archive folder (complete historical snapshots)
 _archive/
 
-# Deprecated scripts
-04_DEVELOPMENT/04.03_deprecated/
+# Raw data (too large for git)
+RAW_DATA/
 
 # User working files
 user_notes/
-05_USER_NOTES/
 
-# Embedded git repositories (should be submodules if needed)
-panjiva_production_v1/
-panjiva_classification_v2/.git/
+# Pipeline output CSV files (too large for git)
+PIPELINE/phase_*/phase_*_output.csv
+PIPELINE/phase_*/test/*.csv
 
-# Old folder structure (if any remain)
-00_STAGE00_RAW_DATA/
-01_STAGE01_PREPROCESSING/
-02_STAGE02_CLASSIFICATION/
-06_CHECKPOINTS/
+# Refinement output CSV files
+REFINEMENT/**/*.csv
 
 # Python cache
 __pycache__/
@@ -28,16 +20,16 @@ __pycache__/
 *.pyo
 
 # Temp files
-nul
 *.tmp
 *.temp
 .claude/
 
-# Large output files
-*.csv
-!01_DICTIONARIES/**/*.csv
-!03_DOCUMENTATION/**/*.csv
-
 # OS files
 .DS_Store
 Thumbs.db
+
+# Playwright
+.playwright-mcp/
+
+# Logs
+logs/

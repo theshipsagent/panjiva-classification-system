@@ -142,8 +142,8 @@ for vessel_zone_key, group in terminal_events.groupby('VesselKey'):
 
 visits_df = pd.DataFrame(visits)
 
-# Filter out service vessels
-exclude_vessels = ['Mack B', 'Allison', 'Bonita Aki']
+# Filter out service vessels (tugs, dredges, service boats)
+exclude_vessels = ['Mack B', 'Allison', 'Allisonk', 'Bonita Aki']
 visits_df = visits_df[~visits_df['VesselName'].isin(exclude_vessels)].copy()
 print(f"   Terminal visits extracted: {len(visits_df):,} (service vessels excluded)")
 
@@ -233,9 +233,9 @@ for ztype, cargo in zonetype_rules.items():
 print(f"   ZoneType defaults applied: {(visits_df['DefaultSource'].str.contains('ZoneType', na=False)).sum():,}")
 
 # ═══════════════════════════════════════════════════════════════════════════
-# 6. MATCH TO PANJIVA MANIFESTS
+# 6. MATCH TO PANJIVA MANIFESTS (IMPORTS + EXPORTS)
 # ═══════════════════════════════════════════════════════════════════════════
-print("\n6. Matching to Panjiva manifests...")
+print("\n6. Matching to Panjiva manifests (imports + exports)...")
 
 # Load import manifest (2024)
 imp = pd.read_csv('G:/My Drive/LLM/project_manifest/PIPELINE/phase_07_enrichment/phase_07_output.csv',
@@ -247,9 +247,25 @@ imp = imp[imp['_date'].apply(lambda d: d.year if pd.notna(d) else 0) == 2024].co
 imp = imp[imp['Group'] != 'EXCLUDED'].copy()
 imp['_imo'] = imp['IMO'].fillna('').str.strip()
 imp['_nk'] = imp['Vessel'].apply(lambda v: build_name_key(v) if pd.notna(v) else '')
-print(f"   2024 Import manifest: {len(imp):,} records")
+print(f"   Import manifest: {len(imp):,} records")
 
-# Build indices
+# Load export manifest
+try:
+    exp = pd.read_csv('G:/My Drive/LLM/project_manifest/PIPELINE_EXPORTS/phase_07_enrichment/phase_07_output.csv',
+                      usecols=['Arrival Date','Vessel','IMO','Port of Discharge (D)','Group','Commodity','Cargo','Tons','Bill of Lading Number','Shipper','Consignee'],
+                      dtype=str, low_memory=False)
+    exp = exp[exp['Port of Discharge (D)'].str.contains('New Orleans', case=False, na=False)].copy()
+    exp['_date'] = pd.to_datetime(exp['Arrival Date'], errors='coerce').dt.date  # Export date (US departure)
+    exp = exp[exp['_date'].apply(lambda d: d.year if pd.notna(d) else 0) == 2024].copy()
+    exp = exp[exp['Group'] != 'EXCLUDED'].copy()
+    exp['_imo'] = exp['IMO'].fillna('').str.strip()
+    exp['_nk'] = exp['Vessel'].apply(lambda v: build_name_key(v) if pd.notna(v) else '')
+    print(f"   Export manifest: {len(exp):,} records")
+except Exception as e:
+    exp = pd.DataFrame()
+    print(f"   Export manifest: not available ({e})")
+
+# Build import indices
 imp_imo_idx = {}
 imp_name_idx = {}
 for _, row in imp.iterrows():
@@ -264,8 +280,25 @@ for _, row in imp.iterrows():
             imp_name_idx[nk] = []
         imp_name_idx[nk].append(row)
 
+# Build export indices
+exp_imo_idx = {}
+exp_name_idx = {}
+for _, row in exp.iterrows():
+    imo = row['_imo']
+    nk = row['_nk']
+    if imo:
+        if imo not in exp_imo_idx:
+            exp_imo_idx[imo] = []
+        exp_imo_idx[imo].append(row)
+    if nk:
+        if nk not in exp_name_idx:
+            exp_name_idx[nk] = []
+        exp_name_idx[nk].append(row)
+
 # Match
-window_days = 3
+# PHASE 1 TEMPORAL WINDOW EXPANSION: Expanded from ±3 days to ±7 days
+# Analysis shows 125 additional matches possible with wider window
+window_days = 7
 matched_count = 0
 matched_imo = 0
 matched_name = 0
@@ -288,14 +321,14 @@ for idx, visit in visits_df.iterrows():
     name = visit['VesselName']
     nk = build_name_key(name) if pd.notna(name) else ''
 
-    # Only match DISCHARGE operations (imports) for 2024
+    cargo_hits = []
+    match_key = ''
+
+    # Match DISCHARGE operations (imports) - use arrival date
     if op_type == 'DISCHARGE' and pd.notna(visit['ArrivalTime_dt']):
         ref_date = visit['ArrivalTime_dt'].date()
         lo = ref_date - timedelta(days=window_days)
         hi = ref_date + timedelta(days=window_days)
-
-        cargo_hits = []
-        match_key = ''
 
         if imo and imo in imp_imo_idx:
             for rec in imp_imo_idx[imo]:
@@ -313,29 +346,52 @@ for idx, visit in visits_df.iterrows():
                 match_key = 'NAME'
                 matched_name += 1
 
-        if cargo_hits:
-            matched_count += 1
-            tons_total = sum(float(r['Tons']) for r in cargo_hits if pd.notna(r.get('Tons')) and str(r.get('Tons')).replace('.','').replace('-','').isdigit())
-            groups = list(set(r['Group'] for r in cargo_hits if pd.notna(r.get('Group'))))
-            comms = list(set(r['Commodity'] for r in cargo_hits if pd.notna(r.get('Commodity'))))
-            cargos = list(set(r['Cargo'] for r in cargo_hits if pd.notna(r.get('Cargo'))))
-            shippers = list(set(r['Shipper'] for r in cargo_hits if pd.notna(r.get('Shipper'))))[:3]
-            consignees = list(set(r['Consignee'] for r in cargo_hits if pd.notna(r.get('Consignee'))))[:3]
+    # Match LOADING operations (exports) - use departure date
+    elif op_type == 'LOADING' and pd.notna(visit['DepartureTime_dt']):
+        ref_date = visit['DepartureTime_dt'].date()
+        lo = ref_date - timedelta(days=window_days)
+        hi = ref_date + timedelta(days=window_days)
 
-            nearest = min(cargo_hits, key=lambda r: abs((r['_date'] - ref_date).days))
-            delta_days = (nearest['_date'] - ref_date).days
+        if imo and imo in exp_imo_idx:
+            for rec in exp_imo_idx[imo]:
+                if rec['_date'] and lo <= rec['_date'] <= hi:
+                    cargo_hits.append(rec)
+            if cargo_hits:
+                match_key = 'IMO'
+                matched_imo += 1
 
-            visits_df.at[idx, 'ManifestMatchStatus'] = 'MATCHED'
-            visits_df.at[idx, 'ManifestMatchKey'] = match_key
-            visits_df.at[idx, 'ManifestBOLCount'] = len(cargo_hits)
-            visits_df.at[idx, 'ManifestTotalTons'] = round(tons_total, 1) if tons_total > 0 else ''
-            visits_df.at[idx, 'ManifestCargoGroup'] = ', '.join(groups)
-            visits_df.at[idx, 'ManifestCargoCommodity'] = ', '.join(comms)
-            visits_df.at[idx, 'ManifestCargo'] = ', '.join(cargos)
-            visits_df.at[idx, 'ManifestShippers'] = ', '.join(shippers)
-            visits_df.at[idx, 'ManifestConsignees'] = ', '.join(consignees)
-            visits_df.at[idx, 'ManifestDate'] = nearest['_date'].isoformat()
-            visits_df.at[idx, 'ManifestTimeDelta'] = delta_days
+        if not cargo_hits and nk and nk in exp_name_idx:
+            for rec in exp_name_idx[nk]:
+                if rec['_date'] and lo <= rec['_date'] <= hi:
+                    cargo_hits.append(rec)
+            if cargo_hits:
+                match_key = 'NAME'
+                matched_name += 1
+
+    # Process matches (same for imports and exports)
+    if cargo_hits:
+        matched_count += 1
+        tons_total = sum(float(r['Tons']) for r in cargo_hits if pd.notna(r.get('Tons')) and str(r.get('Tons')).replace('.','').replace('-','').isdigit())
+        groups = list(set(r['Group'] for r in cargo_hits if pd.notna(r.get('Group'))))
+        comms = list(set(r['Commodity'] for r in cargo_hits if pd.notna(r.get('Commodity'))))
+        cargos = list(set(r['Cargo'] for r in cargo_hits if pd.notna(r.get('Cargo'))))
+        shippers = list(set(r['Shipper'] for r in cargo_hits if pd.notna(r.get('Shipper'))))[:3]
+        consignees = list(set(r['Consignee'] for r in cargo_hits if pd.notna(r.get('Consignee'))))[:3]
+
+        nearest = min(cargo_hits, key=lambda r: abs((r['_date'] - ref_date).days))
+        delta_days = (nearest['_date'] - ref_date).days
+
+        visits_df.at[idx, 'ManifestMatchStatus'] = 'MATCHED'
+        visits_df.at[idx, 'ManifestMatchKey'] = match_key
+        visits_df.at[idx, 'ManifestBOLCount'] = len(cargo_hits)
+        visits_df.at[idx, 'ManifestTotalTons'] = round(tons_total, 1) if tons_total > 0 else ''
+        visits_df.at[idx, 'ManifestCargoGroup'] = ', '.join(groups)
+        visits_df.at[idx, 'ManifestCargoCommodity'] = ', '.join(comms)
+        visits_df.at[idx, 'ManifestCargo'] = ', '.join(cargos)
+        visits_df.at[idx, 'ManifestShippers'] = ', '.join(shippers)
+        visits_df.at[idx, 'ManifestConsignees'] = ', '.join(consignees)
+        visits_df.at[idx, 'ManifestDate'] = nearest['_date'].isoformat()
+        visits_df.at[idx, 'ManifestTimeDelta'] = delta_days
 
     if idx % 1000 == 0:
         print(f'   Processed {idx:,} / {len(visits_df):,}', end='\r')
@@ -433,6 +489,152 @@ except Exception as e:
     print(f"   FGIS matching skipped: {e}")
 
 # ═══════════════════════════════════════════════════════════════════════════
+# 7.5. FACILITY-BASED PREDICTIVE DEFAULTS (PHASE 3)
+# ═══════════════════════════════════════════════════════════════════════════
+print("\n7.5. Applying facility-based predictive cargo defaults...")
+
+# Initialize predictive cargo columns
+visits_df['PredictedCargoGroup'] = ''
+visits_df['PredictedCargoCommodity'] = ''
+visits_df['PredictedCargo'] = ''
+visits_df['PredictedCargoSource'] = ''
+visits_df['PredictionConfidence'] = ''
+
+predicted_count = 0
+confidence_counts = {'HIGH': 0, 'MEDIUM': 0, 'LOW': 0}
+
+for idx, visit in visits_df.iterrows():
+    # Only apply predictions to UNMATCHED visits (don't override manifest/FGIS matches)
+    if visit['ManifestMatchStatus'] == 'MATCHED':
+        continue
+
+    facility = visit['Facility']
+    zone_type = visit['ZoneType']
+    zone_cargoes = str(visit['ZoneCargoes']).lower() if pd.notna(visit['ZoneCargoes']) else ''
+    operation_type = visit['OperationType']
+    vessel_type = visit['VesselType_Clean']
+
+    predicted = False
+
+    # ═══════════════════════════════════════════════════════════════════════
+    # HIGH CONFIDENCE RULES (>80% match rate in analysis)
+    # ═══════════════════════════════════════════════════════════════════════
+
+    # RULE 1: Grain Elevators (9 facilities, 48-100% FGIS match rate)
+    if zone_type == 'Elevator' and operation_type == 'LOADING':
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Dry Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Agricultural'
+        visits_df.at[idx, 'PredictedCargo'] = 'Grain'
+        visits_df.at[idx, 'PredictedCargoSource'] = 'ZoneType=Elevator+LOADING'
+        visits_df.at[idx, 'PredictionConfidence'] = 'HIGH'
+        predicted = True
+        confidence_counts['HIGH'] += 1
+
+    # RULE 2: Valero St Charles Refinery (100% match rate)
+    elif facility == 'Valero St Charles' and operation_type == 'DISCHARGE' and vessel_type == 'Tank':
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Liquid Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Petroleum'
+        visits_df.at[idx, 'PredictedCargo'] = 'Refined Products'
+        visits_df.at[idx, 'PredictedCargoSource'] = 'Facility=Valero St Charles'
+        visits_df.at[idx, 'PredictionConfidence'] = 'HIGH'
+        predicted = True
+        confidence_counts['HIGH'] += 1
+
+    # ═══════════════════════════════════════════════════════════════════════
+    # MEDIUM CONFIDENCE RULES (30-80% match rate or known patterns)
+    # ═══════════════════════════════════════════════════════════════════════
+
+    # RULE 3: Noranda Alumina - Bauxite from Jamaica (0% match but known pattern)
+    elif facility == 'Noranda Alumina' and operation_type == 'DISCHARGE':
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Dry Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Non-Ferrous Raw Materials'
+        visits_df.at[idx, 'PredictedCargo'] = 'Bauxite'
+        visits_df.at[idx, 'PredictedCargoSource'] = 'Facility=Noranda Alumina (Jamaica origin)'
+        visits_df.at[idx, 'PredictionConfidence'] = 'MEDIUM'
+        predicted = True
+        confidence_counts['MEDIUM'] += 1
+
+    # RULE 4: Coal/Petcoke Export Terminals (Zone metadata based)
+    elif ('coal' in zone_cargoes or 'petcoke' in zone_cargoes) and operation_type == 'LOADING':
+        # Determine if Coal or Petcoke based on zone metadata
+        if 'petcoke' in zone_cargoes and 'coal' not in zone_cargoes:
+            cargo = 'Petcoke'
+        elif 'coal' in zone_cargoes and 'petcoke' not in zone_cargoes:
+            cargo = 'Coal'
+        else:
+            cargo = 'Petcoke'  # Default to petcoke if both mentioned
+
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Dry Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Carbon Products'
+        visits_df.at[idx, 'PredictedCargo'] = cargo
+        visits_df.at[idx, 'PredictedCargoSource'] = f'ZoneCargoes={cargo}+LOADING'
+        visits_df.at[idx, 'PredictionConfidence'] = 'MEDIUM'
+        predicted = True
+        confidence_counts['MEDIUM'] += 1
+
+    # RULE 5: Genesis Baton Rouge - Crude Oil (50% match rate)
+    elif facility == 'Genesis Baton Rouge' and operation_type == 'DISCHARGE' and vessel_type == 'Tank':
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Liquid Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Petroleum'
+        visits_df.at[idx, 'PredictedCargo'] = 'Crude Oil'
+        visits_df.at[idx, 'PredictedCargoSource'] = 'Facility=Genesis Baton Rouge'
+        visits_df.at[idx, 'PredictionConfidence'] = 'MEDIUM'
+        predicted = True
+        confidence_counts['MEDIUM'] += 1
+
+    # RULE 6: Bauxite/Alumina terminals (Zone metadata based)
+    elif 'bauxite' in zone_cargoes and operation_type == 'DISCHARGE':
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Dry Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Non-Ferrous Raw Materials'
+        visits_df.at[idx, 'PredictedCargo'] = 'Bauxite'
+        visits_df.at[idx, 'PredictedCargoSource'] = 'ZoneCargoes=Bauxite+DISCHARGE'
+        visits_df.at[idx, 'PredictionConfidence'] = 'MEDIUM'
+        predicted = True
+        confidence_counts['MEDIUM'] += 1
+
+    # ═══════════════════════════════════════════════════════════════════════
+    # LOW CONFIDENCE RULES (Generic zone/vessel type fallbacks)
+    # ═══════════════════════════════════════════════════════════════════════
+
+    # RULE 7: Chemical Plants - LOADING operations
+    elif zone_type == 'Chemical Plant' and operation_type == 'LOADING':
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Liquid Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Chemicals'
+        visits_df.at[idx, 'PredictedCargo'] = 'Chemicals'
+        visits_df.at[idx, 'PredictedCargoSource'] = 'ZoneType=Chemical Plant+LOADING'
+        visits_df.at[idx, 'PredictionConfidence'] = 'LOW'
+        predicted = True
+        confidence_counts['LOW'] += 1
+
+    # RULE 8: Petroleum Refineries - LOADING operations
+    elif zone_type == 'Refinery' and operation_type == 'LOADING' and vessel_type == 'Tank':
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Liquid Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Petroleum'
+        visits_df.at[idx, 'PredictedCargo'] = 'Refined Products'
+        visits_df.at[idx, 'PredictedCargoSource'] = 'ZoneType=Refinery+LOADING'
+        visits_df.at[idx, 'PredictionConfidence'] = 'LOW'
+        predicted = True
+        confidence_counts['LOW'] += 1
+
+    # RULE 9: Crude Oil terminals - DISCHARGE operations
+    elif zone_type == 'Crude Storage' and operation_type == 'DISCHARGE' and vessel_type == 'Tank':
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Liquid Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Petroleum'
+        visits_df.at[idx, 'PredictedCargo'] = 'Crude Oil'
+        visits_df.at[idx, 'PredictedCargoSource'] = 'ZoneType=Crude Storage+DISCHARGE'
+        visits_df.at[idx, 'PredictionConfidence'] = 'LOW'
+        predicted = True
+        confidence_counts['LOW'] += 1
+
+    if predicted:
+        predicted_count += 1
+
+print(f"   Predictions applied: {predicted_count:,}")
+print(f"     HIGH confidence: {confidence_counts['HIGH']:,}")
+print(f"     MEDIUM confidence: {confidence_counts['MEDIUM']:,}")
+print(f"     LOW confidence: {confidence_counts['LOW']:,}")
+
+# ═══════════════════════════════════════════════════════════════════════════
 # 8. VALIDATE AND APPLY FINAL CARGO ASSIGNMENT
 # ═══════════════════════════════════════════════════════════════════════════
 print("\n8. Validating and finalizing cargo assignments...")
@@ -460,6 +662,7 @@ INCOMPATIBLE_VESSEL_CARGO = {
 for idx, visit in visits_df.iterrows():
     vtype = visit['VesselType_Clean']
     manifest_group = visit['ManifestCargoGroup']
+    predicted_group = visit['PredictedCargoGroup']
     default_group = visit['DefaultCargoGroup']
 
     # Priority 1: Use manifest match if valid
@@ -468,12 +671,19 @@ for idx, visit in visits_df.iterrows():
         if vtype in INCOMPATIBLE_VESSEL_CARGO:
             incompatible = INCOMPATIBLE_VESSEL_CARGO[vtype]
             if any(inc in manifest_group for inc in incompatible):
-                # Manifest is incompatible - use default instead
-                visits_df.at[idx, 'FinalCargoGroup'] = default_group
-                visits_df.at[idx, 'FinalCargoCommodity'] = visit['DefaultCargoCommodity']
-                visits_df.at[idx, 'FinalCargo'] = visit['DefaultCargo']
-                visits_df.at[idx, 'FinalCargoSource'] = f'Default (manifest incompatible: {vtype} != {manifest_group})'
-                visits_df.at[idx, 'ValidationFlag'] = 'MANIFEST_OVERRIDE_INCOMPATIBLE'
+                # Manifest is incompatible - use prediction or default instead
+                if predicted_group:
+                    visits_df.at[idx, 'FinalCargoGroup'] = predicted_group
+                    visits_df.at[idx, 'FinalCargoCommodity'] = visit['PredictedCargoCommodity']
+                    visits_df.at[idx, 'FinalCargo'] = visit['PredictedCargo']
+                    visits_df.at[idx, 'FinalCargoSource'] = f'Predicted ({visit["PredictedCargoSource"]}) - manifest incompatible'
+                    visits_df.at[idx, 'ValidationFlag'] = f'PREDICTED_{visit["PredictionConfidence"]}'
+                else:
+                    visits_df.at[idx, 'FinalCargoGroup'] = default_group
+                    visits_df.at[idx, 'FinalCargoCommodity'] = visit['DefaultCargoCommodity']
+                    visits_df.at[idx, 'FinalCargo'] = visit['DefaultCargo']
+                    visits_df.at[idx, 'FinalCargoSource'] = f'Default (manifest incompatible: {vtype} != {manifest_group})'
+                    visits_df.at[idx, 'ValidationFlag'] = 'MANIFEST_OVERRIDE_INCOMPATIBLE'
             else:
                 # Manifest is valid
                 visits_df.at[idx, 'FinalCargoGroup'] = manifest_group
@@ -489,7 +699,15 @@ for idx, visit in visits_df.iterrows():
             visits_df.at[idx, 'FinalCargoSource'] = 'Manifest'
             visits_df.at[idx, 'ValidationFlag'] = 'OK'
 
-    # Priority 2: Use default if no manifest match
+    # Priority 2: Use facility-based prediction (PHASE 3)
+    elif predicted_group:
+        visits_df.at[idx, 'FinalCargoGroup'] = predicted_group
+        visits_df.at[idx, 'FinalCargoCommodity'] = visit['PredictedCargoCommodity']
+        visits_df.at[idx, 'FinalCargo'] = visit['PredictedCargo']
+        visits_df.at[idx, 'FinalCargoSource'] = f'Predicted ({visit["PredictedCargoSource"]})'
+        visits_df.at[idx, 'ValidationFlag'] = f'PREDICTED_{visit["PredictionConfidence"]}'
+
+    # Priority 3: Use generic default if no manifest or prediction
     elif default_group:
         visits_df.at[idx, 'FinalCargoGroup'] = default_group
         visits_df.at[idx, 'FinalCargoCommodity'] = visit['DefaultCargoCommodity']
@@ -497,7 +715,7 @@ for idx, visit in visits_df.iterrows():
         visits_df.at[idx, 'FinalCargoSource'] = visit['DefaultSource']
         visits_df.at[idx, 'ValidationFlag'] = 'DEFAULT_ONLY'
 
-    # Priority 3: No assignment
+    # Priority 4: No assignment
     else:
         visits_df.at[idx, 'ValidationFlag'] = 'NO_CARGO_ASSIGNMENT'
 

@@ -1,4 +1,0 @@
-Exclusion Type,Carrier Examples,Action,Records Excluded,Reason
-Cruise Lines,Various cruise carriers,Always Exclude,~30000,Non-cargo passenger vessels
-Container Lines,Various container carriers,Always Exclude,~15000,Not break/dry/liquid bulk cargo
-Freight Forwarders,Various freight forwarders,Always Exclude,~8000,Logistics companies not vessel operators

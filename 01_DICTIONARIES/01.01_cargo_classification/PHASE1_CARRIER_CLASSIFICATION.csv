@@ -1,3 +1,0 @@
-Rule Type,Carrier Type,Group,Commodity,Cargo,Cargo Detail,Lock Level,Records Classified,Source File
-Carrier Lock,RoRo Carriers,Dry Bulk,Ro/Ro,Vehicles & Machinery,Vehicles & Machinery,FULL LOCK,~50000,carrier_scac_mappings.csv
-Carrier Lock,Reefer Carriers,Dry Bulk,Refrigerated,Refrigerated,Refrigerated,FULL LOCK,~15000,carrier_scac_mappings.csv
