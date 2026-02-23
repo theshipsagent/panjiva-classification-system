@@ -688,6 +688,45 @@ for idx, visit in visits_df.iterrows():
         predicted = True
         confidence_counts['LOW'] += 1
 
+    # ═══════════════════════════════════════════════════════════════════════
+    # OPERATION-AGNOSTIC FALLBACK RULES (Phase 3.1 - Added 2026-02-22)
+    # For UNKNOWN operation type visits where specific rules don't apply
+    # ═══════════════════════════════════════════════════════════════════════
+
+    # FALLBACK 1: Grain Elevators (no operation type required)
+    # Addresses UNKNOWN operation visits at grain facilities
+    # Grain elevators are definitionally grain facilities
+    elif zone_type == 'Elevator':
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Dry Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Agricultural'
+        visits_df.at[idx, 'PredictedCargo'] = 'Grain'
+        visits_df.at[idx, 'PredictedCargoSource'] = 'Fallback: ZoneType=Elevator'
+        visits_df.at[idx, 'PredictionConfidence'] = 'MEDIUM'
+        predicted = True
+        confidence_counts['MEDIUM'] += 1
+
+    # FALLBACK 2: General Cargo Terminals (generic default)
+    # Addresses 149 UNKNOWN operation visits at general cargo facilities
+    elif zone_type == 'General Cargo' and vessel_type == 'Gen':
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Break Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Steel'
+        visits_df.at[idx, 'PredictedCargo'] = 'Steel'
+        visits_df.at[idx, 'PredictedCargoSource'] = 'Fallback: ZoneType=General Cargo+Gen vessel'
+        visits_df.at[idx, 'PredictionConfidence'] = 'LOW'
+        predicted = True
+        confidence_counts['LOW'] += 1
+
+    # FALLBACK 3: Tank Storage (generic petroleum product default)
+    # Addresses 130 UNKNOWN operation visits at tank terminals
+    elif zone_type == 'Tank Storage' and vessel_type == 'Tank':
+        visits_df.at[idx, 'PredictedCargoGroup'] = 'Liquid Bulk'
+        visits_df.at[idx, 'PredictedCargoCommodity'] = 'Petroleum'
+        visits_df.at[idx, 'PredictedCargo'] = 'Refined Products'
+        visits_df.at[idx, 'PredictedCargoSource'] = 'Fallback: ZoneType=Tank Storage+Tank vessel'
+        visits_df.at[idx, 'PredictionConfidence'] = 'LOW'
+        predicted = True
+        confidence_counts['LOW'] += 1
+
     if predicted:
         predicted_count += 1
 
